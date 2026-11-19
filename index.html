@@ -120,6 +120,28 @@
 .category-menu .drawer-subs button{border:0;background:transparent;text-align:left;padding:9px 0;color:#40564d;font:16px Georgia,serif;cursor:pointer}
 @media(max-width:620px){.top-live{display:none}.category-menu .category-drawer{width:min(420px,94vw)}.sidebar{display:none}}
 @media(orientation:landscape) and (max-width:900px){.category-menu .category-drawer{width:min(420px,70vw)}}
+
+/* Topic Explorer only: focused reading workspace */
+.hero,.sidebar,.content>#dashboard,.content>#news,.content>#vocabulary,.content>#study-room,.content>#profile,.content>.footer{display:none!important}
+.layout{display:block!important;max-width:1120px;margin:0 auto}
+.content{width:100%;min-width:0}
+.content>#iba-topics{display:block!important;margin-top:22px}
+#iba-topics .section-head{margin-bottom:18px}
+#iba-tabs{display:flex;gap:8px;overflow-x:auto;white-space:nowrap;padding:4px 2px 12px;scrollbar-width:thin;-webkit-overflow-scrolling:touch}
+#iba-tabs .tab{flex:0 0 auto}
+#iba-news{display:grid;grid-template-columns:1fr;gap:16px}
+.topic-card{min-width:0;border:1px solid var(--line,#e5e7eb);border-radius:16px;padding:18px;background:var(--card,#fff);box-shadow:0 3px 14px rgba(20,30,50,.05)}
+.topic-card h3{margin:10px 0 8px;line-height:1.35}
+.topic-card .topic-meta{display:flex;gap:8px;flex-wrap:wrap;align-items:center;font-size:12px;color:var(--muted,#667085)}
+.topic-card .source-link{display:inline-flex;margin:8px 0 12px;font-weight:650}
+.topic-card .study-details{border-top:1px solid var(--line,#e5e7eb);padding-top:12px;margin-top:8px}
+.topic-card .study-details>summary{cursor:pointer;font-weight:700;color:var(--accent,#2457a7);padding:8px 0}
+.topic-card .study-pack{line-height:1.65}
+.topic-card .study-pack h4{margin:18px 0 7px}
+.topic-card .study-pack h5{margin:14px 0 6px}
+@media(min-width:760px){#iba-news{grid-template-columns:repeat(2,minmax(0,1fr))}.topic-card{padding:22px}}
+@media(max-width:600px){.topbar .shell{padding-left:14px;padding-right:14px}.topic-card{padding:14px}#iba-topics{padding:14px}.section-head h2{font-size:23px}}
+
 </style>
 <link rel="preload" href="./feed.json" as="fetch" crossorigin="anonymous"><meta name="color-scheme" content="light"></head>
 <body>
@@ -258,8 +280,13 @@ function buildStudyPack(x){
 function renderIba(){
  const tabs=document.querySelector("#iba-tabs"),host=document.querySelector("#iba-news");if(!tabs||!host)return;
  tabs.innerHTML=topicTags.map((g,i)=>'<button class="tab '+(i===0?'active':'')+'" data-iba="'+i+'">'+esc(g[0])+'</button>').join("");
- const show=i=>{tabs.querySelectorAll("[data-iba]").forEach(b=>b.classList.toggle("active",Number(b.dataset.iba)===i));const name=topicTags[i][0],date=document.querySelector("#date-filter").value,matches=items.filter(x=>classifyArticle(x).topic===name&&(!date||articleISODate(x.date)===date)).slice(0,8);
- host.innerHTML=matches.length?matches.map(x=>'<article class="topic-card"><div class="news-top"><span class="source">'+(classifyArticle(x).isOpinion?'EDITORIAL / OPINION':'NEWS / ANALYSIS')+'</span><span class="date-pill">'+esc(displayArticleDate(x.date))+'</span></div><h3>'+esc(x.title)+'</h3><p>'+esc(x.summary||"মূল প্রতিবেদনের বিস্তারিত পড়ুন।")+'</p><a href="'+esc(x.link)+'" target="_blank" rel="noopener">মূল Article পড়ুন ↗</a></article>').join(""):'<div class="empty">এই বিষয়ে বর্তমানে কোনো যাচাইকৃত article feed-এ নেই।</div>';
+ const show=i=>{
+  tabs.querySelectorAll("[data-iba]").forEach(b=>b.classList.toggle("active",Number(b.dataset.iba)===i));
+  const name=topicTags[i][0],date=document.querySelector("#date-filter")?.value||"",matches=items.filter(x=>classifyArticle(x).topic===name&&(!date||articleISODate(x.date)===date)).slice(0,30);
+  host.innerHTML=matches.length?matches.map(x=>{
+   const pack=buildStudyPack(x);
+   return '<article class="topic-card"><div class="topic-meta"><span class="source">'+(classifyArticle(x).isOpinion?'EDITORIAL / OPINION':'NEWS / ANALYSIS')+'</span><span>·</span><span>'+esc(displayArticleDate(x.date))+'</span><span>·</span><span>'+esc(name)+'</span></div><h3>'+esc(x.title)+'</h3><p>'+esc(x.summary||"এই প্রতিবেদনের মূল বক্তব্য ও প্রেক্ষাপট বুঝতে প্রস্তুতি অংশটি পড়ুন।")+'</p><a class="source-link" href="'+esc(x.link)+'" target="_blank" rel="noopener">Read original article ↗</a><details class="study-details"><summary>Read Focus Writing & IBA Exam Preparation</summary>'+pack+'</details></article>';
+  }).join(""):'<div class="empty">এই বিষয়ে বর্তমানে কোনো article পাওয়া যায়নি। অন্য Topic নির্বাচন করুন।</div>';
  };
  tabs.querySelectorAll("[data-iba]").forEach(b=>b.onclick=()=>show(Number(b.dataset.iba)));show(0);
 }
