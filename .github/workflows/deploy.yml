@@ -2,11 +2,13 @@ name: Update RSS and deploy Editorial Hub
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - "feed.json"
   schedule:
     - cron: "17 */4 * * *"
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 concurrency:
@@ -38,6 +40,17 @@ jobs:
               raise SystemExit('feed.json has an invalid articles field')
           print('feed.json ready:', len(data['articles']), 'articles')
           PY
+      - name: Publish generated feed for browser access
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add feed.json
+          if git diff --cached --quiet; then
+            echo "Feed unchanged; no commit needed."
+          else
+            git commit -m "Update generated news feed"
+            git push
+          fi
       - uses: actions/upload-pages-artifact@v3
         with:
           path: .
