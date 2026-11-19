@@ -1,6 +1,18 @@
 {
-  "updated": "2026-11-19 17:25 UTC",
+  "updated": "2026-11-19 17:26 UTC",
   "articles": [
+    {
+      "title": "The Financial Express",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8wdTVVTlZLcjNfT19wYml5dWFPbFhqMFhzZ2ZBU2ZFRFpkUU1BWVhNdUNGR1B2TXNnRlBHYndZZ20wSm11WnpXUGsyWVpnRy01VjlhcGdHS1B5UjV3VV9BcFVfLWdyYlFFRjFHNGRSVS1feUdn?oc=5",
+      "summary": "The Financial Express The Financial Express",
+      "date": "Wed, 30 Sep 2026 07:00:00 GMT",
+      "source": "The Financial Express",
+      "category": "Bangladesh · English",
+      "section": "Editorial / Opinion",
+      "type": "Editorial / Opinion",
+      "topics": [],
+      "exam_priority": "General"
+    },
     {
       "title": "Behaviouralism in the analysis of politics and society",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVGdnems1aFVyZF82ckFoU0ZsUVZ5S0tUSmFYM3E4WWN6ZVhWRDZaUU53c1p1Nm1jRmF6MnVDZE1McmFtWU5jRkt1dUIyVVF0WERhQkNkMG1BV0V1OTBhVGxwTzRLV0hsQnlyMGdWSTEtMDZiSENMQ19PeXdPdjNvME00SGZubGVZMDhRYWVrRG05YTRMeWl0MWpOZXRxYjFyRm1xcW5oR1RVQQ?oc=5",
@@ -881,8 +893,8 @@
       "date": "Wed, 18 Nov 2026 18:42:55 GMT",
       "source": "Dhaka Tribune",
       "category": "Bangladesh · English",
-      "section": "International Page",
-      "type": "International Page",
+      "section": "Economics Page",
+      "type": "Economics Page",
       "topics": [],
       "exam_priority": "General"
     },
@@ -1230,35 +1242,6 @@
       "exam_priority": "Medium"
     },
     {
-      "title": "অর্থনীতিতে নিম্নচাপ - Jugantor",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9QdERtRVlENUZHUWpKbUQ1Y2ZXNlpydnRidmlVbGphQmZWVFRwcUFOODRqeC1TSnE3bGRZN2hxWWhHTEZpUUJhN3lYUUpfNkN2ajBNYm0zaWE?oc=5",
-      "summary": "অর্থনীতিতে নিম্নচাপ Jugantor",
-      "date": "Wed, 18 Nov 2026 18:00:00 GMT",
-      "source": "যুগান্তর",
-      "category": "Bangladesh · বাংলা",
-      "section": "Economics Page",
-      "type": "Economics Page",
-      "topics": [
-        "Economy & Banking",
-        "Governance & Public Policy"
-      ],
-      "exam_priority": "High"
-    },
-    {
-      "title": "গ্রামে ঋণপ্রবাহ বাড়াতে ১৭ হাজার কোটি টাকা বরাদ্দ - Jugantor",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9tcFFYQnlhT1FUdWtMcHJ5ck54YWM4Z2Vzc1YzTmgxZ0l3MFlrZG1iWGFpLWtURFc3VDRCajBkaF9zWE9UczVQeW15c2g3LXBKSGJYbGZjYmhBUzZseGhj?oc=5",
-      "summary": "গ্রামে ঋণপ্রবাহ বাড়াতে ১৭ হাজার কোটি টাকা বরাদ্দ Jugantor",
-      "date": "Wed, 18 Nov 2026 18:00:00 GMT",
-      "source": "যুগান্তর",
-      "category": "Bangladesh · বাংলা",
-      "section": "Economics Page",
-      "type": "Economics Page",
-      "topics": [
-        "Economy & Banking"
-      ],
-      "exam_priority": "Medium"
-    },
-    {
       "title": "দোষারোপ নয়, সমাধানের পথ খুঁজতে হবে সব পক্ষকেই - Jugantor",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBPNHB0WWY5TnpGcEtZbkcwMW16R1RwcWd6QVR5bjRkeHdfRTZuVEs2RHdYbU5PWGl3OGpEUzZKVFRNNmN4ekFrQmh3cm1PcS0zd3M0TVlaVU0xSVdn?oc=5",
       "summary": "দোষারোপ নয়, সমাধানের পথ খুঁজতে হবে সব পক্ষকেই Jugantor",
@@ -1357,30 +1340,6 @@
       "exam_priority": "General"
     },
     {
-      "title": "এক টেবিলে ট্রাম্প-পুতিন-শি - Jugantor",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBCRjh5eWtyUHRfdnA0WUZCemlfcGR6bllyalhQOTJEdFdVUGo5dG5xaEtXR3dfTlU5RkwySHVBc0s2Z21ya0VFcktESWtqalhDZ3ZpTi1PWlJjUms?oc=5",
-      "summary": "এক টেবিলে ট্রাম্প-পুতিন-শি Jugantor",
-      "date": "Wed, 18 Nov 2026 18:00:00 GMT",
-      "source": "যুগান্তর",
-      "category": "Bangladesh · বাংলা",
-      "section": "International Page",
-      "type": "International Page",
-      "topics": [],
-      "exam_priority": "General"
-    },
-    {
-      "title": "দেশের কৃষি বিশ্ববিদ্যালয়ের শীর্ষে গাকৃবি - Jugantor",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0wbmVGYk1BbExQSVhhaV9IQXFtSmtPS09JakJOQ2VUTmRqVC1uSm1LQVdRRmg2Z0piWGU1UGd1c3lmTkNxS2lQdmpMSktCVVVBTHF4ajMwNWgtc1E?oc=5",
-      "summary": "দেশের কৃষি বিশ্ববিদ্যালয়ের শীর্ষে গাকৃবি Jugantor",
-      "date": "Wed, 18 Nov 2026 18:00:00 GMT",
-      "source": "যুগান্তর",
-      "category": "Bangladesh · বাংলা",
-      "section": "International Page",
-      "type": "International Page",
-      "topics": [],
-      "exam_priority": "General"
-    },
-    {
       "title": "কেন্দ্রীয় ব্যাংকের নির্বাহী পরিচালক হলেন শফিকুল ইসলাম",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWjZQZnk1bnhReU5xcEpvNDE3QW1CYVVKbXMyclo4UG9LNGtFMmFOakFSN19ScndrR2VMWG5PWklqdEhydDQwcmFLLUo3SklPTUxtMThLLWRndkQ4Q3hhaFZkRTBoVmdPRmtBVnJtblpKOG43VU14WTcyVnlSWGxDMFhKdXE?oc=5",
       "summary": "কেন্দ্রীয় ব্যাংকের নির্বাহী পরিচালক হলেন শফিকুল ইসলাম কালের কণ্ঠ",
@@ -1441,6 +1400,59 @@
       "category": "Bangladesh · বাংলা",
       "section": "Economics Page",
       "type": "Economics Page",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
+      "title": "অর্থনীতিতে নিম্নচাপ - Jugantor",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9QdERtRVlENUZHUWpKbUQ1Y2ZXNlpydnRidmlVbGphQmZWVFRwcUFOODRqeC1TSnE3bGRZN2hxWWhHTEZpUUJhN3lYUUpfNkN2ajBNYm0zaWE?oc=5",
+      "summary": "অর্থনীতিতে নিম্নচাপ Jugantor",
+      "date": "Wed, 18 Nov 2026 18:00:00 GMT",
+      "source": "যুগান্তর",
+      "category": "Bangladesh · বাংলা",
+      "section": "Economics Page",
+      "type": "Economics Page",
+      "topics": [
+        "Economy & Banking",
+        "Governance & Public Policy"
+      ],
+      "exam_priority": "High"
+    },
+    {
+      "title": "গ্রামে ঋণপ্রবাহ বাড়াতে ১৭ হাজার কোটি টাকা বরাদ্দ - Jugantor",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9tcFFYQnlhT1FUdWtMcHJ5ck54YWM4Z2Vzc1YzTmgxZ0l3MFlrZG1iWGFpLWtURFc3VDRCajBkaF9zWE9UczVQeW15c2g3LXBKSGJYbGZjYmhBUzZseGhj?oc=5",
+      "summary": "গ্রামে ঋণপ্রবাহ বাড়াতে ১৭ হাজার কোটি টাকা বরাদ্দ Jugantor",
+      "date": "Wed, 18 Nov 2026 18:00:00 GMT",
+      "source": "যুগান্তর",
+      "category": "Bangladesh · বাংলা",
+      "section": "Economics Page",
+      "type": "Economics Page",
+      "topics": [
+        "Economy & Banking"
+      ],
+      "exam_priority": "Medium"
+    },
+    {
+      "title": "এক টেবিলে ট্রাম্প-পুতিন-শি - Jugantor",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBCRjh5eWtyUHRfdnA0WUZCemlfcGR6bllyalhQOTJEdFdVUGo5dG5xaEtXR3dfTlU5RkwySHVBc0s2Z21ya0VFcktESWtqalhDZ3ZpTi1PWlJjUms?oc=5",
+      "summary": "এক টেবিলে ট্রাম্প-পুতিন-শি Jugantor",
+      "date": "Wed, 18 Nov 2026 18:00:00 GMT",
+      "source": "যুগান্তর",
+      "category": "Bangladesh · বাংলা",
+      "section": "International Page",
+      "type": "International Page",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
+      "title": "দেশের কৃষি বিশ্ববিদ্যালয়ের শীর্ষে গাকৃবি - Jugantor",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0wbmVGYk1BbExQSVhhaV9IQXFtSmtPS09JakJOQ2VUTmRqVC1uSm1LQVdRRmg2Z0piWGU1UGd1c3lmTkNxS2lQdmpMSktCVVVBTHF4ajMwNWgtc1E?oc=5",
+      "summary": "দেশের কৃষি বিশ্ববিদ্যালয়ের শীর্ষে গাকৃবি Jugantor",
+      "date": "Wed, 18 Nov 2026 18:00:00 GMT",
+      "source": "যুগান্তর",
+      "category": "Bangladesh · বাংলা",
+      "section": "International Page",
+      "type": "International Page",
       "topics": [],
       "exam_priority": "General"
     },
@@ -1553,6 +1565,20 @@
       "exam_priority": "General"
     },
     {
+      "title": "মজুরি ১৮-২৪ হাজার টাকা করার প্রস্তাব",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1vVzhCQVZJakdKcDdlSFNSWjUxYjRsdzZCNmZadEUtYWk5ZFZaX2ZzenBLdkkwM2hvNFdDaG1EakJ2MGpTaXdIMmt1VkxITXV1ZVVlWWpBZDhaWUR0aWI0Q3N2S0JTbGM?oc=5",
+      "summary": "মজুরি ১৮-২৪ হাজার টাকা করার প্রস্তাব bd-pratidin.com",
+      "date": "Wed, 18 Nov 2026 18:00:00 GMT",
+      "source": "বাংলাদেশ প্রতিদিন",
+      "category": "Bangladesh · বাংলা",
+      "section": "Editorial / Opinion",
+      "type": "Editorial / Opinion",
+      "topics": [
+        "Economy & Banking"
+      ],
+      "exam_priority": "Medium"
+    },
+    {
       "title": "যুক্তরাষ্ট্রে ব্যাংক লেনদেনে একের পর এক বিপর্যয়",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1Hc1RpaGpIUm5xLUxXWHpER3djMUhpQlJjZmZIRHh3enV3OUl4VFhUdF9zVnFWdWV1ZjQ4Sk5vTm1Xc3BZT1NxbWpiVThhZV91SExWU2M5UTB5WjNWQndvaFM4OWpJWWVP?oc=5",
       "summary": "যুক্তরাষ্ট্রে ব্যাংক লেনদেনে একের পর এক বিপর্যয় bd-pratidin.com",
@@ -1633,16 +1659,30 @@
       "exam_priority": "General"
     },
     {
-      "title": "মজুরি ১৮-২৪ হাজার টাকা করার প্রস্তাব",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1vVzhCQVZJakdKcDdlSFNSWjUxYjRsdzZCNmZadEUtYWk5ZFZaX2ZzenBLdkkwM2hvNFdDaG1EakJ2MGpTaXdIMmt1VkxITXV1ZVVlWWpBZDhaWUR0aWI0Q3N2S0JTbGM?oc=5",
-      "summary": "মজুরি ১৮-২৪ হাজার টাকা করার প্রস্তাব bd-pratidin.com",
+      "title": "Banks’ CRAR plunges to negative 3.8pc - New Age BD",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQnd0bHg1RklCTE1NQW41SE1QNG5qZzRUR1ozVVRabDFUb2d1T2VaaXVpdG11bG02SDNhMnZ3UDJ1VVhNSkZXeU1IZnNmR1FVel95c2FRdG5PRkUzYnIta0U3WDFFc0FsWEtRTnZvSUozSnRNYi1iSk5FaVZ2TTZFQk00QThpZkk?oc=5",
+      "summary": "Banks’ CRAR plunges to negative 3.8pc New Age BD",
       "date": "Wed, 18 Nov 2026 18:00:00 GMT",
-      "source": "বাংলাদেশ প্রতিদিন",
-      "category": "Bangladesh · বাংলা",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
+      "source": "New Age",
+      "category": "Bangladesh · English",
+      "section": "Economics Page",
+      "type": "Economics Page",
       "topics": [
         "Economy & Banking"
+      ],
+      "exam_priority": "Medium"
+    },
+    {
+      "title": "The poverty of opportunity - New Age BD",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5xQVQteDNNNy14RUZmeDFENl9URW8zZGVfMHFHenkzZWYtRFlLZ0F0aXZGVFJnSGVoYXdqdFBGcWE1MllzYmxLRktJTDY1Wm8wY1RGNkFsM1ZwMTI2ZVZZRXVsZFRONHh0N3JuOFhDOWg1M0Z5aEdUXzZ5TQ?oc=5",
+      "summary": "The poverty of opportunity New Age BD",
+      "date": "Wed, 18 Nov 2026 18:00:00 GMT",
+      "source": "New Age",
+      "category": "Bangladesh · English",
+      "section": "Economics Page",
+      "type": "Economics Page",
+      "topics": [
+        "Society & Development"
       ],
       "exam_priority": "Medium"
     },
@@ -1671,20 +1711,6 @@
       "exam_priority": "General"
     },
     {
-      "title": "The poverty of opportunity - New Age BD",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5xQVQteDNNNy14RUZmeDFENl9URW8zZGVfMHFHenkzZWYtRFlLZ0F0aXZGVFJnSGVoYXdqdFBGcWE1MllzYmxLRktJTDY1Wm8wY1RGNkFsM1ZwMTI2ZVZZRXVsZFRONHh0N3JuOFhDOWg1M0Z5aEdUXzZ5TQ?oc=5",
-      "summary": "The poverty of opportunity New Age BD",
-      "date": "Wed, 18 Nov 2026 18:00:00 GMT",
-      "source": "New Age",
-      "category": "Bangladesh · English",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
-      "topics": [
-        "Society & Development"
-      ],
-      "exam_priority": "Medium"
-    },
-    {
       "title": "Apparel sector unrest warrants attention of all quarters - New Age BD",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMFRwMVByUS01aG13ZW13WlJIbVdqcURLQmxXU2xTanZqeDRaX1I5VTRSVnM4ZTRKalEzMFhfRFlPMzdvYzdjTzdsc3JJVVBrLUI5b09zSEp6VVp3OVhPS3F6MkkwRXJwT2dUZnEyX01ROFUzOVdOeUh6R2VGdDJmOGZjTldLQ0wyTk5oRWtrUnhpSlhoSWpnSW44cEhGcjVUUk8zYVB3?oc=5",
       "summary": "Apparel sector unrest warrants attention of all quarters New Age BD",
@@ -1709,20 +1735,6 @@
       "type": "Editorial / Opinion",
       "topics": [],
       "exam_priority": "General"
-    },
-    {
-      "title": "Banks’ CRAR plunges to negative 3.8pc - New Age BD",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQnd0bHg1RklCTE1NQW41SE1QNG5qZzRUR1ozVVRabDFUb2d1T2VaaXVpdG11bG02SDNhMnZ3UDJ1VVhNSkZXeU1IZnNmR1FVel95c2FRdG5PRkUzYnIta0U3WDFFc0FsWEtRTnZvSUozSnRNYi1iSk5FaVZ2TTZFQk00QThpZkk?oc=5",
-      "summary": "Banks’ CRAR plunges to negative 3.8pc New Age BD",
-      "date": "Wed, 18 Nov 2026 18:00:00 GMT",
-      "source": "New Age",
-      "category": "Bangladesh · English",
-      "section": "Economics Page",
-      "type": "Economics Page",
-      "topics": [
-        "Economy & Banking"
-      ],
-      "exam_priority": "Medium"
     },
     {
       "title": "টাঙ্গাইলে গ্রামীণ ব্যাংকের ২ অফিসে দুর্বৃত্তের আগুন",
@@ -1757,8 +1769,8 @@
       "date": "Wed, 18 Nov 2026 17:42:58 GMT",
       "source": "দৈনিক ইত্তেফাক",
       "category": "Bangladesh · বাংলা",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
+      "section": "Economics Page",
+      "type": "Economics Page",
       "topics": [],
       "exam_priority": "General"
     },
@@ -1877,8 +1889,8 @@
       "date": "Wed, 18 Nov 2026 17:22:47 GMT",
       "source": "দৈনিক ইত্তেফাক",
       "category": "Bangladesh · বাংলা",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
+      "section": "Economics Page",
+      "type": "Economics Page",
       "topics": [],
       "exam_priority": "General"
     },
@@ -1929,8 +1941,8 @@
       "date": "Wed, 18 Nov 2026 17:15:48 GMT",
       "source": "দৈনিক ইত্তেফাক",
       "category": "Bangladesh · বাংলা",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
+      "section": "Economics Page",
+      "type": "Economics Page",
       "topics": [],
       "exam_priority": "General"
     },
@@ -2027,8 +2039,8 @@
       "date": "Wed, 18 Nov 2026 16:54:05 GMT",
       "source": "দৈনিক ইত্তেফাক",
       "category": "Bangladesh · বাংলা",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
+      "section": "Economics Page",
+      "type": "Economics Page",
       "topics": [
         "Society & Development"
       ],
@@ -2131,8 +2143,8 @@
       "date": "Wed, 18 Nov 2026 16:27:21 GMT",
       "source": "দৈনিক ইত্তেফাক",
       "category": "Bangladesh · বাংলা",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
+      "section": "Economics Page",
+      "type": "Economics Page",
       "topics": [],
       "exam_priority": "General"
     },
@@ -2970,8 +2982,8 @@
       "date": "Wed, 18 Nov 2026 13:00:47 GMT",
       "source": "দৈনিক ইত্তেফাক",
       "category": "Bangladesh · বাংলা",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
+      "section": "Economics Page",
+      "type": "Economics Page",
       "topics": [],
       "exam_priority": "General"
     },
@@ -3538,8 +3550,8 @@
       "date": "Wed, 18 Nov 2026 11:08:19 GMT",
       "source": "প্রথম আলো",
       "category": "Bangladesh · বাংলা",
-      "section": "Economics Page",
-      "type": "Economics Page",
+      "section": "Editorial / Opinion",
+      "type": "Editorial / Opinion",
       "topics": [
         "Economy & Banking",
         "Governance & Public Policy"
@@ -4278,8 +4290,8 @@
       "date": "Wed, 18 Nov 2026 07:51:38 GMT",
       "source": "Dhaka Tribune",
       "category": "Bangladesh · English",
-      "section": "International Page",
-      "type": "International Page",
+      "section": "Economics Page",
+      "type": "Economics Page",
       "topics": [
         "Environment & Climate"
       ],
@@ -5209,8 +5221,8 @@
       "date": "Wed, 18 Nov 2026 03:00:32 GMT",
       "source": "দৈনিক ইত্তেফাক",
       "category": "Bangladesh · বাংলা",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
+      "section": "Economics Page",
+      "type": "Economics Page",
       "topics": [],
       "exam_priority": "General"
     },
@@ -5313,18 +5325,6 @@
       "exam_priority": "General"
     },
     {
-      "title": "ধোনির অবসরে আইপিএলের ব্যবসায় কতটা প্রভাব পড়বে",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE42cl9KUVJoNE0zMUg0Qm9iZzdvSFpXNDVpVHpqWVZvblV0VHFCekcwZ202RUJyUFBDOXc0TGx2V2xOZGpSMGUtRWxCUGNLQVhvcExDLVB3TndQSHY4SnRldmFn0gFvQVVfeXFMT2wyX1hhUi0xbmdxOFdaeUFRaFgzTU5UVVB2ZTR2QVFDM3c4ZG1UeVc1VXozcFF6QllBemZRM1BPZ3JfM3hGRzVITjNTZXFrN2QyNzhWQlV0SGpINkNvNHBpWGlJWlZNUDZ4bG1ldUJv?oc=5",
-      "summary": "ধোনির অবসরে আইপিএলের ব্যবসায় কতটা প্রভাব পড়বে প্রথম আলো",
-      "date": "Wed, 18 Nov 2026 02:00:00 GMT",
-      "source": "প্রথম আলো",
-      "category": "Bangladesh · বাংলা",
-      "section": "Economics Page",
-      "type": "Economics Page",
-      "topics": [],
-      "exam_priority": "General"
-    },
-    {
       "title": "ট্রাম্প মুখ ফিরিয়ে নিলেও মরিয়া নেতানিয়াহু, কী হতে যাচ্ছে ইসরায়েলে",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1oNVVIUmNRQVRjaElKTlhMeHdwSlBfV0xjazlFdDZBVHRhd1FvQXYyams0MzJfekNybWZHWWlkb1dIWjFBcm5INHJ3dUtTYk82Z19sVzQtTlV5d0ZnZUFhQlNn0gFvQVVfeXFMTzc4bGY3Z2EzZ3RNNWw0MXlEV3ZkV2UtLTZXRmRFWlZXUEJ2T05OQy0yYzJzNm9pZXM4WGZ6OUl1NEh6MkxPXzFzcVdsSVFoam5HT0ZlS3hFOWRZUm02NHU2ZkZ1OTNrYkc5TkhGQTMw?oc=5",
       "summary": "ট্রাম্প মুখ ফিরিয়ে নিলেও মরিয়া নেতানিয়াহু, কী হতে যাচ্ছে ইসরায়েলে প্রথম আলো",
@@ -5333,6 +5333,18 @@
       "category": "Bangladesh · বাংলা",
       "section": "Editorial / Opinion",
       "type": "Editorial / Opinion",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
+      "title": "ধোনির অবসরে আইপিএলের ব্যবসায় কতটা প্রভাব পড়বে",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE42cl9KUVJoNE0zMUg0Qm9iZzdvSFpXNDVpVHpqWVZvblV0VHFCekcwZ202RUJyUFBDOXc0TGx2V2xOZGpSMGUtRWxCUGNLQVhvcExDLVB3TndQSHY4SnRldmFn0gFvQVVfeXFMT2wyX1hhUi0xbmdxOFdaeUFRaFgzTU5UVVB2ZTR2QVFDM3c4ZG1UeVc1VXozcFF6QllBemZRM1BPZ3JfM3hGRzVITjNTZXFrN2QyNzhWQlV0SGpINkNvNHBpWGlJWlZNUDZ4bG1ldUJv?oc=5",
+      "summary": "ধোনির অবসরে আইপিএলের ব্যবসায় কতটা প্রভাব পড়বে প্রথম আলো",
+      "date": "Wed, 18 Nov 2026 02:00:00 GMT",
+      "source": "প্রথম আলো",
+      "category": "Bangladesh · বাংলা",
+      "section": "Economics Page",
+      "type": "Economics Page",
       "topics": [],
       "exam_priority": "General"
     },
@@ -5499,8 +5511,8 @@
       "date": "Wed, 15 Oct 2014 15:16:38 GMT",
       "source": "বাংলাদেশ প্রতিদিন",
       "category": "Bangladesh · বাংলা",
-      "section": "Economics Page",
-      "type": "Economics Page",
+      "section": "Editorial / Opinion",
+      "type": "Editorial / Opinion",
       "topics": [],
       "exam_priority": "General"
     },
@@ -5752,6 +5764,20 @@
       "exam_priority": "Medium"
     },
     {
+      "title": "Hasina remarks from Indian soil affront to Bangladesh’s sovereignty: govt - New Age BD",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONTZUS0MtazhiRHRfVFJlT3gyZmZzWS1qYjh6cDZrN3Q0S0VuWWRENm1GQjVWS0NuWjZVN0RFSlNOd0xSNElkczZYYXRiWkxBaWlnWjIyRkJpM1ZheFd6bWM0NUEtUTloblU0VVdWQ0RRLWRJNF9hT2xRQ1JmUFE2SjNQUXFRbWp5ZTJMaTBCVUI0aWhwbWt4bkZKSllIRFotRm1IbDlkS0gyNmpPVngxaEF2Snk3RHNHS29zb0owTGg5QQ?oc=5",
+      "summary": "Hasina remarks from Indian soil affront to Bangladesh’s sovereignty: govt New Age BD",
+      "date": "Wed, 05 Aug 2026 07:00:00 GMT",
+      "source": "New Age",
+      "category": "Bangladesh · English",
+      "section": "International Page",
+      "type": "International Page",
+      "topics": [
+        "Geopolitics"
+      ],
+      "exam_priority": "Medium"
+    },
+    {
       "title": "July Uprising and New Age - New Age BD",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8tUjlFZHZ4UmJpbjZ4YXJ4cXktT1VOSml3djBCTkV0SEdWVGNBcncxX28tLW1NNzhzOHZVT3BqNDJ6cERYMTlYQTJST2k1QUxDZWpOV2p4T2VKN25VdWZ2eklXZXlBZEd5Tjk4OHMwTFI0UWxkNXduV1p3?oc=5",
       "summary": "July Uprising and New Age New Age BD",
@@ -5925,6 +5951,18 @@
       "exam_priority": "General"
     },
     {
+      "title": "Fire breaks out at foreign ministry - New Age BD",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTWR0NG9hbGUxRktNREprNlMwRXYxNmZ6a2VNaUtwYVp0OERNQklyVmxmUDJBbllIY0tlWkhQNDg1VWpFUk5KYnQ0VmlrUl9LR1JjVUhKTkV2akhzMDlUWTZIbm1IZlg0dTNDaHpUOFdmcjA3WHg0Wm1sSHA5SGk1Q2xLVkhiaVU?oc=5",
+      "summary": "Fire breaks out at foreign ministry New Age BD",
+      "date": "Tue, 27 Oct 2026 07:00:00 GMT",
+      "source": "New Age",
+      "category": "Bangladesh · English",
+      "section": "International Page",
+      "type": "International Page",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
       "title": "Policy analysis and policy making",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTFFwV1Z4N0NaSUphaWJVMWVXQWNoZzV1elctYTJaZ213NjZrb1B3d0hsQnFkeGxwcVoyelpNMG5IcEZ5cWpLOFVjYU9YakFqSURNYk1GWnlPaXVwZXhiSkJISWRtaWJNRWZCMGFzOGRQSjdVeGcwQTh4eU80cTk4dGh6WjdIdGV0aThYcDNuTEdVUjRuVWc?oc=5",
       "summary": "Policy analysis and policy making The Financial Express",
@@ -6056,6 +6094,18 @@
       "exam_priority": "General"
     },
     {
+      "title": "New UK PM names ex-defence secretary as finance minister - New Age BD",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWUVYSUZ3QnQ5X1UtZ2dsdzJtc3NQU0sxTXU0dE1pWjg0OXFBdW9zZFF2NF94RGNiY2hZWHhPY0V0UUZCczl1aFY2Yk9WRkRFdmx0WUpuQk42MmpMQXp0clF1V0ZaNUJWQm9ZRkJ3Q0xrcFFRZWtPd0FVSldZTm5RQ3o1M0UyVUJGcnpUMlp1bExBSXo5a3NCcUJvTGZzSUE0Tnc?oc=5",
+      "summary": "New UK PM names ex-defence secretary as finance minister New Age BD",
+      "date": "Tue, 21 Jul 2026 07:00:00 GMT",
+      "source": "New Age",
+      "category": "Bangladesh · English",
+      "section": "Economics Page",
+      "type": "Economics Page",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
       "title": "World is sleepwalking into a development finance crisis",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNODNndGFhYVU2dVRlMUx2aEtlTmlGZ3h5N3pSM1BHdkJzaWhVWXpKV3lNcWkxN0tLbVMxQzhUVjhabnlmTjdWQ2hNMi1temhjNHZfTzRMbXJMaTFfZUhtajhBMll5RUF0VTh6RWFzRjl1b2RtMENJR1QzaEN2Ym1oXzVkcUtSUHdrZngxTjd5SjM1MkhFUk8zbU1yclY?oc=5",
       "summary": "World is sleepwalking into a development finance crisis The Financial Express",
@@ -6068,18 +6118,6 @@
         "Society & Development"
       ],
       "exam_priority": "Medium"
-    },
-    {
-      "title": "New UK PM names ex-defence secretary as finance minister - New Age BD",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWUVYSUZ3QnQ5X1UtZ2dsdzJtc3NQU0sxTXU0dE1pWjg0OXFBdW9zZFF2NF94RGNiY2hZWHhPY0V0UUZCczl1aFY2Yk9WRkRFdmx0WUpuQk42MmpMQXp0clF1V0ZaNUJWQm9ZRkJ3Q0xrcFFRZWtPd0FVSldZTm5RQ3o1M0UyVUJGcnpUMlp1bExBSXo5a3NCcUJvTGZzSUE0Tnc?oc=5",
-      "summary": "New UK PM names ex-defence secretary as finance minister New Age BD",
-      "date": "Tue, 21 Jul 2026 07:00:00 GMT",
-      "source": "New Age",
-      "category": "Bangladesh · English",
-      "section": "Economics Page",
-      "type": "Economics Page",
-      "topics": [],
-      "exam_priority": "General"
     },
     {
       "title": "The FE - Mitigating heat stress on informal workers",
@@ -6372,46 +6410,6 @@
       "type": "International Page",
       "topics": [
         "Elections & Democracy"
-      ],
-      "exam_priority": "Medium"
-    },
-    {
-      "title": "Trump eyes Putin, Kim meetings - New Age BD",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1uZzlka0phUWZaeXZQQVRSOFp2ME1pRjl5WjVCdVBNYzlOSVo2TmtDVHRuY2R3X2hTaXRzeXBDeHMxbWstazY3bGFOZFFVek9GM0l4RGppaGM2VTFlUU1jajdrS3paOXhXTWp3RVVNdmdHMnhtSG1VcVlqQQ?oc=5",
-      "summary": "Trump eyes Putin, Kim meetings New Age BD",
-      "date": "Tue, 17 Nov 2026 19:42:00 GMT",
-      "source": "New Age",
-      "category": "Bangladesh · English",
-      "section": "International Page",
-      "type": "International Page",
-      "topics": [],
-      "exam_priority": "General"
-    },
-    {
-      "title": "ব্যবসা সহজীকরণ ও রপ্তানি বহুমুখীকরণে বিশ্বব্যাংকের সহায়তা চাইলেন বাণিজ্যমন্ত্রী - Samakal",
-      "link": "https://news.google.com/rss/articles/CBMiuAdBVV95cUxNTFJTeDRsVmdtTEEzZV9SXzEyV3VhMHYzNXl2M1RweFU0Q3h5dVYwa2tvbHlTS1VpcV9fRVRuRTNvMWkwcTZSQk54V1NIVXdRMGdNeXJXVWotM0lLb0NXdm01QUZ6bEQyYTVPZ0w1ejY4cERWNVdOc0hKT1p3SXRJekpSS3M1NFZIUkdOSW1NbjU5SHFxNFRWUGJKbXJ5amxZeWxjY3RaZkc3dmF4OWpER1lNcndnLUdsZDB2NTdxenFtdVVyWkRSbXBkVURRZmpKOFlyeVJtOVctcThqaFpsSHVET0JGZWM1MGM4c2dsWnV2bWVia3JlVFZvM2hIOTRBZDZzdkg0UlRJUnNTY05TbjdOQ2R3Qnlwa1lqdm8wamJiTDlUOG5YV3VLZDg4dlcyMUpmMnBHLW5zaGVXM0Q2ZGx5aFlFc3RLSUE3eDRuVGVYOVRhMC0xaEFSdWg1eFBaV1M1OERsc3VuRlhkUlBScHQ0S1dyS0lZOWliMDFOVXJlc1ZqLWh4Y3A1dlNnWk9zejA5VEg0NFJLQ2pLN0xKWjdNbV9JUWl4bVFydFVwakdGb0dINDgxMHhnYjJjZm5sWlVTTnNfNjBPTXhiU2xkazhuZE1FbmNFZHBKYXdXNTRZYnljMjVOcU9DR0xvbExmbFlUSDNnTWsxQ0h1SFZ2cUliczlvQXNQX3ppTGxhY2NFbnRBeFBXbXVFTktCN1Y2aUZjcF9VdnpEaXpWQmYyRTAwcHFrUmtqbEthUnNlWnBxQnVXdmJYZldsLW42amVidEN5SDJwNWs4eW9aRnhnbHNFR2J0dm9JTnY3NEdENjhsVGxDbndSMlhlb0pYbW5uOVRvTVNkZjNkWWlGMnVaQzlhXzRQOE1nRk16UEdHdmcwaXVQbEZkVVhCaDVlZksweFJHaTZ6XzB6VzJGd3kxTjlVUmlYSmdLanA0dVVSV2M0ZlQ5MXp1R2ExV3M4QlhVODk1c1BaTGlYU21OeUFPR2huSmw0M1RLaFFPMndwTVdzQS1QMjNYZDk0cWE0TmRVcXFwTDNMWTI5Q29DaW1iSFFuTTl1UzNVeFowSXhUOVJwcGdEWk4zbFk0blVtRk55SFFfeDhFN0p1V2lXcUY4SWFJc3pxS3pDcG13NTdhbGZ5VUllZWVFVERoUnJzbFdkSGxfOVlXSFVwUVZDVklrSFJIVTFWSWdfUTJlSUNkSUo2NVQ3RU04ZndiQWM1eXgwdHB6WUdJVEJUMVpMN29WVmtnUmExVEpU?oc=5",
-      "summary": "ব্যবসা সহজীকরণ ও রপ্তানি বহুমুখীকরণে বিশ্বব্যাংকের সহায়তা চাইলেন বাণিজ্যমন্ত্রী Samakal",
-      "date": "Tue, 17 Nov 2026 19:36:39 GMT",
-      "source": "সমকাল",
-      "category": "Bangladesh · বাংলা",
-      "section": "Economics Page",
-      "type": "Economics Page",
-      "topics": [
-        "Economy & Banking"
-      ],
-      "exam_priority": "Medium"
-    },
-    {
-      "title": "21 Grameen Bank branches face arson, vandalism in a week - New Age BD",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdHZsZm1oNlNBMmV6VHROcExrZy1iQ1U2b193ZlF5QWpmeUo5RGhNNXByal9TNGp6dV9wZmFvUjNfRV9XaVBzeEJjZzVtOEo5cmF1Yl9hcEd4LTdKLVFJZ1hzR1BsWllLbmVMbVVOaWdZb1RhY01ER1hpT2YwS3NTZVVGTmp4U1FRTlp6Rm5MeU9BZDFVTXhTWk5ReGVIWVBRdlE?oc=5",
-      "summary": "21 Grameen Bank branches face arson, vandalism in a week New Age BD",
-      "date": "Tue, 17 Nov 2026 19:17:00 GMT",
-      "source": "New Age",
-      "category": "Bangladesh · English",
-      "section": "International Page",
-      "type": "International Page",
-      "topics": [
-        "Economy & Banking"
       ],
       "exam_priority": "Medium"
     }
@@ -6817,6 +6815,6 @@
     "configured_feeds": 55,
     "working_feeds": 55,
     "failed_feeds": 0,
-    "article_count": 1901
+    "article_count": 1905
   }
 }
