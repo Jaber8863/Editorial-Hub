@@ -56,7 +56,7 @@ const schema = {
 };
 function countWords(s){return String(s||"").trim().split(/\s+/).filter(Boolean).length;}
 async function decodeGoogleNewsUrl(raw) {
-  const id = new URL(raw).pathname.match(/\\/(?:rss\\/)?articles\\/([\\w-]+)/)?.[1];
+  const id = new URL(raw).pathname.match(/articles\/([A-Za-z0-9_-]+)/)?.[1];
   if (!id) throw new Error("Invalid Google News article link.");
   const ua = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/130 Safari/537.36";
   const page = await fetch("https://news.google.com/rss/articles/"+id,{headers:{"user-agent":ua,"accept-language":"en-US,en;q=0.9"},signal:AbortSignal.timeout(15000)});
@@ -69,7 +69,7 @@ async function decodeGoogleNewsUrl(raw) {
   const rpc=await fetch("https://news.google.com/_/DotsSplashUi/data/batchexecute",{method:"POST",headers:{"user-agent":ua,"content-type":"application/x-www-form-urlencoded;charset=UTF-8","origin":"https://news.google.com","referer":"https://news.google.com/"},body,signal:AbortSignal.timeout(15000)});
   if(!rpc.ok) throw new Error("Google News URL decode HTTP "+rpc.status);
   const text=await rpc.text();
-  for(const line of text.split("\\n")){if(!line.startsWith("[["))continue;try{for(const row of JSON.parse(line)){if(row[1]==="Fbv4je"&&typeof row[2]==="string"){const decoded=JSON.parse(row[2])?.[1];if(typeof decoded==="string"&&/^https?:\\/\\//.test(decoded))return decoded;}}}catch{}}
+  for(const line of text.split("\n")){if(!line.startsWith("[["))continue;try{for(const row of JSON.parse(line)){if(row[1]==="Fbv4je"&&typeof row[2]==="string"){const decoded=JSON.parse(row[2])?.[1];if(typeof decoded==="string"&&(decoded.startsWith("https://")||decoded.startsWith("http://"))return decoded;}}}catch{}}
   throw new Error("Google News could not resolve the publisher URL.");
 }
 module.exports = async function handler(req,res){
@@ -83,7 +83,7 @@ module.exports = async function handler(req,res){
   let sourceText="",resolvedUrl=url;
   try{
     if(new URL(url).hostname==="news.google.com") resolvedUrl=await decodeGoogleNewsUrl(url);
-    if(!allowedUrl(resolvedUrl))throw new Error("Resolved publisher is not in the supported news-source allowlist.");
+    const readerUrl=READER_BASE+resolvedUrl.replace(/^https?:\/\//,"https://");
     const readerUrl=READER_BASE+resolvedUrl.replace(/^https?:\\/\\//,"https://");
     const rr=await fetch(readerUrl,{headers:{Accept:"text/plain"},signal:AbortSignal.timeout(20000)});
     if(!rr.ok)throw new Error("Reader service HTTP "+rr.status);
