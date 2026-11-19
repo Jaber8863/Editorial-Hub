@@ -169,15 +169,11 @@
 <script src="./feed-data.js"></script>
 <script>
 const categories=[
- {id:"all",label:"সব",subs:["সব বিষয়"]},
- {id:"bangla",label:"বাংলাদেশ · বাংলা",subs:["জাতীয় ও নীতি","অর্থনীতি ও ব্যাংকিং","আন্তর্জাতিক পাতা","সম্পাদকীয় ও মতামত"]},
- {id:"bd-en",label:"Bangladesh · English",subs:["National Affairs","Economy & Banking","International Page","Editorial & Opinion"]},
- {id:"international",label:"International",subs:["Global Affairs","Geopolitics","World Economy","Editorial & Opinion"]},
- {id:"topic",label:"Topic-wise",subs:["Economy & Banking","Governance & Public Policy","Geopolitics","International Treaties & Pacts","Conferences & Summits","Seminars & Reports","Prizes & Awards","Environment & Climate","Elections & Democracy","Military & Alliances","Global Rankings & Indices","Science, Technology & AI","Society & Development"]}
+ {id:"topic",label:"Topic-wise",subs:["সব বিষয়","Economy & Banking","Governance & Public Policy","Geopolitics","International Treaties & Pacts","Conferences & Summits","Seminars & Reports","Prizes & Awards","Environment & Climate","Elections & Democracy","Military & Alliances","Global Rankings & Indices","Science, Technology & AI","Society & Development"]}
 ];
 
 // The category-chip navigation is the primary, touch-friendly menu; no hamburger drawer.
-let category="all",subCategory="সব বিষয়",showSaved=false,items=[];
+let category="topic",subCategory="সব বিষয়",showSaved=false,items=[];
 const saved=()=>JSON.parse(localStorage.getItem("editorial-saved")||"[]");
 function articleISODate(value=""){if(!value)return "";const s=String(value).trim();const m=s.match(/^(\d{4}-\d{2}-\d{2})/);if(m)return m[1];const d=new Date(s);return Number.isNaN(d.getTime())?"":new Date(Date.UTC(d.getFullYear(),d.getMonth(),d.getDate())).toISOString().slice(0,10)}
 function displayArticleDate(value=""){const iso=articleISODate(value);if(!iso)return value||"Date unavailable";const [y,m,d]=iso.split("-");return new Date(Date.UTC(+y,+m-1,+d)).toLocaleDateString("en-GB",{day:"2-digit",month:"short",year:"numeric",timeZone:"UTC"})}
@@ -303,12 +299,11 @@ function render(){
  const visible=items.filter(x=>!isEpaperPage(x)&&within30(x));
  const todaySet=dateSets().today,monthSet=dateSets().month;
  let period=window.articlePeriod||"today";
- const filtered=visible.filter(x=>{const c=classifyArticle(x);const inMain=category==="all"||c.main===category||(category==="topic"&&subCategory==="সব বিষয়");const inSub=subCategory==="সব বিষয়"||(category==="topic"?c.topic===subCategory:(c.topic===subCategory||c.section.toLowerCase().includes(subCategory.toLowerCase())||((subCategory==="সম্পাদকীয় ও মতামত"||subCategory==="Editorial & Opinion")&&c.isOpinion)));const inPeriod=period==="today"?todaySet.has(articleISODate(x.date)):monthSet.has(articleISODate(x.date));return inMain&&inSub&&inPeriod&&(!showSaved||keep.includes(x.link))&&(!date||articleISODate(x.date)===date)&&articleText(x).includes(q)});
- document.querySelector("#filters").innerHTML=categories.map(c=>'<button class="chip '+(c.id===category?"active":"")+'" data-main="'+c.id+'">'+esc(c.label)+'</button>').join("");
- const active=categories.find(c=>c.id===category)||categories[0];
+ const filtered=visible.filter(x=>{const c=classifyArticle(x);const inMain=true;const inSub=subCategory==="সব বিষয়"||(category==="topic"?c.topic===subCategory:(c.topic===subCategory||c.section.toLowerCase().includes(subCategory.toLowerCase())||((subCategory==="সম্পাদকীয় ও মতামত"||subCategory==="Editorial & Opinion")&&c.isOpinion)));const inPeriod=period==="today"?todaySet.has(articleISODate(x.date)):monthSet.has(articleISODate(x.date));return inMain&&inSub&&inPeriod&&(!showSaved||keep.includes(x.link))&&(!date||articleISODate(x.date)===date)&&articleText(x).includes(q)});
+ document.querySelector("#filters").innerHTML="";
+ const active=categories[0];
  document.querySelector("#subfilters").innerHTML=active.subs.map(c=>'<button class="chip '+(c===subCategory?"active":"")+'" data-sub="'+esc(c)+'">'+esc(c)+'</button>').join("");
- document.querySelectorAll("[data-main]").forEach(b=>b.onclick=()=>{category=b.dataset.main;subCategory=(categories.find(c=>c.id===category)||categories[0]).subs[0];if(category==="all")subCategory="সব বিষয়";showSaved=false;render()});
- document.querySelectorAll("[data-sub]").forEach(b=>b.onclick=()=>{subCategory=b.dataset.sub;render()});
+ document.querySelectorAll("[data-sub]").forEach(b=>b.onclick=()=>{subCategory=b.dataset.sub;showSaved=false;render()});
  const periodControls='<div class="period-switch"><button class="period-btn '+(period==="today"?"active":"")+'" data-article-period="today">Today (Today + Yesterday)</button><button class="period-btn '+(period==="month"?"active":"")+'" data-article-period="month">Last 30 Days</button></div>';
  document.querySelector("#articles").innerHTML=periodControls+(filtered.length?filtered.map(x=>{const c=classifyArticle(x);return '<article class="news-card"><div class="news-top"><span class="source">'+(c.isOpinion?'EDITORIAL / OPINION':'NEWS / ANALYSIS')+'</span><span class="date-pill">'+esc(displayArticleDate(x.date))+'</span></div><h3>'+esc(x.title)+'</h3><p>'+esc(x.summary||"মূল প্রতিবেদনটি পড়ুন এবং কেন্দ্রীয় যুক্তি, প্রমাণ ও উপসংহার চিহ্নিত করুন।")+'</p><div class="card-foot"><span class="priority">'+esc(x.exam_priority||c.topic)+'</span><div class="card-actions"><button class="text-btn bookmark" data-save="'+esc(x.link)+'">'+(keep.includes(x.link)?"★ Saved":"☆ Save")+'</button><a class="text-btn" href="'+esc(x.link)+'" target="_blank" rel="noopener">Read original ↗</a></div></div><details class="study-details"><summary>এই News থেকে IBA Exam Preparation</summary>'+buildStudyPack(x)+'</details></article>'}).join(""):'<div class="empty">এই সময়সীমায় কোনো article নেই। পুরোনো article (৩০ দিনের বেশি) দেখানো হয় না।</div>');
  document.querySelectorAll("[data-article-period]").forEach(b=>b.onclick=()=>{window.articlePeriod=b.dataset.articlePeriod;render()});

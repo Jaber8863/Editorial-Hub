@@ -13,18 +13,26 @@ def google_news_feed(domain, terms, language="en", country="BD", edition="BD:en"
 # Only the requested exam-relevant newspaper sections are collected:
 # International page, Economics/Business page, and Editorial/Opinion.
 BANGLA_PAPERS = [
-    ("প্রথম আলো", "prothomalo.com"), ("যুগান্তর", "jugantor.com"),
-    ("কালের কণ্ঠ", "kalerkantho.com"), ("সমকাল", "samakal.com"),
-    ("দৈনিক ইত্তেফাক", "ittefaq.com.bd"), ("বাংলাদেশ প্রতিদিন", "bd-pratidin.com"),
-    ("নয়া দিগন্ত", "dailynayadiganta.com"), ("দৈনিক জনকণ্ঠ", "dailyjanakantha.com"),
-    ("বণিক বার্তা", "bonikbarta.net"), ("দৈনিক ইনকিলাব", "dailyinqilab.com"),
+    ("প্রথম আলো", "prothomalo.com"), ("যুগান্তর", "jugantor.com"), ("কালের কণ্ঠ", "kalerkantho.com"),
+    ("সমকাল", "samakal.com"), ("দৈনিক ইত্তেফাক", "ittefaq.com.bd"), ("বাংলাদেশ প্রতিদিন", "bd-pratidin.com"),
+    ("নয়া দিগন্ত", "dailynayadiganta.com"), ("দৈনিক জনকণ্ঠ", "dailyjanakantha.com"), ("বণিক বার্তা", "bonikbarta.net"),
+    ("দৈনিক ইনকিলাব", "dailyinqilab.com"), ("মানবজমিন", "manabzamin.com"), ("আজকের পত্রিকা", "ajkerpatrika.com"),
+    ("দেশ রূপান্তর", "deshrupantor.com"), ("প্রতিদিনের বাংলাদেশ", "protidinerbangladesh.com"), ("আমাদের সময়", "amadershomoy.com"),
+    ("সংবাদ", "sangbad.net.bd"), ("আলোকিত বাংলাদেশ", "alokitobangladesh.com"), ("দৈনিক ভোরের কাগজ", "bhorerkagoj.com"),
+    ("দৈনিক আজাদী", "dainikazadi.net"), ("দৈনিক পূর্বকোণ", "purbokone.net"), ("দৈনিক করতোয়া", "karatoa.com.bd"),
+    ("দৈনিক রূপালী", "rupalibangladesh.com"), ("শেয়ারবিজ", "sharebiz.net"), ("The Daily Observer", "observerbd.com"),
+    ("Daily Sun", "daily-sun.com"), ("The Dhaka Post", "dhakapost.com"), ("Bangla Tribune", "banglatribune.com"),
+    ("ঢাকা টাইমস", "dhakatimes24.com"), ("জাগো নিউজ ২৪", "jagonews24.com"), ("বাংলা নিউজ ২৪", "banglanews24.com"),
+    ("RisingBD", "risingbd.com"), ("UNB", "unb.com.bd"), ("BSS", "bssnews.net"), ("ঢাকা মেইল", "dhakamail.com"),
+    ("দৈনিক সময়ের আলো", "shomoyeralo.com"), ("দৈনিক মানবকণ্ঠ", "manobkantha.com"), ("দৈনিক দেশ", "dailydesh.com"),
 ]
 BD_ENGLISH_PAPERS = [
-    ("The Daily Star", "thedailystar.net"), ("Dhaka Tribune", "dhakatribune.com"),
-    ("New Age", "newagebd.net"), ("The Financial Express", "thefinancialexpress.com.bd"),
-    ("The Business Standard", "tbsnews.net"),
+    ("The Daily Star", "thedailystar.net"), ("Dhaka Tribune", "dhakatribune.com"), ("New Age", "newagebd.net"),
+    ("The Financial Express", "thefinancialexpress.com.bd"), ("The Business Standard", "tbsnews.net"),
+    ("Daily Observer", "observerbd.com"), ("Daily Sun", "daily-sun.com"), ("Bangladesh Today", "thebangladeshtoday.com"),
+    ("The Dhaka Post", "dhakapost.com"), ("UNB", "unb.com.bd"), ("BSS", "bssnews.net"),
+    ("Bangla Tribune", "banglatribune.com"), ("RisingBD", "risingbd.com"), ("Jago News 24", "jagonews24.com"),
 ]
-
 FEEDS = []
 for name, domain in BANGLA_PAPERS:
     FEEDS.extend([
@@ -40,18 +48,25 @@ for name, domain in BD_ENGLISH_PAPERS:
     ])
 
 # International outlets: world/international coverage and editorial/opinion only.
-WORLD_FEEDS = [
-    ("BBC News — World", "International", "International Page", "https://feeds.bbci.co.uk/news/world/rss.xml"),
-    ("BBC News বাংলা", "International", "International Page", "https://feeds.bbci.co.uk/bengali/rss.xml"),
-    ("Al Jazeera", "International", "International Page", "https://www.aljazeera.com/xml/rss/all.xml"),
-    ("The New York Times", "International", "Editorial / Opinion", "https://rss.nytimes.com/services/xml/rss/nyt/Opinion.xml"),
-    ("The Guardian", "International", "Editorial / Opinion", "https://www.theguardian.com/commentisfree/rss"),
-    ("The Economist", "International", "Editorial / Opinion", "https://www.economist.com/leaders/rss.xml"),
-    ("Deutsche Welle", "International", "International Page", "https://rss.dw.com/rdf/rss-en-all"),
-    ("France 24", "International", "International Page", "https://www.france24.com/en/rss"),
-    ("Project Syndicate", "International", "Editorial / Opinion", "https://www.project-syndicate.org/rss"),
-    ("NPR — World", "International", "International Page", "https://feeds.npr.org/1004/rss.xml"),
+# Curated international source set: top global newspapers/news outlets selected for relevance and breadth.
+WORLD_OUTLETS = [
+    ("BBC News", "bbc.com"), ("The Guardian", "theguardian.com"), ("Reuters", "reuters.com"),
+    ("The New York Times", "nytimes.com"), ("The Washington Post", "washingtonpost.com"),
+    ("The Wall Street Journal", "wsj.com"), ("Financial Times", "ft.com"), ("The Economist", "economist.com"),
+    ("Associated Press", "apnews.com"), ("Al Jazeera", "aljazeera.com"), ("CNN", "cnn.com"),
+    ("Bloomberg", "bloomberg.com"), ("NPR", "npr.org"), ("Deutsche Welle", "dw.com"),
+    ("France 24", "france24.com"), ("The Times of India", "timesofindia.indiatimes.com"),
+    ("The Indian Express", "indianexpress.com"), ("The Japan Times", "japantimes.co.jp"),
+    ("The Straits Times", "straitstimes.com"), ("South China Morning Post", "scmp.com"),
 ]
+WORLD_FEEDS = []
+for name, domain in WORLD_OUTLETS:
+    WORLD_FEEDS.extend([
+        (name, "International", "International Page", google_news_feed(domain, '(world OR international OR geopolitics OR diplomacy)', "en", "US", "US:en")),
+        (name, "International", "Economics Page", google_news_feed(domain, '(economy OR finance OR trade OR markets)', "en", "US", "US:en")),
+        (name, "International", "Editorial / Opinion", google_news_feed(domain, '(editorial OR opinion OR analysis OR commentary)', "en", "US", "US:en")),
+    ])
+
 for name, category, section, url in WORLD_FEEDS:
     FEEDS.append((name, category, section, url))
 
@@ -187,8 +202,9 @@ payload = {
     "sources_configured": {
         "Bangla newspapers": len(BANGLA_PAPERS),
         "Bangladesh English newspapers": len(BD_ENGLISH_PAPERS),
-        "International outlets": len(WORLD_FEEDS),
+        "International outlets": len(WORLD_OUTLETS),
         "sections_per_Bangladesh_paper": ["International Page", "Economics Page", "Editorial / Opinion"],
+        "International top-20 sources": [name for name, domain in WORLD_OUTLETS],
     },
     "health": {
         "configured_feeds": len(FEEDS),
