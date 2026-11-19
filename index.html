@@ -176,20 +176,7 @@ const categories=[
  {id:"topic",label:"Topic-wise",subs:["Economy & Banking","Governance & Public Policy","Geopolitics","International Treaties & Pacts","Conferences & Summits","Seminars & Reports","Prizes & Awards","Environment & Climate","Elections & Democracy","Military & Alliances","Global Rankings & Indices","Science, Technology & AI","Society & Development"]}
 ];
 
-const categoryMenu=document.querySelector("#category-menu");
-const openMenu=()=>{categoryMenu.classList.add("is-open");document.body.classList.add("menu-open");document.querySelector("#menu-open").setAttribute("aria-expanded","true")};
-const closeMenu=()=>{categoryMenu.classList.remove("is-open");document.body.classList.remove("menu-open");document.querySelector("#menu-open").setAttribute("aria-expanded","false")};
-document.querySelector("#menu-open").addEventListener("click",openMenu);
-document.querySelector("#menu-close").addEventListener("click",closeMenu);
-document.querySelector("#menu-shade").addEventListener("click",closeMenu);
-document.addEventListener("keydown",event=>{if(event.key==="Escape")closeMenu()});
-document.querySelector("#drawer-categories").addEventListener("click",event=>{
- const btn=event.target.closest("[data-drawer-main]");
- if(!btn)return;
- category=btn.dataset.drawerMain;subCategory=btn.dataset.drawerSub;showSaved=false;
- closeMenu();
- render();document.querySelector("#news").scrollIntoView({behavior:"smooth"});
-});
+// The category-chip navigation is the primary, touch-friendly menu; no hamburger drawer.
 let category="all",subCategory="সব বিষয়",showSaved=false,items=[];
 const saved=()=>JSON.parse(localStorage.getItem("editorial-saved")||"[]");
 function articleISODate(value=""){if(!value)return "";const s=String(value).trim();const m=s.match(/^(\d{4}-\d{2}-\d{2})/);if(m)return m[1];const d=new Date(s);return Number.isNaN(d.getTime())?"":new Date(Date.UTC(d.getFullYear(),d.getMonth(),d.getDate())).toISOString().slice(0,10)}
