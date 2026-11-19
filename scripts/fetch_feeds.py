@@ -175,7 +175,7 @@ def fetch_feed_safe(feed):
 articles = []
 feed_status = []
 # Fetch feeds concurrently so one slow publisher cannot hold up the entire update.
-with ThreadPoolExecutor(max_workers=8) as pool:
+with ThreadPoolExecutor(max_workers=20) as pool:
     futures = [pool.submit(fetch_feed_safe, feed) for feed in FEEDS]
     for future in as_completed(futures):
         status, found = future.result()
