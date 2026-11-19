@@ -15,6 +15,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -22,6 +23,21 @@ jobs:
           python-version: "3.x"
       - name: Fetch RSS feeds
         run: python scripts/fetch_feeds.py
+        continue-on-error: true
+      - name: Ensure feed JSON exists and is valid
+        if: always()
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          path = Path('feed.json')
+          if not path.exists():
+              path.write_text(json.dumps({'updated': 'Feed generator unavailable', 'articles': [], 'health': {'working_feeds': 0, 'configured_feeds': 0, 'failed_feeds': 0, 'article_count': 0}}, ensure_ascii=False, indent=2), encoding='utf-8')
+          data = json.loads(path.read_text(encoding='utf-8'))
+          if not isinstance(data.get('articles'), list):
+              raise SystemExit('feed.json has an invalid articles field')
+          print('feed.json ready:', len(data['articles']), 'articles')
+          PY
       - uses: actions/upload-pages-artifact@v3
         with:
           path: .
