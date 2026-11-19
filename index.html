@@ -123,7 +123,7 @@
 </style>
 <link rel="preload" href="./feed.json" as="fetch" crossorigin="anonymous"><meta name="color-scheme" content="light"></head>
 <body>
-<div class="topbar"><div class="shell"><div class="brandmark">EDITORIAL HUB BANGLADESH</div><div class="top-actions"><span class="top-live"><span class="live-dot"></span>YOUR DAILY READING DESK</span></div></div></div>
+<div class="topbar"><div class="shell"><div class="brandmark">EDITORIAL HUB BANGLADESH</div><div class="top-actions"><span class="top-live"><span class="live-dot"></span>YOUR DAILY READING DESK</span>
 <details class="category-menu" id="category-menu">
 <summary aria-label="Open categories menu"><span class="hamburger-glyph">☰</span></summary><div class="menu-shade"></div>
 <nav class="category-drawer" aria-label="Browse categories">
@@ -135,6 +135,7 @@
 <details class="drawer-group"><summary>International <span>⌄</span></summary><div class="drawer-subs"><button data-drawer-main="international" data-drawer-sub="Global Affairs">Global Affairs</button><button data-drawer-main="international" data-drawer-sub="Geopolitics">Geopolitics</button><button data-drawer-main="international" data-drawer-sub="World Economy">World Economy</button><button data-drawer-main="international" data-drawer-sub="Editorial & Opinion">Editorial & Opinion</button></div></details>
 <details class="drawer-group"><summary>Topic-wise <span>⌄</span></summary><div class="drawer-subs"><button data-drawer-main="topic" data-drawer-sub="Economy & Banking">Economy & Banking</button><button data-drawer-main="topic" data-drawer-sub="Governance & Public Policy">Governance & Public Policy</button><button data-drawer-main="topic" data-drawer-sub="Geopolitics">Geopolitics</button><button data-drawer-main="topic" data-drawer-sub="International Treaties & Pacts">International Treaties & Pacts</button><button data-drawer-main="topic" data-drawer-sub="Conferences & Summits">Conferences & Summits</button><button data-drawer-main="topic" data-drawer-sub="Seminars & Reports">Seminars & Reports</button><button data-drawer-main="topic" data-drawer-sub="Prizes & Awards">Prizes & Awards</button><button data-drawer-main="topic" data-drawer-sub="Environment & Climate">Environment & Climate</button><button data-drawer-main="topic" data-drawer-sub="Elections & Democracy">Elections & Democracy</button><button data-drawer-main="topic" data-drawer-sub="Military & Alliances">Military & Alliances</button><button data-drawer-main="topic" data-drawer-sub="Global Rankings & Indices">Global Rankings & Indices</button><button data-drawer-main="topic" data-drawer-sub="Science, Technology & AI">Science, Technology & AI</button><button data-drawer-main="topic" data-drawer-sub="Society & Development">Society & Development</button></div></details>
 </div></nav></details>
+</div></div></div>
 <header class="hero"><div class="shell"><div class="eyebrow">IDEA BY MD. JABER HOSSAIN · READ · UNDERSTAND · WRITE</div><h1>Turn today's news into<br>tomorrow's exam advantage.</h1><p>বাংলাদেশ ও বিশ্বের গুরুত্বপূর্ণ সংবাদ পড়ুন, যুক্তি দিয়ে বিশ্লেষণ করুন, নতুন শব্দ শিখুন এবং Bank · IBA · NSI · সরকারি চাকরির লিখিত পরীক্ষার প্রস্তুতি নিন—এক জায়গায়।</p><div class="hero-actions"><a class="btn primary" href="#news">আজকের সংবাদ পড়ুন ↓</a><a class="btn" href="#study-room">Study Room খুলুন</a></div></div></header>
 <div class="shell layout">
 <aside class="sidebar"><div class="sidebox"><div class="side-title">YOUR STUDY DESK</div><a class="side-link active" href="#dashboard"><span class="side-icon">⌂</span>Overview</a><a class="side-link" href="#news"><span class="side-icon">▤</span>News & Editorials</a><a class="side-link" href="#iba-topics"><span class="side-icon">◈</span>Topic Explorer</a><a class="side-link" href="#vocabulary"><span class="side-icon">Aa</span>Vocabulary Bank</a><a class="side-link" href="#study-room"><span class="side-icon">✓</span>Daily Goals</a><a class="side-link" href="#profile"><span class="side-icon">◉</span>Login & Profile</a><div class="side-note"><b>Study tip</b><br>একটি Editorial পড়ার পর অন্তত ৩টি নতুন শব্দ দিয়ে নিজের একটি বাক্য লিখুন।</div></div></aside>
@@ -164,7 +165,10 @@ const categories=[
  {id:"topic",label:"Topic-wise",subs:["Economy & Banking","Governance & Public Policy","Geopolitics","International Treaties & Pacts","Conferences & Summits","Seminars & Reports","Prizes & Awards","Environment & Climate","Elections & Democracy","Military & Alliances","Global Rankings & Indices","Science, Technology & AI","Society & Development"]}
 ];
 
-document.querySelector("#menu-close").addEventListener("click",()=>{document.querySelector("#category-menu").open=false});
+const categoryMenu=document.querySelector("#category-menu");
+document.querySelector("#menu-close").addEventListener("click",()=>{categoryMenu.open=false});
+document.querySelector(".category-menu .menu-shade").addEventListener("click",()=>{categoryMenu.open=false});
+document.addEventListener("keydown",event=>{if(event.key==="Escape")categoryMenu.open=false});
 document.querySelector("#drawer-categories").addEventListener("click",event=>{
  const btn=event.target.closest("[data-drawer-main]");
  if(!btn)return;
