@@ -45,10 +45,9 @@ jobs:
         run: |
           python - <<'PY'
           from pathlib import Path
-          import re
           html = Path("index.html").read_text(encoding="utf-8")
-          scripts = re.findall(r"<script>([\\s\\S]*?)</script>", html)
-          Path("/tmp/editorial-hub-inline.js").write_text("\\n".join(scripts), encoding="utf-8")
+          script = html.split("<script>", 1)[1].split("</script>", 1)[0]
+          Path("/tmp/editorial-hub-inline.js").write_text(script, encoding="utf-8")
           PY
           node --check /tmp/editorial-hub-inline.js
       - name: Build embedded browser feed
@@ -57,7 +56,7 @@ jobs:
           import json
           from pathlib import Path
           data = json.loads(Path("feed.json").read_text(encoding="utf-8"))
-          bundle = "window.EDITORIAL_HUB_FEED = " + json.dumps(data, ensure_ascii=False, separators=(",", ":")) + ";\\n"
+          bundle = "window.EDITORIAL_HUB_FEED = " + json.dumps(data, ensure_ascii=False, separators=(",", ":")) + ";"
           Path("feed-data.js").write_text(bundle, encoding="utf-8")
           print("Embedded", len(data.get("articles", [])), "articles into feed-data.js")
           PY
