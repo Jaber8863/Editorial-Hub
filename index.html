@@ -227,8 +227,8 @@ function render(){
  });
  document.querySelector("#filters").innerHTML='<button class="chip active" type="button">Topic-wise</button>';
  const topicOptions=["সব বিষয়",...topicTags.map(t=>t[0])];
- document.querySelector("#subfilters").innerHTML=topicOptions.map(t=>'<button class="chip '+(t===subCategory?"active":"")+'" data-sub="'+esc(t)+'">'+esc(t)+'</button>').join("");
- document.querySelectorAll("[data-sub]").forEach(b=>b.onclick=()=>{subCategory=b.dataset.sub;showSaved=false;render()});
+ document.querySelector("#subfilters").innerHTML='<label for="topic-dropdown" class="topic-label">Topic</label><select id="topic-dropdown" class="topic-dropdown">'+topicOptions.map(t=>'<option value="'+esc(t)+'" '+(t===subCategory?'selected':'')+'>'+esc(t)+'</option>').join("")+'</select>';
+ document.querySelector("#topic-dropdown").onchange=e=>{subCategory=e.target.value;showSaved=false;render()};
  const periodControls='<div class="period-switch"><button class="period-btn '+(period==="today"?"active":"")+'" data-article-period="today">Today (Today + Yesterday)</button><button class="period-btn '+(period==="month"?"active":"")+'" data-article-period="month">Last 30 Days</button></div>';
  const tokenize=t=>String(t||"").toLowerCase().normalize("NFKC").replace(/[^\\p{L}\\p{N} ]/gu," ").split(/\\s+/).filter(w=>w.length>2&&!["the","and","for","with","from","that","this","after","before","into","বাংলাদেশ","দেশের","নিয়ে","করে","থেকে","একটি","তার","এবং"].includes(w));
  const clusters=[];
@@ -248,7 +248,7 @@ function render(){
   const links=g.articles.map(a=>'<li><a href="'+esc(a.link)+'" target="_blank" rel="noopener">'+esc(a.source||"Source")+' · '+esc(displayArticleDate(a.date))+' — Read report ↗</a></li>').join("");
   const tags=(x.topics&&x.topics.length?x.topics:[c.topic]).map(t=>'<span class="topic-badge">'+esc(t)+'</span>').join("");
   const summary=x.summary||"এই প্রতিবেদনের মূল তথ্য, প্রেক্ষাপট ও প্রভাব বুঝতে মূল প্রতিবেদনটি পড়ুন।";
-  return '<article class="news-card"><div class="news-top"><span class="source">'+esc(sources.slice(0,3).join(" · "))+(sources.length>3?" +"+(sources.length-3):"")+'</span><span class="date-pill">'+esc(displayArticleDate(x.date))+'</span></div><h3>'+esc(x.title)+'</h3><p>'+esc(summary)+'</p><div class="topic-badges">'+tags+'</div><div class="card-foot"><span class="priority">'+esc(c.topic)+'</span><div class="card-actions"><button class="text-btn bookmark" data-save="'+esc(x.link)+'">'+(keep.includes(x.link)?"★ Saved":"☆ Save")+'</button><a class="text-btn" href="'+esc(x.link)+'" target="_blank" rel="noopener">Read original ↗</a></div></div>'+(g.articles.length>1?'<details class="coverage-details"><summary>এই খবরটি '+g.articles.length+'টি সংবাদমাধ্যমে এসেছে · Compare coverage</summary><ul>'+links+'</ul></details>':'')+'</article>';
+  return '<article class="news-card"><div class="news-top"><span class="source">'+esc(sources.slice(0,3).join(" · "))+(sources.length>3?" +"+(sources.length-3):"")+'</span><span class="date-pill">'+esc(displayArticleDate(x.date))+'</span></div><h3>'+esc(x.title)+'</h3><p>'+esc(summary)+'</p><div class="topic-badges">'+tags+'</div><div class="card-foot"><span class="priority">'+esc(c.topic)+'</span><div class="card-actions"><button class="text-btn bookmark" data-save="'+esc(x.link)+'">'+(keep.includes(x.link)?"★ Saved":"☆ Save")+'</button><a class="text-btn" href="'+esc(x.link)+'" target="_blank" rel="noopener">Read original ↗</a></div></div>'+(g.articles.length>1?'<details class="coverage-details"><summary>এই খবরটি '+g.articles.length+'টি সংবাদমাধ্যমে এসেছে · Compare coverage</summary><ul>'+links+'</ul></details>':'')+'<details class="iba-pack"><summary>এই News থেকে IBA Exam Preparation · বাংলা + English</summary>'+modelAnswerPack(x,c.topic)+'</details></article>';
  }).join("");
  document.querySelector("#articles").innerHTML=periodControls+(cards||'<div class="empty">এই Topic ও সময়সীমায় কোনো সংবাদ পাওয়া যায়নি।</div>');
  document.querySelectorAll("[data-article-period]").forEach(b=>b.onclick=()=>{window.articlePeriod=b.dataset.articlePeriod;render()});
@@ -256,6 +256,7 @@ function render(){
  document.querySelector("#article-count").textContent=visible.length;
  document.querySelector("#saved-count").textContent=keep.length;
  document.querySelector("#status").textContent=filtered.length+"টি সংবাদ · "+clusters.length+"টি topic-group · "+(showSaved?"Bookmarks":"সর্বশেষ ৩০ দিনের feed");
+ updateTopicDashboard();
  renderTasks();
 }function modelAnswerPack(article,topic){
  const title=article.title||"Current Issue",summary=article.summary||"";
@@ -265,6 +266,29 @@ function render(){
  const bang='“'+title+'” বিষয়টি সমসাময়িক সমাজ ও নীতিনির্ধারণের ক্ষেত্রে গুরুত্বপূর্ণ আলোচনার দাবি রাখে। বিষয়টির প্রেক্ষাপট ও সম্ভাব্য প্রভাব অনুধাবন করা জরুরি। প্রথমত, সমস্যার মূল কারণ, প্রাতিষ্ঠানিক সক্ষমতা, জনসচেতনতা এবং নীতি বাস্তবায়নের সীমাবদ্ধতা বিশ্লেষণ করা প্রয়োজন। দ্বিতীয়ত, এর প্রভাব সংশ্লিষ্ট ব্যক্তি বা গোষ্ঠীর বাইরে সামাজিক স্থিতিশীলতা, জনআস্থা ও দীর্ঘমেয়াদি উন্নয়নেও পড়তে পারে।\\n\\nবাংলাদেশের ক্ষেত্রে জাতীয় অগ্রাধিকার, সম্পদের সীমাবদ্ধতা এবং অন্তর্ভুক্তিমূলক উন্নয়নের বিষয়গুলো বিবেচনায় নিতে হবে। সংশ্লিষ্ট কর্তৃপক্ষের উচিত স্বচ্ছতা, তথ্যভিত্তিক সিদ্ধান্ত, আন্তঃপ্রাতিষ্ঠানিক সমন্বয় এবং জনগণের অংশগ্রহণ নিশ্চিত করা। তাৎক্ষণিক পদক্ষেপের পাশাপাশি জবাবদিহি, সক্ষমতা ও টেকসই ব্যবস্থাপনা জোরদারে দীর্ঘমেয়াদি সংস্কার প্রয়োজন।\\n\\nপরিশেষে, এই বিষয়টির সমাধানে ভারসাম্যপূর্ণ বিশ্লেষণ ও বাস্তবসম্মত উদ্যোগ জরুরি। সরকার, বেসরকারি প্রতিষ্ঠান, নাগরিক সমাজ এবং জনগণের সমন্বিত প্রচেষ্টাই স্থায়ী ও কার্যকর পরিবর্তন আনতে পারে।';
  const prompt='Discuss the background, implications and policy options of “'+title+'”, with special reference to Bangladesh.';
  return limitation+'<div class="model-pack"><h4>১. News Summary</h4><p>'+esc(summary||"Headline only—open the original report to identify the main facts.")+'</p><p><b>বাংলা সারাংশ:</b> '+esc(bnSummary)+'</p><h4>২. Analytical Outline</h4><ul><li>Background and root causes</li><li>Current situation and evidence from the article</li><li>Stakeholders and short/long-term impacts</li><li>Bangladesh perspective, policy options and way forward</li></ul><h4>৩. Focus Writing — English (PDF structure)</h4><p class="essay">'+esc(eng)+'</p><h4>৪. নমুনা Focus Writing — বাংলা</h4><p class="essay">'+esc(bang)+'</p><h4>৫. Useful Vocabulary</h4><ul><li><b>Implications</b> — সম্ভাব্য প্রভাব</li><li><b>Accountability</b> — জবাবদিহি</li><li><b>Evidence-based</b> — তথ্য-প্রমাণভিত্তিক</li><li><b>Inclusive</b> — অন্তর্ভুক্তিমূলক</li><li><b>Resilience</b> — প্রতিকূলতা মোকাবিলার সক্ষমতা</li></ul><h4>৬. Translation Practice</h4><p><b>English:</b> Evidence-based policy and institutional accountability are essential for sustainable progress.</p><p><b>বাংলা:</b> টেকসই অগ্রগতির জন্য তথ্য-প্রমাণভিত্তিক নীতি ও প্রাতিষ্ঠানিক জবাবদিহি অপরিহার্য।</p><h4>৭. YOUR PRACTICE</h4><p>'+esc(prompt)+'</p><p>250–300 শব্দে Introduction (Hook + Background + Thesis), Body 1 (Background/Causes), Body 2 (Current Situation/Evidence/Impacts), Body 3 (Solutions/Way forward) এবং Conclusion লিখুন।</p><a class="original-read" href="'+esc(article.link)+'" target="_blank" rel="noopener">মূল প্রতিবেদন পড়ুন ↗</a></div>';
+}
+function updateTopicDashboard(){
+ const visible=items.filter(x=>!isEpaperPage(x)&&within30(x));
+ const counts=topicTags.map(([name])=>({name,count:visible.filter(x=>classifyArticle(x).topic===name).length}));
+ document.querySelector("#topic-count-grid").innerHTML=counts.map(t=>'<button class="topic-count-card" data-dash-topic="'+esc(t.name)+'"><strong>'+t.count+'</strong><span>'+esc(t.name)+'</span></button>').join("");
+ document.querySelectorAll("[data-dash-topic]").forEach(b=>b.onclick=()=>{subCategory=b.dataset.dashTopic;window.articlePeriod="month";document.body.classList.remove("dashboard-mode");document.querySelector("#login-dashboard").hidden=true;render();document.querySelector("#news").scrollIntoView({behavior:"smooth"});});
+}
+function dashboardAuthInit(){
+ const key="editorial-hub-profile",profile=JSON.parse(localStorage.getItem(key)||"null");
+ const modal=document.querySelector("#login-modal"),open=document.querySelector("#login-open");
+ const showModal=()=>{modal.hidden=false;document.querySelector("#login-email").value=profile?.email||"";document.querySelector("#login-name").value=profile?.name||""};
+ const hideModal=()=>modal.hidden=true;
+ open.onclick=()=>{if(profile){document.body.classList.add("dashboard-mode");document.querySelector("#login-dashboard").hidden=false;document.querySelector("#dash-greeting").textContent="Welcome"+(profile.name?" back, "+profile.name:" back");updateTopicDashboard();window.scrollTo({top:0,behavior:"smooth"});}else showModal();};
+ document.querySelector("#login-close").onclick=hideModal;
+ modal.onclick=e=>{if(e.target===modal)hideModal()};
+ document.querySelector("#login-submit").onclick=()=>{
+  const email=document.querySelector("#login-email").value.trim(),name=document.querySelector("#login-name").value.trim();
+  if(!email||!email.includes("@")){document.querySelector("#login-email").reportValidity();return;}
+  localStorage.setItem(key,JSON.stringify({email,name}));hideModal();document.body.classList.add("dashboard-mode");document.querySelector("#login-dashboard").hidden=false;document.querySelector("#dash-greeting").textContent="Welcome"+(name?", "+name:"");updateTopicDashboard();window.scrollTo({top:0,behavior:"smooth"});
+ };
+ document.querySelector("#dash-logout").onclick=()=>{localStorage.removeItem(key);document.body.classList.remove("dashboard-mode");document.querySelector("#login-dashboard").hidden=true;window.scrollTo({top:0,behavior:"smooth"});};
+ document.querySelector("#go-news").onclick=()=>{document.body.classList.remove("dashboard-mode");document.querySelector("#login-dashboard").hidden=true;document.querySelector("#news").scrollIntoView({behavior:"smooth"});};
+ if(profile){document.body.classList.add("dashboard-mode");document.querySelector("#login-dashboard").hidden=false;document.querySelector("#dash-greeting").textContent="Welcome"+(profile.name?", "+profile.name:"");updateTopicDashboard();}
 }
 function renderGlossary(){document.querySelector("#vocab-grid").innerHTML=glossary.map(w=>'<div class="word"><b>'+esc(w[0])+'</b><span>'+esc(w[1])+'</span><small>'+esc(w[2])+'</small></div>').join("")}
 function renderTasks(){const done=JSON.parse(localStorage.getItem("eh-tasks")||"[false,false,false]");document.querySelectorAll("[data-task]").forEach(el=>el.checked=!!done[Number(el.dataset.task)]);const n=done.filter(Boolean).length;document.querySelector("#task-count").textContent=n+"/3";document.querySelector("#progress-fill").style.width=(n/3*100)+"%"}
@@ -352,4 +376,7 @@ updatePageJump();
 .iba-pack{margin-top:12px;border-top:1px solid #dfe8e4;padding-top:10px}.iba-pack summary{cursor:pointer;font-weight:750;color:#16614f}.model-pack{font-size:14px;line-height:1.65;padding-top:10px}.model-pack h4{margin:16px 0 7px;color:#174f43}.model-pack p{white-space:pre-line}.essay{padding:12px;background:#f7faf8;border:1px solid #e3ece7;border-radius:10px}.answer-note{background:#fff6df;border:1px solid #f1dcaa;color:#73531c;border-radius:10px;padding:10px;font-size:12px;line-height:1.55;margin:8px 0}.original-read{display:inline-block;margin-top:10px;padding:9px 12px;background:#195b49;color:white;border-radius:9px;text-decoration:none;font-weight:700}
 .user-dashboard{padding:16px 0 22px}.dash-top{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:14px}.dash-top h2{margin:5px 0}.topic-count-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-bottom:14px}.topic-count-card{background:white;border:1px solid #dfe9e5;border-radius:13px;padding:13px;text-align:left;cursor:pointer}.topic-count-card strong{font-size:24px;display:block;color:#1d6652}.topic-count-card span{font-size:12px;color:#445a55}.login-modal{position:fixed;inset:0;background:#051b1788;z-index:1500;display:grid;place-items:center;padding:20px}.login-modal[hidden],.user-dashboard[hidden]{display:none!important}.login-card{position:relative;background:white;border-radius:18px;padding:24px;max-width:430px;width:100%;box-shadow:0 20px 50px #0003}.login-card h2{margin:0 0 8px}.login-card p{font-size:13px;line-height:1.5;color:#53635e}.login-card label{display:block;margin:12px 0 5px;font-size:12px;font-weight:700}.login-card input{width:100%;padding:11px;border:1px solid #d5e0dc;border-radius:9px}.login-close{position:absolute;top:10px;right:12px;border:0;background:none;font-size:25px;cursor:pointer}
 @media(max-width:650px){.topic-count-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.top-actions{gap:7px}.top-live{font-size:10px}.login-btn{font-size:11px;padding:8px 9px}}
+</style><style>
+body.dashboard-mode .hero,body.dashboard-mode .hub-intro,body.dashboard-mode .layout{display:none!important}
+body.dashboard-mode #login-dashboard{display:block!important}
 </style>
