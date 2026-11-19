@@ -4,9 +4,8 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 
-# Ten major Bangla newspapers. Some publishers expose a general RSS feed rather
-# than a separate editorial-only feed; items are therefore not falsely labelled
-# as editorials unless the publisher provides a dedicated opinion feed.
+# Bangla newspapers: general RSS is used only where no dedicated editorial feed
+# is publicly exposed. The site labels the publisher/source, not every item as opinion.
 BANGLA_FEEDS = [
     ("প্রথম আলো", "বাংলা সংবাদপত্র", "https://www.prothomalo.com/feed/"),
     ("যুগান্তর", "বাংলা সংবাদপত্র", "https://www.jugantor.com/rss.xml"),
@@ -20,30 +19,40 @@ BANGLA_FEEDS = [
     ("দৈনিক ইনকিলাব", "বাংলা সংবাদপত্র", "https://dailyinqilab.com/rss"),
 ]
 
-# Ten English-language sources, prioritising opinion/editorial and analysis.
-ENGLISH_FEEDS = [
-    ("The Daily Star", "English Editorials", "https://www.thedailystar.net/opinion/rss.xml"),
-    ("Dhaka Tribune", "English Editorials", "https://www.dhakatribune.com/opinion/rss"),
-    ("New Age", "English Editorials", "https://www.newagebd.net/rss"),
-    ("The Financial Express", "English Editorials", "https://thefinancialexpress.com.bd/rss"),
-    ("The Business Standard", "English Editorials", "https://www.tbsnews.net/rss.xml"),
-    ("The New York Times — Opinion", "International Affairs", "https://www.nytimes.com/svc/collections/v1/publish/https://www.nytimes.com/international/section/opinion/rss.xml"),
-    ("The Guardian — Opinion", "International Affairs", "https://www.theguardian.com/commentisfree/rss"),
-    ("The Economist — Leaders", "International Affairs", "https://www.economist.com/leaders/rss.xml"),
-    ("Financial Times — FT View", "International Affairs", "https://www.ft.com/comment/editorial?format=rss"),
-    ("Project Syndicate", "International Affairs", "https://www.project-syndicate.org/rss"),
+# Bangladesh-based English newspapers and business publications.
+BD_ENGLISH_FEEDS = [
+    ("The Daily Star", "Bangladesh English", "https://www.thedailystar.net/opinion/rss.xml"),
+    ("Dhaka Tribune", "Bangladesh English", "https://www.dhakatribune.com/opinion/rss"),
+    ("New Age", "Bangladesh English", "https://www.newagebd.net/rss"),
+    ("The Financial Express", "Bangladesh English", "https://thefinancialexpress.com.bd/rss"),
+    ("The Business Standard", "Bangladesh English", "https://www.tbsnews.net/rss.xml"),
+]
+
+# Ten international sources selected for global affairs, editorial argument and analysis.
+# Some are dedicated opinion feeds; others are broad news feeds with analysis/current affairs.
+WORLD_FEEDS = [
+    ("BBC News English — World", "World Analysis & Opinion", "https://feeds.bbci.co.uk/news/world/rss.xml"),
+    ("BBC News বাংলা", "World Analysis & Opinion", "https://feeds.bbci.co.uk/bengali/rss.xml"),
+    ("Al Jazeera English", "World Analysis & Opinion", "https://www.aljazeera.com/xml/rss/all.xml"),
+    ("The New York Times — Opinion", "World Analysis & Opinion", "https://rss.nytimes.com/services/xml/rss/nyt/Opinion.xml"),
+    ("The Guardian — Opinion", "World Analysis & Opinion", "https://www.theguardian.com/commentisfree/rss"),
+    ("The Economist — Leaders", "World Analysis & Opinion", "https://www.economist.com/leaders/rss.xml"),
+    ("Deutsche Welle — English", "World Analysis & Opinion", "https://rss.dw.com/rdf/rss-en-all"),
+    ("France 24 — English", "World Analysis & Opinion", "https://www.france24.com/en/rss"),
+    ("Project Syndicate", "World Analysis & Opinion", "https://www.project-syndicate.org/rss"),
+    ("NPR — World", "World Analysis & Opinion", "https://feeds.npr.org/1004/rss.xml"),
 ]
 
 TOPIC_RULES = {
     "Economy & Banking": ["econom", "inflation", "bank", "banking", "fiscal", "monetary", "currency", "trade", "export", "import", "debt", "budget", "revenue", "investment", "টাকা", "ব্যাংক", "অর্থনীতি", "মূল্যস্ফীতি", "রপ্তানি", "আমদানি", "বাজেট"],
     "Governance & Public Policy": ["governance", "govern", "election", "democracy", "corruption", "policy", "reform", "parliament", "judiciary", "প্রশাসন", "নির্বাচন", "গণতন্ত্র", "দুর্নীতি", "সংস্কার", "নীতি"],
-    "International Relations": ["diplomacy", "geopolit", "foreign policy", "war", "conflict", "china", "india", "united states", "russia", "middle east", "climate", "migration", "কূটনীতি", "যুদ্ধ", "আন্তর্জাতিক"],
+    "International Relations": ["diplomacy", "geopolit", "foreign policy", "war", "conflict", "china", "india", "united states", "russia", "middle east", "sanction", "migration", "কূটনীতি", "যুদ্ধ", "আন্তর্জাতিক"],
     "Development & Society": ["poverty", "inequality", "education", "health", "employment", "gender", "development", "sustainable", "population", "দারিদ্র্য", "বৈষম্য", "শিক্ষা", "স্বাস্থ্য", "কর্মসংস্থান", "উন্নয়ন"],
     "Technology & Environment": ["artificial intelligence", "technology", "cyber", "digital", "energy", "renewable", "environment", "climate change", "বায়ুদূষণ", "জলবায়ু", "প্রযুক্তি", "জ্বালানি"],
 }
 
 def clean(s):
-    return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", s or "")).strip()
+    return re.sub(r"\\s+", " ", re.sub(r"<[^>]+>", " ", s or "")).strip()
 
 def local_name(tag):
     return tag.split("}")[-1].lower()
@@ -69,9 +78,9 @@ def topics_for(text):
     return [topic for topic, words in TOPIC_RULES.items() if any(word in lower for word in words)]
 
 def fetch_feed(source, category, url):
-    req = urllib.request.Request(url, headers={"User-Agent": "EditorialHub/2.0"})
-    root = ET.fromstring(urllib.request.urlopen(req, timeout=20).read())
-    entries = [e for e in root.iter() if local_name(e.tag) in ("item", "entry")]
+    request = urllib.request.Request(url, headers={"User-Agent": "EditorialHub/2.1"})
+    root = ET.fromstring(urllib.request.urlopen(request, timeout=20).read())
+    entries = [entry for entry in root.iter() if local_name(entry.tag) in ("item", "entry")]
     output = []
     for entry in entries[:35]:
         title = clean(first_text(entry, {"title"}))
@@ -90,14 +99,15 @@ def fetch_feed(source, category, url):
 
 articles = []
 feed_status = []
-for source, category, url in BANGLA_FEEDS + ENGLISH_FEEDS:
+all_feeds = BANGLA_FEEDS + BD_ENGLISH_FEEDS + WORLD_FEEDS
+for source, category, url in all_feeds:
     try:
         found = fetch_feed(source, category, url)
         articles.extend(found)
-        feed_status.append({"source": source, "status": "ok", "count": len(found)})
+        feed_status.append({"source": source, "category": category, "status": "ok", "count": len(found)})
         print("OK:", source, len(found))
     except Exception as exc:
-        feed_status.append({"source": source, "status": "failed", "count": 0, "error": str(exc)[:180]})
+        feed_status.append({"source": source, "category": category, "status": "failed", "count": 0, "error": str(exc)[:180]})
         print("Feed failed:", source, str(exc))
 
 seen = set()
@@ -106,13 +116,17 @@ for article in articles:
     if article["link"] not in seen:
         seen.add(article["link"])
         unique.append(article)
-unique.sort(key=lambda a: a.get("date", ""), reverse=True)
+unique.sort(key=lambda article: article.get("date", ""), reverse=True)
 
 with open("feed.json", "w", encoding="utf-8") as output:
     json.dump({
         "updated": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
-        "articles": unique[:250],
+        "articles": unique[:300],
         "feed_status": feed_status,
-        "sources_configured": {"Bangla": len(BANGLA_FEEDS), "English": len(ENGLISH_FEEDS)},
+        "sources_configured": {
+            "Bangla newspapers": len(BANGLA_FEEDS),
+            "Bangladesh English": len(BD_ENGLISH_FEEDS),
+            "International": len(WORLD_FEEDS),
+        },
     }, output, ensure_ascii=False, indent=2)
-print("Wrote", min(len(unique), 250), "articles from", sum(1 for f in feed_status if f["status"] == "ok"), "working feeds")
+print("Wrote", min(len(unique), 300), "articles from", sum(1 for feed in feed_status if feed["status"] == "ok"), "working feeds")
