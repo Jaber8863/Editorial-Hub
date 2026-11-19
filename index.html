@@ -28,13 +28,13 @@ footer{padding:30px 0;color:var(--muted);font-size:13px}.small{font-size:13px;co
 <footer>Articles remain the property of their publishers. This site displays feed headlines and links to original reporting. Feed updates are automated by the repository workflow.</footer>
 </main>
 <script>
-const categories=["All","Bangladesh","International","Economy & Banking","English Editorials"];
+const categories=["All","বাংলা সংবাদপত্র","English Editorials","International Affairs"];
 let category="All",showSaved=false,items=[];
 const saved=()=>JSON.parse(localStorage.getItem("editorial-saved")||"[]");
 function esc(s=""){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
 function render(){
  const q=document.querySelector("#search").value.toLowerCase(), keep=saved();
- const filtered=items.filter(x=>(category==="All"||x.category===category)&&(!showSaved||keep.includes(x.link))&&[x.title,x.source,x.summary].join(" ").toLowerCase().includes(q));
+ const filtered=items.filter(x=>(category==="All"||x.category===category)&&(!showSaved||keep.includes(x.link))&&[x.title,x.source,x.summary,(x.topics||[]).join(" ")].join(" ").toLowerCase().includes(q));
  document.querySelector("#filters").innerHTML=categories.map(c=>'<button class="chip '+(c===category?"active":"")+'" data-cat="'+esc(c)+'">'+esc(c)+'</button>').join("");
  document.querySelectorAll("[data-cat]").forEach(b=>b.onclick=()=>{category=b.dataset.cat;showSaved=false;render()});
  document.querySelector("#articles").innerHTML=filtered.length?filtered.map(x=>'<article class="card"><div class="tag">'+esc(x.category||"Editorial")+' · '+esc(x.source||"Source")+'</div><h2>'+esc(x.title)+'</h2><p>'+esc(x.summary||"Open the publisher’s article for the full analysis.")+'</p><div class="meta">'+esc(x.date||"")+'</div><p><a href="'+esc(x.link)+'" target="_blank" rel="noopener">Read original article ↗</a></p><button data-save="'+esc(x.link)+'">'+(keep.includes(x.link)?"★ Saved":"☆ Bookmark")+'</button></article>').join(""):'<div class="empty">No matching articles yet. Try another category or refresh.</div>';
