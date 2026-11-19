@@ -83,8 +83,8 @@ module.exports = async function handler(req,res){
   let sourceText="",resolvedUrl=url;
   try{
     if(new URL(url).hostname==="news.google.com") resolvedUrl=await decodeGoogleNewsUrl(url);
+    if(!allowedUrl(resolvedUrl))throw new Error("Resolved publisher is not in the supported news-source allowlist.");
     const readerUrl=READER_BASE+resolvedUrl.replace(/^https?:\/\//,"https://");
-    const readerUrl=READER_BASE+resolvedUrl.replace(/^https?:\\/\\//,"https://");
     const rr=await fetch(readerUrl,{headers:{Accept:"text/plain"},signal:AbortSignal.timeout(20000)});
     if(!rr.ok)throw new Error("Reader service HTTP "+rr.status);
     sourceText=await rr.text();
