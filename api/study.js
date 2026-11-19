@@ -55,6 +55,23 @@ const schema = {
   }
 };
 function countWords(s){return String(s||"").trim().split(/\s+/).filter(Boolean).length;}
+async function decodeGoogleNewsUrl(raw) {
+  const id = new URL(raw).pathname.match(/\\/(?:rss\\/)?articles\\/([\\w-]+)/)?.[1];
+  if (!id) throw new Error("Invalid Google News article link.");
+  const ua = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/130 Safari/537.36";
+  const page = await fetch("https://news.google.com/rss/articles/"+id,{headers:{"user-agent":ua,"accept-language":"en-US,en;q=0.9"},signal:AbortSignal.timeout(15000)});
+  if (!page.ok) throw new Error("Google News resolver HTTP "+page.status);
+  const html = await page.text();
+  const sg=html.match(/data-n-a-sg="([^"]+)"/)?.[1], ts=html.match(/data-n-a-ts="([^"]+)"/)?.[1];
+  if(!sg||!ts) throw new Error("Google News page did not provide a decoding signature (blocked or changed).");
+  const inner=JSON.stringify(["garturlreq",[["X","X",["X","X"],null,null,1,1,"US:en",null,1,null,null,null,null,null,0,1],"X","X",1,[1,1,1],1,1,null,0,0,null,0],id,Number(ts),sg]);
+  const body="f.req="+encodeURIComponent(JSON.stringify([[["Fbv4je",inner,null,"generic"]]]));
+  const rpc=await fetch("https://news.google.com/_/DotsSplashUi/data/batchexecute",{method:"POST",headers:{"user-agent":ua,"content-type":"application/x-www-form-urlencoded;charset=UTF-8","origin":"https://news.google.com","referer":"https://news.google.com/"},body,signal:AbortSignal.timeout(15000)});
+  if(!rpc.ok) throw new Error("Google News URL decode HTTP "+rpc.status);
+  const text=await rpc.text();
+  for(const line of text.split("\\n")){if(!line.startsWith("[["))continue;try{for(const row of JSON.parse(line)){if(row[1]==="Fbv4je"&&typeof row[2]==="string"){const decoded=JSON.parse(row[2])?.[1];if(typeof decoded==="string"&&/^https?:\\/\\//.test(decoded))return decoded;}}}catch{}}
+  throw new Error("Google News could not resolve the publisher URL.");
+}
 module.exports = async function handler(req,res){
   if(req.method!=="POST"){res.setHeader("Allow","POST");return send(res,405,{error:"POST only"});}
   if(!rateLimit(req))return send(res,429,{error:"Rate limit: maximum 6 analyses per minute per IP."});
@@ -63,13 +80,15 @@ module.exports = async function handler(req,res){
   if(!url||!allowedUrl(url))return send(res,400,{error:"Unsupported or unsafe article URL. Please open the original source."});
   const origin=req.headers.origin;
   if(origin){try{const o=new URL(origin);if(o.hostname!==String(req.headers.host||"").split(":")[0])return send(res,403,{error:"Origin not permitted"});}catch{return send(res,403,{error:"Invalid origin"});}}
-  let sourceText="";
+  let sourceText="",resolvedUrl=url;
   try{
-    const readerUrl=READER_BASE+url.replace(/^https?:\/\//,"https://");
+    if(new URL(url).hostname==="news.google.com") resolvedUrl=await decodeGoogleNewsUrl(url);
+    if(!allowedUrl(resolvedUrl))throw new Error("Resolved publisher is not in the supported news-source allowlist.");
+    const readerUrl=READER_BASE+resolvedUrl.replace(/^https?:\\/\\//,"https://");
     const rr=await fetch(readerUrl,{headers:{Accept:"text/plain"},signal:AbortSignal.timeout(20000)});
     if(!rr.ok)throw new Error("Reader service HTTP "+rr.status);
     sourceText=await rr.text();
-    sourceText=sourceText.replace(/^Title:.*$/gmi,"").replace(/^URL Source:.*$/gmi,"").replace(/^Published Time:.*$/gmi,"").replace(/^Markdown Content:\s*/gmi,"").trim();
+    sourceText=sourceText.replace(/^Title:.*$/gmi,"").replace(/^URL Source:.*$/gmi,"").replace(/^Published Time:.*$/gmi,"").replace(/^Markdown Content:\\s*/gmi,"").trim();
     if(sourceText.length<900)throw new Error("Full article text was not extracted (possibly blocked/paywalled).");
   }catch(e){return send(res,424,{error:"Full article could not be retrieved. No article-based model answer was generated. "+e.message});}
   const articleText=sourceText.slice(0,MAX_ARTICLE_CHARS);
@@ -101,7 +120,7 @@ module.exports = async function handler(req,res){
     if(!content)throw new Error("AI returned empty content.");
     const study=JSON.parse(content);
     study.read_status="Full article extracted and processed by AI";
-    study.article_characters=sourceText.length;
+    study.article_characters=sourceText.length;\n    study.resolved_article_url=resolvedUrl;
     study.retrieval_note="Reader extraction; "+(sourceText.length>MAX_ARTICLE_CHARS?"analysis input truncated at "+MAX_ARTICLE_CHARS+" characters. ":"")+"Verify figures and quotes against original source.";
     study.word_counts={english_focus:countWords(study.focus_writing?.english),bangla_focus:countWords(study.focus_writing?.bangla)};
     return send(res,200,{study,model:MODEL});
