@@ -120,7 +120,8 @@ module.exports = async function handler(req,res){
     if(!content)throw new Error("AI returned empty content.");
     const study=JSON.parse(content);
     study.read_status="Full article extracted and processed by AI";
-    study.article_characters=sourceText.length;\n    study.resolved_article_url=resolvedUrl;
+    study.article_characters=sourceText.length;
+    study.resolved_article_url=resolvedUrl;
     study.retrieval_note="Reader extraction; "+(sourceText.length>MAX_ARTICLE_CHARS?"analysis input truncated at "+MAX_ARTICLE_CHARS+" characters. ":"")+"Verify figures and quotes against original source.";
     study.word_counts={english_focus:countWords(study.focus_writing?.english),bangla_focus:countWords(study.focus_writing?.bangla)};
     return send(res,200,{study,model:MODEL});
