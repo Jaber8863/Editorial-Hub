@@ -322,7 +322,7 @@ async function analyzeVisibleArticles(articles,button){
    if(!details)details=createStudyDetails(article,card);
    details.open=true;
    button.textContent="Analyzing "+(completed+failed+skipped+1)+"/"+articles.length+"…";
-   await readArticleForStudy(article,details,true);
+   await readArticleForStudy(article,details,false);
    if(details.dataset.readState==="done")completed++;else failed++;
   }
  }finally{button.dataset.running="";button.disabled=false;button.textContent=label+" · "+completed+" read"+(failed?" · "+failed+" failed":"")+(skipped?" · "+skipped+" skipped":"");}
