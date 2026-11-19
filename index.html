@@ -143,14 +143,33 @@
 .category-menu .drawer-subs{display:grid;gap:2px;padding:0 0 14px 5px}
 .category-menu .drawer-subs button{border:0;background:transparent;text-align:left;padding:10px 0;color:#40564d;font:16px Georgia,serif;cursor:pointer;touch-action:manipulation}
 @media(orientation:landscape) and (max-width:900px){.category-menu>.category-drawer{width:min(430px,65vw)}}
+
+/* No-JavaScript iOS-safe hamburger: URL fragment opens/closes the drawer */
+.category-menu{position:static!important;display:block!important;z-index:20000!important;flex:0 0 auto}
+.category-menu .hamburger-open{width:48px;height:48px;display:grid;place-items:center;border:1px solid #ffffff70;border-radius:12px;background:#ffffff18;color:#fff;text-decoration:none;touch-action:manipulation;-webkit-tap-highlight-color:transparent}
+.category-menu .hamburger-open span{font:30px/1 Arial,sans-serif;pointer-events:none}
+.category-menu .menu-shade{display:none!important}
+.category-menu .category-drawer{display:none!important}
+#category-drawer:target{display:block!important;position:fixed!important;z-index:20002!important;inset:0 0 0 auto!important;width:min(430px,92vw)!important;height:100vh!important;height:100dvh!important;overflow-y:auto!important;overscroll-behavior:contain!important;-webkit-overflow-scrolling:touch!important;background:#fff!important;color:#152c29!important;padding:calc(18px + env(safe-area-inset-top)) 20px calc(24px + env(safe-area-inset-bottom))!important;box-shadow:-16px 0 45px #071a1830!important;transform:none!important}
+#category-drawer:target~.menu-shade{display:block!important;position:fixed!important;z-index:20001!important;inset:0!important;background:#071a1880!important}
+.category-menu .drawer-close{width:42px;height:42px;display:grid;place-items:center;border-radius:50%;background:#eef3ef;color:#173d36;text-decoration:none;font:28px/1 Arial,sans-serif}
+.category-menu .drawer-head{display:flex;justify-content:space-between;align-items:center;padding-bottom:16px;border-bottom:1px solid var(--line)}
+.category-menu .drawer-links{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:16px 0}
+.category-menu .drawer-links a{padding:10px;border-radius:9px;background:#f2f6f2;color:#244b42;text-decoration:none;font-size:14px}
+.category-menu .drawer-group{border-bottom:1px solid var(--line)}
+.category-menu .drawer-group>summary{display:flex;justify-content:space-between;align-items:center;padding:15px 2px;list-style:none;color:#172724;font:600 19px Georgia,serif;cursor:pointer;touch-action:manipulation}
+.category-menu .drawer-group>summary::-webkit-details-marker{display:none}
+.category-menu .drawer-subs{display:grid;gap:2px;padding:0 0 14px 5px}
+.category-menu .drawer-subs button{border:0;background:transparent;text-align:left;padding:10px 0;color:#40564d;font:16px Georgia,serif;cursor:pointer;touch-action:manipulation}
+@media(orientation:landscape) and (max-width:900px){#category-drawer:target{width:min(430px,65vw)!important}}
 </style>
 <link rel="preload" href="./feed.json" as="fetch" crossorigin="anonymous"><meta name="color-scheme" content="light"></head>
 <body>
-<div class="topbar"><div class="shell"><div class="brandmark">EDITORIAL HUB BANGLADESH</div><div class="top-actions"><span class="top-live"><span class="live-dot"></span>YOUR DAILY READING DESK</span><details class="category-menu" id="category-menu">
-<summary aria-label="Open categories menu" title="Browse categories"><span class="hamburger-glyph" aria-hidden="true">☰</span></summary>
-<button class="menu-shade" type="button" aria-label="Close categories menu"></button>
-<nav class="category-drawer" aria-label="Browse categories">
-<div class="drawer-head"><b>Browse Categories</b><button type="button" id="menu-close" aria-label="Close menu">×</button></div>
+<div class="topbar" id="site-top"><div class="shell"><div class="brandmark">EDITORIAL HUB BANGLADESH</div><div class="top-actions"><span class="top-live"><span class="live-dot"></span>YOUR DAILY READING DESK</span><div class="category-menu" id="category-menu">
+<a class="hamburger-open" href="#category-drawer" aria-label="Open categories menu" title="Browse categories"><span aria-hidden="true">☰</span></a>
+<a class="menu-shade" href="#site-top" aria-label="Close categories menu"></a>
+<nav class="category-drawer" id="category-drawer" aria-label="Browse categories">
+<div class="drawer-head"><b>Browse Categories</b><a class="drawer-close" href="#site-top" aria-label="Close menu">×</a></div>
 <div class="drawer-links"><a href="#dashboard">Overview</a><a href="#news">News & Editorials</a><a href="#vocabulary">Vocabulary Bank</a><a href="#study-room">Daily Goals</a><a href="#profile">Login & Profile</a></div>
 <div id="drawer-categories">
 <details class="drawer-group"><summary>Bangladesh · বাংলা <span>⌄</span></summary><div class="drawer-subs"><button data-drawer-main="bangla" data-drawer-sub="জাতীয় ও নীতি">জাতীয় ও নীতি</button><button data-drawer-main="bangla" data-drawer-sub="অর্থনীতি ও ব্যাংকিং">অর্থনীতি ও ব্যাংকিং</button><button data-drawer-main="bangla" data-drawer-sub="আন্তর্জাতিক পাতা">আন্তর্জাতিক পাতা</button><button data-drawer-main="bangla" data-drawer-sub="সম্পাদকীয় ও মতামত">সম্পাদকীয় ও মতামত</button></div></details>
@@ -159,7 +178,7 @@
 <details class="drawer-group"><summary>Topic-wise <span>⌄</span></summary><div class="drawer-subs"><button data-drawer-main="topic" data-drawer-sub="Economy & Banking">Economy & Banking</button><button data-drawer-main="topic" data-drawer-sub="Governance & Public Policy">Governance & Public Policy</button><button data-drawer-main="topic" data-drawer-sub="Geopolitics">Geopolitics</button><button data-drawer-main="topic" data-drawer-sub="International Treaties & Pacts">International Treaties & Pacts</button><button data-drawer-main="topic" data-drawer-sub="Conferences & Summits">Conferences & Summits</button><button data-drawer-main="topic" data-drawer-sub="Seminars & Reports">Seminars & Reports</button><button data-drawer-main="topic" data-drawer-sub="Prizes & Awards">Prizes & Awards</button><button data-drawer-main="topic" data-drawer-sub="Environment & Climate">Environment & Climate</button><button data-drawer-main="topic" data-drawer-sub="Elections & Democracy">Elections & Democracy</button><button data-drawer-main="topic" data-drawer-sub="Military & Alliances">Military & Alliances</button><button data-drawer-main="topic" data-drawer-sub="Global Rankings & Indices">Global Rankings & Indices</button><button data-drawer-main="topic" data-drawer-sub="Science, Technology & AI">Science, Technology & AI</button><button data-drawer-main="topic" data-drawer-sub="Society & Development">Society & Development</button></div></details>
 </div>
 </nav>
-</details>
+</div>
 <header class="hero"><div class="shell"><div class="eyebrow">IDEA BY MD. JABER HOSSAIN · READ · UNDERSTAND · WRITE</div><h1>Turn today's news into<br>tomorrow's exam advantage.</h1><p>বাংলাদেশ ও বিশ্বের গুরুত্বপূর্ণ সংবাদ পড়ুন, যুক্তি দিয়ে বিশ্লেষণ করুন, নতুন শব্দ শিখুন এবং Bank · IBA · NSI · সরকারি চাকরির লিখিত পরীক্ষার প্রস্তুতি নিন—এক জায়গায়।</p><div class="hero-actions"><a class="btn primary" href="#news">আজকের সংবাদ পড়ুন ↓</a><a class="btn" href="#study-room">Study Room খুলুন</a></div></div></header>
 <div class="shell layout">
 <aside class="sidebar"><div class="sidebox"><div class="side-title">YOUR STUDY DESK</div><a class="side-link active" href="#dashboard"><span class="side-icon">⌂</span>Overview</a><a class="side-link" href="#news"><span class="side-icon">▤</span>News & Editorials</a><a class="side-link" href="#iba-topics"><span class="side-icon">◈</span>Topic Explorer</a><a class="side-link" href="#vocabulary"><span class="side-icon">Aa</span>Vocabulary Bank</a><a class="side-link" href="#study-room"><span class="side-icon">✓</span>Daily Goals</a><a class="side-link" href="#profile"><span class="side-icon">◉</span>Login & Profile</a><div class="side-note"><b>Study tip</b><br>একটি Editorial পড়ার পর অন্তত ৩টি নতুন শব্দ দিয়ে নিজের একটি বাক্য লিখুন।</div></div></aside>
@@ -189,13 +208,11 @@ const categories=[
  {id:"topic",label:"Topic-wise",subs:["Economy & Banking","Governance & Public Policy","Geopolitics","International Treaties & Pacts","Conferences & Summits","Seminars & Reports","Prizes & Awards","Environment & Climate","Elections & Democracy","Military & Alliances","Global Rankings & Indices","Science, Technology & AI","Society & Development"]}
 ];
 
-document.querySelector("#menu-close").addEventListener("click",()=>{document.querySelector("#category-menu").open=false});
-document.querySelector(".menu-shade").addEventListener("click",()=>{document.querySelector("#category-menu").open=false});
 document.querySelector("#drawer-categories").addEventListener("click",event=>{
  const btn=event.target.closest("[data-drawer-main]");
  if(!btn)return;
  category=btn.dataset.drawerMain;subCategory=btn.dataset.drawerSub;showSaved=false;
- document.querySelector("#category-menu").open=false;
+ location.hash="site-top";
  render();document.querySelector("#news").scrollIntoView({behavior:"smooth"});
 });
 let category="all",subCategory="সব বিষয়",showSaved=false,items=[];
