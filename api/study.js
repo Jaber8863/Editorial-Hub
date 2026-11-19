@@ -69,7 +69,7 @@ async function decodeGoogleNewsUrl(raw) {
   const rpc=await fetch("https://news.google.com/_/DotsSplashUi/data/batchexecute",{method:"POST",headers:{"user-agent":ua,"content-type":"application/x-www-form-urlencoded;charset=UTF-8","origin":"https://news.google.com","referer":"https://news.google.com/"},body,signal:AbortSignal.timeout(15000)});
   if(!rpc.ok) throw new Error("Google News URL decode HTTP "+rpc.status);
   const text=await rpc.text();
-  for(const line of text.split("\n")){if(!line.startsWith("[["))continue;try{for(const row of JSON.parse(line)){if(row[1]==="Fbv4je"&&typeof row[2]==="string"){const decoded=JSON.parse(row[2])?.[1];if(typeof decoded==="string"&&(decoded.startsWith("https://")||decoded.startsWith("http://"))return decoded;}}}catch{}}
+  for(const line of text.split("\n")){if(!line.startsWith("[["))continue;try{for(const row of JSON.parse(line)){if(row[1]==="Fbv4je"&&typeof row[2]==="string"){const decoded=JSON.parse(row[2])?.[1];if(typeof decoded==="string"&&(decoded.startsWith("https://")||decoded.startsWith("http://"))){return decoded;}}}}catch{}}
   throw new Error("Google News could not resolve the publisher URL.");
 }
 module.exports = async function handler(req,res){
