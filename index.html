@@ -211,7 +211,43 @@ function render(){
 function renderGlossary(){document.querySelector("#vocab-grid").innerHTML=glossary.map(w=>'<div class="word"><b>'+esc(w[0])+'</b><span>'+esc(w[1])+'</span><small>'+esc(w[2])+'</small></div>').join("")}
 function renderTasks(){const done=JSON.parse(localStorage.getItem("eh-tasks")||"[false,false,false]");document.querySelectorAll("[data-task]").forEach(el=>el.checked=!!done[Number(el.dataset.task)]);const n=done.filter(Boolean).length;document.querySelector("#task-count").textContent=n+"/5";document.querySelector("#progress-fill").style.width=(n/3*100)+"%"}
 document.querySelectorAll("[data-task]").forEach(el=>el.addEventListener("change",()=>{const done=Array.from({length:3},(_,i)=>!!document.querySelector('[data-task="'+i+'"]').checked);localStorage.setItem("eh-tasks",JSON.stringify(done));renderTasks()}));
-async function load(){const status=document.querySelector("#status");status.textContent="Loading articles…";try{let response,lastError;for(let attempt=0;attempt<3;attempt++){try{response=await fetch("./feed.json?ts="+Date.now()+"-"+attempt,{cache:"no-store",headers:{"Accept":"application/json"}});if(!response.ok)throw new Error("HTTP "+response.status);break}catch(err){lastError=err;if(attempt<2)await new Promise(resolve=>setTimeout(resolve,700*(attempt+1)))}}if(!response||!response.ok)throw lastError||new Error("Feed unavailable");const data=await response.json();if(!data||!Array.isArray(data.articles))throw new Error("Invalid feed format");items=data.articles.filter(x=>x&&x.title&&x.link&&!isEpaperPage(x)).sort((a,b)=>(articleISODate(b.date)||"").localeCompare(articleISODate(a.date)||""));render();const health=data.health||{};status.textContent="Updated "+(data.updated||"date unavailable")+" · "+items.length+" articles · "+(health.working_feeds??"—")+"/"+(health.configured_feeds??"—")+" sources online";if(!items.length)status.textContent+=" · No articles returned by publishers yet."}catch(e){items=[];render();status.textContent="Could not load articles ("+(e.message||"network error")+"). Please refresh in a moment.";console.error("Editorial Hub feed error:",e)}}
+async function load(){
+ const status=document.querySelector("#status");
+ const list=document.querySelector("#articles");
+ status.textContent="Loading articles…";
+ list.innerHTML='<div class="empty-state">Connecting to the news feed…</div>';
+ const feedUrl=new URL("/Editorial-Hub/feed.json",window.location.origin).href;
+ let lastError=null;
+ for(let attempt=1;attempt<=3;attempt++){
+  const controller=new AbortController();
+  const timeout=setTimeout(()=>controller.abort(),12000);
+  try{
+   const response=await fetch(feedUrl+"?v="+Date.now()+"-"+attempt,{
+    method:"GET",cache:"no-store",credentials:"same-origin",
+    headers:{"Accept":"application/json"},signal:controller.signal
+   });
+   if(!response.ok)throw new Error("Feed request failed: HTTP "+response.status);
+   const data=await response.json();
+   if(!data||!Array.isArray(data.articles))throw new Error("Feed JSON is missing its articles list");
+   const received=data.articles.filter(x=>x&&x.title&&x.link&&!isEpaperPage(x));
+   items=received.sort((a,b)=>(articleISODate(b.date)||"").localeCompare(articleISODate(a.date)||""));
+   render();
+   const health=data.health||{};
+   status.textContent="Updated "+(data.updated||"date unavailable")+" · "+items.length+" articles · "+(health.working_feeds??"—")+"/"+(health.configured_feeds??"—")+" sources online";
+   if(!items.length)status.textContent+=" · Feed is online, but no usable headlines were returned.";
+   clearTimeout(timeout);
+   return;
+  }catch(error){
+   lastError=error;
+   if(attempt<3)await new Promise(resolve=>setTimeout(resolve,500*attempt));
+  }finally{clearTimeout(timeout);}
+ }
+ items=[];
+ render();
+ const reason=lastError&&lastError.name==="AbortError"?"Request timed out after 12 seconds":(lastError&&lastError.message?lastError.message:"Unknown network error");
+ status.textContent="News feed could not load: "+reason+". Tap Refresh to try again.";
+ console.error("Editorial Hub feed loading failed:",feedUrl,lastError);
+}
 document.querySelector("#search").addEventListener("input",render);
 document.querySelector("#date-filter").addEventListener("change",render);
 document.querySelector("#clear-date").onclick=()=>{document.querySelector("#date-filter").value="";render()};
