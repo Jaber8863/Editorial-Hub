@@ -139,17 +139,36 @@ def fetch_feed(source, category, section, url):
         })
     return output
 
+from concurrent.futures import ThreadPoolExecutor, as_completed
+import time
+
+def fetch_feed_safe(feed):
+    source, category, section, url = feed
+    last_error = None
+    for attempt in range(3):
+        try:
+            found = fetch_feed(source, category, section, url)
+            return {"source": source, "category": category, "section": section,
+                    "status": "ok", "count": len(found)}, found
+        except Exception as exc:
+            last_error = exc
+            if attempt < 2:
+                time.sleep(1.5 * (attempt + 1))
+    return {"source": source, "category": category, "section": section,
+            "status": "failed", "count": 0, "error": str(last_error)[:180]}, []
+
 articles = []
 feed_status = []
-for source, category, section, url in FEEDS:
-    try:
-        found = fetch_feed(source, category, section, url)
+# Fetch feeds concurrently so one slow publisher cannot hold up the entire update.
+with ThreadPoolExecutor(max_workers=8) as pool:
+    futures = [pool.submit(fetch_feed_safe, feed) for feed in FEEDS]
+    for future in as_completed(futures):
+        status, found = future.result()
+        feed_status.append(status)
         articles.extend(found)
-        feed_status.append({"source": source, "category": category, "section": section, "status": "ok", "count": len(found)})
-        print("OK:", source, section, len(found))
-    except Exception as exc:
-        feed_status.append({"source": source, "category": category, "section": section, "status": "failed", "count": 0, "error": str(exc)[:180]})
-        print("Feed failed:", source, section, str(exc))
+        print(("OK: " if status["status"] == "ok" else "FAILED: "),
+              status["source"], status["section"], status["count"],
+              status.get("error", ""))
 
 seen = set()
 unique = []
@@ -160,16 +179,25 @@ for article in articles:
         unique.append(article)
 unique.sort(key=lambda article: article.get("date", ""), reverse=True)
 
+# Always publish a valid JSON file, even when every upstream feed is temporarily unavailable.
+payload = {
+    "updated": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
+    "articles": unique[:500],
+    "feed_status": sorted(feed_status, key=lambda x: (x["status"] != "ok", x["source"], x["section"])),
+    "sources_configured": {
+        "Bangla newspapers": len(BANGLA_PAPERS),
+        "Bangladesh English newspapers": len(BD_ENGLISH_PAPERS),
+        "International outlets": len(WORLD_FEEDS),
+        "sections_per_Bangladesh_paper": ["International Page", "Economics Page", "Editorial / Opinion"],
+    },
+    "health": {
+        "configured_feeds": len(FEEDS),
+        "working_feeds": sum(1 for feed in feed_status if feed["status"] == "ok"),
+        "failed_feeds": sum(1 for feed in feed_status if feed["status"] != "ok"),
+        "article_count": len(unique),
+    },
+}
 with open("feed.json", "w", encoding="utf-8") as output:
-    json.dump({
-        "updated": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
-        "articles": unique[:500],
-        "feed_status": feed_status,
-        "sources_configured": {
-            "Bangla newspapers": len(BANGLA_PAPERS),
-            "Bangladesh English newspapers": len(BD_ENGLISH_PAPERS),
-            "International outlets": len(WORLD_FEEDS),
-            "sections_per_Bangladesh_paper": ["International Page", "Economics Page", "Editorial / Opinion"],
-        },
-    }, output, ensure_ascii=False, indent=2)
-print("Wrote", min(len(unique), 500), "articles from", sum(1 for feed in feed_status if feed["status"] == "ok"), "working feeds")
+    json.dump(payload, output, ensure_ascii=False, indent=2)
+print("Wrote", min(len(unique), 500), "articles from",
+      payload["health"]["working_feeds"], "of", len(FEEDS), "working feeds")
