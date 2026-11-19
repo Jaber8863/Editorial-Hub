@@ -101,11 +101,40 @@
 .menu-shade{position:fixed;inset:0;background:#071a18a8;z-index:1100;opacity:0;visibility:hidden;transition:opacity .2s,visibility .2s}.category-drawer{position:fixed;z-index:1101;top:0;right:0;height:100dvh;width:min(440px,92vw);overflow-y:auto;background:#fff;color:#152c29;padding:calc(18px + env(safe-area-inset-top)) 20px calc(24px + env(safe-area-inset-bottom));box-shadow:-16px 0 45px #071a1830;transform:translateX(105%);transition:transform .24s ease;overscroll-behavior:contain}.menu-open .menu-shade{opacity:1;visibility:visible}.menu-open .category-drawer{transform:translateX(0)}.drawer-head{display:flex;align-items:center;justify-content:space-between;padding:4px 0 17px;border-bottom:1px solid var(--line);font-size:20px}.drawer-head button{border:0;background:#eef3ef;border-radius:50%;width:40px;height:40px;font-size:26px;color:var(--brand);cursor:pointer}.drawer-links{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:14px 0;border-bottom:1px solid var(--line)}.drawer-links a{background:#f2f6f2;border-radius:9px;padding:10px;font-size:13px;font-weight:700}.drawer-group{border-bottom:1px solid var(--line)}.drawer-group>button{width:100%;display:flex;justify-content:space-between;align-items:center;padding:15px 2px;border:0;background:transparent;color:#172724;font:600 18px Georgia,serif;text-align:left;cursor:pointer}.drawer-group>button span:last-child{width:28px;height:28px;border-radius:50%;background:var(--brand);color:#fff;display:grid;place-items:center;font:18px system-ui}.drawer-subs{display:none;padding:0 0 14px 4px}.drawer-group.open .drawer-subs{display:grid;gap:2px}.drawer-subs button{border:0;background:transparent;text-align:left;padding:8px 0;color:#40564d;font:16px Georgia,serif;cursor:pointer}.drawer-subs button:active,.drawer-subs button:hover{color:var(--brand2);text-decoration:underline}
 @media(max-width:620px){.top-live{display:none}.top-actions{margin-left:auto}.menu-toggle{width:40px;height:40px}.category-drawer{width:min(420px,94vw)}.sidebar{display:none}}
 @media(orientation:landscape) and (max-width:900px){.category-drawer{width:min(420px,70vw)}}
+
+/* Native details menu: no JS needed to open or expand categories */
+.category-menu{position:relative;z-index:1200}
+.category-menu>summary{list-style:none;width:44px;height:44px;display:grid;place-items:center;border:1px solid #ffffff66;border-radius:11px;background:#ffffff14;color:#fff;cursor:pointer;font-size:0}
+.category-menu>summary::-webkit-details-marker{display:none}
+.hamburger-glyph{font:28px/1 Arial,sans-serif;color:#fff}
+.category-menu[open] .menu-shade{position:fixed;inset:0;background:#071a18a8;z-index:1198;display:block}
+.category-menu .category-drawer{position:fixed;z-index:1199;top:0;right:0;height:100dvh;width:min(440px,92vw);overflow-y:auto;background:#fff;color:#152c29;padding:calc(18px + env(safe-area-inset-top)) 20px calc(24px + env(safe-area-inset-bottom));box-shadow:-16px 0 45px #071a1830;overscroll-behavior:contain;display:block}
+.category-menu:not([open]) .category-drawer,.category-menu:not([open]) .menu-shade{display:none}
+.category-menu .drawer-head label{border:0;background:#eef3ef;border-radius:50%;width:40px;height:40px;font-size:26px;color:var(--brand);cursor:pointer;display:grid;place-items:center}
+.category-menu .drawer-group{border-bottom:1px solid var(--line)}
+.category-menu .drawer-group>summary{list-style:none;display:flex;justify-content:space-between;align-items:center;padding:15px 2px;color:#172724;font:600 19px Georgia,serif;cursor:pointer}
+.category-menu .drawer-group>summary::-webkit-details-marker{display:none}
+.category-menu .drawer-group>summary span{width:28px;height:28px;border-radius:50%;background:var(--brand);color:#fff;display:grid;place-items:center;font:18px system-ui}
+.category-menu .drawer-group[open]>summary span{transform:rotate(180deg)}
+.category-menu .drawer-subs{display:grid;gap:2px;padding:0 0 14px 5px}
+.category-menu .drawer-subs button{border:0;background:transparent;text-align:left;padding:9px 0;color:#40564d;font:16px Georgia,serif;cursor:pointer}
+@media(max-width:620px){.top-live{display:none}.category-menu .category-drawer{width:min(420px,94vw)}.sidebar{display:none}}
+@media(orientation:landscape) and (max-width:900px){.category-menu .category-drawer{width:min(420px,70vw)}}
 </style>
 <link rel="preload" href="./feed.json" as="fetch" crossorigin="anonymous"><meta name="color-scheme" content="light"></head>
 <body>
-<div class="topbar"><div class="shell"><div class="brandmark">EDITORIAL HUB BANGLADESH</div><div class="top-actions"><span class="top-live"><span class="live-dot"></span>YOUR DAILY READING DESK</span><button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open categories menu" aria-expanded="false">☰</button></div></div></div>
-<div class="menu-shade" id="menu-shade"></div><nav class="category-drawer" id="category-drawer" aria-hidden="true"><div class="drawer-head"><b>Browse Categories</b><button type="button" id="menu-close" aria-label="Close menu">×</button></div><div class="drawer-links"><a href="#dashboard">Overview</a><a href="#news">News & Editorials</a><a href="#vocabulary">Vocabulary Bank</a><a href="#study-room">Daily Goals</a><a href="#profile">Login & Profile</a></div><div id="drawer-categories"></div></nav>
+<div class="topbar"><div class="shell"><div class="brandmark">EDITORIAL HUB BANGLADESH</div><div class="top-actions"><span class="top-live"><span class="live-dot"></span>YOUR DAILY READING DESK</span></div></div></div>
+<details class="category-menu" id="category-menu">
+<summary aria-label="Open categories menu"><span class="hamburger-glyph">☰</span></summary><div class="menu-shade"></div>
+<nav class="category-drawer" aria-label="Browse categories">
+<div class="drawer-head"><b>Browse Categories</b><label for="category-menu" aria-label="Close menu">×</label></div>
+<div class="drawer-links"><a href="#dashboard">Overview</a><a href="#news">News & Editorials</a><a href="#vocabulary">Vocabulary Bank</a><a href="#study-room">Daily Goals</a><a href="#profile">Login & Profile</a></div>
+<div id="drawer-categories">
+<details class="drawer-group"><summary>Bangladesh · বাংলা <span>⌄</span></summary><div class="drawer-subs"><button data-drawer-main="bangla" data-drawer-sub="জাতীয় ও নীতি">জাতীয় ও নীতি</button><button data-drawer-main="bangla" data-drawer-sub="অর্থনীতি ও ব্যাংকিং">অর্থনীতি ও ব্যাংকিং</button><button data-drawer-main="bangla" data-drawer-sub="আন্তর্জাতিক পাতা">আন্তর্জাতিক পাতা</button><button data-drawer-main="bangla" data-drawer-sub="সম্পাদকীয় ও মতামত">সম্পাদকীয় ও মতামত</button></div></details>
+<details class="drawer-group"><summary>Bangladesh · English <span>⌄</span></summary><div class="drawer-subs"><button data-drawer-main="bd-en" data-drawer-sub="National Affairs">National Affairs</button><button data-drawer-main="bd-en" data-drawer-sub="Economy & Banking">Economy & Banking</button><button data-drawer-main="bd-en" data-drawer-sub="International Page">International Page</button><button data-drawer-main="bd-en" data-drawer-sub="Editorial & Opinion">Editorial & Opinion</button></div></details>
+<details class="drawer-group"><summary>International <span>⌄</span></summary><div class="drawer-subs"><button data-drawer-main="international" data-drawer-sub="Global Affairs">Global Affairs</button><button data-drawer-main="international" data-drawer-sub="Geopolitics">Geopolitics</button><button data-drawer-main="international" data-drawer-sub="World Economy">World Economy</button><button data-drawer-main="international" data-drawer-sub="Editorial & Opinion">Editorial & Opinion</button></div></details>
+<details class="drawer-group"><summary>Topic-wise <span>⌄</span></summary><div class="drawer-subs"><button data-drawer-main="topic" data-drawer-sub="Economy & Banking">Economy & Banking</button><button data-drawer-main="topic" data-drawer-sub="Governance & Public Policy">Governance & Public Policy</button><button data-drawer-main="topic" data-drawer-sub="Geopolitics">Geopolitics</button><button data-drawer-main="topic" data-drawer-sub="International Treaties & Pacts">International Treaties & Pacts</button><button data-drawer-main="topic" data-drawer-sub="Conferences & Summits">Conferences & Summits</button><button data-drawer-main="topic" data-drawer-sub="Seminars & Reports">Seminars & Reports</button><button data-drawer-main="topic" data-drawer-sub="Prizes & Awards">Prizes & Awards</button><button data-drawer-main="topic" data-drawer-sub="Environment & Climate">Environment & Climate</button><button data-drawer-main="topic" data-drawer-sub="Elections & Democracy">Elections & Democracy</button><button data-drawer-main="topic" data-drawer-sub="Military & Alliances">Military & Alliances</button><button data-drawer-main="topic" data-drawer-sub="Global Rankings & Indices">Global Rankings & Indices</button><button data-drawer-main="topic" data-drawer-sub="Science, Technology & AI">Science, Technology & AI</button><button data-drawer-main="topic" data-drawer-sub="Society & Development">Society & Development</button></div></details>
+</div></nav></details>
 <header class="hero"><div class="shell"><div class="eyebrow">IDEA BY MD. JABER HOSSAIN · READ · UNDERSTAND · WRITE</div><h1>Turn today's news into<br>tomorrow's exam advantage.</h1><p>বাংলাদেশ ও বিশ্বের গুরুত্বপূর্ণ সংবাদ পড়ুন, যুক্তি দিয়ে বিশ্লেষণ করুন, নতুন শব্দ শিখুন এবং Bank · IBA · NSI · সরকারি চাকরির লিখিত পরীক্ষার প্রস্তুতি নিন—এক জায়গায়।</p><div class="hero-actions"><a class="btn primary" href="#news">আজকের সংবাদ পড়ুন ↓</a><a class="btn" href="#study-room">Study Room খুলুন</a></div></div></header>
 <div class="shell layout">
 <aside class="sidebar"><div class="sidebox"><div class="side-title">YOUR STUDY DESK</div><a class="side-link active" href="#dashboard"><span class="side-icon">⌂</span>Overview</a><a class="side-link" href="#news"><span class="side-icon">▤</span>News & Editorials</a><a class="side-link" href="#iba-topics"><span class="side-icon">◈</span>Topic Explorer</a><a class="side-link" href="#vocabulary"><span class="side-icon">Aa</span>Vocabulary Bank</a><a class="side-link" href="#study-room"><span class="side-icon">✓</span>Daily Goals</a><a class="side-link" href="#profile"><span class="side-icon">◉</span>Login & Profile</a><div class="side-note"><b>Study tip</b><br>একটি Editorial পড়ার পর অন্তত ৩টি নতুন শব্দ দিয়ে নিজের একটি বাক্য লিখুন।</div></div></aside>
@@ -134,16 +163,13 @@ const categories=[
  {id:"topic",label:"Topic-wise",subs:["Economy & Banking","Governance & Public Policy","Geopolitics","International Treaties & Pacts","Conferences & Summits","Seminars & Reports","Prizes & Awards","Environment & Climate","Elections & Democracy","Military & Alliances","Global Rankings & Indices","Science, Technology & AI","Society & Development"]}
 ];
 
-function renderDrawerCategories(){
- const host=document.querySelector("#drawer-categories");
- host.innerHTML=categories.filter(c=>c.id!=="all").map(c=>'<div class="drawer-group"><button type="button" aria-expanded="false"><span>'+esc(c.label)+'</span><span>⌄</span></button><div class="drawer-subs">'+c.subs.map(sub=>'<button type="button" data-drawer-main="'+esc(c.id)+'" data-drawer-sub="'+esc(sub)+'">'+esc(sub)+'</button>').join("")+'</div></div>').join("");
- host.querySelectorAll(".drawer-group>button").forEach(btn=>btn.onclick=()=>{const group=btn.parentElement;group.classList.toggle("open");btn.setAttribute("aria-expanded",group.classList.contains("open")?"true":"false")});
- host.querySelectorAll("[data-drawer-main]").forEach(btn=>btn.onclick=()=>{category=btn.dataset.drawerMain;subCategory=btn.dataset.drawerSub;showSaved=false;closeDrawer();render();document.querySelector("#news").scrollIntoView({behavior:"smooth"})});
-}
-function closeDrawer(){document.body.classList.remove("menu-open");document.querySelector("#menu-toggle").setAttribute("aria-expanded","false");document.querySelector("#category-drawer").setAttribute("aria-hidden","true")}
-document.querySelector("#menu-toggle").onclick=()=>{document.body.classList.add("menu-open");document.querySelector("#menu-toggle").setAttribute("aria-expanded","true");document.querySelector("#category-drawer").setAttribute("aria-hidden","false")};
-document.querySelector("#menu-close").onclick=closeDrawer;document.querySelector("#menu-shade").onclick=closeDrawer;
-document.addEventListener("keydown",e=>{if(e.key==="Escape")closeDrawer()});
+document.querySelector("#drawer-categories").addEventListener("click",event=>{
+ const btn=event.target.closest("[data-drawer-main]");
+ if(!btn)return;
+ category=btn.dataset.drawerMain;subCategory=btn.dataset.drawerSub;showSaved=false;
+ document.querySelector("#category-menu").open=false;
+ render();document.querySelector("#news").scrollIntoView({behavior:"smooth"});
+});
 let category="all",subCategory="সব বিষয়",showSaved=false,items=[];
 const saved=()=>JSON.parse(localStorage.getItem("editorial-saved")||"[]");
 function articleISODate(value=""){if(!value)return "";const s=String(value).trim();const m=s.match(/^(\d{4}-\d{2}-\d{2})/);if(m)return m[1];const d=new Date(s);return Number.isNaN(d.getTime())?"":new Date(Date.UTC(d.getFullYear(),d.getMonth(),d.getDate())).toISOString().slice(0,10)}
@@ -212,7 +238,6 @@ function renderIba(){
  tabs.querySelectorAll("[data-iba]").forEach(b=>b.onclick=()=>show(Number(b.dataset.iba)));show(0);
 }
 function render(){
- renderDrawerCategories();
  const q=document.querySelector("#search").value.toLowerCase(),date=document.querySelector("#date-filter").value,keep=saved();
  const visible=items.filter(x=>!isEpaperPage(x));
  const filtered=visible.filter(x=>{const c=classifyArticle(x);const inMain=category==="all"||c.main===category||(category==="topic"&&subCategory==="সব বিষয়");const inSub=subCategory==="সব বিষয়"||(category==="topic"?c.topic===subCategory:(c.topic===subCategory||c.section.toLowerCase().includes(subCategory.toLowerCase())||((subCategory==="সম্পাদকীয় ও মতামত"||subCategory==="Editorial & Opinion")&&c.isOpinion)));return inMain&&inSub&&(!showSaved||keep.includes(x.link))&&(!date||articleISODate(x.date)===date)&&articleText(x).includes(q)});
@@ -233,10 +258,13 @@ async function load(){
  const status=document.querySelector("#status"),list=document.querySelector("#articles");
  status.textContent="Loading articles…";
  list.innerHTML='<div class="empty">Loading selected headlines…</div>';
- const sources=[
-  new URL("./feed.json",document.baseURI).href,
-  "https://raw.githubusercontent.com/Jaber8863/Editorial-Hub/main/feed.json"
- ];
+ const embedded=window.EDITORIAL_HUB_FEED;
+ if(embedded&&Array.isArray(embedded.articles)){
+  items=embedded.articles.filter(x=>x&&x.title&&x.link&&!isEpaperPage(x)).sort((a,b)=>(articleISODate(b.date)||"").localeCompare(articleISODate(a.date)||""));
+  render();const h=embedded.health||{};status.textContent="Updated "+(embedded.updated||"recently")+" · "+items.length+" articles · "+(h.working_feeds??"—")+"/"+(h.configured_feeds??"—")+" sources online";
+  try{localStorage.setItem("eh-feed-cache",JSON.stringify({savedAt:Date.now(),articles:items,updated:embedded.updated,health:embedded.health}))}catch(e){} return;
+ }
+ const sources=[new URL("./feed.json",document.baseURI).href];
  let lastError=null;
  for(const url of sources){
   const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),6000);
