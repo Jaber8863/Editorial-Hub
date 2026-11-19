@@ -71,6 +71,30 @@
   .news-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
 }
 
+
+/* Keep subject sub-categories available while browsing the Topic Explorer */
+#iba-topics .tabs{
+ position:sticky;top:8px;z-index:35;
+ background:rgba(255,255,255,.97);
+ padding:10px 8px 11px;margin:12px -4px 14px;
+ border:1px solid var(--line);border-radius:14px;
+ box-shadow:0 5px 18px #183a2d10;
+ backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+}
+#iba-topics .tabs::-webkit-scrollbar{display:none}
+#iba-topics .tab{flex:0 0 auto}
+.page-jump{position:fixed;right:max(14px,env(safe-area-inset-right));bottom:calc(18px + env(safe-area-inset-bottom));z-index:1000;display:flex;flex-direction:column;gap:9px;opacity:0;visibility:hidden;transform:translateY(8px);transition:opacity .18s ease,transform .18s ease,visibility .18s}
+.page-jump.is-visible{opacity:1;visibility:visible;transform:translateY(0)}
+.page-jump button{width:46px;height:46px;border:1px solid #d8e3dc;border-radius:50%;background:rgba(16,44,42,.94);color:#fff;box-shadow:0 5px 18px #102c2a35;font-size:21px;line-height:1;display:grid;place-items:center;cursor:pointer;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
+.page-jump button:active{transform:scale(.95)}
+@media(max-width:620px){
+ #iba-topics .tabs{top:6px;margin:10px -2px 13px;padding:9px 7px 10px;border-radius:12px}
+ #iba-topics .tab{min-height:40px;padding:8px 12px;font-size:11px}
+ .page-jump{right:max(10px,env(safe-area-inset-right));bottom:calc(14px + env(safe-area-inset-bottom));gap:8px}
+ .page-jump button{width:42px;height:42px;font-size:19px}
+}
+@media(prefers-reduced-motion:reduce){.page-jump,.page-jump button{transition:none}html{scroll-behavior:auto}}
+
 </style>
 </head>
 <body>
@@ -161,4 +185,17 @@ document.querySelector("#refresh").onclick=load;
 document.querySelector("#saved").onclick=()=>{showSaved=!showSaved;document.querySelector("#saved").textContent=showSaved?"← সব সংবাদ দেখুন":"★ Bookmarks দেখুন";render()};
 document.querySelector("#today-date").textContent=new Date().toLocaleDateString("bn-BD",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
 renderGlossary();renderTasks();load();
+
+/* Quick page navigation: available after the reader scrolls into the page */
+const pageJump=document.createElement("div");
+pageJump.className="page-jump";
+pageJump.setAttribute("aria-label","Page navigation");
+pageJump.innerHTML='<button type="button" id="jump-top" aria-label="Go to top" title="Go to top">↑</button><button type="button" id="jump-bottom" aria-label="Go to bottom" title="Go to bottom">↓</button>';
+document.body.appendChild(pageJump);
+const updatePageJump=()=>{const y=window.scrollY||document.documentElement.scrollTop;const max=document.documentElement.scrollHeight-window.innerHeight;pageJump.classList.toggle("is-visible",max>500&&y>220);document.querySelector("#jump-top").disabled=y<80;document.querySelector("#jump-bottom").disabled=max-y<80};
+document.querySelector("#jump-top").addEventListener("click",()=>window.scrollTo({top:0,behavior:window.matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"}));
+document.querySelector("#jump-bottom").addEventListener("click",()=>window.scrollTo({top:document.documentElement.scrollHeight,behavior:window.matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"}));
+window.addEventListener("scroll",updatePageJump,{passive:true});
+window.addEventListener("resize",updatePageJump);
+updatePageJump();
 </script></body></html>
