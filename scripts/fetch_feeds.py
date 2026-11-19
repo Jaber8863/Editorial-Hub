@@ -2,7 +2,8 @@ import json
 import re
 import urllib.request
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone\nfrom urllib.parse import quote_plus
+from datetime import datetime, timezone
+from urllib.parse import quote_plus
 
 def google_news_feed(domain, terms, language="en", country="US", edition="US:en"):
     query = f"site:{domain} {terms}"
