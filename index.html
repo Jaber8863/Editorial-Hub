@@ -294,7 +294,6 @@ function buildStudyPack(x){
 <p>“Evidence-based policy and effective implementation are more important than announcements alone.” Discuss this statement with reference to the article. (5 marks)</p>
 </div>`;
 }
-}
 function renderIba(){
  const tabs=document.querySelector("#iba-tabs"),host=document.querySelector("#iba-news");if(!tabs||!host)return;
  tabs.innerHTML=topicTags.map((g,i)=>'<button class="tab '+(i===0?'active':'')+'" data-iba="'+i+'">'+esc(g[0])+'</button>').join("");
