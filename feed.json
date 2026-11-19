@@ -32,8 +32,8 @@
       "date": "Wed, 31 Dec 2025 08:00:00 GMT",
       "source": "সংবাদ",
       "category": "Bangladesh · বাংলা",
-      "section": "International Page",
-      "type": "International Page",
+      "section": "All News",
+      "type": "All News",
       "topics": [],
       "exam_priority": "General"
     },
@@ -472,6 +472,21 @@
       "exam_priority": "General"
     },
     {
+      "title": "বিশ্ব অর্থনীতিতে ব্রিকসের উত্থান : বদলে যাচ্ছে শক্তির ভারসাম্য - Rupali Bangladesh",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE81ZHdJRDMxelRldl9kaFJuNWVNWjQxWm5FZlhNSE5SQVFTSTF3WHgwYzNYSjdqdG9malFIVFA4SGFsbXJZVXNxelRjNDN5bmZIWnlyRWpuYXNIVmVuc2hsSVROMF80aGdxSmliQQ?oc=5",
+      "summary": "বিশ্ব অর্থনীতিতে ব্রিকসের উত্থান : বদলে যাচ্ছে শক্তির ভারসাম্য Rupali Bangladesh",
+      "date": "Wed, 28 Oct 2026 07:00:00 GMT",
+      "source": "দৈনিক রূপালী",
+      "category": "Bangladesh · বাংলা",
+      "section": "International Page",
+      "type": "International Page",
+      "topics": [
+        "Economy & Banking",
+        "Governance & Public Policy"
+      ],
+      "exam_priority": "High"
+    },
+    {
       "title": "কৃষি ব্যাংক ও মাস্টারকার্ডের মধ্যে লাইসেন্স হস্তান্তর - Rupali Bangladesh",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5UblpTUlppcjFNanhxNFN3bll6WFVBMUpGbHJxV09TRXBnUjRtY0IycVhjUzl5STdvTkg0clZtc1oxM3hIMVA0MHVzOWVkS3B1UlNVc3ZuOGF1enBwb1VXSDhnUUQ4eDVnTHEyV3M1UEZPY1JhSzRRSg?oc=5",
       "summary": "কৃষি ব্যাংক ও মাস্টারকার্ডের মধ্যে লাইসেন্স হস্তান্তর Rupali Bangladesh",
@@ -500,21 +515,6 @@
       "exam_priority": "Medium"
     },
     {
-      "title": "বিশ্ব অর্থনীতিতে ব্রিকসের উত্থান : বদলে যাচ্ছে শক্তির ভারসাম্য - Rupali Bangladesh",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE81ZHdJRDMxelRldl9kaFJuNWVNWjQxWm5FZlhNSE5SQVFTSTF3WHgwYzNYSjdqdG9malFIVFA4SGFsbXJZVXNxelRjNDN5bmZIWnlyRWpuYXNIVmVuc2hsSVROMF80aGdxSmliQQ?oc=5",
-      "summary": "বিশ্ব অর্থনীতিতে ব্রিকসের উত্থান : বদলে যাচ্ছে শক্তির ভারসাম্য Rupali Bangladesh",
-      "date": "Wed, 28 Oct 2026 07:00:00 GMT",
-      "source": "দৈনিক রূপালী",
-      "category": "Bangladesh · বাংলা",
-      "section": "International Page",
-      "type": "International Page",
-      "topics": [
-        "Economy & Banking",
-        "Governance & Public Policy"
-      ],
-      "exam_priority": "High"
-    },
-    {
       "title": "জেন জি আন্দোলনের মূল প্রশ্নটি কি? - Daily Observer",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE55YlFWY1E1VFRJOUluZ0hJVGZGa0dkN0hYQ3QwTDVUbk0wNFFMbnRIS0RVVzVERUI4NmlGdTVYMTlxRlVXUV96T2w5b2hNQQ?oc=5",
       "summary": "জেন জি আন্দোলনের মূল প্রশ্নটি কি? Daily Observer",
@@ -523,18 +523,6 @@
       "category": "Bangladesh · বাংলা",
       "section": "Editorial / Opinion",
       "type": "Editorial / Opinion",
-      "topics": [],
-      "exam_priority": "General"
-    },
-    {
-      "title": "বাংলাদেশে আন্তর্জাতিক ফ্যাশন ব্র্যান্ড ‘এথনিক’-এর আনুষ্ঠানিক যাত্রা শুরু",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFByQlV0Sm5QMFVtaHdSYXI1R2lMNGEyMHNXVjBCdTNZOU5JZkw2N3lfUlR4X2FILUJMckFsOXlidUFJaUFiV3lNbHNhVVRfaF9hbmc?oc=5",
-      "summary": "বাংলাদেশে আন্তর্জাতিক ফ্যাশন ব্র্যান্ড ‘এথনিক’-এর আনুষ্ঠানিক যাত্রা শুরু dhakapost.com",
-      "date": "Wed, 28 Oct 2026 07:00:00 GMT",
-      "source": "The Dhaka Post",
-      "category": "Bangladesh · বাংলা",
-      "section": "International Page",
-      "type": "International Page",
       "topics": [],
       "exam_priority": "General"
     },
@@ -580,6 +568,18 @@
         "Prizes & Awards"
       ],
       "exam_priority": "High"
+    },
+    {
+      "title": "বাংলাদেশে আন্তর্জাতিক ফ্যাশন ব্র্যান্ড ‘এথনিক’-এর আনুষ্ঠানিক যাত্রা শুরু",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFByQlV0Sm5QMFVtaHdSYXI1R2lMNGEyMHNXVjBCdTNZOU5JZkw2N3lfUlR4X2FILUJMckFsOXlidUFJaUFiV3lNbHNhVVRfaF9hbmc?oc=5",
+      "summary": "বাংলাদেশে আন্তর্জাতিক ফ্যাশন ব্র্যান্ড ‘এথনিক’-এর আনুষ্ঠানিক যাত্রা শুরু dhakapost.com",
+      "date": "Wed, 28 Oct 2026 07:00:00 GMT",
+      "source": "The Dhaka Post",
+      "category": "Bangladesh · বাংলা",
+      "section": "International Page",
+      "type": "International Page",
+      "topics": [],
+      "exam_priority": "General"
     },
     {
       "title": "বাংলাদেশ-জাপান ব্যবসা বাণিজ্য বাড়াতে আরও বেশি বিনিয়োগের আহবান প্রধানমন্ত্রীর |PM |Bangladesh|Japan - United News of Bangladesh",
@@ -1101,19 +1101,18 @@
       "exam_priority": "High"
     },
     {
-      "title": "Bangladesh first: reimagining economic diplomacy",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPckRhT0wzVlRzcWFfMWl2azB5QVRfMVVCRDZPYUFyZElUMjR2aHZ3UnpOcWpFWUF0R19BQkowRXFNRXV3c1ZXUV85d1hSMHBqWjM0OGtTckkxQXQ0OGdvdzYtU0x6cm1sdVpjX3FNWDlvNGNMeVNQQVJOLTRpbjBKQWNJbGNtVUw4TXVJVzhKcURDd09Yd2UtTXJOWlU?oc=5",
-      "summary": "Bangladesh first: reimagining economic diplomacy The Financial Express",
+      "title": "World Bank helps Bangladesh strengthen its banking sector",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOOExaYm02UVA1b25COUdZM0loTkdPaU1DbWw2czkzX1V3d0Z5d3lUT0hDS0lIY0Y0U2FaT1kybzI1aHc5aEJJZEZubjBTRVNER3UtUlJPc2J4MFBYYVlBR2xkQlJaWjdRUElQNU1LVmNOYnJZemltdjdzM0hRS1M1LTNEcGFDWHkxODlIbU93Z1hLYkwxODZIcHUwVUZkbUN6VzJn0gGoAUFVX3lxTE91WmlpbG1LcHpydlhYNTFJbzF0ajh3M2VKSUxWRDNtRW1iQno1Vk1venpwckJHT0NCWGNoT285WGRMUnJCRUVUejdZZldyaV9oSDdKaXhxLUIwbXc4alhEaENLaXRJdGdOOV9pcjBRY3JPX3kxRkVfczFNLV9fQ0hyeEowOGpyT2trYVJRQTJfSXNoU0RQOHQ4V2pVNXh2U1U5dWlDZEhDTg?oc=5",
+      "summary": "World Bank helps Bangladesh strengthen its banking sector Dhaka Tribune",
       "date": "Wed, 24 Jun 2026 07:00:00 GMT",
-      "source": "The Financial Express",
+      "source": "Dhaka Tribune",
       "category": "Bangladesh · English",
-      "section": "International Page",
-      "type": "International Page",
+      "section": "Economics Page",
+      "type": "Economics Page",
       "topics": [
-        "Economy & Banking",
-        "Geopolitics"
+        "Economy & Banking"
       ],
-      "exam_priority": "High"
+      "exam_priority": "Medium"
     },
     {
       "title": "'Ten Commandments' for Bangladesh economy",
@@ -1130,18 +1129,19 @@
       "exam_priority": "Medium"
     },
     {
-      "title": "World Bank helps Bangladesh strengthen its banking sector",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOOExaYm02UVA1b25COUdZM0loTkdPaU1DbWw2czkzX1V3d0Z5d3lUT0hDS0lIY0Y0U2FaT1kybzI1aHc5aEJJZEZubjBTRVNER3UtUlJPc2J4MFBYYVlBR2xkQlJaWjdRUElQNU1LVmNOYnJZemltdjdzM0hRS1M1LTNEcGFDWHkxODlIbU93Z1hLYkwxODZIcHUwVUZkbUN6VzJn0gGoAUFVX3lxTE91WmlpbG1LcHpydlhYNTFJbzF0ajh3M2VKSUxWRDNtRW1iQno1Vk1venpwckJHT0NCWGNoT285WGRMUnJCRUVUejdZZldyaV9oSDdKaXhxLUIwbXc4alhEaENLaXRJdGdOOV9pcjBRY3JPX3kxRkVfczFNLV9fQ0hyeEowOGpyT2trYVJRQTJfSXNoU0RQOHQ4V2pVNXh2U1U5dWlDZEhDTg?oc=5",
-      "summary": "World Bank helps Bangladesh strengthen its banking sector Dhaka Tribune",
+      "title": "Bangladesh first: reimagining economic diplomacy",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPckRhT0wzVlRzcWFfMWl2azB5QVRfMVVCRDZPYUFyZElUMjR2aHZ3UnpOcWpFWUF0R19BQkowRXFNRXV3c1ZXUV85d1hSMHBqWjM0OGtTckkxQXQ0OGdvdzYtU0x6cm1sdVpjX3FNWDlvNGNMeVNQQVJOLTRpbjBKQWNJbGNtVUw4TXVJVzhKcURDd09Yd2UtTXJOWlU?oc=5",
+      "summary": "Bangladesh first: reimagining economic diplomacy The Financial Express",
       "date": "Wed, 24 Jun 2026 07:00:00 GMT",
-      "source": "Dhaka Tribune",
+      "source": "The Financial Express",
       "category": "Bangladesh · English",
-      "section": "Economics Page",
-      "type": "Economics Page",
+      "section": "International Page",
+      "type": "International Page",
       "topics": [
-        "Economy & Banking"
+        "Economy & Banking",
+        "Geopolitics"
       ],
-      "exam_priority": "Medium"
+      "exam_priority": "High"
     },
     {
       "title": "11 Joint Investigation Teams working on priority money laundering cases: Finance Minister - United News of Bangladesh",
@@ -1711,6 +1711,21 @@
       "exam_priority": "General"
     },
     {
+      "title": "জ্বালানি ও খাদ্যের দাম বাড়লে চাপে পড়বে বাংলাদেশের অর্থনীতি - Dhaka Mail",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB2WURQWUFZRGNTX0hsWlZhMWg3N1ljXzBxV29hT2g4bGtVSFFVREJxY0liN2NDVVRWYzRHbmdoU05ON1Z1aDhQWkVoV3fSAVJBVV95cUxPMFBHd24tZWI1a0g1eTh6a1NjWWtacWdubl9jSzU3V2loVVF2N3NJWmlVRU9qOE91TnRxTEt0V2M2NEtyMDhrb254LWRYRHR3ajFR?oc=5",
+      "summary": "জ্বালানি ও খাদ্যের দাম বাড়লে চাপে পড়বে বাংলাদেশের অর্থনীতি Dhaka Mail",
+      "date": "Wed, 21 Oct 2026 07:00:00 GMT",
+      "source": "ঢাকা মেইল",
+      "category": "Bangladesh · বাংলা",
+      "section": "Economics Page",
+      "type": "Economics Page",
+      "topics": [
+        "Economy & Banking",
+        "Governance & Public Policy"
+      ],
+      "exam_priority": "High"
+    },
+    {
       "title": "এবার হত্যাচেষ্টা মামলায় ৪ দিনের রিমান্ডে দিলীপ কুমার আগারওয়ালা - United News of Bangladesh",
       "link": "https://news.google.com/rss/articles/CBMizgZBVV95cUxQX0M5UGo1ZDFtUllhN1RHcHh5MkdxQkp5TmtlTVB6RWN2Wk9JXzFkZ2tOa1BWUWxCcjZma0ZyaEV4TXl4cVgzZkhCWEtQbk00eWVkY3JoUkJFdlJ2OThXWTI1aFQzajFiUFc3emJ1blVrU0ZQTndFeF9mRlJDVXQ3am1mNHZ4MGxpVmxpazRwLTJud25sVHN3VWtWbFdCZkwxOVJNX2x4NUxSaWlLTHc2aGlGM19hSWdGS0dNMll1MDNnc01BbHZ3eW1LSVFLcFBsWklwNldxVENZU25OTHAtNWE0ZVVVZTNOV1owTHYzNGw4OHRDemNQSEJXblBjUTlqdy03Nlc0cjlSR3dhcWktd0E2aUdQMGNTcWx3NmU3MW85Y2FtN2g4b2U2ODRWZU9Ec0RGcVQ1YmZneF9SNlgxOWpSaFB6MWZYbHVIQU5OVEZpdzJ6YndvaHB6cVBvUWpTVE90SFJ5bFI5V3p5bEd3N3JfZHpjYjQ0cnFWTnE4and5YXZ2R3FKdFZLYnFhTmJJWThQTjN4cDFDdnl1aGcyWHd1WHVZWDhJTGpWTWh2YU02UDlMT2xyYXZBbFdaVWdhOFZMLW1yU0xpZEdpQ1ZvQl9ZZDhyZ05MTWpzRDNybUliOTFnNF9lRU5DMUwtV1ByYnJxRWd0a2FTWDF6UGpBazRPYkw5UlJkaHRmYmVVMTFSb190Z082bmNtdlBOU2ZoeVU2UmRaQmhoN05KZnBvcEFWSWd6a0MxcjRQQm9OenJabWl3RmttekoxekNWTENMU1NOVzFaRTB6Z1FlTnJYYWJ4c3dWb25DTVM3eFliVlNxdU5VSHl5Qk1WUENLWUc1WjRmLVJ2LUc5d3NmbkozNUJEdHFhUnJjTmZMRTBVMlMtQ0xHckhtSEdwQ3RLUDRUcXdoTGFvaGVJSUM3M1ZRQ1RqVjFFeVRZcl9hdVZ3RGhzbjdxR1BiV05KWGlaZlRDVWNLSGtSYmx0UUZOX2JHZFVfMV82clBKc1dCdEI4SVUybE1aejZxaVc5TW9FZHdhUHBQSUw1dnUyck80WWp6WDBqM0ZrZ0xSSnEzNWFzUndfVGNqcF9YSnBrSV9sYVFKUENZdlJIcGtsWVJULWc?oc=5",
       "summary": "এবার হত্যাচেষ্টা মামলায় ৪ দিনের রিমান্ডে দিলীপ কুমার আগারওয়ালা United News of Bangladesh",
@@ -1733,21 +1748,6 @@
       "type": "Editorial / Opinion",
       "topics": [],
       "exam_priority": "General"
-    },
-    {
-      "title": "জ্বালানি ও খাদ্যের দাম বাড়লে চাপে পড়বে বাংলাদেশের অর্থনীতি - Dhaka Mail",
-      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB2WURQWUFZRGNTX0hsWlZhMWg3N1ljXzBxV29hT2g4bGtVSFFVREJxY0liN2NDVVRWYzRHbmdoU05ON1Z1aDhQWkVoV3fSAVJBVV95cUxPMFBHd24tZWI1a0g1eTh6a1NjWWtacWdubl9jSzU3V2loVVF2N3NJWmlVRU9qOE91TnRxTEt0V2M2NEtyMDhrb254LWRYRHR3ajFR?oc=5",
-      "summary": "জ্বালানি ও খাদ্যের দাম বাড়লে চাপে পড়বে বাংলাদেশের অর্থনীতি Dhaka Mail",
-      "date": "Wed, 21 Oct 2026 07:00:00 GMT",
-      "source": "ঢাকা মেইল",
-      "category": "Bangladesh · বাংলা",
-      "section": "Economics Page",
-      "type": "Economics Page",
-      "topics": [
-        "Economy & Banking",
-        "Governance & Public Policy"
-      ],
-      "exam_priority": "High"
     },
     {
       "title": "Ronaldo misses penalty, sitter in first match since Portugal suspension",
@@ -2076,6 +2076,18 @@
       "exam_priority": "General"
     },
     {
+      "title": "বিশ্বের শীর্ষ ১০টি বার্তা সংস্থা - Rupali Bangladesh",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9yOHlsQnlhMHpwWTNtb1FVcTV1bG1kLUlrMzdzbVp6M0JabmlCVmF1a3BoWWRFbkdXWUtEZ3FNUWt3dmlmUWhtQlN2c1UwR2NmOXlDdFF0Wl9zR25ZQXlwNQ?oc=5",
+      "summary": "বিশ্বের শীর্ষ ১০টি বার্তা সংস্থা Rupali Bangladesh",
+      "date": "Wed, 19 Mar 2025 07:00:00 GMT",
+      "source": "দৈনিক রূপালী",
+      "category": "Bangladesh · বাংলা",
+      "section": "International Page",
+      "type": "International Page",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
       "title": "সংস্কারের মতামত এখনো জানায়নি বিএনপি-জামায়াত-এনসিপি - Rupali Bangladesh",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1scnFpRkVQQWhrbko0cEMwS211QUpTRzJqM0w4dVFGOFVjTTRuaHRGZUlqaWtaOWVMLXpuX1NTUGNmQjB1LS05VlU0Yzh2NTltSzMxajZoOFFPSVgxd3pjT0dvbw?oc=5",
       "summary": "সংস্কারের মতামত এখনো জানায়নি বিএনপি-জামায়াত-এনসিপি Rupali Bangladesh",
@@ -2088,18 +2100,6 @@
         "Governance & Public Policy"
       ],
       "exam_priority": "Medium"
-    },
-    {
-      "title": "বিশ্বের শীর্ষ ১০টি বার্তা সংস্থা - Rupali Bangladesh",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9yOHlsQnlhMHpwWTNtb1FVcTV1bG1kLUlrMzdzbVp6M0JabmlCVmF1a3BoWWRFbkdXWUtEZ3FNUWt3dmlmUWhtQlN2c1UwR2NmOXlDdFF0Wl9zR25ZQXlwNQ?oc=5",
-      "summary": "বিশ্বের শীর্ষ ১০টি বার্তা সংস্থা Rupali Bangladesh",
-      "date": "Wed, 19 Mar 2025 07:00:00 GMT",
-      "source": "দৈনিক রূপালী",
-      "category": "Bangladesh · বাংলা",
-      "section": "International Page",
-      "type": "International Page",
-      "topics": [],
-      "exam_priority": "General"
     },
     {
       "title": "Latest News, Breaking News, Top News Headlines and Current Affairs",
@@ -2154,18 +2154,6 @@
       "exam_priority": "General"
     },
     {
-      "title": "মানবিক সংকটে বিপন্ন বিশ্ব, সহায়তা সংকট",
-      "link": "https://news.google.com/rss/articles/CBMi0wNBVV95cUxQdDluV0dHd3p2dDhSTnFlM2pnRlRyNDJLVWxJMUlnTlhIbnZ2cEFtXzJGRkdjUzFfTnE4Ym0wcTM0b1RyNEc5M1E5X0xZN3VWVnNFS191dXBlZ1BDV1RTTHBaSUNHTnNDcUxJbVZ6WlJuMjJtZTRjOUhwaURtUE0wd0RzWUNVWFRkMU1ZVnlZV0FvVmNJOTcwZjJwUE93TkNobWxqOGlfZS12clV4TG5wemFKNHptR0tRdkJkVGNOelhVMVdtZWNFdXFSVnR5RHB4U2Zuazdia2xhb250TFpaZTBFdDVpQ2NTNlBpcG45aGRyRkdGdEhmSGRjVkwyaGlTMjVkZVNyZGtxSmZZQmR2am41UDRKa3NUQkhSdHEyWFVzMGpySGc4ZUdBdVl1aU9vZFhoN2h5alF2NWJhMFI4SkEtWFhHNDJTV0ZXcTRJLW5NN3F0OUxLbnBVaVd2ZGRpX0dnVjBvdS1mSy1xT2ZJN19zcGpITklMdnNwaTRCMXFja09DY2pra3FjSUdMM3daUmtmaVo4LXkxTVFTeHZUanVOQi1ROWE4cFpWN0IzVS1kZTBmNlBEWWpENEJuWW1zaUltdGVKaENrNk52NVUwWk9WSdIB2ANBVV95cUxQRnZpREJDTzNHalBzZGJfX2hvVnloNXBSSk8wMWhfcXVtNkdlVHpZZTk0b2d2b1JoNkdxUlF6MHJ2aTMzOFAyenFLSzUwZm1uTUtObU56czFUQ0RiczRDWlZselozajlseFd6dW9BSUFtNWJYZTdVYUxidzRqb1NtZGh4SnFKdzAxMWV2YlNDTmpoWVA2dFYyYWNndFZaMzJUa2YtUUQxejJwamNTblpETjhESUlkVXdON25qNjdycXVEU0xCOWlVemNrXzhPUGw3YzNoZ2Vlck9rNTNib3ZHdEctMmZYN2V2OXJJd1UyT0k3cWpXd3Q0UlZZSTVQUUpRXzhPRDVnaFNEVmZKRHExRWFSQm05Y1VfLUl0RzBVVjFnZWFXbmZibXYyQm1Kdno0WGJtdEpVYzJkTEg3dHZxNmF4SklOUmtKMXFzV3ZNYjdtajdfZndLQU5mY3Y2S1plNE90dGJvTC13MHhacGZZM09xYUVxNVlLMHpZQkw5dFRXS2ViZHM1Rnh4aktIQk1EX2R5b1FQeXJBYldDR3ZlMHJGczAybEV4elhkS3hlc2ozajBqZHZUNDlVX2RNdjcySVhISWhNY0pxQUVsWTVMcllRYnpaWTN5?oc=5",
-      "summary": "মানবিক সংকটে বিপন্ন বিশ্ব, সহায়তা সংকট দেশ রূপান্তর",
-      "date": "Wed, 19 Aug 2026 07:00:00 GMT",
-      "source": "দেশ রূপান্তর",
-      "category": "Bangladesh · বাংলা",
-      "section": "International Page",
-      "type": "International Page",
-      "topics": [],
-      "exam_priority": "General"
-    },
-    {
       "title": "বাংলাদেশ ব্যাংক গভর্নরের সঙ্গে আনসার-ভিডিপি উন্নয়ন ব্যাংকের শীর্ষ প্রতিনিধিদলের বৈঠক - Ajker Patrika",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNLWxKUGJhUENpZ29qWFBvQm1fSlF5SnhSb3dUVWVvVllpdW1fMUh1bGxQU0hXa1FZVXJWOWQ0OS1FVXFEcnRmOGs3OHVxdXlyMTVxVlg4ZjdpWjhNVXkwT043SU5JcEdlSHJHS3M0VTlmaFdHazE2Y293MWVLd1BkSkw5dXTSAYoBQVVfeXFMT0Nmb09TOHlvSmprSktrMERMZHk5bzVuSDBXLVRLWEVxUmxxVmhmNGUzSnNWZndJV3JpMG9oUEJoaWtZQ2R3Ml8zY1JNSld0d0lnRTk3b1pvQnlHZnV2THRxcE02S1M3Tk96Mjc0b2gwZXFTUVA1bzZQSWFnNEd2QjJuQURvUGhOb3l3?oc=5",
       "summary": "বাংলাদেশ ব্যাংক গভর্নরের সঙ্গে আনসার-ভিডিপি উন্নয়ন ব্যাংকের শীর্ষ প্রতিনিধিদলের বৈঠক Ajker Patrika",
@@ -2197,6 +2185,18 @@
       "summary": "মাইজভাণ্ডারে আন্তর্জাতিক জশনে ঈদে মিলাদুন্নবী (স.) ৯ সেপ্টেম্বর দৈনিক আজাদী",
       "date": "Wed, 19 Aug 2026 07:00:00 GMT",
       "source": "দৈনিক আজাদী",
+      "category": "Bangladesh · বাংলা",
+      "section": "International Page",
+      "type": "International Page",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
+      "title": "মানবিক সংকটে বিপন্ন বিশ্ব, সহায়তা সংকট",
+      "link": "https://news.google.com/rss/articles/CBMi0wNBVV95cUxQdDluV0dHd3p2dDhSTnFlM2pnRlRyNDJLVWxJMUlnTlhIbnZ2cEFtXzJGRkdjUzFfTnE4Ym0wcTM0b1RyNEc5M1E5X0xZN3VWVnNFS191dXBlZ1BDV1RTTHBaSUNHTnNDcUxJbVZ6WlJuMjJtZTRjOUhwaURtUE0wd0RzWUNVWFRkMU1ZVnlZV0FvVmNJOTcwZjJwUE93TkNobWxqOGlfZS12clV4TG5wemFKNHptR0tRdkJkVGNOelhVMVdtZWNFdXFSVnR5RHB4U2Zuazdia2xhb250TFpaZTBFdDVpQ2NTNlBpcG45aGRyRkdGdEhmSGRjVkwyaGlTMjVkZVNyZGtxSmZZQmR2am41UDRKa3NUQkhSdHEyWFVzMGpySGc4ZUdBdVl1aU9vZFhoN2h5alF2NWJhMFI4SkEtWFhHNDJTV0ZXcTRJLW5NN3F0OUxLbnBVaVd2ZGRpX0dnVjBvdS1mSy1xT2ZJN19zcGpITklMdnNwaTRCMXFja09DY2pra3FjSUdMM3daUmtmaVo4LXkxTVFTeHZUanVOQi1ROWE4cFpWN0IzVS1kZTBmNlBEWWpENEJuWW1zaUltdGVKaENrNk52NVUwWk9WSdIB2ANBVV95cUxQRnZpREJDTzNHalBzZGJfX2hvVnloNXBSSk8wMWhfcXVtNkdlVHpZZTk0b2d2b1JoNkdxUlF6MHJ2aTMzOFAyenFLSzUwZm1uTUtObU56czFUQ0RiczRDWlZselozajlseFd6dW9BSUFtNWJYZTdVYUxidzRqb1NtZGh4SnFKdzAxMWV2YlNDTmpoWVA2dFYyYWNndFZaMzJUa2YtUUQxejJwamNTblpETjhESUlkVXdON25qNjdycXVEU0xCOWlVemNrXzhPUGw3YzNoZ2Vlck9rNTNib3ZHdEctMmZYN2V2OXJJd1UyT0k3cWpXd3Q0UlZZSTVQUUpRXzhPRDVnaFNEVmZKRHExRWFSQm05Y1VfLUl0RzBVVjFnZWFXbmZibXYyQm1Kdno0WGJtdEpVYzJkTEg3dHZxNmF4SklOUmtKMXFzV3ZNYjdtajdfZndLQU5mY3Y2S1plNE90dGJvTC13MHhacGZZM09xYUVxNVlLMHpZQkw5dFRXS2ViZHM1Rnh4aktIQk1EX2R5b1FQeXJBYldDR3ZlMHJGczAybEV4elhkS3hlc2ozajBqZHZUNDlVX2RNdjcySVhISWhNY0pxQUVsWTVMcllRYnpaWTN5?oc=5",
+      "summary": "মানবিক সংকটে বিপন্ন বিশ্ব, সহায়তা সংকট দেশ রূপান্তর",
+      "date": "Wed, 19 Aug 2026 07:00:00 GMT",
+      "source": "দেশ রূপান্তর",
       "category": "Bangladesh · বাংলা",
       "section": "International Page",
       "type": "International Page",
@@ -2237,8 +2237,8 @@
       "date": "Wed, 19 Apr 2006 06:55:50 GMT",
       "source": "The Japan Times",
       "category": "International",
-      "section": "All News",
-      "type": "All News",
+      "section": "Economics Page",
+      "type": "Economics Page",
       "topics": [],
       "exam_priority": "General"
     },
@@ -2264,8 +2264,8 @@
       "date": "Wed, 18 Nov 2026 23:57:00 GMT",
       "source": "আমাদের সময়",
       "category": "Bangladesh · বাংলা",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
+      "section": "International Page",
+      "type": "International Page",
       "topics": [],
       "exam_priority": "General"
     },
@@ -2314,8 +2314,8 @@
       "date": "Wed, 18 Nov 2026 23:54:56 GMT",
       "source": "NPR",
       "category": "International",
-      "section": "All News",
-      "type": "All News",
+      "section": "Economics Page",
+      "type": "Economics Page",
       "topics": [],
       "exam_priority": "General"
     },
@@ -2688,8 +2688,8 @@
       "date": "Wed, 18 Nov 2026 23:18:00 GMT",
       "source": "The Wall Street Journal",
       "category": "International",
-      "section": "All News",
-      "type": "All News",
+      "section": "International Page",
+      "type": "International Page",
       "topics": [],
       "exam_priority": "General"
     },
@@ -2951,8 +2951,8 @@
       "date": "Wed, 18 Nov 2026 22:56:00 GMT",
       "source": "The Wall Street Journal",
       "category": "International",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
+      "section": "International Page",
+      "type": "International Page",
       "topics": [
         "Geopolitics",
         "Society & Development"
@@ -3251,8 +3251,8 @@
       "date": "Wed, 18 Nov 2026 22:18:47 GMT",
       "source": "CNN",
       "category": "International",
-      "section": "All News",
-      "type": "All News",
+      "section": "International Page",
+      "type": "International Page",
       "topics": [],
       "exam_priority": "General"
     },
@@ -3581,8 +3581,8 @@
       "date": "Wed, 18 Nov 2026 21:51:43 GMT",
       "source": "France 24",
       "category": "International",
-      "section": "All News",
-      "type": "All News",
+      "section": "International Page",
+      "type": "International Page",
       "topics": [],
       "exam_priority": "General"
     },
@@ -4139,8 +4139,8 @@
       "date": "Wed, 18 Nov 2026 21:02:10 GMT",
       "source": "South China Morning Post",
       "category": "International",
-      "section": "All News",
-      "type": "All News",
+      "section": "Economics Page",
+      "type": "Economics Page",
       "topics": [
         "Geopolitics"
       ],
@@ -4321,8 +4321,8 @@
       "date": "Wed, 18 Nov 2026 20:48:46 GMT",
       "source": "Deutsche Welle",
       "category": "International",
-      "section": "International Page",
-      "type": "International Page",
+      "section": "Economics Page",
+      "type": "Economics Page",
       "topics": [
         "Environment & Climate"
       ],
@@ -4853,8 +4853,8 @@
       "date": "Wed, 18 Nov 2026 20:01:01 GMT",
       "source": "The Economist",
       "category": "International",
-      "section": "International Page",
-      "type": "International Page",
+      "section": "All News",
+      "type": "All News",
       "topics": [
         "Economy & Banking"
       ],
@@ -5211,8 +5211,8 @@
       "date": "Wed, 18 Nov 2026 19:33:00 GMT",
       "source": "The Guardian",
       "category": "International",
-      "section": "All News",
-      "type": "All News",
+      "section": "Editorial / Opinion",
+      "type": "Editorial / Opinion",
       "topics": [],
       "exam_priority": "General"
     },
@@ -5329,8 +5329,8 @@
       "date": "Wed, 18 Nov 2026 19:24:30 GMT",
       "source": "The Economist",
       "category": "International",
-      "section": "Economics Page",
-      "type": "Economics Page",
+      "section": "Editorial / Opinion",
+      "type": "Editorial / Opinion",
       "topics": [
         "Economy & Banking"
       ],
@@ -5563,8 +5563,8 @@
       "date": "Wed, 18 Nov 2026 19:00:00 GMT",
       "source": "The Washington Post",
       "category": "International",
-      "section": "International Page",
-      "type": "International Page",
+      "section": "All News",
+      "type": "All News",
       "topics": [],
       "exam_priority": "General"
     },
@@ -5937,8 +5937,8 @@
       "date": "Wed, 18 Nov 2026 18:37:06 GMT",
       "source": "The Economist",
       "category": "International",
-      "section": "International Page",
-      "type": "International Page",
+      "section": "All News",
+      "type": "All News",
       "topics": [
         "Economy & Banking",
         "Geopolitics"
@@ -6044,8 +6044,8 @@
       "date": "Wed, 18 Nov 2026 18:28:47 GMT",
       "source": "Daily Sun",
       "category": "Bangladesh · English",
-      "section": "International Page",
-      "type": "International Page",
+      "section": "All News",
+      "type": "All News",
       "topics": [],
       "exam_priority": "General"
     },
