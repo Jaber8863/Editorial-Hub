@@ -109,6 +109,7 @@ def clean_headline(title, source):
     for suffix in suffixes:
         if suffix and title.lower().endswith(" - " + suffix.lower()):
             title = title[:-(len(suffix) + 3)].strip()
+    title = re.sub(r"\\s+[|–—-]\\s+(?:[a-z0-9-]+\\.)+(?:com|net|org|bd)(?:\\.[a-z]{2,})?$", "", title, flags=re.I).strip()
     return title
 
 def topics_for(text):
