@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19 19:13 UTC",
+  "updated": "2026-11-19 19:50 UTC",
   "articles": [
     {
       "title": "Foreign minister Hasan Mahmud to visit Brussels today",
@@ -60,20 +60,6 @@
       "type": "International Page",
       "topics": [],
       "exam_priority": "General"
-    },
-    {
-      "title": "নীতিনির্ধারণে তরুণদের কার্যকর অংশগ্রহণ নিশ্চিত করার তাগিদ",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9wREZIX0ZwaVhxdnNteGZDbUdLVG5aSnc1bFJRX0txQTdIeklrczh0UldSYXQzR1BJdXB5ZTBWOFRNa25WVTBuRU8tUmFObVE3U1RQNkFB?oc=5",
-      "summary": "নীতিনির্ধারণে তরুণদের কার্যকর অংশগ্রহণ নিশ্চিত করার তাগিদ dhakapost.com",
-      "date": "Wed, 30 Sep 2026 07:00:00 GMT",
-      "source": "The Dhaka Post",
-      "category": "Bangladesh · বাংলা",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
-      "topics": [
-        "Governance & Public Policy"
-      ],
-      "exam_priority": "Medium"
     },
     {
       "title": "Magura Pally Bidyut GM suspended over Tk 507cr electricity bill",
@@ -242,14 +228,38 @@
       "exam_priority": "High"
     },
     {
+      "title": "Push to project implementation",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTDVyWXZmY2RPUWozYUE4UVliNWFZYXJSN2c2bkNIUnVlWUFBc3ZtaGRoOGVlTzctX0VIbzNadW9kVW5jbGJadTVjRDk2T3E0ZWViajZhLVQtdTduc1JSTGY1MWstdXlfSExUX0o1b0VCWGRnZjdFWlB5XzZGRmZ3SU42N05DQXBzR3lQVzZKOA?oc=5",
+      "summary": "Push to project implementation The Financial Express",
+      "date": "Wed, 30 Jan 2019 08:00:00 GMT",
+      "source": "The Financial Express",
+      "category": "Bangladesh · English",
+      "section": "Editorial / Opinion",
+      "type": "Editorial / Opinion",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
+      "title": "OP-ED: In memoriam",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBCSzdsU1J4OTdZbjY5MnRNVl9JbWxIdG1GSXFpUkJ5R3F3T19XcEp0TUo1YVJVZG9TS3hDdjFTekxYaEhaWkJxVkEtNDRXM3o0SlpDZ0o0NDhkSFVIdjQ4WTZ2cWNRN0VnZlpBYzkwYl9pVjdhZXfSAXtBVV95cUxNczNSTFRXbXhPV1ZVX3V0bjBBek4yZTE4SUJyeVdmc2F2cmhCTWxWRVlUNEQ0Q0cwOUFyM2pWZHJnRWpsTmNuY09sQnJwMlBPOXc1TEVOQnB0RXlKbWJmdmluU2ptbFZQN1UwZkN4N3p2RjZGX0hWckJIQTg?oc=5",
+      "summary": "OP-ED: In memoriam Dhaka Tribune",
+      "date": "Wed, 30 Dec 2020 08:00:00 GMT",
+      "source": "Dhaka Tribune",
+      "category": "Bangladesh · English",
+      "section": "Editorial / Opinion",
+      "type": "Editorial / Opinion",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
       "title": "Latest News Today, Breaking News, India News, Top Headlines | The Indian Express",
       "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5nQi1CVXFmUUZ1R1FiRjIybGJiVDlQLXdfVVU3LU9SbzBWS0ExZzJ2SkMyUEZJNmQwdGsteGw3NA?oc=5",
       "summary": "Latest News Today, Breaking News, India News, Top Headlines | The Indian Express The Indian Express",
       "date": "Wed, 30 Dec 2009 07:46:27 GMT",
       "source": "The Indian Express",
       "category": "International",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
+      "section": "All News",
+      "type": "All News",
       "topics": [
         "Geopolitics"
       ],
@@ -283,11 +293,11 @@
       "exam_priority": "High"
     },
     {
-      "title": "Behaviouralism in the analysis of politics and society",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVGdnems1aFVyZF82ckFoU0ZsUVZ5S0tUSmFYM3E4WWN6ZVhWRDZaUU53c1p1Nm1jRmF6MnVDZE1McmFtWU5jRkt1dUIyVVF0WERhQkNkMG1BV0V1OTBhVGxwTzRLV0hsQnlyMGdWSTEtMDZiSENMQ19PeXdPdjNvME00SGZubGVZMDhRYWVrRG05YTRMeWl0MWpOZXRxYjFyRm1xcW5oR1RVQQ?oc=5",
-      "summary": "Behaviouralism in the analysis of politics and society The Financial Express",
-      "date": "Wed, 29 Nov 2017 08:00:00 GMT",
-      "source": "The Financial Express",
+      "title": "Tribune Editorial",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBkeVRzZk56aXRSZHZ1VGhvUU1FTllkTWVkNTMxLURZdlJtWGdmRGdzb2dNRk83TXoyTjVEQ1lybzIxRDVzTlBZSm9oeC1kbWl1VmJfZmUzQ25xWVliTHJRdVEtTQ?oc=5",
+      "summary": "Tribune Editorial Dhaka Tribune",
+      "date": "Wed, 29 May 2013 20:06:05 GMT",
+      "source": "Dhaka Tribune",
       "category": "Bangladesh · English",
       "section": "Editorial / Opinion",
       "type": "Editorial / Opinion",
@@ -460,6 +470,18 @@
       "exam_priority": "General"
     },
     {
+      "title": "শব্দতরঙ্গ দিয়ে আগুন নেভানোর যন্ত্র: আন্তর্জাতিক বিজ্ঞান মেলায় স্বর্ণ জিতল কিশোরী - Ajker Patrika",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBZckgwNE9VRmVBLWg1S0xCQkRhd2hVNFhGQ2lHMDB1OWdtLWZRREVUeHc4RVhvbWhPdW43UTZ4enlIUVpHd3l6aThHRURWM2wyanBhbmozbFB1dTlIVDVv0gFkQVVfeXFMTm9xQW5XS3lWTHdheGc2cmd6WXluZVlWUzBMRWc3Nk9McExIeV96bkFyQlFfX19UMkZqMk5yR2tWeGRsNzRETkRaM2VnNjNLX0xkRmc3Rk9iTXJRZ3dRa2xfcDVwUA?oc=5",
+      "summary": "শব্দতরঙ্গ দিয়ে আগুন নেভানোর যন্ত্র: আন্তর্জাতিক বিজ্ঞান মেলায় স্বর্ণ জিতল কিশোরী Ajker Patrika",
+      "date": "Wed, 28 Oct 2026 07:00:00 GMT",
+      "source": "আজকের পত্রিকা",
+      "category": "Bangladesh · বাংলা",
+      "section": "International Page",
+      "type": "International Page",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
       "title": "বাংলাদেশে যাত্রা শুরু করল আন্তর্জাতিক ফ্যাশন ব্র্যান্ড ‘এথনিক’ - Protidiner Bangladesh",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9RWWYtMFMxNjVueEpUckNELTdndmJodEpueWlla29UVXpYVVVPamx1RkFXdEU5OGM3c013dHZFRkNsR2kwem9FWjJjSFpwNzRuVEIwZmFWcmhYa00?oc=5",
       "summary": "বাংলাদেশে যাত্রা শুরু করল আন্তর্জাতিক ফ্যাশন ব্র্যান্ড ‘এথনিক’ Protidiner Bangladesh",
@@ -515,20 +537,6 @@
       "exam_priority": "Medium"
     },
     {
-      "title": "নতুন পে-স্কেল: ৫ হাজার কোটি টাকা ঋণ নিচ্ছে সরকার - Daily Observer",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9JcGlOTUtuaWNBb2g2QUpybjJBTk1KMDFCdkRVZnYxNHdtOThJNG9KbjBGa0ZLZ1Q4NjFYVDdrZmpoVF9qdnhPYjRJVi1Odw?oc=5",
-      "summary": "নতুন পে-স্কেল: ৫ হাজার কোটি টাকা ঋণ নিচ্ছে সরকার Daily Observer",
-      "date": "Wed, 28 Oct 2026 07:00:00 GMT",
-      "source": "The Daily Observer",
-      "category": "Bangladesh · বাংলা",
-      "section": "Economics Page",
-      "type": "Economics Page",
-      "topics": [
-        "Economy & Banking"
-      ],
-      "exam_priority": "Medium"
-    },
-    {
       "title": "জেন জি আন্দোলনের মূল প্রশ্নটি কি? - Daily Observer",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE55YlFWY1E1VFRJOUluZ0hJVGZGa0dkN0hYQ3QwTDVUbk0wNFFMbnRIS0RVVzVERUI4NmlGdTVYMTlxRlVXUV96T2w5b2hNQQ?oc=5",
       "summary": "জেন জি আন্দোলনের মূল প্রশ্নটি কি? Daily Observer",
@@ -541,16 +549,18 @@
       "exam_priority": "General"
     },
     {
-      "title": "বাংলাদেশে আন্তর্জাতিক ফ্যাশন ব্র্যান্ড ‘এথনিক’-এর আনুষ্ঠানিক যাত্রা শুরু",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFByQlV0Sm5QMFVtaHdSYXI1R2lMNGEyMHNXVjBCdTNZOU5JZkw2N3lfUlR4X2FILUJMckFsOXlidUFJaUFiV3lNbHNhVVRfaF9hbmc?oc=5",
-      "summary": "বাংলাদেশে আন্তর্জাতিক ফ্যাশন ব্র্যান্ড ‘এথনিক’-এর আনুষ্ঠানিক যাত্রা শুরু dhakapost.com",
+      "title": "নতুন পে-স্কেল: ৫ হাজার কোটি টাকা ঋণ নিচ্ছে সরকার - Daily Observer",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9JcGlOTUtuaWNBb2g2QUpybjJBTk1KMDFCdkRVZnYxNHdtOThJNG9KbjBGa0ZLZ1Q4NjFYVDdrZmpoVF9qdnhPYjRJVi1Odw?oc=5",
+      "summary": "নতুন পে-স্কেল: ৫ হাজার কোটি টাকা ঋণ নিচ্ছে সরকার Daily Observer",
       "date": "Wed, 28 Oct 2026 07:00:00 GMT",
-      "source": "The Dhaka Post",
+      "source": "The Daily Observer",
       "category": "Bangladesh · বাংলা",
-      "section": "International Page",
-      "type": "International Page",
-      "topics": [],
-      "exam_priority": "General"
+      "section": "Economics Page",
+      "type": "Economics Page",
+      "topics": [
+        "Economy & Banking"
+      ],
+      "exam_priority": "Medium"
     },
     {
       "title": "ট্রাস্ট ব্যাংক-এর সেভিংস লোনসহ বিভিন্ন সেবা গ্রহণ করা যাবে বিকাশ অ্যাপে",
@@ -582,14 +592,14 @@
       "exam_priority": "High"
     },
     {
-      "title": "বাংলাদেশ-জাপান ব্যবসা বাণিজ্য বাড়াতে আরও বেশি বিনিয়োগের আহবান প্রধানমন্ত্রীর |PM |Bangladesh|Japan - United News of Bangladesh",
-      "link": "https://news.google.com/rss/articles/CBMiqgdBVV95cUxQeklCNzhybXFBdGRBTnFFakZRd2NxMTlnRW1FYlBDUUNUeHFVWk4xdk9sbFBRc1ZNYjJqYnpWdXk0UWVaOUl6aXlzM0ZlN3JBakpPU3c2MFh6WXd0SzRnSFhPRE5QMnFRZURVVUVCdHBmMm1oOXN5MV9SZWtJeFpUZGhtb1ZnREhFWjdkLWFvNTZEbXVZdFBjTmdUbGJtdEx5cWNWeUhheU5uT3ItM055aUM2dTM1UHVySEE4a1VKd2Q2bERBS0pGZ0JDREh5ZWtDUkxweEVPYVV6YXpVWUF4RW84Z2x2NGVrSVp3azZ1UmZrVEpROEFnV1lJb3RaYnhrelhHTlhQZ25LaGJ4all1RXVxSmR4TVdRWDU5N25VY1Z6bjloWHF6c2xTWkEzd2ZWZ3RZSzdvTG5mRnlzMUU0ZV9oWWdQemprbFlsdmFXVk1STENUa2p5djJwMzViRWdITnJHNzBpUzZjT3lMYVhmVjhGNmhIT21YaHI1QW5kSlRPUVMzYTdpV1ZyZlZnNnRTNmU3WXZ5ajJOUVhNc2diNWM5SEpzNWZLVlU4cGlDenhoZGdqcWxXdXllNXRYZXlsVjNwR1dVaWRLTjZ4czY1LUpaUTNUNW8tdWRkZENxc0NMdS11ZWRyZm01LWtMOU85YTlWUWQ5bHFBLUhacUxGS3RmOE04MjJTeWU0c0FUZldaRkNYTGJuUUVpbFlGaXZEX3JKaDJOcjMxS3dsUEhtTGRiYnNVWlg5eHlWcmVpaVpHdUQ2V05jLUFUSGpNd1NNUTJYRXFSX1p5WEFaQzFBdW1TYW15ay0ybHctX3pXYXVla2t3LUpuS1BDQUxnWlBUNVhKVW9aWEpoMzF2ZGxFX2VDRm8tQXd5TkNHYWltc1VBU1YzTEJNcG0yNWUxNURXQS1VOUhQV2hIQjAwMHdJT09fbmJubk5pZFFoMUlsTm5veDlWVDRXcGhsd0RzM1E4Nkw4Y1R4STlSdDlrNEpXOWRILWx2M3VnU1Q0cHdJdi1pUkROYmw4a05KdXU4djc3NDhIUFprQ1JINWQ4Z2VuZkpSX05oY1hpYUpnOXNtdk9lcmxMOE9sMzVOZkpNOE83UGZCc08zaW9OM3ZGZFhuc19fajVJdjRmQnh6U2xYd3JOZWRpalR0Z1NEaVlxMmNwczltMllVN2xwcnlwRk56eDkzeFJkWm5lUGJBb2EwUGxKWTJxSHI1eHM3bTE0cExVRWJDV3JxZEhGdw?oc=5",
-      "summary": "বাংলাদেশ-জাপান ব্যবসা বাণিজ্য বাড়াতে আরও বেশি বিনিয়োগের আহবান প্রধানমন্ত্রীর |PM |Bangladesh|Japan United News of Bangladesh",
+      "title": "বাংলাদেশে আন্তর্জাতিক ফ্যাশন ব্র্যান্ড ‘এথনিক’-এর আনুষ্ঠানিক যাত্রা শুরু",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFByQlV0Sm5QMFVtaHdSYXI1R2lMNGEyMHNXVjBCdTNZOU5JZkw2N3lfUlR4X2FILUJMckFsOXlidUFJaUFiV3lNbHNhVVRfaF9hbmc?oc=5",
+      "summary": "বাংলাদেশে আন্তর্জাতিক ফ্যাশন ব্র্যান্ড ‘এথনিক’-এর আনুষ্ঠানিক যাত্রা শুরু dhakapost.com",
       "date": "Wed, 28 Oct 2026 07:00:00 GMT",
-      "source": "UNB",
+      "source": "The Dhaka Post",
       "category": "Bangladesh · বাংলা",
-      "section": "Economics Page",
-      "type": "Economics Page",
+      "section": "International Page",
+      "type": "International Page",
       "topics": [],
       "exam_priority": "General"
     },
@@ -602,6 +612,30 @@
       "category": "Bangladesh · বাংলা",
       "section": "International Page",
       "type": "International Page",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
+      "title": "গোপালগঞ্জে ‘বিশ্ব হাত ধোয়া দিবস’ পালিত | জাতীয় | বাংলাদেশ সংবাদ সংস্থা (বাসস) - Bangladesh Sangbad Sangstha (BSS)",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBTMmJuY0p2LUlWWmVkQmhvMENBdUZmXzI3MlpoZHBVYlM4NFh1aHFMVXpReXVYSzhuVDJ0dk9jc0ZtZ0c4Q1liOGR6RmNqeDdWRHJhTi0wMXNkUQ?oc=5",
+      "summary": "গোপালগঞ্জে ‘বিশ্ব হাত ধোয়া দিবস’ পালিত | জাতীয় | বাংলাদেশ সংবাদ সংস্থা (বাসস) Bangladesh Sangbad Sangstha (BSS)",
+      "date": "Wed, 28 Oct 2026 07:00:00 GMT",
+      "source": "BSS",
+      "category": "Bangladesh · বাংলা",
+      "section": "International Page",
+      "type": "International Page",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
+      "title": "বাংলাদেশ-জাপান ব্যবসা বাণিজ্য বাড়াতে আরও বেশি বিনিয়োগের আহবান প্রধানমন্ত্রীর |PM |Bangladesh|Japan - United News of Bangladesh",
+      "link": "https://news.google.com/rss/articles/CBMiqgdBVV95cUxQeklCNzhybXFBdGRBTnFFakZRd2NxMTlnRW1FYlBDUUNUeHFVWk4xdk9sbFBRc1ZNYjJqYnpWdXk0UWVaOUl6aXlzM0ZlN3JBakpPU3c2MFh6WXd0SzRnSFhPRE5QMnFRZURVVUVCdHBmMm1oOXN5MV9SZWtJeFpUZGhtb1ZnREhFWjdkLWFvNTZEbXVZdFBjTmdUbGJtdEx5cWNWeUhheU5uT3ItM055aUM2dTM1UHVySEE4a1VKd2Q2bERBS0pGZ0JDREh5ZWtDUkxweEVPYVV6YXpVWUF4RW84Z2x2NGVrSVp3azZ1UmZrVEpROEFnV1lJb3RaYnhrelhHTlhQZ25LaGJ4all1RXVxSmR4TVdRWDU5N25VY1Z6bjloWHF6c2xTWkEzd2ZWZ3RZSzdvTG5mRnlzMUU0ZV9oWWdQemprbFlsdmFXVk1STENUa2p5djJwMzViRWdITnJHNzBpUzZjT3lMYVhmVjhGNmhIT21YaHI1QW5kSlRPUVMzYTdpV1ZyZlZnNnRTNmU3WXZ5ajJOUVhNc2diNWM5SEpzNWZLVlU4cGlDenhoZGdqcWxXdXllNXRYZXlsVjNwR1dVaWRLTjZ4czY1LUpaUTNUNW8tdWRkZENxc0NMdS11ZWRyZm01LWtMOU85YTlWUWQ5bHFBLUhacUxGS3RmOE04MjJTeWU0c0FUZldaRkNYTGJuUUVpbFlGaXZEX3JKaDJOcjMxS3dsUEhtTGRiYnNVWlg5eHlWcmVpaVpHdUQ2V05jLUFUSGpNd1NNUTJYRXFSX1p5WEFaQzFBdW1TYW15ay0ybHctX3pXYXVla2t3LUpuS1BDQUxnWlBUNVhKVW9aWEpoMzF2ZGxFX2VDRm8tQXd5TkNHYWltc1VBU1YzTEJNcG0yNWUxNURXQS1VOUhQV2hIQjAwMHdJT09fbmJubk5pZFFoMUlsTm5veDlWVDRXcGhsd0RzM1E4Nkw4Y1R4STlSdDlrNEpXOWRILWx2M3VnU1Q0cHdJdi1pUkROYmw4a05KdXU4djc3NDhIUFprQ1JINWQ4Z2VuZkpSX05oY1hpYUpnOXNtdk9lcmxMOE9sMzVOZkpNOE83UGZCc08zaW9OM3ZGZFhuc19fajVJdjRmQnh6U2xYd3JOZWRpalR0Z1NEaVlxMmNwczltMllVN2xwcnlwRk56eDkzeFJkWm5lUGJBb2EwUGxKWTJxSHI1eHM3bTE0cExVRWJDV3JxZEhGdw?oc=5",
+      "summary": "বাংলাদেশ-জাপান ব্যবসা বাণিজ্য বাড়াতে আরও বেশি বিনিয়োগের আহবান প্রধানমন্ত্রীর |PM |Bangladesh|Japan United News of Bangladesh",
+      "date": "Wed, 28 Oct 2026 07:00:00 GMT",
+      "source": "UNB",
+      "category": "Bangladesh · বাংলা",
+      "section": "Economics Page",
+      "type": "Economics Page",
       "topics": [],
       "exam_priority": "General"
     },
@@ -632,6 +666,21 @@
       "exam_priority": "Medium"
     },
     {
+      "title": "Govt committed to investment-friendly policies, improved business climate: PM - Bangladesh Sangbad Sangstha (BSS)",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE13NmVPZHBZUS1tVVV3eUR3RDJReTBvQnlobDI1NjVQSFJtNWVaWXBHRmNXRnZGaW5hbTE5OXdlaTE1SHFwVGM0clNMM2dBXzFhTDZJ?oc=5",
+      "summary": "Govt committed to investment-friendly policies, improved business climate: PM Bangladesh Sangbad Sangstha (BSS)",
+      "date": "Wed, 28 Oct 2026 07:00:00 GMT",
+      "source": "BSS",
+      "category": "Bangladesh · English",
+      "section": "Economics Page",
+      "type": "Economics Page",
+      "topics": [
+        "Economy & Banking",
+        "Environment & Climate"
+      ],
+      "exam_priority": "High"
+    },
+    {
       "title": "TIME calls Tarique Rahman “clear front runner” in upcoming polls - Bangladesh Sangbad Sangstha (BSS)",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1oLUF5eFFlRFFlbkNRN2RCQjhkenltSFpyUWNaVWhSc1dYZnFHOFpoa2Q1SEZvN1AzNV9wWEczb3BHN2RPcnFsVGZ1TjR0Y3dhc1BUZ05XblZKczM4V0RtQ19uQmVUS2ZlaFY2MV9Qc1Y?oc=5",
       "summary": "TIME calls Tarique Rahman “clear front runner” in upcoming polls Bangladesh Sangbad Sangstha (BSS)",
@@ -646,6 +695,18 @@
       "exam_priority": "Medium"
     },
     {
+      "title": "সরকারের কাছে ন্যান্সির দাবি",
+      "link": "https://news.google.com/rss/articles/CBMi8AJBVV95cUxPYjVjZU01SGx2cFFKVDhjclBXT3JjOGx0cHRqSExNdmlYRzNfYjgtZEw3NE9aekkta3Rrbkl1WUFNd3piRW0wZ2NVelg1aDZ5dld3OEJ0QlRVaHdNaU9SOHRRNDJNZk5VZlBMWWNoZThtaDg5Q2hYeFVIMXFRRS1OM2ZlcXpwQ0dQSWxOZmZKaGhyU2lzUHpzRUlocEdPbHZ5VWMyWVZSQnRKTjdWUXJIdzUwTGs4UTE0TU9fdXdwQUZKdlp3dl9Fb2p6YzdUMXhBYkgwYTdzSFdSdll3R3JNd0dLcE1pT2RPT2pna2pwLWN1VUZuLUp3ZWhjYU10bWF6OUpSWjdiVWVKbHVhMHQ1MUs4enRTUjNiZWtqZnFYbktDYUgtV0dCcld3TWVrVDBGUE5weWFEYW5MeFdWQ2RhQW9ORTd6MjlQT3VUcFByUEllZ1pDVlFKMXhrWm5fdHMwN2w1RjVIWW5DQ29zOWFITNIB9gJBVV95cUxQUlprOXVyaHdHb25ZTHBlUlFxNl8wVFZtMEhnLVY0ZGk1ZHptaUtiejZGRHQ5VkVqVTJpYy0tRW5tNmtQZ0VVY0dkcFZsOWpjaDBWcHByUmF6MUtxa0dFU0lhVnFLcTFPdlR6eHczN280eHE3UEZ2NTZTeldqS2hySlkwY1lqZEViUzBSczU3YWV3aERYd1otd2RfaE1pTGx6cnYwcC1OZ2gxU3pqa2kzamh5Zm1MWTYyRGhFd2NGeVlQM3RTVDY3UjVnVXU2U2h6R0dYSDVsMEhEZmRuSnYxd3RVNHA0ekwzYm5NSDdsdDdOM2xQaU9BQUNzb2tMZkpYS1VyRktJY1dGV0N6Mm1TRlpBQ3BTSXJjaHliaWk3cDdlTUZJOGxmRklkUEcwdGxSRk0yZnVqbUdGUEpKWU9ha0tzLXg1dEYtQm5qVmxwR3VYeUt3eVdEYUhEaTNTTnhVMTVpYUxwVlM2bWxCelhJSy11d0ZLdw?oc=5",
+      "summary": "সরকারের কাছে ন্যান্সির দাবি দেশ রূপান্তর",
+      "date": "Wed, 28 Jan 2026 07:43:05 GMT",
+      "source": "দেশ রূপান্তর",
+      "category": "Bangladesh · বাংলা",
+      "section": "All News",
+      "type": "All News",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
       "title": "Editorial",
       "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQbTdYbWVNMUg5UE9yOXpKREVlNjd2eEZNRUhRbk4wRFdiMHNfc21qdWhuSFR3Q0paR1FqM08yaC0zaGFsam1zX2o5VVNGdlZFN0NfbWFNUjliQm9wTUhzckhaR2FWUUNKeUozV0JadlUtM0E5UWpQR19sUXBkSk1QWXB3MkZJZjMxZXNlMHJKVFdXT1liSk1OeV9Rc28yaExHQVNLR2lBMUQ4RUM5RFlQQm9XeFdHbjMwalBCN0NjeFhNM0RfS0RmNjgzNnFETUdLNjQ4NVk4NnVkZnowX3pUVjVNTjduWEpTbTZSUnJoejFIcm9HV0JqVzlUMUt1QXRIa01oeEUwRm9HcGI2?oc=5",
       "summary": "Editorial The Daily Star",
@@ -654,6 +715,18 @@
       "category": "Bangladesh · English",
       "section": "Editorial / Opinion",
       "type": "Editorial / Opinion",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
+      "title": "Currencies",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9rNy1HLWE3TXJEUUhmRUktZ2toMmNvdlR3TjcxWGgzc0dNS0tZQXlDQ3JSaWN0Sjl2Tk9YYkpWZTZTWnRscUdfczlkenl5TXVfcjRLb21qVQ?oc=5",
+      "summary": "Currencies Bloomberg.com",
+      "date": "Wed, 28 Jan 2015 05:05:18 GMT",
+      "source": "Bloomberg",
+      "category": "International",
+      "section": "Economics Page",
+      "type": "Economics Page",
       "topics": [],
       "exam_priority": "General"
     },
@@ -708,18 +781,6 @@
       "exam_priority": "Medium"
     },
     {
-      "title": "ফোনে ই-সিম নাকি ফিজিক্যালি সিম ভালো? - Dhaka Mail",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5JTnRXam11dXdvblZTOVZWV1d3YzZtOExrcDlSM2JjY0RVVGdRZmlxU1ZCLWhJVDlzd2FrV3BZc2dhNl9aSjA4X3hyNV9WLXBv0gFWQVVfeXFMTlBUWHVSX1RqSmQ4MlRpRVZwQ3lxSTRSRHJQMmp5NXFseEQyUkMyZldITmtyZ3dEWlUyeF9MZXUxWTljVmNQNkxhdHZLa0lPTDB0MGJQa2c?oc=5",
-      "summary": "ফোনে ই-সিম নাকি ফিজিক্যালি সিম ভালো? Dhaka Mail",
-      "date": "Wed, 27 May 2026 07:00:00 GMT",
-      "source": "ঢাকা মেইল",
-      "category": "Bangladesh · বাংলা",
-      "section": "All News",
-      "type": "All News",
-      "topics": [],
-      "exam_priority": "General"
-    },
-    {
       "title": "Latest and Trending Entertainment News, Celebrity News, Movie News, Breaking News | Entertainment - Indiatimes",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAxV1ZMZExYYkNSdkpuUERiaU10Vk4tSVFUNTZWRzdzYXdFWXAyZVZHVUxSblpLN0JmREEzSjJ4bkNkWHg4d2Q3WDhKSW9CS1VEZHJYNQ?oc=5",
       "summary": "Latest and Trending Entertainment News, Celebrity News, Movie News, Breaking News | Entertainment Indiatimes",
@@ -730,20 +791,6 @@
       "type": "All News",
       "topics": [
         "Geopolitics"
-      ],
-      "exam_priority": "Medium"
-    },
-    {
-      "title": "NEET – a hurdle on way to development",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVFlxbWdQYU81WmdzR3BLUUoyaE1fUTVMMXljVFFrRkZPdnJQc0Rya1hqeXY4dVFFenlPVHNjQTA5bTJINmJ6WlRDNTNIcXluQjdlODVBODlQS2s4TlgyQ0V1cXJyQ21vZ1lXWWpxTXlQMC15NndBdkV3eEV4S0o3b19mTF9Xa3YxajE0ZlN3?oc=5",
-      "summary": "NEET – a hurdle on way to development The Financial Express",
-      "date": "Wed, 26 Jun 2024 07:00:00 GMT",
-      "source": "The Financial Express",
-      "category": "Bangladesh · English",
-      "section": "All News",
-      "type": "All News",
-      "topics": [
-        "Society & Development"
       ],
       "exam_priority": "Medium"
     },
@@ -763,6 +810,46 @@
       "exam_priority": "High"
     },
     {
+      "title": "NEET – a hurdle on way to development",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVFlxbWdQYU81WmdzR3BLUUoyaE1fUTVMMXljVFFrRkZPdnJQc0Rya1hqeXY4dVFFenlPVHNjQTA5bTJINmJ6WlRDNTNIcXluQjdlODVBODlQS2s4TlgyQ0V1cXJyQ21vZ1lXWWpxTXlQMC15NndBdkV3eEV4S0o3b19mTF9Xa3YxajE0ZlN3?oc=5",
+      "summary": "NEET – a hurdle on way to development The Financial Express",
+      "date": "Wed, 26 Jun 2024 07:00:00 GMT",
+      "source": "The Financial Express",
+      "category": "Bangladesh · English",
+      "section": "All News",
+      "type": "All News",
+      "topics": [
+        "Society & Development"
+      ],
+      "exam_priority": "Medium"
+    },
+    {
+      "title": "DNCC budget, 2023-24",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9iZjdMUTF4VFNySnJhNWRBajNCTU9fbk1kZVNNVWtPVlFjb2RRUmhaZ2t6N0I5S0hUbXpxQl9TTVdvd3p5S3dmZHc1amV1ME5kZ2sxblZfLTZHUEhxTkNmU0MyM2Z5T1RHTFJpTDhmQkdQUQ?oc=5",
+      "summary": "DNCC budget, 2023-24 The Financial Express",
+      "date": "Wed, 26 Jul 2023 07:00:00 GMT",
+      "source": "The Financial Express",
+      "category": "Bangladesh · English",
+      "section": "Editorial / Opinion",
+      "type": "Editorial / Opinion",
+      "topics": [
+        "Economy & Banking"
+      ],
+      "exam_priority": "Medium"
+    },
+    {
+      "title": "আলোকিত বাংলাদেশ - Alokito Bangladesh",
+      "link": "https://news.google.com/rss/articles/CBMiuwVBVV95cUxNeUtkOEkzSUNVaEtuanlwOUczb2JuWWpFNnlURHVyVjhjMGwwamliSGxGUXVKWTNRRmN0MmVXOVd6VFZoLW10Y19EbjY3Tng3bFNKWERMeU1BalZ1SWhMakpFVEdKUWdxYXlxU0lqeEt4YzdUOEJVb09CRFdxTzBhSTN1QnBjMWRSTlFQa19mNUh6SlZ1eXhPV1hJRWpGemtIV2NBMzBRM0VzOVdVeGhWNlp4bk12dnhoYXpBYXdNSzU2NFNZSk5kb1dSdVBnNkwwWHVweUNlWU9oRVdQREVBZkhqWWlwN1k0bWsycjMzX29sd2htbnlUUk9Ba0c5cmxibTg5S3Y5V3Q1UkFxNU90VVZSbHFCX2V0bWZGV3JJYzRESjVseE0wT3h1UEp4UlVCY3EzOXdHUXEtNGVYV2plbjJ4VzF3R1V1Sk9URmJOREdJX3k0emVZWngtZzBvSEdZbVQ3dF9RMFdIaElFbEN0OW9pcThzdE5hV3VHWDFlaWlBS2dKSEM3WE9KcUNXQjRhTzA3SUVGZHhBQU9COEprb2VfOG4tQy12ZGdET1A1MlZrTmJJcUctNFZEdGxsWVRTVFFGVmFqUnR4VVNINmlPbnRjdGZ6bzJUVTY4c3pMUHRsY3ppdlZTNjVpMXBnZGpaWXdpMUVTUUZha0pHSXUyWjZqVDdOQjNZbC1odkRXS1l4TDd6VFFWWGNURmhwNjZORkRhZHR0dHVvVXpHcGxzaGZCZV9RRjNMQUh1VnBYMEhUTXVsYURiYXJMMHZBVWh6VDEwZV9zUmhtakRRNTNEeTRrajFoZXpGT3F5WE1CUV83X0dhQWVISVZXSGJRMTNRMnpJNlRCVzBEVDh5RkRicWk4d09RSXpEazE3cHlpZG53aTJQSE1zM2NLZjJLeVYxbjNpa3o4RGhZZWM?oc=5",
+      "summary": "আলোকিত বাংলাদেশ Alokito Bangladesh",
+      "date": "Wed, 26 Feb 2025 09:02:22 GMT",
+      "source": "আলোকিত বাংলাদেশ",
+      "category": "Bangladesh · বাংলা",
+      "section": "All News",
+      "type": "All News",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
       "title": "Eastern Bank Chairman among 46 sued over Tk 11cr embezzlement",
       "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1oOEI3M3o3dVNFM3dYLXRkZ3B4bzlNYjJXSS1uTExJNWpVWjVJb1BRQURSWUpTaXNNVXZ4emFsakhkWUE5eGpDSEFR?oc=5",
       "summary": "Eastern Bank Chairman among 46 sued over Tk 11cr embezzlement Daily Observer",
@@ -777,6 +864,18 @@
       "exam_priority": "Medium"
     },
     {
+      "title": "EBL Chairman among 46 sued over Tk 11cr embezzlement - Bangladesh Sangbad Sangstha (BSS)",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1aMWFyWnRZR19yMXJmN01ydldWYlJmY0F3cXZIbHZwVVJBeC1xaW1qMWVOM05wbVE3SlNpTmVRcmlCcmRJZHZmZU8zNFRzQQ?oc=5",
+      "summary": "EBL Chairman among 46 sued over Tk 11cr embezzlement Bangladesh Sangbad Sangstha (BSS)",
+      "date": "Wed, 26 Feb 2025 08:00:00 GMT",
+      "source": "BSS",
+      "category": "Bangladesh · English",
+      "section": "All News",
+      "type": "All News",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
       "title": "ইরানে ১ ডলারের দাম এখন ২০ লাখ রিয়াল, তা দিয়ে কী কেনা যায় - Ajker Patrika",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE83YVRyUkNpRGc4RFlLVEFTRzRnRXlHOUhnVFE4YjZuVTYza0Y4YVU4ckdTbW5xV0ZRV21wNXZ3UFpqR2pSbmdGSTBYRVlrbzNTc3daZHlMbFRUckpYOXNNMS1qem0xeF9WQ1E5Z1JqbTNQbk5XTFZKejNR0gF_QVVfeXFMUGJYQzJKamxfUWJNS0M3bjJleWtDalNFREpZVG0zWVk0SU8xcGs2Ni1YZ3VGQWR4eFVzeHZZR091UF85dTZwR2pqMzctZ1pqSm81ejU2d2haTXlob0JBbnBtMWZsOWNwdEMzUmZObDhfbzMxMTlIWHZpaFNsdzlKYw?oc=5",
       "summary": "ইরানে ১ ডলারের দাম এখন ২০ লাখ রিয়াল, তা দিয়ে কী কেনা যায় Ajker Patrika",
@@ -789,6 +888,20 @@
       "exam_priority": "General"
     },
     {
+      "title": "ব্র্যাক ব্যাংককে ৫০ মিলিয়ন ডলার দিচ্ছে আইএফসি - Protidiner Bangladesh",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5JR2R1S1p3LXJhRktTTzN6ZFZIM2RoNS1UTmZPNE5jdnBuYUFjZDEzeWR1N04zRExGa01hcUJDVTBBV3puMmlUallBZkkzbFJ3R2pzd0pxbmZ4UHNM?oc=5",
+      "summary": "ব্র্যাক ব্যাংককে ৫০ মিলিয়ন ডলার দিচ্ছে আইএফসি Protidiner Bangladesh",
+      "date": "Wed, 26 Aug 2026 07:00:00 GMT",
+      "source": "প্রতিদিনের বাংলাদেশ",
+      "category": "Bangladesh · বাংলা",
+      "section": "Economics Page",
+      "type": "Economics Page",
+      "topics": [
+        "Economy & Banking"
+      ],
+      "exam_priority": "Medium"
+    },
+    {
       "title": "সুতায় আটকে বাংলাদেশ, নন-কটনে এগিয়ে বিশ্ব",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5ONWtZOGt1b282OVJLSzdLSzNOYkpTc29TSGk2R2lzMjRucjJlUks4SUZsZlRWV0ZWOFcycUZMTXRvakNZdDdDdmlXRGxwMzdDVkE?oc=5",
       "summary": "সুতায় আটকে বাংলাদেশ, নন-কটনে এগিয়ে বিশ্ব dhakapost.com",
@@ -797,6 +910,18 @@
       "category": "Bangladesh · বাংলা",
       "section": "International Page",
       "type": "International Page",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
+      "title": "মহানবী (সা.)-এর জন্ম তারিখের বর্ণনা - Banglanews24",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1ySnpDa24zVlpxb0xldEYyekREMTk1aFViZm8tc21MVkFQRVh2a0VCT3BqTnB4cF9ycVZsbWdpZkdqUDVwQlFrWFRrQXJQeEpPNFJBV09fbUNGTmJBWV9GNEJteWhORU9nbnc?oc=5",
+      "summary": "মহানবী (সা.)-এর জন্ম তারিখের বর্ণনা Banglanews24",
+      "date": "Wed, 26 Aug 2026 07:00:00 GMT",
+      "source": "বাংলা নিউজ ২৪",
+      "category": "Bangladesh · বাংলা",
+      "section": "Editorial / Opinion",
+      "type": "Editorial / Opinion",
       "topics": [],
       "exam_priority": "General"
     },
@@ -837,20 +962,6 @@
       "type": "Editorial / Opinion",
       "topics": [],
       "exam_priority": "General"
-    },
-    {
-      "title": "Walton starts TV export to Poland to continue Europe conquest",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE10emczVC1udVJpVU1vOU96OWcxZjVTQ05pcmxJUkc5eHl3UW8xWXkzRkFyS3d4R2RjZ0YyUHhTRUdJQXRZeTNQTTlPTjhXdWQyZGNuSTVxOWJ3aW9JajVZQ2tn?oc=5",
-      "summary": "Walton starts TV export to Poland to continue Europe conquest Risingbd.com",
-      "date": "Wed, 26 Aug 2020 07:00:00 GMT",
-      "source": "RisingBD",
-      "category": "Bangladesh · English",
-      "section": "Economics Page",
-      "type": "Economics Page",
-      "topics": [
-        "Economy & Banking"
-      ],
-      "exam_priority": "Medium"
     },
     {
       "title": "DRU condemns DSA case against UNB journalist Jahangir Alam - United News of Bangladesh",
@@ -1106,6 +1217,20 @@
       "exam_priority": "High"
     },
     {
+      "title": "World Bank helps Bangladesh strengthen its banking sector",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOOExaYm02UVA1b25COUdZM0loTkdPaU1DbWw2czkzX1V3d0Z5d3lUT0hDS0lIY0Y0U2FaT1kybzI1aHc5aEJJZEZubjBTRVNER3UtUlJPc2J4MFBYYVlBR2xkQlJaWjdRUElQNU1LVmNOYnJZemltdjdzM0hRS1M1LTNEcGFDWHkxODlIbU93Z1hLYkwxODZIcHUwVUZkbUN6VzJn0gGoAUFVX3lxTE91WmlpbG1LcHpydlhYNTFJbzF0ajh3M2VKSUxWRDNtRW1iQno1Vk1venpwckJHT0NCWGNoT285WGRMUnJCRUVUejdZZldyaV9oSDdKaXhxLUIwbXc4alhEaENLaXRJdGdOOV9pcjBRY3JPX3kxRkVfczFNLV9fQ0hyeEowOGpyT2trYVJRQTJfSXNoU0RQOHQ4V2pVNXh2U1U5dWlDZEhDTg?oc=5",
+      "summary": "World Bank helps Bangladesh strengthen its banking sector Dhaka Tribune",
+      "date": "Wed, 24 Jun 2026 07:00:00 GMT",
+      "source": "Dhaka Tribune",
+      "category": "Bangladesh · English",
+      "section": "Economics Page",
+      "type": "Economics Page",
+      "topics": [
+        "Economy & Banking"
+      ],
+      "exam_priority": "Medium"
+    },
+    {
       "title": "'Ten Commandments' for Bangladesh economy",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNY1ZBWEhrd2V3TWxYYUZEWUpWYXFFc3gxVmg4ZEdHUWtRNUxwZnhDQTF5ZlFCdFVzaUlZM0RORkVNZmVIYTZxUFNhMm04UzQ3a2VhTnY2WXN4NThUZ1dieUZmOVVfbzhRNU5zSC0wZFFvVFJKTWVsUl85TGRLdHhMWEk4cXQzU1EydHVELTZiYw?oc=5",
       "summary": "'Ten Commandments' for Bangladesh economy The Financial Express",
@@ -1120,18 +1245,16 @@
       "exam_priority": "Medium"
     },
     {
-      "title": "World Bank helps Bangladesh strengthen its banking sector",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOOExaYm02UVA1b25COUdZM0loTkdPaU1DbWw2czkzX1V3d0Z5d3lUT0hDS0lIY0Y0U2FaT1kybzI1aHc5aEJJZEZubjBTRVNER3UtUlJPc2J4MFBYYVlBR2xkQlJaWjdRUElQNU1LVmNOYnJZemltdjdzM0hRS1M1LTNEcGFDWHkxODlIbU93Z1hLYkwxODZIcHUwVUZkbUN6VzJn0gGoAUFVX3lxTE91WmlpbG1LcHpydlhYNTFJbzF0ajh3M2VKSUxWRDNtRW1iQno1Vk1venpwckJHT0NCWGNoT285WGRMUnJCRUVUejdZZldyaV9oSDdKaXhxLUIwbXc4alhEaENLaXRJdGdOOV9pcjBRY3JPX3kxRkVfczFNLV9fQ0hyeEowOGpyT2trYVJRQTJfSXNoU0RQOHQ4V2pVNXh2U1U5dWlDZEhDTg?oc=5",
-      "summary": "World Bank helps Bangladesh strengthen its banking sector Dhaka Tribune",
+      "title": "11 Joint Investigation Teams working on priority money laundering cases: Finance Minister - United News of Bangladesh",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSlp6U2xRWlJnTnVzZVJlYTk0Qk5rczk0dzdESzRZT3puM085M2xsYmEwQVJqMlp0QTZOaU9YcmdtNzU1TzVVWjlTRXgxLTBpSzUyQUpMMVB1cjhZX3FETEJuc3VMQkNEb2s4WEZqZzV4dGdWSkdNOVN1Vnlla0VmS0c2dWs5aGFmWGZsdGNMQXFybnM5eWpraE16aFBRMFJ0T1lZa1FuWFV5aGtTYlg2WVJnYlZzMnF2anNSNnJXNEsxblVnMUx6TVFCa0g?oc=5",
+      "summary": "11 Joint Investigation Teams working on priority money laundering cases: Finance Minister United News of Bangladesh",
       "date": "Wed, 24 Jun 2026 07:00:00 GMT",
-      "source": "Dhaka Tribune",
+      "source": "UNB",
       "category": "Bangladesh · English",
       "section": "Economics Page",
       "type": "Economics Page",
-      "topics": [
-        "Economy & Banking"
-      ],
-      "exam_priority": "Medium"
+      "topics": [],
+      "exam_priority": "General"
     },
     {
       "title": "বিশ্ব অর্থনীতির ভবিষ্যৎ নিয়ে দালিয়ানে বিশ্বনেতাদের আলোচনা - শেয়ার বিজ",
@@ -1264,20 +1387,6 @@
       "exam_priority": "Medium"
     },
     {
-      "title": "India foreign minister says reiterated concerns over Russia sanctions act to Rubio",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPT0xrcW5TUENuUVMtNEY0QU93VW9UOHBncDBLdXpCdUc5eExRbXdIWU9NZTZ4emJyM3RnU0JQYUJCWW5ONFV6Wkh1VWQ5dEpaYnBNWDIwM01XbFROWGlsY3d1VVdtaUtEZzItUFdGM2pQMGNlaTM1UEQyU3BhaDF0WFVYVUdpRjdtM1g5MGgwN0U2c3FfVG5pblBESGNLNlM0T05uaUozaTAtc1lJenVONTFqTnBpQ2d0?oc=5",
-      "summary": "India foreign minister says reiterated concerns over Russia sanctions act to Rubio The Business Standard",
-      "date": "Wed, 23 Sep 2026 07:00:00 GMT",
-      "source": "The Business Standard",
-      "category": "Bangladesh · English",
-      "section": "International Page",
-      "type": "International Page",
-      "topics": [
-        "Geopolitics"
-      ],
-      "exam_priority": "Medium"
-    },
-    {
       "title": "Khalilur Rahman meets Donald Trump",
       "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBfT3MtV3ljWEdWNm83UzZsUmppXzI4TjhuQVNZa0RzZDR4LXA5ODE1TG9odzdELUxwb0NadlRJX2dnVTZZWFIyZUp3?oc=5",
       "summary": "Khalilur Rahman meets Donald Trump Daily Observer",
@@ -1286,6 +1395,18 @@
       "category": "Bangladesh · English",
       "section": "International Page",
       "type": "International Page",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
+      "title": "Hania Aamir takes stand against body shaming - The Bangladesh Today",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5wZE8tNXAwRnkzLVpTbm5oQkh3U1VscHZFWWVLREN1T1c1YmdTbFVWWVhpaGgzVmJkRjRLV1pvMnhuLXNwNHJ3eHNmbVBYc1d3aXowZ2hBaUFfdVU2ek5BbktzaGpaLWlYY05qWkxn?oc=5",
+      "summary": "Hania Aamir takes stand against body shaming The Bangladesh Today",
+      "date": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "source": "Bangladesh Today",
+      "category": "Bangladesh · English",
+      "section": "Editorial / Opinion",
+      "type": "Editorial / Opinion",
       "topics": [],
       "exam_priority": "General"
     },
@@ -1302,18 +1423,6 @@
         "Economy & Banking"
       ],
       "exam_priority": "Medium"
-    },
-    {
-      "title": "Hania Aamir takes stand against body shaming - The Bangladesh Today",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5wZE8tNXAwRnkzLVpTbm5oQkh3U1VscHZFWWVLREN1T1c1YmdTbFVWWVhpaGgzVmJkRjRLV1pvMnhuLXNwNHJ3eHNmbVBYc1d3aXowZ2hBaUFfdVU2ek5BbktzaGpaLWlYY05qWkxn?oc=5",
-      "summary": "Hania Aamir takes stand against body shaming The Bangladesh Today",
-      "date": "Wed, 23 Sep 2026 07:00:00 GMT",
-      "source": "Bangladesh Today",
-      "category": "Bangladesh · English",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
-      "topics": [],
-      "exam_priority": "General"
     },
     {
       "title": "MAGA Podcasters Are Tuning Out Trump. We Tracked What They Are Talking About Now. - WSJ",
@@ -1436,19 +1545,16 @@
       "exam_priority": "Medium"
     },
     {
-      "title": "ডিসেম্বরের আগে যেভাবে নির্বাচন আয়োজন সম্ভব, জানালেন আমীর খসরু - Ajker Patrika",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5vOUZlXzVTM0xGRU9IOExNa0dOX0lEaFJSd2R5TTRzQk01ZUVWeUItUWN6YUZMSXhVOERuem9WNEU2QmFIR1Y0S193STdjRmR1NkZHaF9BY3c0bHE2cmNWMtIBZkFVX3lxTE1OTWdZLUZLb3RITHY2TEtNZmcyeUNCWkx1OUtnN0NhcHBHUDVkdXZrTmRQb25FSHpmQ1h4NmhmLXRYSW5jTnY4aUhYNUxKckk0RU8xUnJXMWVMLWw0VUdjN0V6SHJTdw?oc=5",
-      "summary": "ডিসেম্বরের আগে যেভাবে নির্বাচন আয়োজন সম্ভব, জানালেন আমীর খসরু Ajker Patrika",
-      "date": "Wed, 23 Apr 2025 07:00:00 GMT",
-      "source": "আজকের পত্রিকা",
-      "category": "Bangladesh · বাংলা",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
-      "topics": [
-        "Governance & Public Policy",
-        "Elections & Democracy"
-      ],
-      "exam_priority": "High"
+      "title": "Primary school building collapses due to Padma erosion in Manikganj",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOc2x2T1VlTHFqSm1DVzYtalBxUVJoNWphclpNQ2FUSnZ3dDk3SjNiVEdzRXBSVTNBdXI1R01WRkdKR2otcEVoSkk2QzRIVGtQdnh3aVFWV0tWQ3FoNnZEUFBTZWVVNXp3R0w1Zjc0LVdMRG5QX2ZabXQtWXUweTU5ZEF4Z1F5UGVIdzJrS05VRU1TRzc4bmtlSNIBngFBVV95cUxOUmw0T2p1SXpieDFiVXZnVEpzLU1RVVozTDNxTHd1S3FqamtXZlc1dW5LS1lXWkE3eEVsMnNrVW9KdmkwMFZ1dmZucURnbk5tWV9aOFFCZUlEaUpsaFBkeUNNU2dWNU9aR0FEbTRmeUtKUmhSU05PMzBla1hUVlJTYi1RMURaWTRLdDJVLUNidkpmYk9mMEVFZXVNSWdkUQ?oc=5",
+      "summary": "Primary school building collapses due to Padma erosion in Manikganj Dhaka Tribune",
+      "date": "Wed, 23 Aug 2023 07:00:00 GMT",
+      "source": "Dhaka Tribune",
+      "category": "Bangladesh · English",
+      "section": "All News",
+      "type": "All News",
+      "topics": [],
+      "exam_priority": "General"
     },
     {
       "title": "EC seeks Law Ministry's opinion on declaring Ishraque as DSCC mayor",
@@ -1461,6 +1567,20 @@
       "type": "Editorial / Opinion",
       "topics": [],
       "exam_priority": "General"
+    },
+    {
+      "title": "রাজনৈতিক দলের রাজনীতি",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAzRXY0U0xUUzhTX3ExVGViT3F1SkZqUlhEWkJ3UDZCc3JxT0pkWEt3RGlETkdTeWFWc01uV2s0cUY4TE1CS2poUnl4MGxLd2U4?oc=5",
+      "summary": "রাজনৈতিক দলের রাজনীতি dhakapost.com",
+      "date": "Wed, 22 Sep 2021 07:00:00 GMT",
+      "source": "The Dhaka Post",
+      "category": "Bangladesh · বাংলা",
+      "section": "Editorial / Opinion",
+      "type": "Editorial / Opinion",
+      "topics": [
+        "Governance & Public Policy"
+      ],
+      "exam_priority": "Medium"
     },
     {
       "title": "শারদীয় দুর্গা উৎসবের ছুটি বৃদ্ধি করা হোক - Shomoyer Alo",
@@ -1550,18 +1670,6 @@
       "exam_priority": "General"
     },
     {
-      "title": "Rubio receives Khalilur Rahman in Manila",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTThpX3dOWEpWUnFnQ0VycXluY0l5TDJXUHNPbFZIS1gxdDRiemJvS3ppSTRjY01JWllCYkRfUFExZ1k0X202bU1RTlFnYXp0ME5JM2FYa19uSGlXZ0hsNmRWQTBfS0dmMUVJUDZldTVLeHhONVpVZGxxVU93UHlXbjNLWVdKMHp3RHc?oc=5",
-      "summary": "Rubio receives Khalilur Rahman in Manila daily-sun.com",
-      "date": "Wed, 22 Jul 2026 07:00:00 GMT",
-      "source": "Daily Sun",
-      "category": "Bangladesh · English",
-      "section": "International Page",
-      "type": "International Page",
-      "topics": [],
-      "exam_priority": "General"
-    },
-    {
       "title": "‘Bangladesh First’ policy to guide foreign relations: Khalilur - Bangladesh Sangbad Sangstha (BSS)",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1rVVQzNllzYU51a3FIcmZ2VmhZdHAtT1JEWElZQ2EtQWFnYnRZTWxjandoX3FReFc1UXBnS0NBNXZGY01KQVp2cWZidjh4V3MxTzRN?oc=5",
       "summary": "‘Bangladesh First’ policy to guide foreign relations: Khalilur Bangladesh Sangbad Sangstha (BSS)",
@@ -1640,18 +1748,6 @@
       "exam_priority": "General"
     },
     {
-      "title": "বাংলাদেশে রাজনৈতিক স্থিতিশীলতা বেড়েছে, সহিংসতা কমেছে: যুক্তরাজ্যের স্বরাষ্ট্র দপ্তর - Protidiner Bangladesh",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52MGtGQUZVVk5ONVQzaV9IZTJ3TGU2aFNZR2lHUEVhaXpPZTQ0dy1saTZPaHJGZW9ZUERseTJ1LWZRYms2RFNMbXIzWm9YRHJ1OENTY2NQSFdWeXRR?oc=5",
-      "summary": "বাংলাদেশে রাজনৈতিক স্থিতিশীলতা বেড়েছে, সহিংসতা কমেছে: যুক্তরাজ্যের স্বরাষ্ট্র দপ্তর Protidiner Bangladesh",
-      "date": "Wed, 21 Oct 2026 07:00:00 GMT",
-      "source": "প্রতিদিনের বাংলাদেশ",
-      "category": "Bangladesh · বাংলা",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
-      "topics": [],
-      "exam_priority": "General"
-    },
-    {
       "title": "আলজেরিয়া সফরে পররাষ্ট্র প্রতিমন্ত্রী হুমায়ুন কবির - Ajker Patrika",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5DMUNucC1fdXRXbDNKRi04MUR6c21acVpMRzZfcEg1QVY3Mk93b0wtdHFnS1IzZTVXQ3pERzFRSXFhZGlhQ3lRTTZvazVuaktubjM3Z1FaQzVCM1A3ZjRKM9IBZkFVX3lxTE5OR0NYV0JsX0NGMHhWMmlKdUZZc1UwQW15N2ZSZ3puSXVwa3NCMDJUUXlDZDhQT3NBZ2V3YkdjaVFWNXRyY2k1QWg4QXl6Q0pzS2syS1gtbHR0N0pSRVVBREtfbE5RZw?oc=5",
       "summary": "আলজেরিয়া সফরে পররাষ্ট্র প্রতিমন্ত্রী হুমায়ুন কবির Ajker Patrika",
@@ -1664,39 +1760,11 @@
       "exam_priority": "General"
     },
     {
-      "title": "গত নির্বাচনে দেশের মানুষ ভোট ব্যাংক ধারণার অবসান ঘটিয়েছে : স্বরাষ্ট্রমন্ত্রী",
-      "link": "https://news.google.com/rss/articles/CBMivgJBVV95cUxObDAzTWhEcVh1aTZrc01vOEEtM3doNUhYRE5tb3ZVSjVfU3lUYktycWFVNnB2cEs0SWtla2dxaFA0RFRmODJzVWFaYnpNWWYxaTh6YVg3OWdqeHJlUUJLUEF6WjVOMlNTdW9DS19Oc3FZRjN5N0t4aEpMdVF4bzNTTnJ6bmJxTXFBY2FoWG93c0gxLVpyaXB1WDRfX0t2dTI0LXRSSDU0dVBlQ0o4SGRweDB3NU5JQktWWThNOEFqaUM3SVo3RGNnUXpROHROMjNmUGVfVFRJX0dVV05KNlFveU9EZFNKb1JpZ1JobU9EQnRuX1ZzaG5XaXJIY1hqcXh3d1V2RmE2Q1NhUU0wRktxN01XNm05OXVZaUw2d3BqbzQ4YWFxRU9MZ0xsLUtaSmkwOEVKeENVaEJ0X245a0E?oc=5",
-      "summary": "গত নির্বাচনে দেশের মানুষ ভোট ব্যাংক ধারণার অবসান ঘটিয়েছে : স্বরাষ্ট্রমন্ত্রী দৈনিক আজাদী",
+      "title": "বাংলাদেশে রাজনৈতিক স্থিতিশীলতা বেড়েছে, সহিংসতা কমেছে: যুক্তরাজ্যের স্বরাষ্ট্র দপ্তর - Protidiner Bangladesh",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52MGtGQUZVVk5ONVQzaV9IZTJ3TGU2aFNZR2lHUEVhaXpPZTQ0dy1saTZPaHJGZW9ZUERseTJ1LWZRYms2RFNMbXIzWm9YRHJ1OENTY2NQSFdWeXRR?oc=5",
+      "summary": "বাংলাদেশে রাজনৈতিক স্থিতিশীলতা বেড়েছে, সহিংসতা কমেছে: যুক্তরাজ্যের স্বরাষ্ট্র দপ্তর Protidiner Bangladesh",
       "date": "Wed, 21 Oct 2026 07:00:00 GMT",
-      "source": "দৈনিক আজাদী",
-      "category": "Bangladesh · বাংলা",
-      "section": "Economics Page",
-      "type": "Economics Page",
-      "topics": [
-        "Economy & Banking",
-        "Governance & Public Policy",
-        "Elections & Democracy"
-      ],
-      "exam_priority": "High"
-    },
-    {
-      "title": "কিশোর বয়সে ঢাকা ত্যাগ করা রনি আজ বিশ্ব গোয়েন্দা জগতের প্রভাবশালী মুখ - ডেইলি সান বাংলা",
-      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1sQS1Ha2FScU9uSVB1TlN4aG1ZRFZPS0JSck9pRHhkMXRhTkF2bG5HS1NqaHc3TmRpUkF1aVM3WHJwX3FCTDQxelF6YXc?oc=5",
-      "summary": "কিশোর বয়সে ঢাকা ত্যাগ করা রনি আজ বিশ্ব গোয়েন্দা জগতের প্রভাবশালী মুখ ডেইলি সান বাংলা",
-      "date": "Wed, 21 Oct 2026 07:00:00 GMT",
-      "source": "Daily Sun",
-      "category": "Bangladesh · বাংলা",
-      "section": "International Page",
-      "type": "International Page",
-      "topics": [],
-      "exam_priority": "General"
-    },
-    {
-      "title": "বিভেদ সৃষ্টির অপচেষ্টার বিরুদ্ধে আপসহীন থাকতে হবে: রাষ্ট্রপতি - শেয়ার বিজ",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5Gd21hb0NKWmpjcm56RTlRV0FiX19PbXBIMS1TNmxLUWNTeE9DeDhDV2IzTk1BbjY1YUlJYVJzY1doYmRJbGY1RkRIcGhESGlZdy1KMU9ZdHk?oc=5",
-      "summary": "বিভেদ সৃষ্টির অপচেষ্টার বিরুদ্ধে আপসহীন থাকতে হবে: রাষ্ট্রপতি শেয়ার বিজ",
-      "date": "Wed, 21 Oct 2026 07:00:00 GMT",
-      "source": "শেয়ারবিজ",
+      "source": "প্রতিদিনের বাংলাদেশ",
       "category": "Bangladesh · বাংলা",
       "section": "Editorial / Opinion",
       "type": "Editorial / Opinion",
@@ -1716,6 +1784,18 @@
         "Economy & Banking"
       ],
       "exam_priority": "Medium"
+    },
+    {
+      "title": "কিশোর বয়সে ঢাকা ত্যাগ করা রনি আজ বিশ্ব গোয়েন্দা জগতের প্রভাবশালী মুখ - ডেইলি সান বাংলা",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1sQS1Ha2FScU9uSVB1TlN4aG1ZRFZPS0JSck9pRHhkMXRhTkF2bG5HS1NqaHc3TmRpUkF1aVM3WHJwX3FCTDQxelF6YXc?oc=5",
+      "summary": "কিশোর বয়সে ঢাকা ত্যাগ করা রনি আজ বিশ্ব গোয়েন্দা জগতের প্রভাবশালী মুখ ডেইলি সান বাংলা",
+      "date": "Wed, 21 Oct 2026 07:00:00 GMT",
+      "source": "Daily Sun",
+      "category": "Bangladesh · বাংলা",
+      "section": "International Page",
+      "type": "International Page",
+      "topics": [],
+      "exam_priority": "General"
     },
     {
       "title": "এবার হত্যাচেষ্টা মামলায় ৪ দিনের রিমান্ডে দিলীপ কুমার আগারওয়ালা - United News of Bangladesh",
@@ -1769,18 +1849,6 @@
       "exam_priority": "General"
     },
     {
-      "title": "Across several European countries: The Rent, the School and the Roadblock",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWXM3OUpPci1QdHp2RXE5dkp5aW10NTFpUXF2cC1IUFJRMWlva24za1hDT2RVeENlekhZZkFjRnU4b3BjVl9FSHRiVURzMkcwdWh6QXgxWFFkYTR4cG04bUVUTWFSNzc3TXozQlhNVUY1TWNCN0Z6X18zUHFTaFJIaENFbjVPVF83UmJXTHlDZXFOc183empLRUZrNU5QZ01uWHFhWVh5WlI0eXRzeGVsUg?oc=5",
-      "summary": "Across several European countries: The Rent, the School and the Roadblock daily-sun.com",
-      "date": "Wed, 21 Oct 2026 07:00:00 GMT",
-      "source": "Daily Sun",
-      "category": "Bangladesh · English",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
-      "topics": [],
-      "exam_priority": "General"
-    },
-    {
       "title": "Economy, energy sector expected to stabilise by government's second year: Khosru - The Bangladesh Today",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ydVpDNDBUVzM2SExmTDQ0OUZ1ZmFDYXZiWWlDTDBoZHBsQ29SVFh5dGs4WFM0Z2NyTHhUdjFZWTVraEJTXzdQZzlxZFhKOTlERzk3aGxPV0VwZGNXdVkwUFV6eWVGS2VTd1E?oc=5",
       "summary": "Economy, energy sector expected to stabilise by government's second year: Khosru The Bangladesh Today",
@@ -1794,6 +1862,18 @@
         "Governance & Public Policy"
       ],
       "exam_priority": "High"
+    },
+    {
+      "title": "Across several European countries: The Rent, the School and the Roadblock",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWXM3OUpPci1QdHp2RXE5dkp5aW10NTFpUXF2cC1IUFJRMWlva24za1hDT2RVeENlekhZZkFjRnU4b3BjVl9FSHRiVURzMkcwdWh6QXgxWFFkYTR4cG04bUVUTWFSNzc3TXozQlhNVUY1TWNCN0Z6X18zUHFTaFJIaENFbjVPVF83UmJXTHlDZXFOc183empLRUZrNU5QZ01uWHFhWVh5WlI0eXRzeGVsUg?oc=5",
+      "summary": "Across several European countries: The Rent, the School and the Roadblock daily-sun.com",
+      "date": "Wed, 21 Oct 2026 07:00:00 GMT",
+      "source": "Daily Sun",
+      "category": "Bangladesh · English",
+      "section": "Editorial / Opinion",
+      "type": "Editorial / Opinion",
+      "topics": [],
+      "exam_priority": "General"
     },
     {
       "title": "Many states deciding control of the Senate are seeing a big boost in early voting, AP analysis shows - AP News",
@@ -1872,6 +1952,20 @@
       "exam_priority": "General"
     },
     {
+      "title": "Walton starts export of its locally made laptop",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9MV3dvYi1vNXUzN29WdEtXb3p2aU94WmFqZUVLRUJmN0RrdndaQlNMTV9MUUhac0hPa0JseDhfakw5aFh0T1o5RjhaQjluenY5SnVsNDQ0NDJoLUQ4QmxqRFJn?oc=5",
+      "summary": "Walton starts export of its locally made laptop Risingbd.com",
+      "date": "Wed, 21 Mar 2018 07:00:00 GMT",
+      "source": "RisingBD",
+      "category": "Bangladesh · English",
+      "section": "Economics Page",
+      "type": "Economics Page",
+      "topics": [
+        "Economy & Banking"
+      ],
+      "exam_priority": "Medium"
+    },
+    {
       "title": "প্রতিদিনের প্রয়োজনীয় ৪০ দোয়া - Dhaka Mail",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE84OE5DRTYwM0kwcHRDdTI2eWNJd1N5RnZwczVBcXdWakVfQjBidXJuSy1KVmNzVElZUU1VZ0pUeVZfVGp3b3JNejBLTlRrd9IBU0FVX3lxTE5mQ2x2Z3RQTUlzYVoxcGpPWmVzUFRRdEJUTW5GYy1BZ0I3SjhZa1Y4dEFqTVZPcFpXSGhxUnFzRkFhZjB4LWtwQXNCc1hYQ1BmWm13?oc=5",
       "summary": "প্রতিদিনের প্রয়োজনীয় ৪০ দোয়া Dhaka Mail",
@@ -1946,6 +2040,21 @@
       "exam_priority": "General"
     },
     {
+      "title": "Altamis Nabil wins 40Under40 Smart Bangladesh ICT Award",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5DSjZCYTUza0REYmMybndMWFJhYXJuVWVKRUpZSFpnRmdyN3VMZWFPLTMtLVVNY0dJNTc1VWVubWZXRkZWRDlQdVpDbE1wTHYyaVhXaTE5YlJCVzY4NDZ5UnBn?oc=5",
+      "summary": "Altamis Nabil wins 40Under40 Smart Bangladesh ICT Award Risingbd.com",
+      "date": "Wed, 20 Sep 2023 07:00:00 GMT",
+      "source": "RisingBD",
+      "category": "Bangladesh · English",
+      "section": "International Page",
+      "type": "International Page",
+      "topics": [
+        "Geopolitics",
+        "Prizes & Awards"
+      ],
+      "exam_priority": "High"
+    },
+    {
       "title": "Sierra Leone keen to increase ties with Bangladesh",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1TaTdMRDFraGVJWHhhd3JjRV93SV9VU3kzM2s0Tk0yQlVlcUVkY3pSU0YyRjRZTW1VZWtiSlZ0b3RMNjdGbEUzTkdyUmM5V3VQa1ljbFlPQWNlN2ExN3NTM3FB?oc=5",
       "summary": "Sierra Leone keen to increase ties with Bangladesh Risingbd.com",
@@ -1956,20 +2065,6 @@
       "type": "International Page",
       "topics": [],
       "exam_priority": "General"
-    },
-    {
-      "title": "India | Latest News & Updates - BBC",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5BRS1adzJoeFlUU0FSNWktWG9WamR6dUJfRGREY2VUZ3FCVENXZkFseEhpZE1iakJRakt0cmJ0VWVsQm1ZSTJ0QjQ3QnBZdlpjcTZr?oc=5",
-      "summary": "India | Latest News & Updates BBC",
-      "date": "Wed, 20 Sep 2017 12:05:25 GMT",
-      "source": "BBC News",
-      "category": "International",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
-      "topics": [
-        "Geopolitics"
-      ],
-      "exam_priority": "Medium"
     },
     {
       "title": "মায়ের সাথে অভিমান করে মোবাইলে ভিডিও চালু করে গলায় ফাঁস - Daily Observer",
@@ -2008,18 +2103,6 @@
       "exam_priority": "General"
     },
     {
-      "title": "আগের শর্তে আবারও খালেদা জিয়ার মুক্তির মেয়াদ বাড়ছে ৬ মাস",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE02cTBvSzVuNUpDeXdOZ3NadDh6dUNmNDYwTlF1VWNRVDJrTlVkVnVmQTdodjl6b0pKS3Q3ZUM0dE9OU3A2bGNzd0I2LUNxNWdNUzVN?oc=5",
-      "summary": "আগের শর্তে আবারও খালেদা জিয়ার মুক্তির মেয়াদ বাড়ছে ৬ মাস dhakapost.com",
-      "date": "Wed, 20 Mar 2024 07:00:00 GMT",
-      "source": "The Dhaka Post",
-      "category": "Bangladesh · বাংলা",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
-      "topics": [],
-      "exam_priority": "General"
-    },
-    {
       "title": "Opinion: Leroy Sané helps Germany rediscover fun factor",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZUR3aHdtTlVNbmFLRDR3cEhuNnNoN2huSUt2N1hwQ1hDcUtJSWVUSlJMTzZyc2JsX2JvSUdaWjN2ZmtXaV9VcUZpcmh4TFkyUjhFNXVBYVdnUXl2V2xYWE1TWDZ6cG9TREctVW1wcVZ6bXo2WkV0YWVjb3dVVkx5OWdIYlAzdnNkUnl2ZVI4eHVheGh3RUJkY2Q0VlU3aklhWXBvSDdoSmU4VlZP?oc=5",
       "summary": "Opinion: Leroy Sané helps Germany rediscover fun factor DW.com",
@@ -2052,6 +2135,18 @@
       "category": "Bangladesh · বাংলা",
       "section": "All News",
       "type": "All News",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
+      "title": "পশু-পাখির প্রতি সদয় আচরণ কাম্য - Banglanews24",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ZQk56U2hWaHFoN3BvTzZDbWU1M01MTmVfVDV0ajU0X2ExajdLam95UzU2TFI2Y3NmcDlJcDFwMC1fVUVOVVVROE9MMzQtV2hyM1pXNTViMzhDenJQWURfelRuWEVta1pG?oc=5",
+      "summary": "পশু-পাখির প্রতি সদয় আচরণ কাম্য Banglanews24",
+      "date": "Wed, 19 Sep 2018 01:25:18 GMT",
+      "source": "বাংলা নিউজ ২৪",
+      "category": "Bangladesh · বাংলা",
+      "section": "Editorial / Opinion",
+      "type": "Editorial / Opinion",
       "topics": [],
       "exam_priority": "General"
     },
@@ -2120,6 +2215,18 @@
       "exam_priority": "Medium"
     },
     {
+      "title": "ঘাতক দালাল নির্মূল কমিটি : আগামীর দৃঢ়তা",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4zZ1RXV2kzSGQ0NzJMT2NRSFJGU0d3NDdWTU5zTUk4QUZRRWYzMk9YVDJhUFk2eTluU3p6Tk8yYUtwTV91enNudm12MmcwcmlM?oc=5",
+      "summary": "ঘাতক দালাল নির্মূল কমিটি : আগামীর দৃঢ়তা dhakapost.com",
+      "date": "Wed, 19 Jan 2022 08:00:00 GMT",
+      "source": "The Dhaka Post",
+      "category": "Bangladesh · বাংলা",
+      "section": "Editorial / Opinion",
+      "type": "Editorial / Opinion",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
       "title": "তালিকা থেকে বাদ দেওয়া হলো ১৬ লাখ মৃত ভোটার - Banglanews24",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9QWVBDVlhtazJrcDdCczVnYndyR1JZLXUxMHBwdjRSMF9hbXNzNUhiUVNVcDM5dGZESzJYMmdpa1VKUElXTlR3cjBtcml4VUVhQTJYRlJIZ1BqRmotbFIwV0E3SVkxOGlwdTF2ckx2SHNrYlI4amc?oc=5",
       "summary": "তালিকা থেকে বাদ দেওয়া হলো ১৬ লাখ মৃত ভোটার Banglanews24",
@@ -2132,6 +2239,18 @@
         "Elections & Democracy"
       ],
       "exam_priority": "Medium"
+    },
+    {
+      "title": "বনায়ন জরুরি",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB0dHRPb3FCYzdydjFoS2NkWkxoMXNRWnRsYTJxbWZ0R1EwSWVMS1QxYTJkbmdRblliR2NpNFdHZy1faUlnNEhMVXduSjJvSTVvenRF?oc=5",
+      "summary": "বনায়ন জরুরি karatoa.com.bd",
+      "date": "Wed, 19 Feb 2025 17:13:27 GMT",
+      "source": "দৈনিক করতোয়া",
+      "category": "Bangladesh · বাংলা",
+      "section": "International Page",
+      "type": "International Page",
+      "topics": [],
+      "exam_priority": "General"
     },
     {
       "title": "Investigators recover black boxes for further analysis into Toronto plane crash",
@@ -2255,35 +2374,20 @@
       "date": "Wed, 19 Apr 2006 06:55:50 GMT",
       "source": "The Japan Times",
       "category": "International",
-      "section": "International Page",
-      "type": "International Page",
+      "section": "All News",
+      "type": "All News",
       "topics": [],
       "exam_priority": "General"
     },
     {
-      "title": "Rethinking post-uprising Bangladesh’s foreign policy",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMkxNTFZYdkdwSjBWTy1hQkkweVlRaTZwZldvLURGTzRFNk50T2RrSXhwRUpwNDU1Q1M2aF80OE90RW55RHl5cEJzZWUwT0ljTTVScWZ3Snc1Ym9hUl9ZOFA3cjl3dGZreUhCYkMtdDBEOUpSdEFuS2dMVndScmxLV1l3MTdsc0UxbEJlTkw0dEJwMVliTHc?oc=5",
-      "summary": "Rethinking post-uprising Bangladesh’s foreign policy The Business Standard",
-      "date": "Wed, 18 Sep 2024 07:00:00 GMT",
-      "source": "The Business Standard",
-      "category": "Bangladesh · English",
-      "section": "International Page",
-      "type": "International Page",
-      "topics": [
-        "Geopolitics",
-        "Governance & Public Policy"
-      ],
-      "exam_priority": "High"
-    },
-    {
-      "title": "Rabab Fatima new Bangladesh envoy to UN",
-      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5pNTZoeTBPQUU3OTYzc0Q0WldQRHVNTDZCSWQzVGVUN3k1X3ByNFd2dUtvMWN4UXJKRi1oWE9yd3VHUFNUSXhkMF9R?oc=5",
-      "summary": "Rabab Fatima new Bangladesh envoy to UN Daily Observer",
-      "date": "Wed, 18 Sep 2019 07:00:00 GMT",
-      "source": "Daily Observer",
-      "category": "Bangladesh · English",
-      "section": "International Page",
-      "type": "International Page",
+      "title": "চসিকের সাবেক কাউন্সিলর বাচ্চু গ্রেপ্তার",
+      "link": "https://news.google.com/rss/articles/CBMivgJBVV95cUxObFFRWkRKZGdoZVJWaDYyNVRmVTJPSWhDYXM4NU5XRE5IUXFlZnpOaklFb0Qyd0NCdTZLZ20zVklNZGlWUUFLNjQwcnY4Q210QnZnMVFLajFzemN5cHJxcGdJTEExZFM5ZjdGNlI5UTdBelZTUjNPa1F3RlcxaXpLYTI0TlpveXhXSFFBMDFLVU5hQm8tSTlrcTNVb19ZZEtPQnZ5aWxOMjlfNGsxeFNkWU5JbkNsOVNtbFI5enFpem1neHg4YmR2N2lPUHNuckkwN1RxdTRaNDRmOEg3TjR3YTg4TFFrN1c2OHJNUVJLdTJobGl5SndZM1dncVZ2dE5pZXptbU83QnBmYy1yOW5sc2dVWG5EWTBJenA5MzJiM2RCWTFpTG45bHZKa2J0Q2ZEeHM2Y0xhVlRxeGZ0QXc?oc=5",
+      "summary": "চসিকের সাবেক কাউন্সিলর বাচ্চু গ্রেপ্তার দৈনিক আজাদী",
+      "date": "Wed, 18 Nov 2026 23:58:00 GMT",
+      "source": "দৈনিক আজাদী",
+      "category": "Bangladesh · বাংলা",
+      "section": "Economics Page",
+      "type": "Economics Page",
       "topics": [],
       "exam_priority": "General"
     },
@@ -2394,20 +2498,8 @@
       "date": "Wed, 18 Nov 2026 23:49:36 GMT",
       "source": "CNN",
       "category": "International",
-      "section": "Economics Page",
-      "type": "Economics Page",
-      "topics": [],
-      "exam_priority": "General"
-    },
-    {
-      "title": "Uncontacted Awá of Brazil Emerge From Rainforest Seeking Food",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQd0RJb0ZjYlNhVE9IQVJIUlpkdkpJT0QyUl9aT3psMnNXSm95WXN5RjdaUmN5Y1FqSHROTmxMOUNDeVMwTElwT09oT2E4amxMRFAtdnZNeUZZU2xuODZmbVdJc2xETGpxai1UTHg5TkJHSHZSSnpBQkRNM1BUMjNoMXhkemdrLUlEQlJSTWZtdS0?oc=5",
-      "summary": "Uncontacted Awá of Brazil Emerge From Rainforest Seeking Food The New York Times",
-      "date": "Wed, 18 Nov 2026 23:48:39 GMT",
-      "source": "The New York Times",
-      "category": "International",
-      "section": "International Page",
-      "type": "International Page",
+      "section": "All News",
+      "type": "All News",
       "topics": [],
       "exam_priority": "General"
     },
@@ -2448,18 +2540,6 @@
       "exam_priority": "General"
     },
     {
-      "title": "Ex-Google Engineer May Face New Charges Over Bets on Gemini 3.0",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUi1uVEdYb09LeE44VkpURTBhZDZGQlk0dmMxRTJTbjh6Z1d3NTdZTnpQLW1lVDNNTFA2eFlRbGVhNUVCYVJUWklkT0pEaGFWaGpKRjhZOG41d3o5NURPVlNEaXB3Z3VmRHJQQnFiYTJiRy0tZmJud0lieE1idkJWX2FRVmNiTUFvT3JMOWRTV1pRcTM2enlLMVZsU3hmU3Iwc1EwemFGTVhiVUg5blpwcE9jRTc?oc=5",
-      "summary": "Ex-Google Engineer May Face New Charges Over Bets on Gemini 3.0 Bloomberg.com",
-      "date": "Wed, 18 Nov 2026 23:44:22 GMT",
-      "source": "Bloomberg",
-      "category": "International",
-      "section": "Economics Page",
-      "type": "Economics Page",
-      "topics": [],
-      "exam_priority": "General"
-    },
-    {
       "title": "কুবি শিক্ষার্থীদের বহনকারী বাসে অগ্নিসংযোগের চেষ্টা - The Daily Ittefaq",
       "link": "https://news.google.com/rss/articles/CBMirwRBVV95cUxNZEJxSm9ENm03NElKaWZVMDNoU3BtZTRxUmNtMERyLUtEelhuaTY5QTVVUk81R1c5cl9ZdlBNSVc2YlMxQTRldzM1OUkyNmJHWnVhOFJWWi0wd2NzclFTLUN5d0ZReTAtaVBUSHBiUFktTmVDMzE5REZZVUZDclpoUmxlNDV1VjRMdVc2VVYzZ1hNVV9kTDYtWW10S2E1a2VPbjBGdUVwZ0Rqd3JYN0w0eThFRWxiRThETlhmNGZ3QTgwemZla04yMURaMGx3UkVRcHZLZE5EZFd4bVNMVDFOU2xOX3VIWXpNaDNnQkJNU3R0TVhuRTQxQTB6a0h0TktrYVl4dE14QlE1UUhHcUQ5MEZISjJPZ2lob25QRG9SVEdybzctOXFXcnlaSjdiQlB6bm5qc0FBWkNQU044LWJ0RjMwa0N4OFRBYnd4Ty1UbTFPMmlFZWlkWEY5VW5SS0p5ZmhIdU8tS3BlM1lmbjl2bVBKYXEyZExkUFcwTnh0XzZOXzRLTWs3WndwUmNKS0YtQmRpS3hYVzViZ3gzaWN3ZnZSc3RJTi1PUm02SlZyMVhuejFNUHVGWk9FeWtwRmdLcjl1VEJqRkVjc2dXcDlZbGRESTU4SUtVY1lhbWgycEhZQ0ZlbjFNN3BmVnAtYXBHRXl4UDE4N3VvUV90TG1QSTVxNzRuUHRMdE5uX3RFMjdDb2xsbFJJcXRTYUs3UGhkQlc4WU53VkYxdndveGdj0gG0BEFVX3lxTE5aUVU1NV9pTjVRSGxMV0lRNV80YmlyZUVfZHNjdlQzdkY4LWNITkljbzVOLW9YenY4ZXBNNnVTeDlEYThoTDVWbXZUalpSTHFsWXJkMVp4TzZWbFpOSUFlT2hJcFhrV09oRkxBbVlrNWVZUlRHcE9UQThBU2VOOTZQM2xmTWNJc3JXSVlFSmFISER2UzlQdXZLeGZrcWM5RHYwYVZHM2dkSFB6THU1Q0wyUC13R1l0RFZQM2dCSTVoZVBsNTM5dm5jbTlGMUI3RWptYXFJWDhKazVRbEcwMS1uXzdYYmVpSHBhMFBtMF8yR0ZPclRFRWgwd1F5T2RfVDc4RG1SbHBsODg3N1p0V1pWR1FvZWlyRmdqcm5hSHRsVk9HQ2NxU3l2eE95SjY1Y0VXdzlEYjhaZXNFOGxhZXdqWmI2TzBzSnpueElVVVNmLWZoZWJBcDJVTFhORWh4ZS0wRTNYZm5kdmtVTVl3STZCWUNKYmFHOE5kMGdTeXVMd1IyX0RCMkVaVkxnOGxka0FscHE5aFM0V0lPWDJiV3FlZVdaTFEtWnVXQlZ2MVR3Wk5ReVpudGI1SXNHbUJEUG5pQ2pmN3NqNmIzNzczYXhWSkJONUhnZjYtMGczZk94YmEzODV6S3RCM0NyWkMxSW15b0M1Z3M1dk9OaEVmaDRrNDdNamJSbEJ0TEdOQmQzb0JyWnRHcXRHVGhOUWxGZ0VEcjctWkpteXR0d2hZN0ZqNkg5cg?oc=5",
       "summary": "কুবি শিক্ষার্থীদের বহনকারী বাসে অগ্নিসংযোগের চেষ্টা The Daily Ittefaq",
@@ -2486,6 +2566,18 @@
         "Environment & Climate"
       ],
       "exam_priority": "Medium"
+    },
+    {
+      "title": "US and Venezuela sign a deal to reestablish military ties, Hegseth says in visit to Caracas - AP News",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONFk1RlZIUXh1dXlFVHVzSlh1YjVibG0wdV81RS1na0Ywc3p5MEhaOXB6YlREV3FFRzJpM1VhMFgzYnNLU3hvaXBXOUh4TkpXa01XYTRzS1o1R0VXcHhzZXc4ZkRZYUIxRVVpRXB6Zm9BRUNMQlE5aGFySVUzR2RpVmpsV1A2UFNSLTRITEZNVG5BdUlZ?oc=5",
+      "summary": "US and Venezuela sign a deal to reestablish military ties, Hegseth says in visit to Caracas AP News",
+      "date": "Wed, 18 Nov 2026 23:39:00 GMT",
+      "source": "Associated Press",
+      "category": "International",
+      "section": "All News",
+      "type": "All News",
+      "topics": [],
+      "exam_priority": "General"
     },
     {
       "title": "Kazakhstan expects FAA blessing for direct US flights ahead of Trump-hosted G20 meeting",
@@ -2590,8 +2682,8 @@
       "date": "Wed, 18 Nov 2026 23:30:00 GMT",
       "source": "The Washington Post",
       "category": "International",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
+      "section": "All News",
+      "type": "All News",
       "topics": [],
       "exam_priority": "General"
     },
@@ -2616,10 +2708,24 @@
       "date": "Wed, 18 Nov 2026 23:26:13 GMT",
       "source": "Deutsche Welle",
       "category": "International",
-      "section": "International Page",
-      "type": "International Page",
+      "section": "All News",
+      "type": "All News",
       "topics": [],
       "exam_priority": "General"
+    },
+    {
+      "title": "Prince Harry says he’d return to the military to face Russia if needed",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE00SXM4ZV9HMUpEV19aTVpRSnhiODY2N0wzdXQ2elJjMzZTbHhtdDBFdHVMcFhzbkhwd3ZXNG40aHVDSkxSLUtpSkFWeGlYX2VrdURDVUhNUDVLVzNfcW56OG0wc25HY2IyX3ZBUU5OejAwODdjaFVXR3A1TW4?oc=5",
+      "summary": "Prince Harry says he’d return to the military to face Russia if needed CNN",
+      "date": "Wed, 18 Nov 2026 23:25:15 GMT",
+      "source": "CNN",
+      "category": "International",
+      "section": "All News",
+      "type": "All News",
+      "topics": [
+        "Geopolitics"
+      ],
+      "exam_priority": "Medium"
     },
     {
       "title": "Israeli tanks cross ‘yellow line’ boundary into Hamas-controlled central Gaza",
@@ -2680,8 +2786,8 @@
       "date": "Wed, 18 Nov 2026 23:18:00 GMT",
       "source": "The Wall Street Journal",
       "category": "International",
-      "section": "All News",
-      "type": "All News",
+      "section": "International Page",
+      "type": "International Page",
       "topics": [],
       "exam_priority": "General"
     },
@@ -2781,21 +2887,6 @@
       "exam_priority": "High"
     },
     {
-      "title": "EXCLUSIVE: UniCredit and Germany reach broad agreement on Commerzbank takeover",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbzY3bmFvcDFWWmUtWmRlTkg1OElfODl6Z1BCWG1LQlp3U0xsbXktUlo3SXRKczAxdEI2bGRSTmxLRDUwMXRMZU9LOGJuX0QyTkxLNHVnS254WkF6MVNRNmNsUkxZRXZreWh2d0R5M2JmZk1pUWZHYVg0R1BjUDBXNVlFOXpZRGhtRUxLd1F6UnViV0VQcHBGSWw0VjF4ZUU2dk9zQ3liMzNmY3k0TExRXzlVMA?oc=5",
-      "summary": "EXCLUSIVE: UniCredit and Germany reach broad agreement on Commerzbank takeover Reuters",
-      "date": "Wed, 18 Nov 2026 23:09:00 GMT",
-      "source": "Reuters",
-      "category": "International",
-      "section": "All News",
-      "type": "All News",
-      "topics": [
-        "Economy & Banking",
-        "International Treaties & Pacts"
-      ],
-      "exam_priority": "High"
-    },
-    {
       "title": "Idaho dropped 76 beavers from an aeroplane in parachute-equipped boxes in 1948 to move them into remote f",
       "link": "https://news.google.com/rss/articles/CBMijwNBVV95cUxOQlE2NnFXay1PeVhQbDR5SUx3RDJ1SWdyUGRkNkd0bTVobmhQUF9QOFZMX2E2WDBTX0FLRWM2MDhfOW12dEZSR1RHNkthTzJVYnZmNGxQd1RlNWp0dTQyQ0tHLVZuWHNBMkk1OGh0X0pJYS1iUE5pN0NBQVJjV2E5LUlmTFpDYzYxNktHSkFsTVlQWDRLemFjOEs0MVVFQ1h1ektyeWxERUlRaklkQ2ZFWFBRMy0yUERXZnRvTS1iblJZc2NXSkR2N0VVejN3RFhnSkZITUF2azFEYktvYVhjRW0wa251VjlMWkhDSGlGYVc5cFFqVGFZVS1qdmZLM1pMdlhYcVpjeDFHZjZXVU9aWGIyN2dHZ01DZ2pLaHpnbjVnc1dPT1AyQ2xzSWpCMXRDcGsyLXVlR3JBSmx5dHh0ZUNFUzJ4TWlNd0JEQkRnUFRKelVfLXBWS0pLSTVtUFhmQ1A4S29kLWZHa296aWlvaFNVdnlXYWN1TmZWY3Q2RzFJQl95WXA2RUlMT2dZLTjSAZQDQVVfeXFMTjdNclFtbHZtdm9COER4aGxLYTRxTzZkYmJ3RlFFRlUzQTZLXy1VelJfZW9aU2ZHd2ZoT25xUlNGVVVENTZ4bUtUNmJNOWdxSkJGbVpDRVExakpxX3JucDFZNnhaWm1EeXpscWtodUVwZXBpU0tSc0pmYnZmWFo4SHdsM203dTA1Vm9CSnZKRURIU09sWW5tTnJlaE1ydGRqbnRYeWdramtQOXNXMExBV0tQbHE1V1BXdVBxZ3o1dDJfbV9QX204Qm1zNmtHVXNJTVdyVVhDd0FsS25Uc0tJQWJJVkN3bkxlaHhnanQ0MElZS1lOUDRYS1VKazBBc1JGekFrZ3M2Y0dVTlFIMTBDOVdTenBHN3BYNEhhSW5KNE5VTkp2cXJleHdqSnFPX1Y1U3RxUkhhSjJWSFB0VERxTTNtbWZ0VGZwYy1LX0ZHNXZsZjd4TGllYWl0aEZDQ2M5YzJfMnBrQ3B4SG9rT0FXTFFwM2p6ejR3Z3BBTkQwZTFwYkV4Ml83RXEzZGVnV1F2QTdyN3M?oc=5",
       "summary": "Idaho dropped 76 beavers from an aeroplane in parachute-equipped boxes in 1948 to move them into remote f The Times of India",
@@ -2828,8 +2919,8 @@
       "date": "Wed, 18 Nov 2026 23:07:08 GMT",
       "source": "The Indian Express",
       "category": "International",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
+      "section": "All News",
+      "type": "All News",
       "topics": [
         "Geopolitics"
       ],
@@ -2844,18 +2935,6 @@
       "category": "Bangladesh · বাংলা",
       "section": "All News",
       "type": "All News",
-      "topics": [],
-      "exam_priority": "General"
-    },
-    {
-      "title": "Top UN court finds Myanmar committed genocide against Muslim Rohingya",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUGtSVDRwdUtMc3lyTmxTN1FCam5Fai1UaTdDZ1E3YXM4M3lfZk5yQXduaF9Uc3VjSVJuSzRwOG0wVFY0LURKWnVlR1gtNWZHaHlWaXBmazZlVzh4TGZHb0VfM3NTSHFZS29QMTlZV3Y3dm1GVmJzcHRQaW5yaTJacmV0ZnQ2Z0JrYWxIT3l4UUdTSDlDTnlLaTNERlF0NVF2U3lHR29tdWdabGc?oc=5",
-      "summary": "Top UN court finds Myanmar committed genocide against Muslim Rohingya Reuters",
-      "date": "Wed, 18 Nov 2026 23:06:00 GMT",
-      "source": "Reuters",
-      "category": "International",
-      "section": "International Page",
-      "type": "International Page",
       "topics": [],
       "exam_priority": "General"
     },
@@ -2924,18 +3003,6 @@
       "exam_priority": "General"
     },
     {
-      "title": "Cincinnati Zoo hopes a little shake will help Fiona the hippo pass a swallowed hat - AP News",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQWZGc1M5VlU3LU01dEhuVXE2TXp6ekxhOXpob2p2ZzEtQnJQLW0xcGh4UVNRTm94Y3pYOWZldjd3cFFvZmJweDJNOW9Ic2Nad3ZqWXZGWUZQcFdIVFdPOWJ0RjNvRm1feTNHek5rQkhxLVZOZmp1OTc2NW9wWkxvRzJkcC1nUkFMTDl4ZjctY2hqNWd1?oc=5",
-      "summary": "Cincinnati Zoo hopes a little shake will help Fiona the hippo pass a swallowed hat AP News",
-      "date": "Wed, 18 Nov 2026 23:02:24 GMT",
-      "source": "Associated Press",
-      "category": "International",
-      "section": "All News",
-      "type": "All News",
-      "topics": [],
-      "exam_priority": "General"
-    },
-    {
       "title": "Russian national accused of spying on employees of Silicon Valley defense and technology company - AP News",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOM1g3S21VOGtpa2t6Q2M3SVBxRHdKSURXczFXd1c2SHFaXzFtdE13cDZ4MEZ1UDA0Y1VJSzEyTlZ0RzA5RGJMZDY4bGtwdUc2Nk1pa3YxaFdUeWJsMUg1UUtYaWtUQzYzMHF4VFBpYkFEXzJqQzdyMzc5d2llend6Y0NYcFB6andnVDBCNzFFN2t2ZUNZNU5OVXRQQQ?oc=5",
       "summary": "Russian national accused of spying on employees of Silicon Valley defense and technology company AP News",
@@ -2971,10 +3038,24 @@
       "date": "Wed, 18 Nov 2026 22:58:24 GMT",
       "source": "Financial Times",
       "category": "International",
-      "section": "All News",
-      "type": "All News",
+      "section": "International Page",
+      "type": "International Page",
       "topics": [],
       "exam_priority": "General"
+    },
+    {
+      "title": "Litton Das scripts history, Bangladesh keeper sets world record in South Africa Test",
+      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNWHk5bWx1MDZVSXUtbFk3RjJfTlNsWjl5UTJzSVg2a3RGRVpfUVRkZnhCR0h1ai0xb0N2SXI1bTNubGdvM0lwU2FCcV9PZ2lGSmZ2dXY2NzduQ2NmU094S3NmV2paV0VhLUtodmhhTDRDUWdQdGgteXNnNHZXMXdSVEtQVHZybWRmc1F1QnVpT0xDSmF4UXYxYjZqX3d2eDhmelQ5bEVCc0lWZUJyVzRUTDEzOVl4UUFsalJ3TVFiT25xbjJRVldvU2R2akNwR1dNWndQSTdOVjFVTUxCWGFhb1M2R0RjdDF4NENHUWVoUVNFcEIySTNCN9IB_gFBVV95cUxPcmR6UUlDY3hWTW92V3d0V045d2ttQmVwN1psbzhCNFFXNUR0WTF1NFVrR2J1aGd4aWQ3blBZbjNBWjF2TDNDY3BzRk9VVUJneFd3RWpwclZRakV4SkVHZzI3c05MYzhtTmQ4dzI2N2NKSDhuOUZsMnk1TGRkLU9BeHAwZG5tZy1yQlRYZGY2enMyUnJweTZtV2FGZzF3V2FkYktSSUEyOTJGQ3ZyOVVuWDBobnd6djhfaGs0Z0pva2RYcjc1dHpxRUE3cGxCOEw1UTdnOS16eGU3aXUzWU9mZk5EejluWGdLUTdCNDgydm9mdDVKYmcza2pQNlBOdw?oc=5",
+      "summary": "Litton Das scripts history, Bangladesh keeper sets world record in South Africa Test The Times of India",
+      "date": "Wed, 18 Nov 2026 22:58:00 GMT",
+      "source": "The Times of India",
+      "category": "International",
+      "section": "All News",
+      "type": "All News",
+      "topics": [
+        "Geopolitics"
+      ],
+      "exam_priority": "Medium"
     },
     {
       "title": "Lamborghini hitting record revenue numbers in 2026",
@@ -3086,18 +3167,6 @@
       "exam_priority": "Medium"
     },
     {
-      "title": "Member of anti-migrant group found guilty of Staffordshire murder",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdE5CZFNrWW5tRk9GR2JGZy1ObGxFMEh4MVg1UGlqTy1hOHVkRzU0cUl6Um5fUnlYb2sxcWVkcEQxOW9pQUhqS1QyMl8xNlhWZWVUcEsyQTh3dFJZXzJNdDVkSzVzSFc4ZUhxM3h5OHY4NXp6bHhBZ3YtZUhSZFRjVU52b0ZaLVBVTFhmTXlkYU5oMDBSN2x1TzQ3ZjJxNm9iZDFTa0Y2dXZQSm9GQUdmNENGNno5dw?oc=5",
-      "summary": "Member of anti-migrant group found guilty of Staffordshire murder The Guardian",
-      "date": "Wed, 18 Nov 2026 22:42:00 GMT",
-      "source": "The Guardian",
-      "category": "International",
-      "section": "All News",
-      "type": "All News",
-      "topics": [],
-      "exam_priority": "General"
-    },
-    {
       "title": "US-Haitian pastor convicted over plot to kill Haiti's last president",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUG9mQmdjSEU1RE0xN0ZfNnd3WnExUVhmbGhHODJ0YnRVTlZkQmZ4Z0JaQ20xdWEwUUFid3NnWHlfRTVqazRyc3lqdG1fbDVkU2ZOVHRqQVEtSzhSRm1TZ0xfMWt4YTVidzdjNmlFU2IyWE9JWGdHNHQ2eFNPdEVibUdZbWZ0RWVlQ3ZCd2pSczJXbDR4X1pWaFBqaUFMTDAtNWRRaXpVOG9HOGZp?oc=5",
       "summary": "US-Haitian pastor convicted over plot to kill Haiti's last president The Straits Times",
@@ -3172,18 +3241,6 @@
       "exam_priority": "General"
     },
     {
-      "title": "The law releasing the Epstein files passed one year ago. What do his victims say?",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOdmdGMDF3eDZIREJDX0plbHFtM3c4SF9FS24yNjFCSlhRVUhJaW5FUzBQeFFEdmJxTWxNNVBHTEVvSFljUFFjZmNHbjZaNHdCeURKS1F2QVN5YllHbXJWX3RNS2Zkc3d0dXg0WG82Wmo0cHZVWE5ONDV3X1Q4Tkd1VmFmaDNaVjhadU9FMmJtYlJlUHRpNVJRekk4VUZ4WjRrcE9DUGQ1ejRiNE5NcXlIS2xnVXhXWWkzNWszdHFZMVlyQQ?oc=5",
-      "summary": "The law releasing the Epstein files passed one year ago. What do his victims say? NPR",
-      "date": "Wed, 18 Nov 2026 22:27:43 GMT",
-      "source": "NPR",
-      "category": "International",
-      "section": "Economics Page",
-      "type": "Economics Page",
-      "topics": [],
-      "exam_priority": "General"
-    },
-    {
       "title": "পারমাণবিক বিদ্যুতের যাত্রা, সম্ভাবনার নতুন দিগন্ত - Rupali Bangladesh",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4weWVjSUxQQWl2MDRHNGs0bHBIcERfenBqajZ6S2h0dFIyYm5xVER4Q21vamt2QlZDNnhLenJCSWVRcWNjaUdvNmJOMW9TbTE3SkQxZ3JsVHVsdklXbWlqRzBJbWdySHpkTER5Sg?oc=5",
       "summary": "পারমাণবিক বিদ্যুতের যাত্রা, সম্ভাবনার নতুন দিগন্ত Rupali Bangladesh",
@@ -3192,6 +3249,18 @@
       "category": "Bangladesh · বাংলা",
       "section": "Editorial / Opinion",
       "type": "Editorial / Opinion",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
+      "title": "Assistant judge goes missing, GD filed - New Age BD",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSmZURDdON0R3VjlFdUZXamdIYTNkX1BDbEFiUXRmeHlldElFdFFCTGpCVlJuckZ0OGhYbDNTd0NEVFN6NWFFX2F4VzNwc1ZLdDQ4SFF1TGtnellSVGxTWU01cFVobDBzUmlFaXlxdW5QVS0xZVB5cUY4V0dMY2ZwbkkxbjRLSF9kX0E?oc=5",
+      "summary": "Assistant judge goes missing, GD filed New Age BD",
+      "date": "Wed, 18 Nov 2026 22:26:00 GMT",
+      "source": "New Age",
+      "category": "Bangladesh · English",
+      "section": "All News",
+      "type": "All News",
       "topics": [],
       "exam_priority": "General"
     },
@@ -3279,26 +3348,14 @@
       "exam_priority": "High"
     },
     {
-      "title": "FirstFT: Anthropic’s blockbuster IPO raises record $81bn",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNOFlKMHJadTVhMHNabHppTjk2Nmg2RHBoZTFGRDhlX01ZaEZQT1NmcTl3Sy1kNWVJY3Y4cUZmdzJwQlVzdzI2bmRZbmEwVXFqTkpyZjNwQ3E3UmMtbGdQYnhHejViVkJzU3NiYWNDclQ5eGkxWUJocmJYYkFOdVlKSGREa1M?oc=5",
-      "summary": "FirstFT: Anthropic’s blockbuster IPO raises record $81bn Financial Times",
-      "date": "Wed, 18 Nov 2026 22:20:12 GMT",
-      "source": "Financial Times",
-      "category": "International",
-      "section": "International Page",
-      "type": "International Page",
-      "topics": [],
-      "exam_priority": "General"
-    },
-    {
       "title": "72-year-old Palestinian woman shot and killed by Israeli settlers near newly established outpost",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNR0hjVDk5NU9leWhZT1loOFhjcGQ4aWxKM2Z6djJZVkxFLTYzLW9xUW82Y3dyOFFLOTVUWFlySUN4RHd1X3lOZE9pUzMxTGhpX0U5X25MSzRxSGdYaEI2bkJSbzVkc1pRRUhwT3lyOTNNaExtME5jR0xacFNZQ0hsMW5HVHBzdjdtR1loclhHQzdoUFZkMWhV?oc=5",
       "summary": "72-year-old Palestinian woman shot and killed by Israeli settlers near newly established outpost CNN",
       "date": "Wed, 18 Nov 2026 22:18:47 GMT",
       "source": "CNN",
       "category": "International",
-      "section": "International Page",
-      "type": "International Page",
+      "section": "All News",
+      "type": "All News",
       "topics": [],
       "exam_priority": "General"
     },
@@ -3394,6 +3451,18 @@
       "exam_priority": "Medium"
     },
     {
+      "title": "চট্টগ্রামে শুক্রবার থেকে শুরু আন্তর্জাতিক বাণিজ্য মেলা - Shomoyer Alo",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8zTkx1ZTgxa2pWXzdNM2c5MGVjZTZWTHNVTWRCWDJfQVNZR25wQ3FqZEJiaXRHekVXU1IwbEpuLWJ6MVpTeG1hSXdWZHVqR0Fv?oc=5",
+      "summary": "চট্টগ্রামে শুক্রবার থেকে শুরু আন্তর্জাতিক বাণিজ্য মেলা Shomoyer Alo",
+      "date": "Wed, 18 Nov 2026 22:11:09 GMT",
+      "source": "দৈনিক সময়ের আলো",
+      "category": "Bangladesh · বাংলা",
+      "section": "International Page",
+      "type": "International Page",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
       "title": "UK's Prince Harry sees 'big separation' between US administration, public on support for Ukraine - AP News",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQXzhaY1JMWW9OaFM4MExYLXkyc0k4bWd0NWhMdGN2Z1IyOGpyU01KOWllbVFFZTRGNF9RaEpNUVN6Q2JyaW9zWHdDTTFFcEVxTDktVzgzNFN0a0cyanRweVhKd2hlSnNZT0UyUHhLc0lodVFGNHN4TXBZalhYdFJyYnhoRGNpQ2I1dDdLRVRTVUprdw?oc=5",
       "summary": "UK's Prince Harry sees 'big separation' between US administration, public on support for Ukraine AP News",
@@ -3448,8 +3517,8 @@
       "date": "Wed, 18 Nov 2026 22:04:50 GMT",
       "source": "Financial Times",
       "category": "International",
-      "section": "All News",
-      "type": "All News",
+      "section": "International Page",
+      "type": "International Page",
       "topics": [],
       "exam_priority": "General"
     },
@@ -3460,6 +3529,18 @@
       "date": "Wed, 18 Nov 2026 22:04:15 GMT",
       "source": "কালের কণ্ঠ",
       "category": "Bangladesh · বাংলা",
+      "section": "All News",
+      "type": "All News",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
+      "title": "A Florida pastor has been convicted of US charges related to the 2021 assassination of Haitian President Jovenel Moïse",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNE0zVUNRS0o3Z2JxcmplTEtQQmd3Qmcwd0YxbU5iZVd0T0J5U2lOSHdXdXVfMmpZanlYdTJIWmJOd20wSlFvWXhscVRyd2ItalRlUXExcFFVRFhkU2p1RW1GU3ZyYUlJN2lwVURvTVFNdkpTSU5UT1JXWG1pR2JpOHR6SkxaLWJHZ3hNd3FYbms4VlFaRW5qV2Zlbw?oc=5",
+      "summary": "A Florida pastor has been convicted of US charges related to the 2021 assassination of Haitian President Jovenel Moïse CNN",
+      "date": "Wed, 18 Nov 2026 22:03:56 GMT",
+      "source": "CNN",
+      "category": "International",
       "section": "All News",
       "type": "All News",
       "topics": [],
@@ -3510,8 +3591,8 @@
       "date": "Wed, 18 Nov 2026 22:01:00 GMT",
       "source": "The Wall Street Journal",
       "category": "International",
-      "section": "All News",
-      "type": "All News",
+      "section": "Economics Page",
+      "type": "Economics Page",
       "topics": [],
       "exam_priority": "General"
     },
@@ -3522,8 +3603,8 @@
       "date": "Wed, 18 Nov 2026 22:00:20 GMT",
       "source": "The New York Times",
       "category": "International",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
+      "section": "All News",
+      "type": "All News",
       "topics": [],
       "exam_priority": "General"
     },
@@ -3571,6 +3652,32 @@
       "exam_priority": "Medium"
     },
     {
+      "title": "Mark Carney Says Canada Will Not Back Down in Trade Talks With U.S.",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZ21JWC0wRHNXdjRRbnozQThILUpMTnA4X2xOQWVFQnUzMDNHMXZWZUFfXzQtd00xcHp4LVg2TkdjRVRLV1BSS1BzN3lSQ0dKbUh5U3d5MlFDQkdEUG9LRVRqaENvSG9EZHpLVThnbFpBUnEwLVNZb0xZeWZfTDZfWHNBbV9iMWxIaEJTUDZn?oc=5",
+      "summary": "Mark Carney Says Canada Will Not Back Down in Trade Talks With U.S. The New York Times",
+      "date": "Wed, 18 Nov 2026 21:56:45 GMT",
+      "source": "The New York Times",
+      "category": "International",
+      "section": "Economics Page",
+      "type": "Economics Page",
+      "topics": [
+        "Economy & Banking"
+      ],
+      "exam_priority": "Medium"
+    },
+    {
+      "title": "নৈরাজ্য ঠেকাতে আইন-শৃঙ্খলা বাহিনী সমন্বয় করে কাজ করছে: এসপি মাসুদ",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9WNVYwaE9rNFBpUGg2djhNLUxiQWRDZ2M3ZFljNXl1RGZnYWtBYUlHQk5MWmwtdjlPOHRfTTNWbEw4UG5vaGdfeEtydDJlaXZlWHFLNENZSUhiMEtpQlpfUElyMjZRWGV6QzY5bl8zR2M?oc=5",
+      "summary": "নৈরাজ্য ঠেকাতে আইন-শৃঙ্খলা বাহিনী সমন্বয় করে কাজ করছে: এসপি মাসুদ কালের কণ্ঠ",
+      "date": "Wed, 18 Nov 2026 21:56:19 GMT",
+      "source": "কালের কণ্ঠ",
+      "category": "Bangladesh · বাংলা",
+      "section": "All News",
+      "type": "All News",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
       "title": "শাজাহান খানের পেট্রোল পাম্পে ইটপাটকেল নিক্ষেপ ও ভাঙচুর - Banglanews24",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE96SUZrUHd0NVBMUy1ZTVNSYlBsRkNUWlF6YXdwc3ZfeU1TSV9hOXh5aGl5b204TDBTY09CMEJramZTbU5NQ1NBbTVtZUFhWXNBVW5sVTZkVVVlWWlMNkctSHF6NUtXWFp3Y0o2R293?oc=5",
       "summary": "শাজাহান খানের পেট্রোল পাম্পে ইটপাটকেল নিক্ষেপ ও ভাঙচুর Banglanews24",
@@ -3589,8 +3696,8 @@
       "date": "Wed, 18 Nov 2026 21:55:00 GMT",
       "source": "Associated Press",
       "category": "International",
-      "section": "International Page",
-      "type": "International Page",
+      "section": "Economics Page",
+      "type": "Economics Page",
       "topics": [],
       "exam_priority": "General"
     },
@@ -3639,8 +3746,8 @@
       "date": "Wed, 18 Nov 2026 21:51:43 GMT",
       "source": "France 24",
       "category": "International",
-      "section": "All News",
-      "type": "All News",
+      "section": "Economics Page",
+      "type": "Economics Page",
       "topics": [],
       "exam_priority": "General"
     },
@@ -3681,6 +3788,18 @@
       "exam_priority": "General"
     },
     {
+      "title": "প্রধানমন্ত্রীর সঙ্গে জামায়াত আমিরের বৈঠক",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5YV1VGZDJIOGdhRDV4RjdmLUh5a09ublNBSjBqRWZZQ01hYzdaMWt6dnVwblVuN2dwdHJ5OEtlR0s1bkdINmpBTEh6cVhRTHhKOFRCRTlUN2NWaHhXQkRiR0hOTjBaN0ZzQzE0dW0xbw?oc=5",
+      "summary": "প্রধানমন্ত্রীর সঙ্গে জামায়াত আমিরের বৈঠক কালের কণ্ঠ",
+      "date": "Wed, 18 Nov 2026 21:49:02 GMT",
+      "source": "কালের কণ্ঠ",
+      "category": "Bangladesh · বাংলা",
+      "section": "All News",
+      "type": "All News",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
       "title": "High school valedictorians to get custom kicks after Sen.-elect Colom asks Nike to ‘Just Do It’ - AP News",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSjhiSHJiOF9FYUt6M0E4NzdhclJUSmlFTldTcFVRNVoyaWpYNzk3MFpFWUhfaUY2ZXY4X2dUUUtTcFpGUWFCUmNOLXNZUm1MTlFoT2tQN0pMSTJEVlVaNDRHTWNqRUhpa21pR3M1Z1c2TnAzYW5UdkVnc1g3cUtwWUpRNWxwV2VKbGQ0M2tuUjBMN0V6aHNTdk05LURBYWxiUzRVdGJQWUlRMDBkdVM1RkhnMGdQOGM?oc=5",
       "summary": "High school valedictorians to get custom kicks after Sen.-elect Colom asks Nike to ‘Just Do It’ AP News",
@@ -3699,8 +3818,8 @@
       "date": "Wed, 18 Nov 2026 21:48:00 GMT",
       "source": "The Times of India",
       "category": "International",
-      "section": "All News",
-      "type": "All News",
+      "section": "Editorial / Opinion",
+      "type": "Editorial / Opinion",
       "topics": [
         "Geopolitics"
       ],
@@ -3761,8 +3880,8 @@
       "date": "Wed, 18 Nov 2026 21:44:59 GMT",
       "source": "Financial Times",
       "category": "International",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
+      "section": "International Page",
+      "type": "International Page",
       "topics": [
         "Geopolitics"
       ],
@@ -3805,6 +3924,18 @@
       "exam_priority": "General"
     },
     {
+      "title": "Venezuela a ‘compliant security partner,’ Hegseth says as he announces military deal with Caracas",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUE9iX19fb2Ewd1JMVDFON3FPZi0wSGFGeTNLWk9TdDI1TWFuUmQ3dEZnaFVmS2tpYktqcUxqVGxaZGNZa1FnUDNYQU5XS3RXSkpPZDUxNmRMZ2ZZUE5oNV8wSDZ5OHpRcmw0YjlQUnhKbWotcEROTnljY2p2OTdYdGhLYzF6SjdaY3hPY3JB?oc=5",
+      "summary": "Venezuela a ‘compliant security partner,’ Hegseth says as he announces military deal with Caracas CNN",
+      "date": "Wed, 18 Nov 2026 21:42:08 GMT",
+      "source": "CNN",
+      "category": "International",
+      "section": "All News",
+      "type": "All News",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
       "title": "Oil Futures Extend Decline on Supply Surplus Expectations - WSJ",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQemRoREFaQUhBSEg0TDV3UnZLU1BuY3hBdEFPY0FJY2ZWcWN0bjVST1FRdXZDWWFDWUxLVGNiVS1ySU96WGRyaW1EVjZGeUNRSVF0VXlCV2VkOXhJU0lzd0d0Sk93d0FiNVlmb1BNaE9ROUZmVkVHLTVCZ3p3ejQtd1U0dUNzNm5fUmlid19RVXQ3TUhac3N1LTVPa2tPT24zUTVGUDB0ZU9TOEhoWlVfLWo1WmtQX0J1eDU0Z2pTcnc5Zw?oc=5",
       "summary": "Oil Futures Extend Decline on Supply Surplus Expectations WSJ",
@@ -3825,6 +3956,18 @@
       "category": "Bangladesh · বাংলা",
       "section": "All News",
       "type": "All News",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
+      "title": "আপত্তি থাকলে বাংলাদেশে চলে যান, পশ্চিমবঙ্গের বিজেপি মন্ত্রী দিলীপ ঘোষ - Shomoyer Alo",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9yN2g1azk0djhQamlqTnc3MFFmd1FlaEoyUDRDUkRuSm1QWFRKRWMwVllib3Y5TWpVWlBicEJldkJyTENfUXNtcllkVWliM1VH?oc=5",
+      "summary": "আপত্তি থাকলে বাংলাদেশে চলে যান, পশ্চিমবঙ্গের বিজেপি মন্ত্রী দিলীপ ঘোষ Shomoyer Alo",
+      "date": "Wed, 18 Nov 2026 21:40:14 GMT",
+      "source": "দৈনিক সময়ের আলো",
+      "category": "Bangladesh · বাংলা",
+      "section": "International Page",
+      "type": "International Page",
       "topics": [],
       "exam_priority": "General"
     },
@@ -3897,8 +4040,8 @@
       "date": "Wed, 18 Nov 2026 21:36:04 GMT",
       "source": "Deutsche Welle",
       "category": "International",
-      "section": "Economics Page",
-      "type": "Economics Page",
+      "section": "All News",
+      "type": "All News",
       "topics": [],
       "exam_priority": "General"
     },
@@ -3979,18 +4122,6 @@
         "Geopolitics"
       ],
       "exam_priority": "Medium"
-    },
-    {
-      "title": "Anthropic valued at $1.5 trillion as IPO raises record $81 billion",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPR3NST2trRTZCZkdmblYtRm5pcldXRUJTVjZkZUJ6bHJYbjFUSUJ6ZGVJNW1SMVg0ZWthVnlfVVRhZnlld192c0pBaUZSUzRZS0xGdFlYRnViSU9RYVhHWXRpVDlULS0tREUzcDhfa0NGSVIzVkFTOXBzeW5JelpBVy1RV2FFWEpwdnFhZnlqUVN0bUxWSXJaTVFzTEQxTDlFVVpkRERxQmplM0V2X3c?oc=5",
-      "summary": "Anthropic valued at $1.5 trillion as IPO raises record $81 billion Reuters",
-      "date": "Wed, 18 Nov 2026 21:26:00 GMT",
-      "source": "Reuters",
-      "category": "International",
-      "section": "All News",
-      "type": "All News",
-      "topics": [],
-      "exam_priority": "General"
     },
     {
       "title": "প্রধানমন্ত্রীর সঙ্গে বিরোধীদলীয় নেতার বৈঠক",
@@ -4175,8 +4306,8 @@
       "date": "Wed, 18 Nov 2026 21:03:17 GMT",
       "source": "সমকাল",
       "category": "Bangladesh · বাংলা",
-      "section": "All News",
-      "type": "All News",
+      "section": "Editorial / Opinion",
+      "type": "Editorial / Opinion",
       "topics": [],
       "exam_priority": "General"
     },
@@ -4381,8 +4512,8 @@
       "date": "Wed, 18 Nov 2026 20:48:46 GMT",
       "source": "Deutsche Welle",
       "category": "International",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
+      "section": "International Page",
+      "type": "International Page",
       "topics": [
         "Environment & Climate"
       ],
@@ -4409,8 +4540,8 @@
       "date": "Wed, 18 Nov 2026 20:46:32 GMT",
       "source": "Deutsche Welle",
       "category": "International",
-      "section": "Economics Page",
-      "type": "Economics Page",
+      "section": "All News",
+      "type": "All News",
       "topics": [
         "Geopolitics"
       ],
@@ -4583,8 +4714,8 @@
       "date": "Wed, 18 Nov 2026 20:33:06 GMT",
       "source": "The Dhaka Post",
       "category": "Bangladesh · বাংলা",
-      "section": "All News",
-      "type": "All News",
+      "section": "Economics Page",
+      "type": "Economics Page",
       "topics": [
         "Society & Development"
       ],
@@ -4605,6 +4736,18 @@
       "exam_priority": "Medium"
     },
     {
+      "title": "Sen. Cornyn blocks judicial nominee because Trump didn’t choose Texas",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPenRockMyb0xwZEpMYWc1dmhRZmt2bEU4S21jR00zMEkzb2xVa21LM3kySDFqR3hJRnlVNzBMRUYwUzVKMjFIRUQybmNVWXRKRmkyMF84S0FjMU1FUWxQeHlzS0psVDFKM3BjSXEtVWJJcGVTOThuZ2xhZ3ZOWEZEdUxiUDFJR2JqUVgtemNoLVFLUHdxeU10b1Z6MXVNaEVmREVUY2ln?oc=5",
+      "summary": "Sen. Cornyn blocks judicial nominee because Trump didn’t choose Texas CNN",
+      "date": "Wed, 18 Nov 2026 20:32:04 GMT",
+      "source": "CNN",
+      "category": "International",
+      "section": "All News",
+      "type": "All News",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
       "title": "Opinion | Look where the world’s most elite AI talent is going",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWUl6LVdmbFEwNno3d1k1NHQ3ZlpMXzNzUGxzemwzTGc5Z3JIVjVtMllNbGdrZEtYdTdpdzBxV3RhUlFBLTdJdkpWTC0zZ0hCcFdWVERxd3hSRkw0WUtIZGcxOERYZV94T1FNVUhDOUdwVnVtenEwRFlMSl8wWkxWdGlGV2pKOG9aVDlHRF9VYjFsUV9UOXVrOGMteFBjZThFM1BHYS1FTDY?oc=5",
       "summary": "Opinion | Look where the world’s most elite AI talent is going The Washington Post",
@@ -4623,8 +4766,8 @@
       "date": "Wed, 18 Nov 2026 20:27:55 GMT",
       "source": "সমকাল",
       "category": "Bangladesh · বাংলা",
-      "section": "All News",
-      "type": "All News",
+      "section": "Economics Page",
+      "type": "Economics Page",
       "topics": [
         "Economy & Banking"
       ],
@@ -4671,9 +4814,9 @@
       "exam_priority": "General"
     },
     {
-      "title": "কৃষিঋণ মওকুফের অনিয়ম তদন্তে বিশেষ নিরীক্ষা করবে কৃষি ব্যাংক - Samakal",
+      "title": "কৃষিঋণ মওকুফের অনিয়ম তদন্তে বিশেষ নিরীক্ষা করবে কৃষি ব্যাংক - SAMAKAL",
       "link": "https://news.google.com/rss/articles/CBMixwVBVV95cUxNWkhwQVZaRTJqbTVPQXVlbDYtUEFMdW9raFNzNFBPem1uY0xlNENxbWJjeFZ5TUhsLTB2VXNtWlFYMzJYdi1qWjhHQTZQYlpQN2liYXdpY2t3TjkzMFN2N0x4MDlJemp3UlBQSjN5Njdxa2ZCQWtfQlBZU0JuSHVHbzc3Ylh3UER2SmJlYmZCWkFtb3VqQm90bHhHNTdETG1QdXJ3Z3FCWnRPdkdRaE93cFJaZ2ZNU0tZY1pvakZKaTZxS0NOVTNLMTJDNmZlazZJWHJ1RmpOQ3Z1WG1DUmZ0eS01R2F3Zzk5UGt3RUhROUkxWlc3SnVPUU9UdWY0QzNCUUpETmdZaFJjLUZqbFI4UklLMzhLai1PQXltbUJwcmgwQU1GWm04RERDblBQRlMwb2cycmk5Z2EwR3I4ZzFnQjJkekVzbU9IZ0hxMG9nOHJ4MlNwU1dPczZpd2VlVk11N0ZwemdNNmM1Tm1xRjBZdUEtaVB5cXNKS21jUmY4UHB1UDU3ZjA0RmdSS2tKdExBWktSS0ZGRk9maGVEaDVRQmZhVjZoWmdKa2ZleVpOaGVpQUZjaUNwaTU4bHNmdUJST1ZvQmdfZE5TZG41SF8tTXRDcmZTSjdYczJ0c1pYQWtnY1dSTDRSWXctTzN1UTZib2Z6WmNSSUQ5TjYxaVNlYW1WUkxoYzdYXy1fUTdfVkV5RlRIRTFXdENhblFORG1HdVVxWnZ0R24yQW9iVUZGOVNfNXhUbEVxLWFBYV9KLVJubmdtU0lJdlBrNkJONk1YbWFfTjAwcEtLMzUwTlkzRXVJY3NVeFdlOE0xeWlJS1VHaTA0VkhUMm9hVjQ1aEtfVzg5LXF1YlNLNFZIbDdxb2RxNFNpaXhXRkQyYmxSNlY2empkd2prbjJaaml4WERNTzQ1YTBoa01lRkVTVnRUbGRFRVNUaE0?oc=5",
-      "summary": "কৃষিঋণ মওকুফের অনিয়ম তদন্তে বিশেষ নিরীক্ষা করবে কৃষি ব্যাংক Samakal",
+      "summary": "কৃষিঋণ মওকুফের অনিয়ম তদন্তে বিশেষ নিরীক্ষা করবে কৃষি ব্যাংক SAMAKAL",
       "date": "Wed, 18 Nov 2026 20:17:56 GMT",
       "source": "সমকাল",
       "category": "Bangladesh · বাংলা",
@@ -4719,6 +4862,18 @@
       "category": "International",
       "section": "Economics Page",
       "type": "Economics Page",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
+      "title": "আন্তর্জাতিক আদালতে রোহিঙ্গা গণহত্যা মামলার রায় আজ - Shomoyer Alo",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB6eWlnQXNscks1WnE1ZG5ib0tES0FIOHp1MDVyUkRfVFcxTFNfeDlNYkJxVk05MkRfc0RrMWs3NDRjMVJQeDIxZGdtWHIwMUEx?oc=5",
+      "summary": "আন্তর্জাতিক আদালতে রোহিঙ্গা গণহত্যা মামলার রায় আজ Shomoyer Alo",
+      "date": "Wed, 18 Nov 2026 20:12:48 GMT",
+      "source": "দৈনিক সময়ের আলো",
+      "category": "Bangladesh · বাংলা",
+      "section": "International Page",
+      "type": "International Page",
       "topics": [],
       "exam_priority": "General"
     },
@@ -4839,8 +4994,8 @@
       "date": "Wed, 18 Nov 2026 20:04:00 GMT",
       "source": "RisingBD",
       "category": "Bangladesh · বাংলা",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
+      "section": "Economics Page",
+      "type": "Economics Page",
       "topics": [],
       "exam_priority": "General"
     },
@@ -4889,8 +5044,8 @@
       "date": "Wed, 18 Nov 2026 20:01:01 GMT",
       "source": "The Economist",
       "category": "International",
-      "section": "International Page",
-      "type": "International Page",
+      "section": "All News",
+      "type": "All News",
       "topics": [
         "Economy & Banking"
       ],
@@ -5015,8 +5170,8 @@
       "date": "Wed, 18 Nov 2026 19:52:21 GMT",
       "source": "Financial Times",
       "category": "International",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
+      "section": "Economics Page",
+      "type": "Economics Page",
       "topics": [],
       "exam_priority": "General"
     },
@@ -5047,6 +5202,18 @@
       "exam_priority": "Medium"
     },
     {
+      "title": "Scientists hail Rooppur power generation - New Age BD",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRjlIQmFxaHpORWNkVENNSXhMbkJTcE8zV1RwbmNUc1praENjUm5jLVREUjRLeEJ6ZW5LMTBaWGw3dFBrWmllZm1Va3paSF93TjdMVTlQckM2dVI0RlY2cjBRMXBQcEREY1JQOGRrWWxjMnRsTjd4ZDFGX1JhdU9hSFhGS3lVamk5TzNlWjJR?oc=5",
+      "summary": "Scientists hail Rooppur power generation New Age BD",
+      "date": "Wed, 18 Nov 2026 19:52:00 GMT",
+      "source": "New Age",
+      "category": "Bangladesh · English",
+      "section": "All News",
+      "type": "All News",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
       "title": "A Palm Beach mansion bought for $21.9 million with funds linked to a former CIA official's $194 million f",
       "link": "https://news.google.com/rss/articles/CBMijwNBVV95cUxNbW5odFNhZTdzRjUzZ3NtaW5MRVlxRHBYdzE3V01fSG43dmVGZVRxVm1aODVLSzFZNHVyVHN3RFRrdC1takZCd1pnSDlnRXlOOVE5MXQza3VpZ0xaTjVTNjZEYVo0UjZkVUFtNjV4elZlRGdUdG5LTFFXWEZJdmp0LVdPdDUzSElabU5IcXkxVjFmdXU5U1UtNm1zbU1oeERVWTcxWW1mTjlZU0N3YTFSZkxlbzBtdTQ4b1VrU2pma2g2RVl6Y2pHX292WnA0TWkwTEtTSE1pVUlLa01GdGlMeWVOeHBObkowSzlWQzhqVEZlYXhfVEF4cUlGSDhmbHYxdEI1VlBkcmxqc3pNY1lHVVg4TUFnSUdHbnBuVi1DVmFqR3NySmJINlBieVR4MkRJeklRU2E3TTJ5RU4tNnNtYXp0Z1B4RVNGbDMtd3ZHN2hHUXJzVHVaLTlETlItZ3ZWMUtOQ3EzY3NrS3c1MjBidTdleXJueExmVVlrSjdGYmthRGxqRE1Qd1AycElUZDjSAZQDQVVfeXFMTlpLeDFFR0pEaUk5ZTdGXzAzMmNjNXVMMDRGMGI1SFBrZWlOUG52S0ZrRklETWVwX21tQm9OeEMzaVRpalhZVHBfTXZmRVg1UVdOX01GSzZvSnkzdzFJYk5ONFZncU5UZ3QtUFFiRDBKWUFya2FWUkxOdVdmck44REVUUmFSWDFGU3RHS3EtNU5aelJNY2J4cWtEYl9Oa2tzZk1BSmNxMDJ6dUd3N21PYTR0RldXU3BSa1B5N0pSMC1kQWx3ZDVFbmxtQjQxRTkzeUtkTlY0UUtmejJaZ01EZGNUZjlBamotSTJwVWszbVZaQVYwdjRmRXI5M2VPeUdwVGxqemlIRDBDbVhYT09fTlE2OG04b0FpTFdWQTZaZ2lyRWlBVmE1Rk1RTW9NMGZNZUlJM0RmcFd4bHgzNWhMbUdKcFg0SGE4cVF3aTA5RE5nWVdQSU1GSjVVQl9US29sM2hCT2Q1SDhabWFRZlgxbl9iOWk0ZDhtN1RfT3J2dm1WRGxmNEdZWG9KQzAwU3NKM0hJTl8?oc=5",
       "summary": "A Palm Beach mansion bought for $21.9 million with funds linked to a former CIA official's $194 million f The Times of India",
@@ -5073,18 +5240,6 @@
         "Economy & Banking"
       ],
       "exam_priority": "Medium"
-    },
-    {
-      "title": "ঢাকার ৫০ পয়েন্টে বসছে এআই ট্রাফিক সিগন্যাল - Banglanews24",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9qTnJFMHQ4S3F1LTlrbHhMTVN4a0oyWU9zSXlzWG1OZm03dTlYb2hySldjNFNnTHY0T3lXTWI2OXhIdlE3U3p1Q0I4MElJYWZsRENiM1ZIZUtjZ0xSeWVyVUVRdm5WT0t6c0lyWEZB?oc=5",
-      "summary": "ঢাকার ৫০ পয়েন্টে বসছে এআই ট্রাফিক সিগন্যাল Banglanews24",
-      "date": "Wed, 18 Nov 2026 19:48:24 GMT",
-      "source": "বাংলা নিউজ ২৪",
-      "category": "Bangladesh · বাংলা",
-      "section": "All News",
-      "type": "All News",
-      "topics": [],
-      "exam_priority": "General"
     },
     {
       "title": "ড. ইউনূসের পৈতৃক বাড়িতে আগুন - ডেইলি সান বাংলা",
@@ -5173,8 +5328,8 @@
       "date": "Wed, 18 Nov 2026 19:41:37 GMT",
       "source": "The Indian Express",
       "category": "International",
-      "section": "International Page",
-      "type": "International Page",
+      "section": "All News",
+      "type": "All News",
       "topics": [
         "Geopolitics"
       ],
@@ -5193,26 +5348,14 @@
       "exam_priority": "General"
     },
     {
-      "title": "Why This Week’s Meeting of World Leaders Won’t Be Yalta 2.0 - WSJ",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTXRtdzBFUjRXVnhCaXhTemx3dXJIa3k5Y2VTZG5CLUlNZ21wOEhWN0VtcmU2bmItYXNuUlhNLTlVWlJUaWZGYXdTYmZLdmJXZ2Z3YUhjd29vX3M0TkxIS0I3UkpkWF9DamhtS2ZiS0RfNVhwX01HdFRxbEl6ZXEtQld2d2pJOFdlN3Z2Q284ek1LNVdzT0tB?oc=5",
-      "summary": "Why This Week’s Meeting of World Leaders Won’t Be Yalta 2.0 WSJ",
-      "date": "Wed, 18 Nov 2026 19:40:15 GMT",
-      "source": "The Wall Street Journal",
-      "category": "International",
-      "section": "International Page",
-      "type": "International Page",
-      "topics": [],
-      "exam_priority": "General"
-    },
-    {
       "title": "চট্টগ্রামে ড. ইউনূসের বাড়িতে আগুন",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1MY0cxeXpoMy1oaUQ5SjAxN0lsMG93YzEwZzRvUDRKdXlybTlQZzlYSmxsekpxZnktaW1ORnEzLXJlSGFFUEEyaks4VmFpSTVZU3pz?oc=5",
       "summary": "চট্টগ্রামে ড. ইউনূসের বাড়িতে আগুন dhakapost.com",
       "date": "Wed, 18 Nov 2026 19:39:06 GMT",
       "source": "The Dhaka Post",
       "category": "Bangladesh · বাংলা",
-      "section": "All News",
-      "type": "All News",
+      "section": "Economics Page",
+      "type": "Economics Page",
       "topics": [],
       "exam_priority": "General"
     },
@@ -5391,8 +5534,8 @@
       "date": "Wed, 18 Nov 2026 19:24:30 GMT",
       "source": "The Economist",
       "category": "International",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
+      "section": "All News",
+      "type": "All News",
       "topics": [
         "Economy & Banking"
       ],
@@ -5413,6 +5556,18 @@
       "exam_priority": "Medium"
     },
     {
+      "title": "মোড়লের আলাপে পরমাণু অস্ত্র - Shomoyer Alo",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAwXzFFWEZ2RE1NX2VUUFRKQjdGcVp5Um1EM2FncF9TMnNDbFFod2JjM1lRRmEzRlh2LXllUGx0SGNzdVptZ0pjNXRsVnJ3a0NC?oc=5",
+      "summary": "মোড়লের আলাপে পরমাণু অস্ত্র Shomoyer Alo",
+      "date": "Wed, 18 Nov 2026 19:22:51 GMT",
+      "source": "দৈনিক সময়ের আলো",
+      "category": "Bangladesh · বাংলা",
+      "section": "International Page",
+      "type": "International Page",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
       "title": "Persecuted Rohingyas pin hopes on today’s ICJ verdict - New Age BD",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONENsYkxkTnU1Y3l1VWZ6ZVNOcnRvaWJfZ0pOWlpvb1QyTDg4am43Ty1hY184SEVOWkVnWnJGaWlMeGRoSDlhNUt4TTdQZUZUZjM3cjVEYUlHbW9kZUlqQ29JbjhhLXFQWTBIczAtYnpvanppX2g2dWR6dnVMeDVQTmQxMGxmSWF0ak1ZYnpLaE93eE9UWGNkSDhXMTZKeDl6blJOLWdxMW4?oc=5",
       "summary": "Persecuted Rohingyas pin hopes on today’s ICJ verdict New Age BD",
@@ -5431,8 +5586,8 @@
       "date": "Wed, 18 Nov 2026 19:22:00 GMT",
       "source": "The Indian Express",
       "category": "International",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
+      "section": "All News",
+      "type": "All News",
       "topics": [
         "Geopolitics"
       ],
@@ -5513,8 +5668,8 @@
       "date": "Wed, 18 Nov 2026 19:15:00 GMT",
       "source": "The Washington Post",
       "category": "International",
-      "section": "International Page",
-      "type": "International Page",
+      "section": "Editorial / Opinion",
+      "type": "Editorial / Opinion",
       "topics": [],
       "exam_priority": "General"
     },
@@ -5655,18 +5810,6 @@
       "exam_priority": "General"
     },
     {
-      "title": "Iran attacks US military radar system in Bahrain despite talks with mediators",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNcFg4ZVlablBic3hLR3NxVVoyTXBUSGtRZlYydzBfVm9zcjJXUnZlRU5Va2NCUWFUZGxURmtGVk1lXzRlTzZzQXR1VmwyMkRSVEltSElmbl9ZMS01SEtnUE5ZTW9wYjM3ODUzeU9nQUF3MDFHMEZaU2s4SWJjT0Y2dnc1Nkw2alQ2YUF3WXBCOXU3Ml9URVl2enp4c250VzhfUXhIcWliOGRRZ000MlRfUS1wYlVYbk4xVEVGaThfdw?oc=5",
-      "summary": "Iran attacks US military radar system in Bahrain despite talks with mediators The Business Standard",
-      "date": "Wed, 18 Nov 2026 18:56:23 GMT",
-      "source": "The Business Standard",
-      "category": "Bangladesh · English",
-      "section": "International Page",
-      "type": "International Page",
-      "topics": [],
-      "exam_priority": "General"
-    },
-    {
       "title": "US women's coach Hayes leaning on veterans for World Cup qualifier",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQlhVWGZBc0NMQ3J0bjRLcHNBRVBRbTMyb1BMelktLW5vVzFfUWZpU2xsT1Mxa1FEUmVBWnFtWFc4THhoNjg4MmFKcUc3X3RWWUVLYXl5YUlRdld6TXItQzRVeUp3SGNLRi1jYjVzZUVoT3c4SGpkLVdEUEZPNEVxNzdXZTc3SFNwMVJIeV95OVpYdk5Gb1N6UlBMcF9WMy1DdTgtbkVlZnJqNk9RckE?oc=5",
       "summary": "US women's coach Hayes leaning on veterans for World Cup qualifier The Straits Times",
@@ -5687,18 +5830,6 @@
       "category": "Bangladesh · English",
       "section": "All News",
       "type": "All News",
-      "topics": [],
-      "exam_priority": "General"
-    },
-    {
-      "title": "Instant gratification is ruining our lives – and for me it started with my CD player’s shuffle button | Adrian Chiles",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPNWZNSkIzQVpQWVhXOEtWU2NHTTlMY0d3WG9DelY3VEJKMlJ4OW0yZmk0TTVNUWh5T2Zmc2k0NWwwTlgzYThRSXpTOU83amdYXzFvX3hYYU55bjRDdHZUQzdqVEYtTWVwRl9NU2YwbTJaV0k4Y2VkakJMMXFVOUJSX2ZtQ1RlaFdVYlFNd2xVdURISkphMHlITFVQRFFrWmxtVEtwRjg0RDdYc0xnWWs0V2RHX0lLR1Z3b29kUFRuMndQUmZfT3k0OHd2WVZyb2gyd1FHOTI1MFBaajFYZENhQ0RqOWp4SDQ?oc=5",
-      "summary": "Instant gratification is ruining our lives – and for me it started with my CD player’s shuffle button | Adrian Chiles The Guardian",
-      "date": "Wed, 18 Nov 2026 18:53:19 GMT",
-      "source": "The Guardian",
-      "category": "International",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
       "topics": [],
       "exam_priority": "General"
     },
@@ -5725,6 +5856,18 @@
       "category": "Bangladesh · English",
       "section": "Economics Page",
       "type": "Economics Page",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
+      "title": "Mary Peltola flips Alaska Senate seat in another Democratic win",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWVBsWDlBLXA2Rmw5SHducXQzenU2SjliTGkxN29qWnJiLXhfUk0yU1BnRGdZdHFpVWlEWkJxLU9LLWFITkxOY2M4NkZUODdPTEVQcDEwRlQxQl9kc2EzUzlDNTRXRG94UGJsN2ZTeWZWOUtST2hwRWQ0Z05uVU5kcHA3cThUYWd2NmhGSTRsUTIzM3Rnb3BSUWZsZnJaTU1UMXlZYlZSWdIBrAFBVV95cUxNaTBKUzQtRDRJZ3YzYkI5aUNyMFFUOGt1cGxhaVZDb1RIWkF0ZGV1bGtpR2RRQUZNM2RoWlJHTW1BalRiZ0hieVpZMFJ3UnRsNlZjVUwxUXBua2M5LW1xaFRLNmk3XzZ3VThKT2FqN053clUwcjJWVS1wNV9nRXpmSlN5R2V6clBSYjJxb0VuNklBZHN5dHpvaEhGdXVmbHNla1ZOX3lTbUdWMWJy?oc=5",
+      "summary": "Mary Peltola flips Alaska Senate seat in another Democratic win Al Jazeera",
+      "date": "Wed, 18 Nov 2026 18:49:40 GMT",
+      "source": "Al Jazeera",
+      "category": "International",
+      "section": "All News",
+      "type": "All News",
       "topics": [],
       "exam_priority": "General"
     },
@@ -5795,8 +5938,8 @@
       "date": "Wed, 18 Nov 2026 18:43:39 GMT",
       "source": "Financial Times",
       "category": "International",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
+      "section": "International Page",
+      "type": "International Page",
       "topics": [],
       "exam_priority": "General"
     },
@@ -5891,18 +6034,6 @@
       "exam_priority": "General"
     },
     {
-      "title": "BNP MP Zilany's house set on fire in Gopalganj",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVDBRTVdFenNkUGhNaE1mMnNjUm5UM1BpWTdaajlDY1lmbGhDQmVwMUtjNlM5SmtZWl9tOVI1MEhEaUJQU0hNM2hpaEI1bUxxZjdNSFNYV0tLSEppLU9aVFg5ZXBqZ180bUR3OWtFUzVaZVh5dXdyOGhIQUhoNEdEOVZkRnRIemJGOFE?oc=5",
-      "summary": "BNP MP Zilany's house set on fire in Gopalganj The Business Standard",
-      "date": "Wed, 18 Nov 2026 18:39:22 GMT",
-      "source": "The Business Standard",
-      "category": "Bangladesh · English",
-      "section": "All News",
-      "type": "All News",
-      "topics": [],
-      "exam_priority": "General"
-    },
-    {
       "title": "কুবি শিক্ষার্থীদের বহনকারী বাসে অগ্নিসংযোগের চেষ্টা",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBhVkVHaG5Ec0s4V2s0RzBTOUotMGpQZEFRTV8xYlJRZGR2Q1gxczdvcFc1dzlwZDNFamlMOXN6ZUR2Zjc3RzJJcmtlN3VGQmUz?oc=5",
       "summary": "কুবি শিক্ষার্থীদের বহনকারী বাসে অগ্নিসংযোগের চেষ্টা dhakapost.com",
@@ -5975,8 +6106,8 @@
       "date": "Wed, 18 Nov 2026 18:37:41 GMT",
       "source": "CNN",
       "category": "International",
-      "section": "All News",
-      "type": "All News",
+      "section": "Economics Page",
+      "type": "Economics Page",
       "topics": [],
       "exam_priority": "General"
     },
@@ -5987,8 +6118,8 @@
       "date": "Wed, 18 Nov 2026 18:37:06 GMT",
       "source": "The Economist",
       "category": "International",
-      "section": "International Page",
-      "type": "International Page",
+      "section": "All News",
+      "type": "All News",
       "topics": [
         "Economy & Banking",
         "Geopolitics"
@@ -6052,8 +6183,8 @@
       "date": "Wed, 18 Nov 2026 18:32:30 GMT",
       "source": "The Economist",
       "category": "International",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
+      "section": "All News",
+      "type": "All News",
       "topics": [
         "Economy & Banking"
       ],
@@ -6082,8 +6213,8 @@
       "date": "Wed, 18 Nov 2026 18:31:00 GMT",
       "source": "Associated Press",
       "category": "International",
-      "section": "International Page",
-      "type": "International Page",
+      "section": "All News",
+      "type": "All News",
       "topics": [],
       "exam_priority": "General"
     },
@@ -6182,8 +6313,8 @@
       "date": "Wed, 18 Nov 2026 18:24:37 GMT",
       "source": "CNN",
       "category": "International",
-      "section": "All News",
-      "type": "All News",
+      "section": "International Page",
+      "type": "International Page",
       "topics": [
         "Geopolitics"
       ],
@@ -6250,148 +6381,6 @@
       "type": "International Page",
       "topics": [
         "Society & Development"
-      ],
-      "exam_priority": "Medium"
-    },
-    {
-      "title": "Honor launches 600S 5G in Bangladesh",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOb1hzT2NjT3hieXdVZU55bmpuZkdDLXlxWkRRVXhadGc4Qm9XSWJCYnZ6QXExYmx2bEtwdUwxN29MMC14SGVOQUI4bG9od1VIczRfT1VKTGtrY0dqdHZNZlYwTi1IRl9JR2tZQVZMQU42TFFGSVpFTlZOWk9tRUl1RWw4SUlmZldE0gGOAUFVX3lxTE90R0NBX1lNS19BeXh0UDJ2dFloSVZVYVI5ZmlRenlkQUY0eVExR1ZEaS0tc1VEYWg5UkM5VHEwMjRya2ZvcFpiVXd6NlZFRXZwYTJUaVc1MlA2TG4wc2toRXVtZE16NWgteW0ydGl2aFFERGZ3QW1ucDQtcXhuN09TNmpralIycVk4SVR2eGc?oc=5",
-      "summary": "Honor launches 600S 5G in Bangladesh Dhaka Tribune",
-      "date": "Wed, 18 Nov 2026 18:21:41 GMT",
-      "source": "Dhaka Tribune",
-      "category": "Bangladesh · English",
-      "section": "Economics Page",
-      "type": "Economics Page",
-      "topics": [],
-      "exam_priority": "General"
-    },
-    {
-      "title": "Nvidia says no longer shipping ‘Hopper’ AI chips to China",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdmRVTlJfbnJMNnE0cl9nZ1VuM3BkMjBaNzI2NFBoUkVaM0hfc19RbVgtYXAyZkZSUV9qSjlRS2tfNGxDX0ZLQVI0NlRXSzRrZTkyRlRHUW1vRHhrRDZ6MmtIWnN4Y1E0Mk5mbUhoN1RBOWN6aWpuODVBRHYwVENBUTk5X1dqMnZNN1VGdDI4RnUtSnhDWmZLZzZYMzFHLVZMaGdMam9PSVRtNzd0UWtWbWgzRExTaXlVYWc?oc=5",
-      "summary": "Nvidia says no longer shipping ‘Hopper’ AI chips to China The Daily Star",
-      "date": "Wed, 18 Nov 2026 18:21:38 GMT",
-      "source": "The Daily Star",
-      "category": "Bangladesh · English",
-      "section": "Economics Page",
-      "type": "Economics Page",
-      "topics": [
-        "Geopolitics"
-      ],
-      "exam_priority": "Medium"
-    },
-    {
-      "title": "ইতিহাসে প্রথমবার একসঙ্গে ট্রাম্প, পুতিন ও শি: শেনজেনে ঐতিহাসিক বৈঠকের অপেক্ষা",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBONXN1YnpZbG5iOEM3SUYwbk5DNmh5SndPSXJKWU9YX0hleXZBZFFuNzNkVi13STNWZnlrX1VmOFVaUjV3akVzR29XR1M4MXRFOFR2YUhab2ZxNnhjblpR0gFSQVVfeXFMTlJsOW1nVUZ5WGN0cHozUEdUMmF4RW42SnZ5d1lkWVZZNk5vSUFxYmNrZ2RZenNwei1JTWdma0ZDTUY4ZEtwaHQ0bXI1QW9rSEFrdw?oc=5",
-      "summary": "ইতিহাসে প্রথমবার একসঙ্গে ট্রাম্প, পুতিন ও শি: শেনজেনে ঐতিহাসিক বৈঠকের অপেক্ষা Risingbd.com",
-      "date": "Wed, 18 Nov 2026 18:21:00 GMT",
-      "source": "RisingBD",
-      "category": "Bangladesh · বাংলা",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
-      "topics": [],
-      "exam_priority": "General"
-    },
-    {
-      "title": "Fresh initiative to revive sugar industry",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRDlvOFBJR29tNmJCVUVuRDhvVGVpTk9rbU1YSVYtVU85Q3F4LUFZRTBhTzNGSEk1cWdKem41cm5rNGFXM1A0dmNlXzd6VGNuSXlmUGxGOWdUazkzM0kxRWtXZFQwZ2hQTU1JMUF1R2RQZ084LS12Z0RTRGdKOHZNYlBPbVFnemZibTNIZDVINA?oc=5",
-      "summary": "Fresh initiative to revive sugar industry The Financial Express",
-      "date": "Wed, 18 Nov 2026 18:20:55 GMT",
-      "source": "The Financial Express",
-      "category": "Bangladesh · English",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
-      "topics": [],
-      "exam_priority": "General"
-    },
-    {
-      "title": "যুদ্ধ মধ্যপ্রাচ্যে, প্রভাব মার্কিন মুলুকে - Samakal",
-      "link": "https://news.google.com/rss/articles/CBMiiwRBVV95cUxNbnJSV0ROUUZuMDZvOWstb2VLV0ZKbkQ3cFYxNnhGNFItMWlDam93MFFMS0FxRmY2eHNzZDhsM3ctQUlkakpLNHQzTDJtVDNNUW04SU9CRGY3eDhvU0l2YjlNSlVoRDdyelpWcU9fLVpzaHFTcXRsbzBnRnB2QXgxSnlJVGRTWWY2N01lRFdRU2NGelcxc0ZwelpXSll4aGNmMTNuamdVQ21udTZ5WDFiUmFHX3Q0WkQ1alg2VUdmdHI5M3lwVi1MU3JwSnlSUTRoZTh4QzI4VldlaDJGeUtGYzNOR3M2dFN0cUNQWUVodjB4VWdUaVVwNVZON2Q3VHBrWlJWRFdGR3I2Nm43bGcta1hsRmM4WV9fZXlpRnpzb0o5SUZqM0dOdnZmLWpxR1BiVTliakhCamw0WEdZcXNESVFDNE10Z1VfTU10SENrSjBJd2NCQzN4QnVhdlRvbXF4cERCekZPMnBRNG1OYTVNQ3dTTVpuWWdMcUprSERDcWNlLWxhUnZPUHRvcTFtOXpjN3M5N21QWFhxRUVyYnlncGFlb3p0eGtCZWNIbXA3LW5RZGI4b3dORjB4TC1lYlNFcXZtQ2wwWTl1SnVaTGZCUGVqYXJPWVhHR2tYbDg0VHhCVVRXQkU2ZWtMY0xxNVBVRkxoRGtIZm0yZkxYSFo4ejJtby1OY0d6bnpB?oc=5",
-      "summary": "যুদ্ধ মধ্যপ্রাচ্যে, প্রভাব মার্কিন মুলুকে Samakal",
-      "date": "Wed, 18 Nov 2026 18:20:19 GMT",
-      "source": "সমকাল",
-      "category": "Bangladesh · বাংলা",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
-      "topics": [
-        "Geopolitics"
-      ],
-      "exam_priority": "Medium"
-    },
-    {
-      "title": "A Pennsylvania landowner's 4,540-acre forest is protected from subdivision, preserving buffers along thre",
-      "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNRFRBamZEWjB4LWwzdGEtSHVtc0U5aWowR2dFN2JIa2pWSlRYZGc2UkZqWlp2a2xtTjV3OVktbHMwZkt6d2xBMjNLakU4cWpheUQyMVMxXzk1ODBhWjZ3Ry12RzBiUFpOcTN1d0dZZmVuYU54V1EtS2hYbzFkZzdGU0ZlSWVnLVJNVnNQZ0U2MXZ4VzFZWjJNS1hwQ21jQy1TRW9xeHkyNmZQV1Utb0xYdndtQndFTWFaMExGQ3ZfQjRUTUUzaXFrOEdlMGhJMmZ3UV81N1ZpeGFtd2YybkZXQUZQVFJ5eHlIVmtCU0NpeVJyb2RoeDE0VUtxcUlMdGt0Wks5enhDUnd3Z1JqaVZ4Q3VXenk3SmZoUUHSAZ8CQVVfeXFMTkZFbjNaUGh4aUF5TjFMYTVXYWw5V3B2SVRXUEgtUEFzck5zdWdUMTF3WGlLb1NqNVlEVi1pR1lscHh2ejVEUU1WX01oc0Q1MTVoOENvNVZPUmRjcllKck5TcW9SVE1hU1ZYaXlENG9qQjNHNm1OU3NIcFpEYjcyX0dnWl84b0dDSTNBUEw1LWNZY1FhRlBvWm5VazltWVVHdVdBMW9fSWNUU0FfYm53UkdKN1JLT1I3TDdkYUt6c19oTVUzbi1rM0g0LWg4TUJubEpqNjFnMWlIcEtKa21WYnBkeEtRMXRuUTAxenBMSGE1bkRXeHRFQXh4X3l1REFMRFU5dlRNUVF3NXJMZkJDMWJXNGtLWWJnNURoRl81dGM?oc=5",
-      "summary": "A Pennsylvania landowner's 4,540-acre forest is protected from subdivision, preserving buffers along thre The Times of India",
-      "date": "Wed, 18 Nov 2026 18:20:00 GMT",
-      "source": "The Times of India",
-      "category": "International",
-      "section": "All News",
-      "type": "All News",
-      "topics": [
-        "Geopolitics"
-      ],
-      "exam_priority": "Medium"
-    },
-    {
-      "title": "আওয়ামী লীগকে বাদ দিয়ে কোনো আলোচনা ‘জাতীয় সংলাপ’ হবে না: রুমিন ফারহানা - The Daily Ittefaq",
-      "link": "https://news.google.com/rss/articles/CBMiswRBVV95cUxOSmwzZ2Y1REdjY2d5Sy03dUtEeHNWcjh3d3hfQkxIN1BJMEVNRjJPWXI3aE1sSi05OWxNTzVEbE9SWDdGTmc1NGE0SmJxTzJ6eGdCdUJIODRJRng5V3llX183eVQ3S1RENXkxSHBqUUpMaUxhMElBdTNfU3ZxMGpOcEFQajZlQVgySlBGejhINzQ4bGlPQy0yZkNfdDJfbEFmSkFIZGRacF9vN0ZUX1E0QmNlSDM4Y1dqZHVSOEdsT1JFYmNpejlJQ0JIODlXYmtQLXlvQjdmU1VjNlI5UklrQXBGanFuQzdQTzdtWnZ5OXdleXpDNEhKRzJNbU9uYXNReXJzWnZ5VG9FYlNQSUF3MGVKOFlVWklQY2htbUhQU0dJQlIwbmh5eTQwelpHTHdDRndvXy1Sb3V4MTJyV1F6eEFicFdpVGpmSTNjblF4WlluUUQ4Y2dEOTFZY0Vxc0loTU10YjdpS3F4WjdfckFfVlZxR2k4VU9UMDVkbnd3eXJqRV9QR3RPNEltUnJDbjZYcmY4YWVHQVBuLVFaNi1IQWF2YzRvdGotNXNSRXdNUmFtdlFhQWVQRzFaM2ZSMFRsTGp3MXZUeUpsdEVSejg4QkhLRjFEX1c5MHlqclFpODRqR0tzdDlDSjUtMXlLdW0za1gxSnRaUnF1d2xkaXdmaVN3ZVFTelhpTDNyRk51Q3RzTGFpUXVWRC1PcWc4N1JSNE85YTlUX0RsNm1abkhxMTR4QdIBuARBVV95cUxQdllLQ1k5bUZJY1FQOTFWZ2g1eTUwbmJsZDdETXZOM1dWZ1ZYSHVjbmYxZGZzZnk4LVNiVlF1TU4zb0wtUDgxMFdnSk5DQU9SMUJYNkkzeWh4NG4yTVVlQ0c1MkEzc09vbDJvYnk5ZWU3MUM4RjNHQURzRFR2T28wX2hnNnpXcWJnaTQyTnlEVjJBVkktWktxM295QkVzWGFHSnBhRmdSeG1FV050ODVZc0c0QUYyXzNCclc5Ql9TMDJnYm5GdVQwZlU2RkVMS0o1eWxjVHZiUUJKZlB1RFBtUkd1b2s2SWRSSzhJcklMUjZRdk8yWjNjS2ZUWllNUVNPc09KWlhBc1pMeXFTSDNTbG1ONmk0elpsX0kzeVM0VUwtalltdnRyd05SaHphZWFtUkgxdTQyd0puNnZfTUI5aXFpbnJrUjhBdFg5WWt6WnU4YnhiOTRvS0xaUGhKVTgzbUN2Ry1XTy0xdk5MWWJCVXlZNFhUMzNIT2NmYnFoZDl0QnZ2NG1kVm1uanpCRzlwNWxlU2sxNkgyRDh3TmZvV3FMYWFtWVM4TS1Gd0hLR0NWZkhGN0pVSXM1blp6N1N3allSZE1sZVViZWU3RXRwakF1X1pNd3hnVlpIb0JFTk91SVdSQjEwbl9VXzJtaHN5eHQwU0J4cEVGUmJ1SExvQWlHY3ZlUEZMeGZxeHpJU0Izb29QTGNORHZ3S0FvM1BuOGVMTkt3clNiaDhRaUUzSnFETVJ6cDhs?oc=5",
-      "summary": "আওয়ামী লীগকে বাদ দিয়ে কোনো আলোচনা ‘জাতীয় সংলাপ’ হবে না: রুমিন ফারহানা The Daily Ittefaq",
-      "date": "Wed, 18 Nov 2026 18:18:58 GMT",
-      "source": "দৈনিক ইত্তেফাক",
-      "category": "Bangladesh · বাংলা",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
-      "topics": [],
-      "exam_priority": "General"
-    },
-    {
-      "title": "Maikel Garcia gives Mariners multifaceted value, Royals get arms they need: MLB trade grades",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQM2tPUTRORVB4VHFSanJQTDZucTY5c08tQXhRNEFtdm9rZ29kblBXSHAzM3RFeDh2UXhnUkxtNXZwRHhBYmdCeGtQMDZKaThTbTRxaUZwdV9SNGVadldNeGtIcFpRSlllMzluUHA1cG1PTl83X1lrZzVzbXMxakVCMTlwVlQ4d21iV3FLeHVmcnBFUVR3c1JkRi1HQjU3ODM5?oc=5",
-      "summary": "Maikel Garcia gives Mariners multifaceted value, Royals get arms they need: MLB trade grades The New York Times",
-      "date": "Wed, 18 Nov 2026 18:18:56 GMT",
-      "source": "The New York Times",
-      "category": "International",
-      "section": "Economics Page",
-      "type": "Economics Page",
-      "topics": [
-        "Economy & Banking"
-      ],
-      "exam_priority": "Medium"
-    },
-    {
-      "title": "As overdose deaths fall, White House makes misleading claims about who deserves credit",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMjdvNVBwUHZTOFlQVHo3RXY3enhRY3praUc2NlNWUGpDLXVxVDZuVDVIZ2U1RDkzOUthdFAwTnYzRXhiUWxBcmNNdjhfQTBDVW1UVl9mNWFxZlhXaDV3QzIwYWoya2UzLS01X29jR3laNHRZN3o1SzExRDNhY29taXE5YWtHZmN1bm03R1dObTZkY181U3c?oc=5",
-      "summary": "As overdose deaths fall, White House makes misleading claims about who deserves credit NPR",
-      "date": "Wed, 18 Nov 2026 18:18:16 GMT",
-      "source": "NPR",
-      "category": "International",
-      "section": "All News",
-      "type": "All News",
-      "topics": [],
-      "exam_priority": "General"
-    },
-    {
-      "title": "Grand Theft Auto staff 'caught red-handed' in confidentiality breach, tribunal hears - BBC",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB1bnJObnhpeXVnR3FXWFByZTRWclFkSW1VOWlMQ1VRSm11SkwycFVWd2pfdUIwY0J3aGVSeXhxSTNmT1pZUmJ4a0tGZHVkcjJhRS1iS18xWTk3NU0?oc=5",
-      "summary": "Grand Theft Auto staff 'caught red-handed' in confidentiality breach, tribunal hears BBC",
-      "date": "Wed, 18 Nov 2026 18:17:38 GMT",
-      "source": "BBC News",
-      "category": "International",
-      "section": "Economics Page",
-      "type": "Economics Page",
-      "topics": [],
-      "exam_priority": "General"
-    },
-    {
-      "title": "Why Ukraine keeps trying to bring down Russia's bridge to Crimea",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVkp4ME1fblhBUy1wZTFtSFgyelB0dll4Q2xkbDNlQ2RLN3lzamx2cUduSmIweHBtUldvSFZXZjNtcVgzT0JWc1VzTGkyQVlOS0NlbW5EODMxeHZjUW43and6Rm9wdkZaNzF4bWJWMXYwWEdjb3FKbnM3OFFuLWVwaDh5R2p6WG1yeFBXRlZCdjk2bExxVlVTZk1sQlRBaU5zQVRpb2xpMzU5THR3?oc=5",
-      "summary": "Why Ukraine keeps trying to bring down Russia's bridge to Crimea France 24",
-      "date": "Wed, 18 Nov 2026 18:17:34 GMT",
-      "source": "France 24",
-      "category": "International",
-      "section": "All News",
-      "type": "All News",
-      "topics": [
-        "Geopolitics"
       ],
       "exam_priority": "Medium"
     }
@@ -6864,7 +6853,7 @@
       "category": "International",
       "section": "Editorial / Opinion",
       "status": "ok",
-      "count": 44
+      "count": 45
     },
     {
       "source": "France 24",
@@ -7074,7 +7063,7 @@
       "category": "Bangladesh · English",
       "section": "All News",
       "status": "ok",
-      "count": 44
+      "count": 43
     },
     {
       "source": "The Business Standard",
@@ -7256,7 +7245,7 @@
       "category": "Bangladesh · English",
       "section": "Editorial / Opinion",
       "status": "ok",
-      "count": 44
+      "count": 45
     },
     {
       "source": "The Financial Express",
@@ -7858,14 +7847,14 @@
       "category": "Bangladesh · বাংলা",
       "section": "All News",
       "status": "ok",
-      "count": 44
+      "count": 43
     },
     {
       "source": "দৈনিক করতোয়া",
       "category": "Bangladesh · বাংলা",
       "section": "Economics Page",
       "status": "ok",
-      "count": 30
+      "count": 29
     },
     {
       "source": "দৈনিক করতোয়া",
@@ -7879,7 +7868,7 @@
       "category": "Bangladesh · বাংলা",
       "section": "International Page",
       "status": "ok",
-      "count": 30
+      "count": 29
     },
     {
       "source": "দৈনিক জনকণ্ঠ",
@@ -8229,14 +8218,14 @@
       "category": "Bangladesh · বাংলা",
       "section": "Economics Page",
       "status": "ok",
-      "count": 40
+      "count": 41
     },
     {
       "source": "বাংলাদেশ প্রতিদিন",
       "category": "Bangladesh · বাংলা",
       "section": "Editorial / Opinion",
       "status": "ok",
-      "count": 40
+      "count": 41
     },
     {
       "source": "বাংলাদেশ প্রতিদিন",
@@ -8292,7 +8281,7 @@
       "category": "Bangladesh · বাংলা",
       "section": "Editorial / Opinion",
       "status": "ok",
-      "count": 43
+      "count": 41
     },
     {
       "source": "যুগান্তর",
@@ -8334,7 +8323,7 @@
       "category": "Bangladesh · বাংলা",
       "section": "All News",
       "status": "ok",
-      "count": 15
+      "count": 16
     },
     {
       "source": "সংবাদ",
@@ -8423,6 +8412,6 @@
     "configured_feeds": 284,
     "working_feeds": 284,
     "failed_feeds": 0,
-    "article_count": 9323
+    "article_count": 9315
   }
 }
