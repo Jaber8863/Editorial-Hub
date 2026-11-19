@@ -4,6 +4,7 @@ on:
     branches: [main]
     paths-ignore:
       - "feed.json"
+      - "feed-data.js"
   schedule:
     - cron: "17 */4 * * *"
   workflow_dispatch:
@@ -40,11 +41,31 @@ jobs:
               raise SystemExit('feed.json has an invalid articles field')
           print('feed.json ready:', len(data['articles']), 'articles')
           PY
+      - name: Validate inline JavaScript syntax
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          html = Path("index.html").read_text(encoding="utf-8")
+          scripts = re.findall(r"<script>([\\s\\S]*?)</script>", html)
+          Path("/tmp/editorial-hub-inline.js").write_text("\\n".join(scripts), encoding="utf-8")
+          PY
+          node --check /tmp/editorial-hub-inline.js
+      - name: Build embedded browser feed
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          data = json.loads(Path("feed.json").read_text(encoding="utf-8"))
+          bundle = "window.EDITORIAL_HUB_FEED = " + json.dumps(data, ensure_ascii=False, separators=(",", ":")) + ";\\n"
+          Path("feed-data.js").write_text(bundle, encoding="utf-8")
+          print("Embedded", len(data.get("articles", [])), "articles into feed-data.js")
+          PY
       - name: Publish generated feed for browser access
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add feed.json
+          git add feed.json feed-data.js
           if git diff --cached --quiet; then
             echo "Feed unchanged; no commit needed."
           else
