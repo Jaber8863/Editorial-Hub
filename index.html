@@ -20,15 +20,25 @@ footer{padding:30px 0;color:var(--muted);font-size:13px}.small{font-size:13px;co
 <main class="wrap">
 <section><div class="tools"><input id="search" placeholder="Search headlines, sources or topics…"><button id="refresh">Refresh</button><button id="saved">★ Bookmarks</button></div><nav id="filters"></nav><div class="small" id="status">Loading latest articles…</div></section>
 <section><div class="grid" id="articles"></div></section>
-<section><h2>Bank / IBA Study Desk</h2><div class="study">
-<div class="card"><div class="tag">ESSAY ANGLE</div><h2>Build an argument</h2><p>For each article, identify the central issue, causes, stakeholders, Bangladesh implications and policy options.</p></div>
-<div class="card"><div class="tag">WRITING PRACTICE</div><h2>150-word précis</h2><p>Summarise one editorial in 150 words. Keep the thesis, two supporting points and a balanced conclusion.</p></div>
-<div class="card"><div class="tag">EXAM RELEVANCE</div><h2>Connect the dots</h2><p>Relate global developments to Bangladesh’s economy, banking sector, trade, governance and diplomacy.</p></div>
+<section><h2>IBA / MBA Writing Lab</h2><p class="small">প্রতিটি নিবন্ধ থেকে নিচের writing practice করা যাবে। এগুলো পরীক্ষার প্রস্তুতির কাঠামো—কোনো নির্দিষ্ট পরীক্ষার প্রশ্নের নিশ্চয়তা নয়।</p><div class="study">
+<div class="card"><div class="tag">ARGUMENT WRITING</div><h2>Build a balanced argument</h2><p>1. Clear thesis / position<br>2. Two or three logical claims<br>3. Evidence, examples and data<br>4. Counterargument<br>5. Rebuttal and reasoned conclusion</p></div>
+<div class="card"><div class="tag">ESSAY WRITING</div><h2>Develop a full essay</h2><p>Introduction and context → thesis statement → organised body paragraphs → evidence and Bangladesh perspective → opposing view → policy recommendations → conclusion.</p></div>
+<div class="card"><div class="tag">FOCUS WRITING</div><h2>Write with focus</h2><p>Define the central issue → explain why it matters now → causes and impacts → Bangladesh / global context → challenges → practical way forward → concise conclusion.</p></div>
+<div class="card"><div class="tag">PRÉCIS & SUMMARY</div><h2>Condense the argument</h2><p>Identify the central idea, retain only essential supporting points, remove examples and repetition, use objective language and respect the word limit.</p></div>
+<div class="card"><div class="tag">EDITORIAL ANALYSIS</div><h2>Analyse every article</h2><p>What happened? Why does it matter? Who are the stakeholders? What are the economic, social and political effects? What could Bangladesh do?</p></div>
+<div class="card"><div class="tag">EXAM VOCABULARY</div><h2>Build usable language</h2><p>Collect key terms, collocations, transition phrases and evidence-based expressions. Use them in a fresh argument or focus-writing paragraph.</p></div>
+</div></section>
+<section><h2>High-value IBA / MBA themes</h2><div class="study">
+<div class="card"><div class="tag">ECONOMY</div><h2>Economy & Banking</h2><p>Inflation, monetary policy, banking reform, exchange rates, reserves, trade, investment, taxation and employment.</p></div>
+<div class="card"><div class="tag">WORLD AFFAIRS</div><h2>Geopolitics & Diplomacy</h2><p>Major-power rivalry, regional security, conflicts, sanctions, migration, global institutions and Bangladesh’s foreign policy.</p></div>
+<div class="card"><div class="tag">GOVERNANCE</div><h2>State & Institutions</h2><p>Democracy, public administration, accountability, corruption, rule of law, institutional reform and public policy.</p></div>
+<div class="card"><div class="tag">DEVELOPMENT</div><h2>Society & Human Development</h2><p>Education, health, inequality, poverty, gender, demographic change, urbanisation and social protection.</p></div>
+<div class="card"><div class="tag">FUTURE</div><h2>Climate, Energy & Technology</h2><p>Climate finance, energy transition, AI, digital governance, cybersecurity, automation and future of work.</p></div>
 </div></section>
 <footer>Articles remain the property of their publishers. This site displays feed headlines and links to original reporting. Feed updates are automated by the repository workflow.</footer>
 </main>
 <script>
-const categories=["All","বাংলা সংবাদপত্র","English Editorials","International Affairs"];
+const categories=["All","বাংলা সংবাদপত্র","Bangladesh English","World Analysis & Opinion"];
 let category="All",showSaved=false,items=[];
 const saved=()=>JSON.parse(localStorage.getItem("editorial-saved")||"[]");
 function esc(s=""){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
