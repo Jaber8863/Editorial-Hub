@@ -66,7 +66,7 @@ module.exports = async function handler(req,res){
   let sourceText="";
   try{
     const readerUrl=READER_BASE+url.replace(/^https?:\/\//,"https://");
-    const rr=await fetch(readerUrl,{headers:{Accept:"text/plain"},signal:AbortSignal.timeout(25000)});
+    const rr=await fetch(readerUrl,{headers:{Accept:"text/plain"},signal:AbortSignal.timeout(20000)});
     if(!rr.ok)throw new Error("Reader service HTTP "+rr.status);
     sourceText=await rr.text();
     sourceText=sourceText.replace(/^Title:.*$/gmi,"").replace(/^URL Source:.*$/gmi,"").replace(/^Published Time:.*$/gmi,"").replace(/^Markdown Content:\s*/gmi,"").trim();
@@ -95,7 +95,7 @@ module.exports = async function handler(req,res){
     articleText
   ].join("\n\n");
   try{
-    const ai=await fetch("https://api.openai.com/v1/chat/completions",{method:"POST",headers:{"Authorization":"Bearer "+process.env.OPENAI_API_KEY,"Content-Type":"application/json"},body:JSON.stringify({model:MODEL,temperature:0.2,response_format:{type:"json_schema",json_schema:{name:"iba_article_study_pack",strict:true,schema}},messages:[{role:"system",content:"Produce accurate, article-grounded Bangladesh Bank/IBA written exam preparation. No generic padding or fabricated evidence."},{role:"user",content:prompt}],max_tokens:6000}),signal:AbortSignal.timeout(45000)});
+    const ai=await fetch("https://api.openai.com/v1/chat/completions",{method:"POST",headers:{"Authorization":"Bearer "+process.env.OPENAI_API_KEY,"Content-Type":"application/json"},body:JSON.stringify({model:MODEL,temperature:0.2,response_format:{type:"json_schema",json_schema:{name:"iba_article_study_pack",strict:true,schema}},messages:[{role:"system",content:"Produce accurate, article-grounded Bangladesh Bank/IBA written exam preparation. No generic padding or fabricated evidence."},{role:"user",content:prompt}],max_tokens:6000}),signal:AbortSignal.timeout(35000)});
     if(!ai.ok){const errorBody=await ai.text();throw new Error("OpenAI API "+ai.status+": "+errorBody.slice(0,500));}
     const result=await ai.json(),content=result.choices?.[0]?.message?.content;
     if(!content)throw new Error("AI returned empty content.");
