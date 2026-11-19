@@ -2,34 +2,37 @@ import json
 import re
 import urllib.request
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import datetime, timezone\nfrom urllib.parse import quote_plus
 
-# Bangla newspapers: general RSS is used only where no dedicated editorial feed
-# is publicly exposed. The site labels the publisher/source, not every item as opinion.
+def google_news_feed(domain, terms, language="en", country="US", edition="US:en"):
+    query = f"site:{domain} {terms}"
+    return "https://news.google.com/rss/search?q=" + quote_plus(query) + f"&hl={language}&gl={country}&ceid={quote_plus(edition)}"
+
+# Ten major Bangla newspapers. Google News RSS search is used where publishers
+# block direct RSS or do not expose a stable public editorial feed.
 BANGLA_FEEDS = [
-    ("প্রথম আলো", "বাংলা সংবাদপত্র", "https://www.prothomalo.com/feed/"),
-    ("যুগান্তর", "বাংলা সংবাদপত্র", "https://www.jugantor.com/rss.xml"),
-    ("কালের কণ্ঠ", "বাংলা সংবাদপত্র", "https://www.kalerkantho.com/rss.xml"),
-    ("সমকাল", "বাংলা সংবাদপত্র", "https://samakal.com/rss.xml"),
-    ("দৈনিক ইত্তেফাক", "বাংলা সংবাদপত্র", "https://www.ittefaq.com.bd/rss"),
-    ("বাংলাদেশ প্রতিদিন", "বাংলা সংবাদপত্র", "https://www.bd-pratidin.com/rss.xml"),
-    ("নয়া দিগন্ত", "বাংলা সংবাদপত্র", "https://www.dailynayadiganta.com/rss.xml"),
-    ("দৈনিক জনকণ্ঠ", "বাংলা সংবাদপত্র", "https://www.dailyjanakantha.com/rss"),
-    ("বণিক বার্তা", "বাংলা সংবাদপত্র", "https://bonikbarta.net/rss"),
-    ("দৈনিক ইনকিলাব", "বাংলা সংবাদপত্র", "https://dailyinqilab.com/rss"),
+    ("প্রথম আলো", "বাংলা সংবাদপত্র", google_news_feed("prothomalo.com", "(সম্পাদকীয় OR মতামত OR উপসম্পাদকীয়)", "bn", "BD", "BD:bn")),
+    ("যুগান্তর", "বাংলা সংবাদপত্র", google_news_feed("jugantor.com", "(সম্পাদকীয় OR মতামত OR উপসম্পাদকীয়)", "bn", "BD", "BD:bn")),
+    ("কালের কণ্ঠ", "বাংলা সংবাদপত্র", google_news_feed("kalerkantho.com", "(সম্পাদকীয় OR মতামত OR উপসম্পাদকীয়)", "bn", "BD", "BD:bn")),
+    ("সমকাল", "বাংলা সংবাদপত্র", google_news_feed("samakal.com", "(সম্পাদকীয় OR মতামত OR উপসম্পাদকীয়)", "bn", "BD", "BD:bn")),
+    ("দৈনিক ইত্তেফাক", "বাংলা সংবাদপত্র", google_news_feed("ittefaq.com.bd", "(সম্পাদকীয় OR মতামত OR উপসম্পাদকীয়)", "bn", "BD", "BD:bn")),
+    ("বাংলাদেশ প্রতিদিন", "বাংলা সংবাদপত্র", google_news_feed("bd-pratidin.com", "(সম্পাদকীয় OR মতামত OR উপসম্পাদকীয়)", "bn", "BD", "BD:bn")),
+    ("নয়া দিগন্ত", "বাংলা সংবাদপত্র", google_news_feed("dailynayadiganta.com", "(সম্পাদকীয় OR মতামত OR উপসম্পাদকীয়)", "bn", "BD", "BD:bn")),
+    ("দৈনিক জনকণ্ঠ", "বাংলা সংবাদপত্র", google_news_feed("dailyjanakantha.com", "(সম্পাদকীয় OR মতামত OR উপসম্পাদকীয়)", "bn", "BD", "BD:bn")),
+    ("বণিক বার্তা", "বাংলা সংবাদপত্র", google_news_feed("bonikbarta.net", "(সম্পাদকীয় OR মতামত OR উপসম্পাদকীয়)", "bn", "BD", "BD:bn")),
+    ("দৈনিক ইনকিলাব", "বাংলা সংবাদপত্র", google_news_feed("dailyinqilab.com", "(সম্পাদকীয় OR মতামত OR উপসম্পাদকীয়)", "bn", "BD", "BD:bn")),
 ]
 
-# Bangladesh-based English newspapers and business publications.
+# Five Bangladesh-based English-language newspapers and business publications.
 BD_ENGLISH_FEEDS = [
-    ("The Daily Star", "Bangladesh English", "https://www.thedailystar.net/opinion/rss.xml"),
-    ("Dhaka Tribune", "Bangladesh English", "https://www.dhakatribune.com/opinion/rss"),
-    ("New Age", "Bangladesh English", "https://www.newagebd.net/rss"),
-    ("The Financial Express", "Bangladesh English", "https://thefinancialexpress.com.bd/rss"),
-    ("The Business Standard", "Bangladesh English", "https://www.tbsnews.net/rss.xml"),
+    ("The Daily Star", "Bangladesh English", google_news_feed("thedailystar.net", "(opinion OR editorial OR analysis)", "en", "BD", "BD:en")),
+    ("Dhaka Tribune", "Bangladesh English", google_news_feed("dhakatribune.com", "(opinion OR editorial OR analysis)", "en", "BD", "BD:en")),
+    ("New Age", "Bangladesh English", google_news_feed("newagebd.net", "(opinion OR editorial OR analysis)", "en", "BD", "BD:en")),
+    ("The Financial Express", "Bangladesh English", google_news_feed("thefinancialexpress.com.bd", "(opinion OR editorial OR analysis)", "en", "BD", "BD:en")),
+    ("The Business Standard", "Bangladesh English", google_news_feed("tbsnews.net", "(opinion OR editorial OR analysis)", "en", "BD", "BD:en")),
 ]
 
-# Ten international sources selected for global affairs, editorial argument and analysis.
-# Some are dedicated opinion feeds; others are broad news feeds with analysis/current affairs.
+# Ten international sources for global affairs, editorials and analysis.
 WORLD_FEEDS = [
     ("BBC News English — World", "World Analysis & Opinion", "https://feeds.bbci.co.uk/news/world/rss.xml"),
     ("BBC News বাংলা", "World Analysis & Opinion", "https://feeds.bbci.co.uk/bengali/rss.xml"),
