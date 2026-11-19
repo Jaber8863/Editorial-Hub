@@ -127,7 +127,7 @@
 <details class="category-menu" id="category-menu">
 <summary aria-label="Open categories menu"><span class="hamburger-glyph">☰</span></summary><div class="menu-shade"></div>
 <nav class="category-drawer" aria-label="Browse categories">
-<div class="drawer-head"><b>Browse Categories</b><label for="category-menu" aria-label="Close menu">×</label></div>
+<div class="drawer-head"><b>Browse Categories</b><button type="button" id="menu-close" aria-label="Close menu">×</button></div>
 <div class="drawer-links"><a href="#dashboard">Overview</a><a href="#news">News & Editorials</a><a href="#vocabulary">Vocabulary Bank</a><a href="#study-room">Daily Goals</a><a href="#profile">Login & Profile</a></div>
 <div id="drawer-categories">
 <details class="drawer-group"><summary>Bangladesh · বাংলা <span>⌄</span></summary><div class="drawer-subs"><button data-drawer-main="bangla" data-drawer-sub="জাতীয় ও নীতি">জাতীয় ও নীতি</button><button data-drawer-main="bangla" data-drawer-sub="অর্থনীতি ও ব্যাংকিং">অর্থনীতি ও ব্যাংকিং</button><button data-drawer-main="bangla" data-drawer-sub="আন্তর্জাতিক পাতা">আন্তর্জাতিক পাতা</button><button data-drawer-main="bangla" data-drawer-sub="সম্পাদকীয় ও মতামত">সম্পাদকীয় ও মতামত</button></div></details>
@@ -154,6 +154,7 @@
 
 <section class="panel" id="profile"><div class="section-head"><div><div class="kicker">YOUR PERSONAL STUDY SPACE</div><h2>Login & Progress Profile</h2><p>Google account দিয়ে sign in করলে Daily Goals ও learning progress আপনার profile-এ সংরক্ষিত হবে।</p></div></div><div class="task"><div><b>Google Sign-in</b><small id="auth-status">Authentication setup is required before sign-in can be enabled.</small></div><button class="toolbtn" id="google-login" type="button" disabled>Continue with Google</button></div><div class="stats" style="margin-top:14px"><div class="stat"><div class="stat-label">TOTAL VISITORS</div><div class="stat-value" id="total-visitors">—</div><div class="stat-hint">All-time visits</div></div><div class="stat"><div class="stat-label">LIVE VISITORS</div><div class="stat-value" id="live-visitors">—</div><div class="stat-hint">Currently active</div></div><div class="stat"><div class="stat-label">YOUR PROGRESS</div><div class="stat-value" id="profile-progress">0%</div><div class="stat-hint">Today's goals</div></div></div><p class="small">Google authentication and visitor analytics will activate after connecting a Firebase project and its security rules.</p></section><div class="footer"><strong>EDITORIAL HUB BANGLADESH</strong><br>Idea by Md. Jaber Hossain<br>© 2026 EDITORIAL HUB BANGLADESH. All rights reserved. · Launched: 2026<br>Article headlines, summaries and links remain the property of their publishers. Always verify facts, dates and figures in the original article.</div>
 </main></div>
+<script src="./feed-data.js"></script>
 <script>
 const categories=[
  {id:"all",label:"সব",subs:["সব বিষয়"]},
@@ -163,6 +164,7 @@ const categories=[
  {id:"topic",label:"Topic-wise",subs:["Economy & Banking","Governance & Public Policy","Geopolitics","International Treaties & Pacts","Conferences & Summits","Seminars & Reports","Prizes & Awards","Environment & Climate","Elections & Democracy","Military & Alliances","Global Rankings & Indices","Science, Technology & AI","Society & Development"]}
 ];
 
+document.querySelector("#menu-close").addEventListener("click",()=>{document.querySelector("#category-menu").open=false});
 document.querySelector("#drawer-categories").addEventListener("click",event=>{
  const btn=event.target.closest("[data-drawer-main]");
  if(!btn)return;
