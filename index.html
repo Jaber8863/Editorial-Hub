@@ -156,13 +156,13 @@ const topicTags=[
 function articleText(x){return [x.title,x.summary,x.source,x.category,(x.topics||[]).join(" ")].join(" ").toLowerCase()}
 function isEpaperPage(x){const t=String(x.title||"").toLowerCase(),u=String(x.link||"").toLowerCase();return /e[- ]?paper|ই[- ]?পেপার|পৃষ্ঠা\s*[-–:]?\s*\d+|page\s*[-–:]?\s*\d+/.test(t)||/epaper|e-paper|pdfviewer|pageview/.test(u)}
 function classifyArticle(x){
- const h=articleText(x),src=String(x.source||"").toLowerCase(),type=String(x.type||x.category||"").toLowerCase();
- const isIntl=/international|world|global|foreign|আন্তর্জাতিক/.test(type+" "+h);
- const isOpinion=/editorial|opinion|commentary|মতামত|সম্পাদকীয়/.test(type+" "+h);
- const isEnglish=/[a-z]/i.test(String(x.title||""))&&!/[\u0980-\u09FF]/.test(String(x.title||""));
- let main=isIntl?"international":(isEnglish?"bd-en":"bangla");
+ const h=articleText(x),cat=String(x.category||"").toLowerCase(),section=String(x.section||x.type||"").toLowerCase();
+ const isOpinion=/editorial|opinion|commentary|মতামত|সম্পাদকীয়/.test(section+" "+h);
+ const isIntl=cat==="international"||cat.includes("international");
+ const isEnglish=cat.includes("english")||(/[a-z]/i.test(String(x.title||""))&&!/[\u0980-\u09FF]/.test(String(x.title||"")));
+ let main=isIntl?"international":(cat.includes("বাংলা")?"bangla":(cat.includes("english")?"bd-en":(isEnglish?"bd-en":"bangla")));
  const topic=topicTags.find(([name,keys])=>keys.some(k=>h.includes(k)));
- return {main,topic:topic?topic[0]:(isOpinion?"Editorial & Opinion":(isIntl?"Global Affairs":"জাতীয় ও নীতি")),isOpinion};
+ return {main,topic:topic?topic[0]:(isOpinion?"Editorial & Opinion":(isIntl?"Global Affairs":"জাতীয় ও নীতি")),isOpinion,section};
 }
 const groups=[
 {name:"Economy & Banking",keys:["econom","bank","inflation","finance","trade","currency","reserve","investment","fiscal","monetary","rmg","debt","বাণিজ্য","ব্যাংক","অর্থনীতি"],angle:"Analyse the causes, economic consequences, affected stakeholders, regulatory response and reforms needed to restore confidence and support inclusive growth."},
@@ -196,7 +196,7 @@ function renderIba(){
 function render(){
  const q=document.querySelector("#search").value.toLowerCase(),date=document.querySelector("#date-filter").value,keep=saved();
  const visible=items.filter(x=>!isEpaperPage(x));
- const filtered=visible.filter(x=>{const c=classifyArticle(x);const inMain=category==="all"||c.main===category||(category==="topic"&&subCategory==="সব বিষয়");const inSub=subCategory==="সব বিষয়"||(category==="topic"?c.topic===subCategory:(c.topic===subCategory|| (subCategory==="সম্পাদকীয় ও মতামত"||subCategory==="Editorial & Opinion")&&c.isOpinion));return inMain&&inSub&&(!showSaved||keep.includes(x.link))&&(!date||articleISODate(x.date)===date)&&articleText(x).includes(q)});
+ const filtered=visible.filter(x=>{const c=classifyArticle(x);const inMain=category==="all"||c.main===category||(category==="topic"&&subCategory==="সব বিষয়");const inSub=subCategory==="সব বিষয়"||(category==="topic"?c.topic===subCategory:(c.topic===subCategory||c.section.toLowerCase().includes(subCategory.toLowerCase())||((subCategory==="সম্পাদকীয় ও মতামত"||subCategory==="Editorial & Opinion")&&c.isOpinion)));return inMain&&inSub&&(!showSaved||keep.includes(x.link))&&(!date||articleISODate(x.date)===date)&&articleText(x).includes(q)});
  document.querySelector("#filters").innerHTML=categories.map(c=>'<button class="chip '+(c.id===category?"active":"")+'" data-main="'+c.id+'">'+esc(c.label)+'</button>').join("");
  const active=categories.find(c=>c.id===category)||categories[0];
  document.querySelector("#subfilters").innerHTML=active.subs.map(c=>'<button class="chip '+(c===subCategory?"active":"")+'" data-sub="'+esc(c)+'">'+esc(c)+'</button>').join("");
