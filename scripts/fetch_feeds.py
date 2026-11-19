@@ -35,12 +35,14 @@ BD_ENGLISH_PAPERS = [
 ]
 FEEDS = []
 for name, domain in BANGLA_PAPERS:
+    FEEDS.append((name, "Bangladesh · বাংলা", "All News", google_news_feed(domain, "", "bn", "BD", "BD:bn")))
     FEEDS.extend([
         (name, "Bangladesh · বাংলা", "International Page", google_news_feed(domain, '(আন্তর্জাতিক OR বিশ্ব OR পররাষ্ট্র)', "bn", "BD", "BD:bn")),
         (name, "Bangladesh · বাংলা", "Economics Page", google_news_feed(domain, '(অর্থনীতি OR অর্থ-বাণিজ্য OR ব্যাংক OR ব্যবসা OR বাজার)', "bn", "BD", "BD:bn")),
         (name, "Bangladesh · বাংলা", "Editorial / Opinion", google_news_feed(domain, '(সম্পাদকীয় OR মতামত OR উপসম্পাদকীয়)', "bn", "BD", "BD:bn")),
     ])
 for name, domain in BD_ENGLISH_PAPERS:
+    FEEDS.append((name, "Bangladesh · English", "All News", google_news_feed(domain, "", "en", "BD", "BD:en")))
     FEEDS.extend([
         (name, "Bangladesh · English", "International Page", google_news_feed(domain, '(international OR world OR foreign affairs)', "en", "BD", "BD:en")),
         (name, "Bangladesh · English", "Economics Page", google_news_feed(domain, '(economy OR banking OR business OR finance OR markets)', "en", "BD", "BD:en")),
@@ -61,6 +63,7 @@ WORLD_OUTLETS = [
 ]
 WORLD_FEEDS = []
 for name, domain in WORLD_OUTLETS:
+    WORLD_FEEDS.append((name, "International", "All News", google_news_feed(domain, "", "en", "US", "US:en")))
     WORLD_FEEDS.extend([
         (name, "International", "International Page", google_news_feed(domain, '(world OR international OR geopolitics OR diplomacy)', "en", "US", "US:en")),
         (name, "International", "Economics Page", google_news_feed(domain, '(economy OR finance OR trade OR markets)', "en", "US", "US:en")),
@@ -203,7 +206,7 @@ payload = {
         "Bangla newspapers": len(BANGLA_PAPERS),
         "Bangladesh English newspapers": len(BD_ENGLISH_PAPERS),
         "International outlets": len(WORLD_OUTLETS),
-        "sections_per_Bangladesh_paper": ["International Page", "Economics Page", "Editorial / Opinion"],
+        "sections_per_Bangladesh_paper": ["All News", "International Page", "Economics Page", "Editorial / Opinion"],
         "International top-20 sources": [name for name, domain in WORLD_OUTLETS],
     },
     "health": {
