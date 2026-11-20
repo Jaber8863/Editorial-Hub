@@ -3,6 +3,7 @@ import re
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
 from html import unescape
 from urllib.parse import quote_plus, urlparse
 
@@ -88,6 +89,24 @@ TOPIC_RULES = {
     "Science, Technology & AI": ["artificial intelligence", "technology", "cyber", "digital", "automation", "প্রযুক্তি", "কৃত্রিম বুদ্ধিমত্তা"],
     "Society & Development": ["poverty", "inequality", "education", "health", "employment", "gender", "development", "দারিদ্র্য", "বৈষম্য", "শিক্ষা", "স্বাস্থ্য", "কর্মসংস্থান"],
 }
+
+def parse_published(value):
+    """Parse RSS/Atom publication dates into UTC-aware datetimes for true chronological sorting."""
+    if not value:
+        return None
+    try:
+        parsed = parsedate_to_datetime(value)
+        if parsed.tzinfo is None:
+            parsed = parsed.replace(tzinfo=timezone.utc)
+        return parsed.astimezone(timezone.utc)
+    except (TypeError, ValueError, OverflowError):
+        try:
+            parsed = datetime.fromisoformat(value.replace("Z", "+00:00"))
+            if parsed.tzinfo is None:
+                parsed = parsed.replace(tzinfo=timezone.utc)
+            return parsed.astimezone(timezone.utc)
+        except (TypeError, ValueError, OverflowError):
+            return None
 
 def clean(value):
     value = unescape(re.sub(r"<[^>]+>", " ", value or ""))
@@ -195,7 +214,9 @@ for article in articles:
     if key not in seen:
         seen.add(key)
         unique.append(article)
-unique.sort(key=lambda article: article.get("date", ""), reverse=True)
+# RFC 2822 dates are not lexicographically sortable (month/day names break ordering).
+# Parse them and put undated/unparseable records last.
+unique.sort(key=lambda article: parse_published(article.get("date")) or datetime.min.replace(tzinfo=timezone.utc), reverse=True)
 
 # Always publish a valid JSON file, even when every upstream feed is temporarily unavailable.
 payload = {
@@ -214,9 +235,12 @@ payload = {
         "working_feeds": sum(1 for feed in feed_status if feed["status"] == "ok"),
         "failed_feeds": sum(1 for feed in feed_status if feed["status"] != "ok"),
         "article_count": len(unique),
+        "recent_articles_30d": sum(1 for article in unique if (parse_published(article.get("date")) and (datetime.now(timezone.utc) - parse_published(article.get("date"))).days <= 30)),
+        "latest_article_date": next((article.get("date") for article in unique if parse_published(article.get("date"))), None),
     },
 }
 with open("feed.json", "w", encoding="utf-8") as output:
     json.dump(payload, output, ensure_ascii=False, indent=2)
-print("Wrote", min(len(unique), 500), "articles from",
-      payload["health"]["working_feeds"], "of", len(FEEDS), "working feeds")
+print("Wrote", min(len(unique), 500), "chronologically sorted articles from",
+      payload["health"]["working_feeds"], "of", len(FEEDS), "working feeds;",
+      payload["health"]["recent_articles_30d"], "within 30 days")
