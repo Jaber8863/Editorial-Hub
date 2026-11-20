@@ -31,16 +31,26 @@ jobs:
           python - <<'PY'
           import json
           from pathlib import Path
+          from datetime import datetime, timezone
+          from email.utils import parsedate_to_datetime
           data = json.loads(Path('feed.json').read_text(encoding='utf-8'))
           health = data.get('health', {})
           working = health.get('working_feeds', 0)
           configured = health.get('configured_feeds', 0)
           recent = health.get('recent_articles_30d', 0)
+          latest_raw = health.get('latest_article_date')
+          try:
+              latest = parsedate_to_datetime(latest_raw).astimezone(timezone.utc) if latest_raw else None
+          except (TypeError, ValueError, OverflowError):
+              latest = None
+          age_hours = (datetime.now(timezone.utc) - latest).total_seconds() / 3600 if latest else None
           if configured == 0 or working < max(10, int(configured * 0.15)):
               raise SystemExit(f'Feed health too low: {working}/{configured} sources working; refusing to publish.')
           if recent < 10:
               raise SystemExit(f'Only {recent} articles within 30 days; refusing to publish stale feed.')
-          print(f'Feed validation passed: {working}/{configured} sources; {recent} recent articles.')
+          if latest is None or age_hours > 72 or age_hours < -6:
+              raise SystemExit(f'Latest article is missing, too old, or future-dated (age hours: {age_hours}); refusing to publish.')
+          print(f'Feed validation passed: {working}/{configured} sources; {recent} recent articles; latest is {age_hours:.1f} hours old.')
           PY
       - name: Ensure feed JSON exists and is valid
         if: always()
