@@ -6,7 +6,7 @@ on:
       - "feed.json"
       - "feed-data.js"
   schedule:
-    - cron: "17 */4 * * *"
+    - cron: "17 */2 * * *"
   workflow_dispatch:
 permissions:
   contents: write
@@ -14,7 +14,7 @@ permissions:
   id-token: write
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -26,7 +26,22 @@ jobs:
           python-version: "3.x"
       - name: Fetch RSS feeds
         run: python scripts/fetch_feeds.py
-        continue-on-error: true
+      - name: Validate feed freshness and source health
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          data = json.loads(Path('feed.json').read_text(encoding='utf-8'))
+          health = data.get('health', {})
+          working = health.get('working_feeds', 0)
+          configured = health.get('configured_feeds', 0)
+          recent = health.get('recent_articles_30d', 0)
+          if configured == 0 or working < max(10, int(configured * 0.15)):
+              raise SystemExit(f'Feed health too low: {working}/{configured} sources working; refusing to publish.')
+          if recent < 10:
+              raise SystemExit(f'Only {recent} articles within 30 days; refusing to publish stale feed.')
+          print(f'Feed validation passed: {working}/{configured} sources; {recent} recent articles.')
+          PY
       - name: Ensure feed JSON exists and is valid
         if: always()
         run: |
