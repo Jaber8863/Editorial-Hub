@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20 06:31 UTC",
+  "updated": "2026-11-20 06:32 UTC",
   "articles": [
     {
       "title": "নারায়ণগঞ্জের পুকুর থেকে উদ্ধার কুমির সাফারি পার্কে হস্তান্তর - SAMAKAL",
@@ -12,21 +12,6 @@
       "type": "All News",
       "topics": [],
       "exam_priority": "General"
-    },
-    {
-      "title": "2026 U.S. House Election Results - AP News",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBUM0VmeFZ2SjF1RGJlVENLazFvbHZxWjRIYUlNMFlKal9sRW1ySS1UQWo4djh3cWpLcXJLWWFuWXBmdkllMTd2aVRhWF9YZFM5ZGRmN3pxZW5nWERXMjREbTVDeGF2RXRfM3ZTUw?oc=5",
-      "summary": "2026 U.S. House Election Results AP News",
-      "date": "Fri, 20 Nov 2026 06:29:18 GMT",
-      "source": "Associated Press",
-      "category": "International",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
-      "topics": [
-        "Governance & Public Policy",
-        "Elections & Democracy"
-      ],
-      "exam_priority": "High"
     },
     {
       "title": "Dhaka eyes Rohingya repatriation within 18 months: Humaiun - Bangladesh Sangbad Sangstha (BSS)",
@@ -104,20 +89,6 @@
       "exam_priority": "High"
     },
     {
-      "title": "প্রযুক্তি বিপর্যয়: সাইবার নিরাপত্তা প্রধান বরখাস্ত, শান্ত থাকতে বললেন ট্রাম্প",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5PYVpjbExCUUNhb3VqazFPS25VTkVmQlVVTWg4U0lka0JIMWtURU1xWEZDU2dpWmJYTHc5R01kSi1VSG04T09PLTFMcEZ2RUFsSVdKT3Q1T2NtMzNJVFNXVUMxYUFsdlV5N3Y0?oc=5",
-      "summary": "প্রযুক্তি বিপর্যয়: সাইবার নিরাপত্তা প্রধান বরখাস্ত, শান্ত থাকতে বললেন ট্রাম্প কালের কণ্ঠ",
-      "date": "Fri, 20 Nov 2026 06:26:34 GMT",
-      "source": "কালের কণ্ঠ",
-      "category": "Bangladesh · বাংলা",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
-      "topics": [
-        "Science, Technology & AI"
-      ],
-      "exam_priority": "Medium"
-    },
-    {
       "title": "গোপালগঞ্জের আইনশৃঙ্খলা পরিস্থিতি দেখতে আইজিপি, এসআরবি ও বিজিবি মহাপরিচালক",
       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB0MDJYUjJyMHdBMlRtU05qVUJlMnEtVUV4M2FmVkh1OTRYTDNjUVAyblRQdG9DNkdfWVIzaUZJcTExNENIREh1cHRSSS1mTENkRC0yTURIV3M?oc=5",
       "summary": "গোপালগঞ্জের আইনশৃঙ্খলা পরিস্থিতি দেখতে আইজিপি, এসআরবি ও বিজিবি মহাপরিচালক দৈনিক ইনকিলাব",
@@ -136,8 +107,8 @@
       "date": "Fri, 20 Nov 2026 06:23:00 GMT",
       "source": "ঢাকা টাইমস",
       "category": "Bangladesh · বাংলা",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
+      "section": "All News",
+      "type": "All News",
       "topics": [],
       "exam_priority": "General"
     },
@@ -160,8 +131,8 @@
       "date": "Fri, 20 Nov 2026 06:22:19 GMT",
       "source": "কালের কণ্ঠ",
       "category": "Bangladesh · বাংলা",
-      "section": "All News",
-      "type": "All News",
+      "section": "International Page",
+      "type": "International Page",
       "topics": [],
       "exam_priority": "General"
     },
@@ -220,8 +191,8 @@
       "date": "Fri, 20 Nov 2026 06:15:46 GMT",
       "source": "The Washington Post",
       "category": "International",
-      "section": "International Page",
-      "type": "International Page",
+      "section": "All News",
+      "type": "All News",
       "topics": [
         "Geopolitics",
         "Governance & Public Policy"
@@ -290,6 +261,18 @@
       "category": "Bangladesh · বাংলা",
       "section": "International Page",
       "type": "International Page",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
+      "title": "বিশ্বে সবচেয়ে বেশি মৃত্যুদণ্ড কার্যকর হয় যেসব দেশে - Daily Observer",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE03OVZTbGpBNFdfTlFVckk5d3NneE9sOTUyLVpxVVZpWlJYbmJMTDQ4TV9BLVU2U2hBZGJtOHZhaHJ4Wl93XzJjcVZKanY5Zw?oc=5",
+      "summary": "বিশ্বে সবচেয়ে বেশি মৃত্যুদণ্ড কার্যকর হয় যেসব দেশে Daily Observer",
+      "date": "Fri, 20 Nov 2026 06:13:00 GMT",
+      "source": "The Daily Observer",
+      "category": "Bangladesh · বাংলা",
+      "section": "All News",
+      "type": "All News",
       "topics": [],
       "exam_priority": "General"
     },
@@ -433,6 +416,20 @@
       "exam_priority": "General"
     },
     {
+      "title": "বাংলাদেশ ব্যাংকের ‘উদ্যোগ’ নিয়ে মুন্সিগঞ্জে সিটি ব্যাংক",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5QVjluQjdRN2JKWXl1eEQwbTE5bF9hMndMX1lDbkYybGlBRGpzN0doNmdJX0hkWWJqdF9mM3J0VUw1R0JBSUhkVUFWREJkWXM1WC1xOTRiaU8ybWRybWdOWNIBbkFVX3lxTE52bEsyQURueXRKUEpXTF95djZyVUdKV2QyWGVmZjZRcDc0U0ZCN3RNeXZaZ01GR3dMbVRqVi1Rcngzak5BZHJCckRENkRmREpjdFVXWkVOREpKZ1hSVmROYUJxWlRFekdLb25weGFR?oc=5",
+      "summary": "বাংলাদেশ ব্যাংকের ‘উদ্যোগ’ নিয়ে মুন্সিগঞ্জে সিটি ব্যাংক প্রথম আলো",
+      "date": "Fri, 20 Nov 2026 06:00:00 GMT",
+      "source": "প্রথম আলো",
+      "category": "Bangladesh · বাংলা",
+      "section": "Economics Page",
+      "type": "Economics Page",
+      "topics": [
+        "Economy & Banking"
+      ],
+      "exam_priority": "Medium"
+    },
+    {
       "title": "পরিচালকের ‘আপত্তিকর স্পর্শ’, ভাইরাল ভিডিও নিয়ে জবাব দিলেন নায়িকা",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1wU01RY1FVSm1qcmpGOXFsOEZlVjd2bmtPelN2dWFvX2Z5M2lRT3NYWEl6ZkF4aG1wTkZ3cTE5MEpXNC1BaHBQZmVFSUw3WWwwYk9obWxKMXJJVHUtZlpSb3lEZGdveDRpdjBxQjhn0gF7QVVfeXFMTlRKN2lpV2k1ZXVmM05BMTdKUkUwU0VTSkZXWlVjN0RMYmk4TkVQb3JZTTBvdmJSWXZLajRqbXFFTUZpUVdqdmI1cWFNTmUta1VlV0hydG5pZEkxRW95OGFLVHpoQ3Ata3NXaG8yQk5raWd0dUg0Y1JZYTAw?oc=5",
       "summary": "পরিচালকের ‘আপত্তিকর স্পর্শ’, ভাইরাল ভিডিও নিয়ে জবাব দিলেন নায়িকা প্রথম আলো",
@@ -457,20 +454,6 @@
       "exam_priority": "General"
     },
     {
-      "title": "বাংলাদেশ ব্যাংকের ‘উদ্যোগ’ নিয়ে মুন্সিগঞ্জে সিটি ব্যাংক",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5QVjluQjdRN2JKWXl1eEQwbTE5bF9hMndMX1lDbkYybGlBRGpzN0doNmdJX0hkWWJqdF9mM3J0VUw1R0JBSUhkVUFWREJkWXM1WC1xOTRiaU8ybWRybWdOWNIBbkFVX3lxTE52bEsyQURueXRKUEpXTF95djZyVUdKV2QyWGVmZjZRcDc0U0ZCN3RNeXZaZ01GR3dMbVRqVi1Rcngzak5BZHJCckRENkRmREpjdFVXWkVOREpKZ1hSVmROYUJxWlRFekdLb25weGFR?oc=5",
-      "summary": "বাংলাদেশ ব্যাংকের ‘উদ্যোগ’ নিয়ে মুন্সিগঞ্জে সিটি ব্যাংক প্রথম আলো",
-      "date": "Fri, 20 Nov 2026 06:00:00 GMT",
-      "source": "প্রথম আলো",
-      "category": "Bangladesh · বাংলা",
-      "section": "Economics Page",
-      "type": "Economics Page",
-      "topics": [
-        "Economy & Banking"
-      ],
-      "exam_priority": "Medium"
-    },
-    {
       "title": "হুথিদের হামলায় রিয়াদের সবচেয়ে উঁচু ভবন ক্ষতিগ্রস্ত - ভিডিও | জাগোনিউজ২৪.কম - Jagonews24",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5LOUxMdjcyeTBqY0JaTGhTcGNUUWxCYTZBeFVXNEtCYldyNy1oTXB6QXdYYUVfMUtwNUVtbWcyTHhDVW8wMkJWS3BGdVhLUFR3TUtpSm95N3JRUTVnbjR0bkh3?oc=5",
       "summary": "হুথিদের হামলায় রিয়াদের সবচেয়ে উঁচু ভবন ক্ষতিগ্রস্ত - ভিডিও | জাগোনিউজ২৪.কম Jagonews24",
@@ -479,6 +462,18 @@
       "category": "Bangladesh · বাংলা",
       "section": "All News",
       "type": "All News",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
+      "title": "US retail sales showcase underlying strength despite cost-of-living crunch",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQR3E3dDhlYnhManFvN24yVHhCQmNDbUdHSEZ3YVF1dk85M0FoNWtZNUNQdkROamM0Z0lJQmJUUHJfVWI3UGJNUlRwZEdjR1lrZUViYVVmZktnZkFwdFA2My1tSm1iTnFadDdjRnJqOVFwMTBxNmc1d0lyNG40TlpHLVRKUExNRC1aTDNmWHpFRkdXN0N1dnNlYlowQkZuRXVWTDZaLWltMWhYNzNUMU5ndHZFVUpEYlQwM18telVjNA?oc=5",
+      "summary": "US retail sales showcase underlying strength despite cost-of-living crunch The Daily Star",
+      "date": "Fri, 20 Nov 2026 05:59:17 GMT",
+      "source": "The Daily Star",
+      "category": "Bangladesh · English",
+      "section": "Economics Page",
+      "type": "Economics Page",
       "topics": [],
       "exam_priority": "General"
     },
@@ -539,8 +534,8 @@
       "date": "Fri, 20 Nov 2026 05:53:19 GMT",
       "source": "Bangla Tribune",
       "category": "Bangladesh · বাংলা",
-      "section": "All News",
-      "type": "All News",
+      "section": "Economics Page",
+      "type": "Economics Page",
       "topics": [
         "Economy & Banking"
       ],
@@ -595,14 +590,26 @@
       "exam_priority": "General"
     },
     {
+      "title": "ওড়িশা উপকূলে আছড়ে পড়ছে ঘূর্ণিঝড় ‘আকভান’ - Daily Observer",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE80WDhad1VuX1M5c3JIVDZONThvT1FkeVFjT2tySGpRUnIwT3dadlFZaTNnLW5NYW93UmF6bG4xTHlEcFQ3cWlTcUxQQXozZw?oc=5",
+      "summary": "ওড়িশা উপকূলে আছড়ে পড়ছে ঘূর্ণিঝড় ‘আকভান’ Daily Observer",
+      "date": "Fri, 20 Nov 2026 05:50:00 GMT",
+      "source": "The Daily Observer",
+      "category": "Bangladesh · বাংলা",
+      "section": "All News",
+      "type": "All News",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
       "title": "অবরোধের চেষ্টা ঠেকিয়ে মহাসড়কে যান চলাচল স্বাভাবিক রাখছে আনসার, মাঠে ৪২ প্লাটুন সদস্য - Dhakatimes24",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5jVGhyTThzMUl1MFpIZFUySHhvOXJhcE1BNWhtZTRuckZTdlRLbkJuVFE4M05uNmY3aFc5YmQtMXFrekpCVVJoem1ZeWZiNjNqc1VkSm1vYl9PQQ?oc=5",
       "summary": "অবরোধের চেষ্টা ঠেকিয়ে মহাসড়কে যান চলাচল স্বাভাবিক রাখছে আনসার, মাঠে ৪২ প্লাটুন সদস্য Dhakatimes24",
       "date": "Fri, 20 Nov 2026 05:49:00 GMT",
       "source": "ঢাকা টাইমস",
       "category": "Bangladesh · বাংলা",
-      "section": "Economics Page",
-      "type": "Economics Page",
+      "section": "All News",
+      "type": "All News",
       "topics": [],
       "exam_priority": "General"
     },
@@ -777,8 +784,8 @@
       "date": "Fri, 20 Nov 2026 05:39:17 GMT",
       "source": "সমকাল",
       "category": "Bangladesh · বাংলা",
-      "section": "International Page",
-      "type": "International Page",
+      "section": "Editorial / Opinion",
+      "type": "Editorial / Opinion",
       "topics": [],
       "exam_priority": "General"
     },
@@ -841,6 +848,20 @@
       "type": "International Page",
       "topics": [],
       "exam_priority": "General"
+    },
+    {
+      "title": "Success without reform",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBsckNfTkRvNWZteHRoN2UxUnBhY1dLX1dkaFNIR2RLbUpyRVNiY3lDSzBsZ2lxZlF5TWplWG9aRlRBa3lnRVQxSXBObE0wSGsyOE5SRnJVWWlIRzQyeVhmcWphMWRVVDJnczhBSWtKSQ?oc=5",
+      "summary": "Success without reform The Business Standard",
+      "date": "Fri, 20 Nov 2026 05:36:41 GMT",
+      "source": "The Business Standard",
+      "category": "Bangladesh · English",
+      "section": "Economics Page",
+      "type": "Economics Page",
+      "topics": [
+        "Governance & Public Policy"
+      ],
+      "exam_priority": "Medium"
     },
     {
       "title": "সিলেটে পররাষ্ট্র প্রতিমন্ত্রী হুমায়ুন কবিরের বাসায় পেট্রোল বোমা নিক্ষেপ, সিসিটিভি ফুটেজে হামলাকারীদের শনাক্তে তদন্ত",
@@ -909,8 +930,8 @@
       "date": "Fri, 20 Nov 2026 05:32:19 GMT",
       "source": "The Washington Post",
       "category": "International",
-      "section": "Economics Page",
-      "type": "Economics Page",
+      "section": "All News",
+      "type": "All News",
       "topics": [],
       "exam_priority": "General"
     },
@@ -979,21 +1000,6 @@
       "exam_priority": "Medium"
     },
     {
-      "title": "2026 Arizona Midterm Election Results - AP News",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBXZmpsZ3hhUzB4QUo1cVdmaGFCWTZTR2lhN3NRNzFFZDNaSXI2RGJxYzBwTy1SYVNFZ3VKUFZnMS1RSE9rTG01dkZFY1R4dHNHU2VLUTVCeHJYM1J4d2FBS1g3VGxySklybkZv?oc=5",
-      "summary": "2026 Arizona Midterm Election Results AP News",
-      "date": "Fri, 20 Nov 2026 05:29:43 GMT",
-      "source": "Associated Press",
-      "category": "International",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
-      "topics": [
-        "Governance & Public Policy",
-        "Elections & Democracy"
-      ],
-      "exam_priority": "High"
-    },
-    {
       "title": "Germany pledges €246m in fresh funds",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQN2hrRkhNX1NCbnZxank1ZkgyRVl1NkZNaEMzUDBDVTVMTDUxNTRCWjhWQ1VHcjUyaGd2NVI0a3E2YjVveEVJMkU2TEI2QU5pNUwtZnRSS3JFV08zODhNQVFUdWliMWxxT2U3OVF6WG0tT242TXJFZm5xc1prNl9ZYzFJNU9WNzM2dV9kTHFab2drZlpQdmNrMWZ1UUtta1ZFZDc0?oc=5",
       "summary": "Germany pledges €246m in fresh funds The Daily Star",
@@ -1011,6 +1017,18 @@
       "summary": "বিশ্বের সবচেয়ে দামি গোলকিপার এখন বার্সেলোনার Bangla Tribune",
       "date": "Fri, 20 Nov 2026 05:25:05 GMT",
       "source": "Bangla Tribune",
+      "category": "Bangladesh · বাংলা",
+      "section": "All News",
+      "type": "All News",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
+      "title": "ডেমরায় পেট্রোল ও পেট্রোলবোমা তৈরির সরঞ্জামসহ গ্রেপ্তার ৩ - Dhakatimes24",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBxamtmWXN3YVl3MVZUa3dTX3gxem9NZFNJNTBRU2ZaYXh0cWUxZWdxamNPWFVkOXBvRWxfbk1sTFFVUzJjOVZiWjlYR3lMVHEtR05sanJ4ZTRrUQ?oc=5",
+      "summary": "ডেমরায় পেট্রোল ও পেট্রোলবোমা তৈরির সরঞ্জামসহ গ্রেপ্তার ৩ Dhakatimes24",
+      "date": "Fri, 20 Nov 2026 05:25:00 GMT",
+      "source": "ঢাকা টাইমস",
       "category": "Bangladesh · বাংলা",
       "section": "All News",
       "type": "All News",
@@ -1062,6 +1080,18 @@
       "date": "Fri, 20 Nov 2026 05:20:00 GMT",
       "source": "নয়া দিগন্ত",
       "category": "Bangladesh · বাংলা",
+      "section": "Economics Page",
+      "type": "Economics Page",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
+      "title": "So, Anthropic is finally a public company. What now?",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5nTm0wdXgzRkk1eDNpcnoyOUVXdDdCWFpDWlZDUjlOS3hHbnVnX0RoQTAwSFRJVUtYSHlYSkZiWjloSG5QN0l1YjROQWVuOU95Tjk3RzM0SzZLSk5BUE5kX2otLWJNTzhuamx2czBhaS0?oc=5",
+      "summary": "So, Anthropic is finally a public company. What now? Financial Times",
+      "date": "Fri, 20 Nov 2026 05:19:50 GMT",
+      "source": "Financial Times",
+      "category": "International",
       "section": "Economics Page",
       "type": "Economics Page",
       "topics": [],
@@ -1133,6 +1163,18 @@
       "summary": "আ.লীগের সঙ্গে সব দলকে আলোচনায় বসতে বললেন চরমোনাই পীর Jugantor",
       "date": "Fri, 20 Nov 2026 05:13:42 GMT",
       "source": "যুগান্তর",
+      "category": "Bangladesh · বাংলা",
+      "section": "All News",
+      "type": "All News",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
+      "title": "গোপালগঞ্জে আইজিপি, এসআরবি ও বিজিবি মহাপরিচালক - Dhakatimes24",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9fUW9vTjVFUTdQVGRDVmFGOEsxcUUxMlZfYkQ5cEJ5YWp5NE1hYWYwV0k4X0dRemt1VmJ0NXZIaWg5TDVWR0lvVkxUUFRTS0pJWlE1dVNUSkdkQQ?oc=5",
+      "summary": "গোপালগঞ্জে আইজিপি, এসআরবি ও বিজিবি মহাপরিচালক Dhakatimes24",
+      "date": "Fri, 20 Nov 2026 05:11:41 GMT",
+      "source": "ঢাকা টাইমস",
       "category": "Bangladesh · বাংলা",
       "section": "All News",
       "type": "All News",
@@ -1306,18 +1348,6 @@
       "exam_priority": "Medium"
     },
     {
-      "title": "Why Britons can feel smugger than the French",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZFRGaGhHVTUxM3BEeEd2OElTSC1MS0NLNVJiUTAwVGxqWjl4WGxZRWwyMDZldU9KM0pWWk1rYlhoOEtmYVp2cGFsRmNaX3hxY0REV2dQRnpUTzlJZGYzZm4weFJkcGVrWE56c0NMQ0haMkZYN3RiTV8yZDVYMG0tdjFyck0?oc=5",
-      "summary": "Why Britons can feel smugger than the French Financial Times",
-      "date": "Fri, 20 Nov 2026 05:01:17 GMT",
-      "source": "Financial Times",
-      "category": "International",
-      "section": "Economics Page",
-      "type": "Economics Page",
-      "topics": [],
-      "exam_priority": "General"
-    },
-    {
       "title": "Can Nvidia learn from AIG’s mistakes?",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNOWNMcVlRMkxMODQ0LW53UTMwZXk0S0g4V3BBY1VYTXZ5Wm85WDF1c3FXQlBjYUhHSVZRc3V2MmhKajVBRGQ2OGtlNlN2Z1VKVmMtTWVMVHZVSTdERFhVRmNyendJbEVsSEpuUEltSDBURTlMdTd5VUpQV1czSGo4bjV6cU4?oc=5",
       "summary": "Can Nvidia learn from AIG’s mistakes? Financial Times",
@@ -1381,6 +1411,18 @@
         "Geopolitics"
       ],
       "exam_priority": "High"
+    },
+    {
+      "title": "Why Britons can feel smugger than the French",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZFRGaGhHVTUxM3BEeEd2OElTSC1MS0NLNVJiUTAwVGxqWjl4WGxZRWwyMDZldU9KM0pWWk1rYlhoOEtmYVp2cGFsRmNaX3hxY0REV2dQRnpUTzlJZGYzZm4weFJkcGVrWE56c0NMQ0haMkZYN3RiTV8yZDVYMG0tdjFyck0?oc=5",
+      "summary": "Why Britons can feel smugger than the French Financial Times",
+      "date": "Fri, 20 Nov 2026 05:00:17 GMT",
+      "source": "Financial Times",
+      "category": "International",
+      "section": "Economics Page",
+      "type": "Economics Page",
+      "topics": [],
+      "exam_priority": "General"
     },
     {
       "title": "How pensions ate the state",
@@ -1489,8 +1531,8 @@
       "date": "Fri, 20 Nov 2026 04:53:00 GMT",
       "source": "The Times of India",
       "category": "International",
-      "section": "International Page",
-      "type": "International Page",
+      "section": "All News",
+      "type": "All News",
       "topics": [
         "Geopolitics",
         "Global Rankings & Indices"
@@ -1563,6 +1605,18 @@
       "exam_priority": "General"
     },
     {
+      "title": "চট্টগ্রামসহ ২২ জেলায় নাশকতা ও অগ্নিসংযোগ, আতঙ্কে মানুষ - শেয়ার বিজ",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1wS0s4N0pwRzJJdHd1MnFMa3pDQVdHUk8yQTRrcW9HZTJjQzl0eUl1eGVtRUVxRW52UDRiWHJEemk2dHVmMUNBZk94ZjA0WDhaX2ZtMEdZSQ?oc=5",
+      "summary": "চট্টগ্রামসহ ২২ জেলায় নাশকতা ও অগ্নিসংযোগ, আতঙ্কে মানুষ শেয়ার বিজ",
+      "date": "Fri, 20 Nov 2026 04:49:00 GMT",
+      "source": "শেয়ারবিজ",
+      "category": "Bangladesh · বাংলা",
+      "section": "All News",
+      "type": "All News",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
       "title": "রোহিঙ্গা গণহত্যার বিচার ও প্রত্যাবাসনে বিশ্বকে একযোগে কাজ করতে হবে: ড. খলিলুর রহমান",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5DdEhUdy1TZXF3cXJfeUhPcVlkTlR4VnNkejVLb2g5Q3pwRmdmeFFGNEgzd2IwN3NvamQzakxmTTh6ZkxNYU1sbmdhdVg3VEVkdDVJUzRHb0tkWlE?oc=5",
       "summary": "রোহিঙ্গা গণহত্যার বিচার ও প্রত্যাবাসনে বিশ্বকে একযোগে কাজ করতে হবে: ড. খলিলুর রহমান দৈনিক ইনকিলাব",
@@ -1607,8 +1661,8 @@
       "date": "Fri, 20 Nov 2026 04:46:12 GMT",
       "source": "Al Jazeera",
       "category": "International",
-      "section": "International Page",
-      "type": "International Page",
+      "section": "All News",
+      "type": "All News",
       "topics": [],
       "exam_priority": "General"
     },
@@ -1643,8 +1697,8 @@
       "date": "Fri, 20 Nov 2026 04:44:50 GMT",
       "source": "দৈনিক সময়ের আলো",
       "category": "Bangladesh · বাংলা",
-      "section": "International Page",
-      "type": "International Page",
+      "section": "All News",
+      "type": "All News",
       "topics": [],
       "exam_priority": "General"
     },
@@ -1659,6 +1713,20 @@
       "type": "International Page",
       "topics": [],
       "exam_priority": "General"
+    },
+    {
+      "title": "অনির্দিষ্টকালের জন্য বন্ধ গোপালগঞ্জ বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9UYV9HcHBPa2tCSVc0Q3doZzNTdmktQUw5bnhzSGphYndIaEg3SDhhMDVPRzFJMTRlYUNoVk8yYjJNRzQteVE0YXgyaUdSV1BOT0R5Y1BWQktTYnBGbWtjMHF0WUtaSXVobkFabUVpMDFYS3dZemc?oc=5",
+      "summary": "অনির্দিষ্টকালের জন্য বন্ধ গোপালগঞ্জ বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় কালের কণ্ঠ",
+      "date": "Fri, 20 Nov 2026 04:43:00 GMT",
+      "source": "কালের কণ্ঠ",
+      "category": "Bangladesh · বাংলা",
+      "section": "Editorial / Opinion",
+      "type": "Editorial / Opinion",
+      "topics": [
+        "Science, Technology & AI"
+      ],
+      "exam_priority": "Medium"
     },
     {
       "title": "Commanders’ defense faces a tough test vs. Bengals. Here are the X factors to watch.",
@@ -1812,18 +1880,6 @@
       "exam_priority": "General"
     },
     {
-      "title": "ষষ্ঠ-দ্বাদশ শ্রেণির সব ছাত্রী পাবে উপবৃত্তি, যেভাবে আবেদন",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE50Xzh6cHpZVGVESDBWaGFTLTUxQnhnNW5DZnNQakJDN0RTS3lGVHdRN3Vtemx1eG5pRXhYUUdlcGhKMGFvWm9OUHE4YWNZd2FzQ0R4Z3k1enNCTFYwaTZNSmNsSzFEYkFuSFVqSGFJZms3bEVTdFE?oc=5",
-      "summary": "ষষ্ঠ-দ্বাদশ শ্রেণির সব ছাত্রী পাবে উপবৃত্তি, যেভাবে আবেদন কালের কণ্ঠ",
-      "date": "Fri, 20 Nov 2026 04:21:07 GMT",
-      "source": "কালের কণ্ঠ",
-      "category": "Bangladesh · বাংলা",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
-      "topics": [],
-      "exam_priority": "General"
-    },
-    {
       "title": "US reacts cautiously to Myanmar genocide ruling as EU praises ‘critical’ role of UN’s top court",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQUszNnItRFg4bG9QMUhWUUhmRVhJT3hldnVnLTNWLU8wdWFDZWs5WWlnbFRKRmo5aUR4TURuVjdtMFd5T0JQcWsyWnYtTVhBS05tWmRGREhUZEdMbGV6b056NGhaNnAybXhrR1FSYlh1WXl1RFJIR3NoZ0dIVzMtMlk3U2w2THhLY0tiTFlyYkZIX0dIZFlod2Q2RVp0d2VMbWlJbGQwQWVfSHRmeC1ienF0M0k4RGpiYmFV?oc=5",
       "summary": "US reacts cautiously to Myanmar genocide ruling as EU praises ‘critical’ role of UN’s top court The Guardian",
@@ -1914,6 +1970,18 @@
       "exam_priority": "Medium"
     },
     {
+      "title": "Gan Ching Hwee doesn’t think she’s that good. Crazy, no?",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOanVMVkpqdXZZT1JtVlN0RlhxT010VFpWZmF6TGh0RVlvUWpsUmpQQ0J4MWEtR19CSjBONmNHdGNLT29DNlA1RGRnUEdYTXN2eGkzS1lFQl9qbTdkU2dpNVBTVlo5bkgxUnR1RDNScGZiVlV4QmdiVXBqMVBIM1NGRmo1WXpycWN5dU5xQjd5QQ?oc=5",
+      "summary": "Gan Ching Hwee doesn’t think she’s that good. Crazy, no? The Straits Times",
+      "date": "Fri, 20 Nov 2026 04:15:00 GMT",
+      "source": "The Straits Times",
+      "category": "International",
+      "section": "All News",
+      "type": "All News",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
       "title": "রোহিঙ্গাদের ওপর গণহত্যার প্রমাণে বিশ্বজুড়ে প্রতিক্রিয়া - Shomoyer Alo",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1na2k1emJMQ1E0MDhDU09yTDJaM1UxY3Rndm14TlY3QzhTSXhoLW9hd1lHanp2TkZFZDA5YjZwcXZDWU1GcVEtTnJMUkFPdmNi?oc=5",
       "summary": "রোহিঙ্গাদের ওপর গণহত্যার প্রমাণে বিশ্বজুড়ে প্রতিক্রিয়া Shomoyer Alo",
@@ -1958,8 +2026,8 @@
       "date": "Fri, 20 Nov 2026 04:11:45 GMT",
       "source": "The Washington Post",
       "category": "International",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
+      "section": "All News",
+      "type": "All News",
       "topics": [],
       "exam_priority": "General"
     },
@@ -1984,6 +2052,18 @@
       "category": "International",
       "section": "International Page",
       "type": "International Page",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
+      "title": "ঘাটতি পুষিয়ে নিতে শুক্রবারেও সাভার-আশুলিয়ার পোশাক কারখানায় উৎপাদন",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE16X2Q1dTFzRlJTdXhKQnRpS0htT1R5b2RZdS1pZGgyT00tb1VON1cxVnJyVExVdkptcVNha0ZqVGNFNEV3RGNTZ0dHdFhkTzg3bDZVdVM2aDIwTHc?oc=5",
+      "summary": "ঘাটতি পুষিয়ে নিতে শুক্রবারেও সাভার-আশুলিয়ার পোশাক কারখানায় উৎপাদন দৈনিক ইনকিলাব",
+      "date": "Fri, 20 Nov 2026 04:10:31 GMT",
+      "source": "দৈনিক ইনকিলাব",
+      "category": "Bangladesh · বাংলা",
+      "section": "Editorial / Opinion",
+      "type": "Editorial / Opinion",
       "topics": [],
       "exam_priority": "General"
     },
@@ -2020,8 +2100,8 @@
       "date": "Fri, 20 Nov 2026 04:06:37 GMT",
       "source": "দৈনিক ইনকিলাব",
       "category": "Bangladesh · বাংলা",
-      "section": "International Page",
-      "type": "International Page",
+      "section": "All News",
+      "type": "All News",
       "topics": [],
       "exam_priority": "General"
     },
@@ -2150,6 +2230,18 @@
       "exam_priority": "General"
     },
     {
+      "title": "পুলিশের চট্টগ্রাম রেঞ্জের বিশেষ অভিযানে ৯৪৭ গ্রেপ্তার - Dhakatimes24",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFByMnhZVGY5SkxLZVZtV3FJN1FzZXRGRWpJOGhUeGp6RE1xUFNqVXlpQWdoS3pTNWpiVEFaMlB4TkhieWZLMTR3aUdMXzByUHBLRkhwRjNXRlJjdw?oc=5",
+      "summary": "পুলিশের চট্টগ্রাম রেঞ্জের বিশেষ অভিযানে ৯৪৭ গ্রেপ্তার Dhakatimes24",
+      "date": "Fri, 20 Nov 2026 03:55:00 GMT",
+      "source": "ঢাকা টাইমস",
+      "category": "Bangladesh · বাংলা",
+      "section": "All News",
+      "type": "All News",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
       "title": "‘Your appetite insatiable’: PM Modi’s tough talk to India Inc",
       "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQbDUzRVVQTC13akR4MzV1RGhxbDVpOEtqenMtMXpLWWRRVmZtbTRRTFBWLUR3dnNTRWx1ckhYZU9OdTdGVGw3YmlNdEgzc01nUmFuTU1kV3VGU3Jna3dBWm5GM0lvRllIMllSZ0RnTUN5emdpQllYZ0ZfLU1pOHp2b01VZEVjQUhMcUlBeVNkUEJTeFgxSUplY3JSVVhkUDl5a2pKc0RQUGtQZWRLci1TTXNLMzZWRWhNQnZNRTVqZ255QzVzT0t5dm5TcWNMNG1NbzRxSUZiQnDSAd8BQVVfeXFMT1BOWjU2SzZlU1BJNGVvSFc5YVlqZElxX3R5VTdTaldTTEN3cGJuN3BfV3ozakgxcFBXNHdLd2dGRGVwcHpwOHdqZ2k1RThOTWRsa3cwNHppcGNGS3ZHUU4zMTBMSmh6VmtFdGx4eGtaUHByZUpaWDU0WTNoWjBMNHFGSl9QS1VoUkJzZVpGb2phb0JvempQVVhaUkRfVHJiLVJWWUdvVGxLWkV3Yms3T3BEOHFRb29qVjFvWmhtT2RiVlUyMzNUdzFGdlZCWFhGejJ3bC0xajBaODVzQ25EVQ?oc=5",
       "summary": "‘Your appetite insatiable’: PM Modi’s tough talk to India Inc The Indian Express",
@@ -2244,8 +2336,8 @@
       "date": "Fri, 20 Nov 2026 03:48:29 GMT",
       "source": "Daily Sun",
       "category": "Bangladesh · English",
-      "section": "All News",
-      "type": "All News",
+      "section": "Editorial / Opinion",
+      "type": "Editorial / Opinion",
       "topics": [],
       "exam_priority": "General"
     },
@@ -2351,6 +2443,20 @@
         "Geopolitics"
       ],
       "exam_priority": "High"
+    },
+    {
+      "title": "Capital shortfall at 22 banks exceeds Tk3 lakh crore in June",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOU3k3VGxRTUhEN005cWtMOGttZ0FHaUJoMm9BaWRGSVRpSjdSbEFZazBMUFJxZUhIZDA1TzVvZjJhMkRvYVF0TjB3TWhYTjhSUXhjdlUwR3FpMFRXdGR1cUZfczFidkNMSi04UDhBRkVDMzEtaXFiZElRLVF4NzMweE13NExfbkVGLU9kQ1gzNGVjR3BEZGJROWxRT3NrZE5wZmNjNQ?oc=5",
+      "summary": "Capital shortfall at 22 banks exceeds Tk3 lakh crore in June The Business Standard",
+      "date": "Fri, 20 Nov 2026 03:38:04 GMT",
+      "source": "The Business Standard",
+      "category": "Bangladesh · English",
+      "section": "Economics Page",
+      "type": "Economics Page",
+      "topics": [
+        "Economy & Banking"
+      ],
+      "exam_priority": "Medium"
     },
     {
       "title": "চালের বাজার ঊর্ধ্বমুখী সবজির দরও বাড়তি - SAMAKAL",
@@ -2483,18 +2589,6 @@
       "date": "Fri, 20 Nov 2026 03:25:38 GMT",
       "source": "ঢাকা টাইমস",
       "category": "Bangladesh · বাংলা",
-      "section": "Economics Page",
-      "type": "Economics Page",
-      "topics": [],
-      "exam_priority": "General"
-    },
-    {
-      "title": "Fiona the Hippo, Star of Cincinnati Zoo and Beyond, Dies After Eating Child’s Hat",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9WcUd2V0pYbFFZeXhBYTVxNERSVXB6ejMyNjFFRUN1eEhhTUNEb0RoS2dLQnZMaWpEaERJTmtWaDliVEZZR1Q5RXVERjlral9qcHVDcjg5VGlzYkNXWG44dmdrX0ZCczZuVnctTkJoSmFvcHozejRUQmpRTjdrZFU?oc=5",
-      "summary": "Fiona the Hippo, Star of Cincinnati Zoo and Beyond, Dies After Eating Child’s Hat The New York Times",
-      "date": "Fri, 20 Nov 2026 03:25:05 GMT",
-      "source": "The New York Times",
-      "category": "International",
       "section": "All News",
       "type": "All News",
       "topics": [],
@@ -2537,6 +2631,18 @@
       "exam_priority": "General"
     },
     {
+      "title": "কক্সবাজারে কুকুরকে বাঁচাতে গিয়ে প্রাণ হারাল বাইক আরোহী দুই ভাই - Dhakatimes24",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBuX2xsMkZRMDVSckthckI4TjBZVjhubE1UeG1UN3kyN285TkNhVHJNSnczcmg0Q2pwUk9fSHZvczdDNHFaMjYyNlZLQk9vaE1wN1Vkb1lab282Zw?oc=5",
+      "summary": "কক্সবাজারে কুকুরকে বাঁচাতে গিয়ে প্রাণ হারাল বাইক আরোহী দুই ভাই Dhakatimes24",
+      "date": "Fri, 20 Nov 2026 03:25:00 GMT",
+      "source": "ঢাকা টাইমস",
+      "category": "Bangladesh · বাংলা",
+      "section": "All News",
+      "type": "All News",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
       "title": "ক্যান্সার চিকিৎসায় নারীকে পিছিয়ে রাখা যাবে না - Samakal",
       "link": "https://news.google.com/rss/articles/CBMitgRBVV95cUxPd3ZCaFNSWVdkczY3bVF4Y2d4TDROcVZ5Nmw4bk4tajUwVEpnSzVDSk9pTEV3WHNyYjFvN2NjVTRoQ1pIdnNLNldRcmhaSEJrV2lBYWNTN2N5eTM1X3l1S1A1alBnX2ZHbjVxbzNTcllTMWhnY2cxdVlGZGVsN1k2WVpIR0VRMHE0aW5nenhrcFVCRTN2djctSHR5SFhYM0lpSFNzb0FrbVloYlAwQTE3UTlXVmFncVhnZ2Q1R2RrdmFKckN4RDgwcVByZmZSSVZoeEZDVlRlSm5YMUl1UmpHWGhBMHVDM0UxRjVqZDRQQXVfUGp4NFpzR296T3dzbFc3OUtXVFkzV1p5SDRqMnlyMjQwZmFNMm5hcXFBZVdtV1k1VjFUSVkyNXVTRjFkRUpIazNId3AzeVM3Q1JRSlNrZmctWE12RWtVMTJlVDZCd3BMRWVCUGdwUk5rMUV6WHVyT3l5eFBJaW5Fa0Y1d19sbHdhMi0wSDB2SklvT2tCbFJUYzcxWTN5Z3hiekk4WDNHd2hkcTBnM1VTWHludUgzbW5xUk51UUJFSGpVNUR0VDVCRkNIT2EwdVpya3U3UzdhNlN3ajNKX2hzY043RzhzMmZ2VnktVjNic0tCM19Ibl9nQTIxWjBOcHNfUzV5TG1aZ2dMMW9oR3dtM0NFeF9CblhJVGtLQktHamhxZllXeHNSVTNpeWNyY25fNXRQaUN5ZS1ndkVyNnU2cTBuazgyRExRTDZOdw?oc=5",
       "summary": "ক্যান্সার চিকিৎসায় নারীকে পিছিয়ে রাখা যাবে না Samakal",
@@ -2555,8 +2661,8 @@
       "date": "Fri, 20 Nov 2026 03:24:00 GMT",
       "source": "Reuters",
       "category": "International",
-      "section": "International Page",
-      "type": "International Page",
+      "section": "All News",
+      "type": "All News",
       "topics": [],
       "exam_priority": "General"
     },
@@ -2721,20 +2827,6 @@
       "exam_priority": "General"
     },
     {
-      "title": "White House Took Reporters’ Phones as Trump Departed China",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVmh0YXVDNHJ0UEd4QUhOUTVWa21pdU0zWkRfTml5REJwZW1Kczhqc0tNYWtCQWRKNlZ0Q3dqcWxxZEg0N3lKeVdRM19DamUyVWJDWXNCeWJ3SGdIRndvZ09XQWVHWmtqMEhVTjYzMDNUd0U3MW1zcTg4QzIwMi0tNTdUNlJGQlZRS1dsR1liRUgzWGhxenkzMTdqYklMaDY5bDJsYWNHRVJlNmJQajVEMUtDX3k?oc=5",
-      "summary": "White House Took Reporters’ Phones as Trump Departed China Bloomberg.com",
-      "date": "Fri, 20 Nov 2026 03:13:00 GMT",
-      "source": "Bloomberg",
-      "category": "International",
-      "section": "All News",
-      "type": "All News",
-      "topics": [
-        "Geopolitics"
-      ],
-      "exam_priority": "Medium"
-    },
-    {
       "title": "উৎপাদনের পাশাপাশি সংরক্ষণ পরিবহনেও মিলবে কৃষিঋণ - Samakal",
       "link": "https://news.google.com/rss/articles/CBMi1wRBVV95cUxNQ3FqYjhtcHhyRldEOHVtZnpPQzFjOC1vT2xHd3NDb2p1a1JlMjhUeXhxa1VjeVhneE1reEk2MlE2eElGcUNuYUpncU1yRnNBZE9oVHJjT1puSnZUZGZzNndPSVZvUHlQMndZZ1Z1blplVnc3TUhRUzFzWVROUGNJWFZlWk92N3lmV3N2S1dXQ21FalNhbERpeFhPWjBtUk1VZ3NLbnUxMTV6aXpneXZDYWVaZEFtN2lfQTNfNzVOMUYwVnBza1p2U05fYk1PWDh3dWlBbmkwcmtKTk9qNGdRQ0UtakNfaVJEUDU3eU5Wc0dIYl9rbEt0ZHVtV2RIZ3Vfa3pOdzdBV2kxZU1xSnNmWDZhTm5YV2xpc1BlWmR5YThZeHRNLWdjMk0yUjFBZGJCTDFOOWhUUTBRU1pYUXF0WFpOYnAtdE5DR190QmVBTUg4OTkybGg1bW5Xd3hadlo0R2l1Nk11Q1dPclBjM1prS2pxRFNGRUtZdDU5TXoycjhVR1NtMFhVRU5qaVRXbWZBTnRjUVFVQk1oYUV1RU8zdEZRdGY5aEVUYWtNLThVeldJdG9FV0ltYmZOVmNJYXFpX0JFOWRlcmt3TXZ1aS1mVnpIaG04TDExcTZ5bkVsQkFOZ3NHTmpnVWRwek9SdG9YMjlzZkRNRk9iUGwwU3dDOTVBNlpsUlRNYzd3UjB6M2dJck9BOWlkbFZCQXBHQkI0YURRMHlhSTZjYi0zclhvRUZWUTcwQmlKVjVWaEpRTEVQSXlkTlNEU0NFSExLRnFHMnozZDZKQQ?oc=5",
       "summary": "উৎপাদনের পাশাপাশি সংরক্ষণ পরিবহনেও মিলবে কৃষিঋণ Samakal",
@@ -2818,8 +2910,8 @@
       "date": "Fri, 20 Nov 2026 03:06:00 GMT",
       "source": "ঢাকা টাইমস",
       "category": "Bangladesh · বাংলা",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
+      "section": "All News",
+      "type": "All News",
       "topics": [],
       "exam_priority": "General"
     },
@@ -2908,6 +3000,18 @@
       "date": "Fri, 20 Nov 2026 03:00:13 GMT",
       "source": "কালের কণ্ঠ",
       "category": "Bangladesh · বাংলা",
+      "section": "International Page",
+      "type": "International Page",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
+      "title": "চীনের ফল, নাম নিউজিল্যান্ডের—বাংলাদেশে কিউইর বাজার যেভাবে বদলে যাচ্ছে",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1Xal9IdENEYXVrZjZsMmtNekppaEtRZlJSX1ZxbUFqN2pXMUNZRnhpRC1SLUFpQ2RvaUIzRDVMdnNjVUhoTDUxQkRrSXNHR0xqczZHT3VMRGMwVGV4Tl9FTGdjUmN2ZDQ00gF2QVVfeXFMT3VhbUMzM1VEM2dnSEw1aWxEZ0dqaFg2YkJBMmtsZk1nVUx2Q2t0cExFNjc5SHh1MzJlV1BSSUIwQmR4b1g0dC1xc1hlQnV5YTh2RGxPT29fQUlXRExpZU1wSlpkcEhvUU1FdUFFYlNydVZCbjRKZw?oc=5",
+      "summary": "চীনের ফল, নাম নিউজিল্যান্ডের—বাংলাদেশে কিউইর বাজার যেভাবে বদলে যাচ্ছে প্রথম আলো",
+      "date": "Fri, 20 Nov 2026 03:00:00 GMT",
+      "source": "প্রথম আলো",
+      "category": "Bangladesh · বাংলা",
       "section": "Economics Page",
       "type": "Economics Page",
       "topics": [],
@@ -2922,18 +3026,6 @@
       "category": "Bangladesh · বাংলা",
       "section": "All News",
       "type": "All News",
-      "topics": [],
-      "exam_priority": "General"
-    },
-    {
-      "title": "চীনের ফল, নাম নিউজিল্যান্ডের—বাংলাদেশে কিউইর বাজার যেভাবে বদলে যাচ্ছে",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1Xal9IdENEYXVrZjZsMmtNekppaEtRZlJSX1ZxbUFqN2pXMUNZRnhpRC1SLUFpQ2RvaUIzRDVMdnNjVUhoTDUxQkRrSXNHR0xqczZHT3VMRGMwVGV4Tl9FTGdjUmN2ZDQ00gF2QVVfeXFMT3VhbUMzM1VEM2dnSEw1aWxEZ0dqaFg2YkJBMmtsZk1nVUx2Q2t0cExFNjc5SHh1MzJlV1BSSUIwQmR4b1g0dC1xc1hlQnV5YTh2RGxPT29fQUlXRExpZU1wSlpkcEhvUU1FdUFFYlNydVZCbjRKZw?oc=5",
-      "summary": "চীনের ফল, নাম নিউজিল্যান্ডের—বাংলাদেশে কিউইর বাজার যেভাবে বদলে যাচ্ছে প্রথম আলো",
-      "date": "Fri, 20 Nov 2026 03:00:00 GMT",
-      "source": "প্রথম আলো",
-      "category": "Bangladesh · বাংলা",
-      "section": "Economics Page",
-      "type": "Economics Page",
       "topics": [],
       "exam_priority": "General"
     },
@@ -3054,6 +3146,18 @@
       "exam_priority": "General"
     },
     {
+      "title": "The Daily Samakal - SAMAKAL",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE00X0d6VXBCQjUzdTFXdEZwOFA0aUFMYXFOWGNrVXlpNElLMlI0SUE5TDlHNGU5UmcxaWN5c2ZEeFItcDZ5c0tvWnpCM1p1bjF1TXhoaTJwUXpxaTFmWDZtTVln?oc=5",
+      "summary": "The Daily Samakal SAMAKAL",
+      "date": "Fri, 20 Nov 2026 02:55:22 GMT",
+      "source": "সমকাল",
+      "category": "Bangladesh · বাংলা",
+      "section": "All News",
+      "type": "All News",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
       "title": "ঝড়ের শঙ্কা, চার সমুদ্রবন্দরে ৩ নম্বর সতর্কসংকেত - Banglanews24",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5KdDhqV0N6aEpJNU9tdE1pOEkyVkYwSHMyaks3N2RSYjdMVVgwTWpBQ1dfa1UtMGxDX1A3Uk50TGpnb1IzUFk2Y2xhOVhybTFfakF4dmtMVXozVjkyRnRkUURXVi1VTGpp?oc=5",
       "summary": "ঝড়ের শঙ্কা, চার সমুদ্রবন্দরে ৩ নম্বর সতর্কসংকেত Banglanews24",
@@ -3072,8 +3176,8 @@
       "date": "Fri, 20 Nov 2026 02:54:40 GMT",
       "source": "BBC News",
       "category": "International",
-      "section": "All News",
-      "type": "All News",
+      "section": "International Page",
+      "type": "International Page",
       "topics": [],
       "exam_priority": "General"
     },
@@ -3163,8 +3267,8 @@
       "date": "Fri, 20 Nov 2026 02:47:28 GMT",
       "source": "সমকাল",
       "category": "Bangladesh · বাংলা",
-      "section": "International Page",
-      "type": "International Page",
+      "section": "Editorial / Opinion",
+      "type": "Editorial / Opinion",
       "topics": [],
       "exam_priority": "General"
     },
@@ -3273,8 +3377,8 @@
       "date": "Fri, 20 Nov 2026 02:38:33 GMT",
       "source": "দৈনিক ইনকিলাব",
       "category": "Bangladesh · বাংলা",
-      "section": "Economics Page",
-      "type": "Economics Page",
+      "section": "Editorial / Opinion",
+      "type": "Editorial / Opinion",
       "topics": [],
       "exam_priority": "General"
     },
@@ -3471,8 +3575,8 @@
       "date": "Fri, 20 Nov 2026 02:26:59 GMT",
       "source": "বাংলাদেশ প্রতিদিন",
       "category": "Bangladesh · বাংলা",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
+      "section": "All News",
+      "type": "All News",
       "topics": [],
       "exam_priority": "General"
     },
@@ -3615,6 +3719,30 @@
       "exam_priority": "Medium"
     },
     {
+      "title": "প্রধানমন্ত্রীর জন্মদিন আজ : সংগ্রাম থেকে রাষ্ট্রনায়কত্ব - Banglanews24",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE50czRnMjA4QjEtZXVhOW8xZ1ZwM2Z1SXBzLUlrZkZldkV2ZzdMYW5tVzVQU3ZoU1MtcWxBVDlSSm5BcGlmNjlMZTdtRnpSV1pTcjNXd29fRnZkQ1FkckMyLUR0YzVzRHpPaHFTSQ?oc=5",
+      "summary": "প্রধানমন্ত্রীর জন্মদিন আজ : সংগ্রাম থেকে রাষ্ট্রনায়কত্ব Banglanews24",
+      "date": "Fri, 20 Nov 2026 02:15:35 GMT",
+      "source": "বাংলা নিউজ ২৪",
+      "category": "Bangladesh · বাংলা",
+      "section": "All News",
+      "type": "All News",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
+      "title": "Gold set for worst week since March on hawkish Fed, AI selloff",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWVhUZFdpWG12N1FmaTVqZ2RyMDc5TmJtZjJUdnFEOHV5MVB6cEVSY2p4VHBPVEhzRkNYcm96LXpMeGlVWGRQSE1pc2RjZjNPQ0V1djFmM1lKYVNCdk85cG5GYTY4azl2LThhdUhSb2oycDRvYk5PT0thNThEcndzdWVzN0ZJTy01OGdkQmJpT3o5NHhZZS1ZaWNZNjY5b0Ew?oc=5",
+      "summary": "Gold set for worst week since March on hawkish Fed, AI selloff The Straits Times",
+      "date": "Fri, 20 Nov 2026 02:15:00 GMT",
+      "source": "The Straits Times",
+      "category": "International",
+      "section": "All News",
+      "type": "All News",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
       "title": "রোহিঙ্গা গণহত্যার রায়: যুক্তরাষ্ট্র কি ভাবছে, কি বলছে ইউরোপ?",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5jT0VTVjd4TnhEcHdCaXJ0MG1CQm4wWjhlZWpndzg1SXlIcVVaWUhBNXZvWmI1bTVLQ25NNDhzdlVmNVktWFVFS1VBVm51T1h0Y2RxYktHMmlHSmtvOEVINWhLWC1hNHpxbVRFSHNsNlFXaFE?oc=5",
       "summary": "রোহিঙ্গা গণহত্যার রায়: যুক্তরাষ্ট্র কি ভাবছে, কি বলছে ইউরোপ? bd-pratidin.com",
@@ -3623,6 +3751,18 @@
       "category": "Bangladesh · বাংলা",
       "section": "International Page",
       "type": "International Page",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
+      "title": "চিফ প্রসিকিউটরের প্রতিবাদ - Banglanews24",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9LeDVyZ1BxX0tUbVg1bktMOGdTb05qOXFUSnNUVEdLUTc1R2pPTUVIdXpTY2E5WW5BanVrUHpjZkNTWmtXWU44UHhpQjZMcmNIU09vZEptVUFkcEJPNmczZXZEVzk4M3VJYXlXbjZ1bw?oc=5",
+      "summary": "চিফ প্রসিকিউটরের প্রতিবাদ Banglanews24",
+      "date": "Fri, 20 Nov 2026 02:14:41 GMT",
+      "source": "বাংলা নিউজ ২৪",
+      "category": "Bangladesh · বাংলা",
+      "section": "All News",
+      "type": "All News",
       "topics": [],
       "exam_priority": "General"
     },
@@ -3645,8 +3785,8 @@
       "date": "Fri, 20 Nov 2026 02:10:09 GMT",
       "source": "Bangla Tribune",
       "category": "Bangladesh · বাংলা",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
+      "section": "International Page",
+      "type": "International Page",
       "topics": [],
       "exam_priority": "General"
     },
@@ -3657,8 +3797,8 @@
       "date": "Fri, 20 Nov 2026 02:10:04 GMT",
       "source": "বাংলাদেশ প্রতিদিন",
       "category": "Bangladesh · বাংলা",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
+      "section": "All News",
+      "type": "All News",
       "topics": [],
       "exam_priority": "General"
     },
@@ -3673,20 +3813,6 @@
       "type": "Economics Page",
       "topics": [],
       "exam_priority": "General"
-    },
-    {
-      "title": "১ হাজার ১০০ টাকার পুঁজি, এখন মাসে ১৫ লাখ টাকার ব্যবসা",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9NZWtCMHBlUDYxVjM5d0RhSUdNQS1vTERZMkRmR2dDWHJxLVVIdXQ4Ml9LYURqSF9sTHdzTVlNXzBMeFhpakk4bzBRM25COXVJUkowRXNNNktiOUhqVGpMZ3pDdUk?oc=5",
-      "summary": "১ হাজার ১০০ টাকার পুঁজি, এখন মাসে ১৫ লাখ টাকার ব্যবসা প্রথম আলো",
-      "date": "Fri, 20 Nov 2026 02:00:00 GMT",
-      "source": "প্রথম আলো",
-      "category": "Bangladesh · বাংলা",
-      "section": "All News",
-      "type": "All News",
-      "topics": [
-        "Economy & Banking"
-      ],
-      "exam_priority": "Medium"
     },
     {
       "title": "১ হাজার ১০০ টাকার পুঁজি, এখন মাসে ১৫ লাখ টাকার ব্যবসা",
@@ -3713,6 +3839,20 @@
       "type": "Economics Page",
       "topics": [],
       "exam_priority": "General"
+    },
+    {
+      "title": "১ হাজার ১০০ টাকার পুঁজি, এখন মাসে ১৫ লাখ টাকার ব্যবসা",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9NZWtCMHBlUDYxVjM5d0RhSUdNQS1vTERZMkRmR2dDWHJxLVVIdXQ4Ml9LYURqSF9sTHdzTVlNXzBMeFhpakk4bzBRM25COXVJUkowRXNNNktiOUhqVGpMZ3pDdUk?oc=5",
+      "summary": "১ হাজার ১০০ টাকার পুঁজি, এখন মাসে ১৫ লাখ টাকার ব্যবসা প্রথম আলো",
+      "date": "Fri, 20 Nov 2026 02:00:00 GMT",
+      "source": "প্রথম আলো",
+      "category": "Bangladesh · বাংলা",
+      "section": "All News",
+      "type": "All News",
+      "topics": [
+        "Economy & Banking"
+      ],
+      "exam_priority": "Medium"
     },
     {
       "title": "ট্রাম্প এখন দুর্বল, চীনের জন্য বিপদ নাকি সুযোগ",
@@ -3861,9 +4001,9 @@
       "exam_priority": "General"
     },
     {
-      "title": "Dollar near 19-month peak as AI jitters sap risk appetite",
+      "title": "Dollar near 19-month high, set for 4th weekly gain as AI jitters spur haven bid",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSWwtcmZqemtkQmd4OWJQUHN1OXZLZTgxM1FtVk5JTlAtNndPYzRndHkxbEZ2MEdNZGtRdWUwMUxlblhtLThfQ0NoRHYtZ1lzd2VkSHc4N0U3UlFjUGFubjBkOFc4bDhpR3lELUoxalJBN1lkUUtUYk1NSk9sanNaeUZrZVVXTWlDV2Zja1FFQ3lPaXNUN2FXb3BST0dmZHd3?oc=5",
-      "summary": "Dollar near 19-month peak as AI jitters sap risk appetite Reuters",
+      "summary": "Dollar near 19-month high, set for 4th weekly gain as AI jitters spur haven bid Reuters",
       "date": "Fri, 20 Nov 2026 01:47:00 GMT",
       "source": "Reuters",
       "category": "International",
@@ -3903,8 +4043,8 @@
       "date": "Fri, 20 Nov 2026 01:45:00 GMT",
       "source": "RisingBD",
       "category": "Bangladesh · বাংলা",
-      "section": "Economics Page",
-      "type": "Economics Page",
+      "section": "Editorial / Opinion",
+      "type": "Editorial / Opinion",
       "topics": [],
       "exam_priority": "General"
     },
@@ -3924,14 +4064,26 @@
       "exam_priority": "High"
     },
     {
+      "title": "Live Updates: U.N. Court Rules Myanmar Committed Genocide Against Rohingya",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5qLUhZWS1IeE93REZvbWFfdUpvcnEyOG1kZjU5M2dMV3N2TFFtZEZsVll5eUx4MWxhcTRaWFlqSndxaVhtRWNrel94QVVCcWgtSGdvd2xvRHZNdm9rNDhJbmhpeWNmSW41bnRZaHo1a0xuRTZmODVXc3Yxemh3QQ?oc=5",
+      "summary": "Live Updates: U.N. Court Rules Myanmar Committed Genocide Against Rohingya The New York Times",
+      "date": "Fri, 20 Nov 2026 01:45:00 GMT",
+      "source": "The New York Times",
+      "category": "International",
+      "section": "International Page",
+      "type": "International Page",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
       "title": "জলবায়ু অভিযোজনে দরিদ্র দেশগুলোকে নামমাত্র সহায়তা - Samakal",
       "link": "https://news.google.com/rss/articles/CBMi7ARBVV95cUxOd3pnWWVXZkxwX0QzbFhYVnMtUktYdFZQajZCOTl4ejR1MUhUTllFY2ZlWTlhdXEzaGVCNm5sTm9ka0Q2bGxpV1Q1VkxoOG8wMnQ2N0VHNVBNcVI4N2Z5S05hREF0THVfM1Q0QnBINjZDRXM5NW1IRUxVbUpIUE9QbTM5ZkZqdUVVX3hsNWVuNXBIbFpBa0RoZDJXa09lYl93TGpPTXFZY213NWlEcmdxbHh4UEdsWFltQkV2NFZ2YkowcEdXSC1PcFk2ZU1mdS0ta3FwNU9VWTVCUU85ZkVvNWRIenJkZkJ3b01VMlIzWEExakNSSXBta182Y0xTUmliUy14blRYQ3RXYUpiQ3Ezem41RGhMUGF0WUJiUkxRdEJZVktMZ0ttOVViYnFVZjZPUEpTenROSUNPVnRrVlFOS2syU1dRbkxlSXI5TVNZQUdPcXAyUTY4QTZiRjdyTVZReEw3U195Sl9nZjQ5bEpuSzQ1YngzTWNmRHJORWpkd2ZWb0FZN0tXU2Y4Q3UxV2M4b1Mwd0JkUG9pTm05WEZSUl9uSDl0QVhMeEZSc2RHOWI1c2lJSGR3MmF0V002ZDJxU21JNmJxaXJyQzhLSUxDOVZHT1FzSXByenlkR1RSYjFHMng2YlRRTEpBeWV2LWFMb2dzQ3JtMzNMb2s5c1JDOVhZQXpwSl9pS21nQWZ2cURadVF4MWlSU1A1ZlBDcGwzTHNzT0pwVlRtaHlXVWtQZTdjTEpXTy1jVnM1cThOYk5yaGVkTEhrMTNIbUVrcUxwWmFGamJSdExXQnhVUVdER25lbEtKU0FxZEV3YQ?oc=5",
       "summary": "জলবায়ু অভিযোজনে দরিদ্র দেশগুলোকে নামমাত্র সহায়তা Samakal",
       "date": "Fri, 20 Nov 2026 01:43:06 GMT",
       "source": "সমকাল",
       "category": "Bangladesh · বাংলা",
-      "section": "International Page",
-      "type": "International Page",
+      "section": "Editorial / Opinion",
+      "type": "Editorial / Opinion",
       "topics": [],
       "exam_priority": "General"
     },
@@ -4034,14 +4186,14 @@
       "exam_priority": "General"
     },
     {
-      "title": "বাইক নিয়ন্ত্রণ হারিয়ে প্রাণ গেল দুই যুবকের - Banglanews24",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5tcUQ5ZmFhazNYSHVlc2NHdnp1U2twZm5UU25zMjFSa1JuUHlEMlhSVC1PZGtydnJZc2NlbnJmOUhQelVYWlpRM2ZsZUxFNnROSXQ3U0R5UTAtdXNLeWt4eThXTGd0ZXJEbGhWRktB?oc=5",
-      "summary": "বাইক নিয়ন্ত্রণ হারিয়ে প্রাণ গেল দুই যুবকের Banglanews24",
-      "date": "Fri, 20 Nov 2026 01:39:11 GMT",
-      "source": "বাংলা নিউজ ২৪",
-      "category": "Bangladesh · বাংলা",
-      "section": "All News",
-      "type": "All News",
+      "title": "Myanmar Committed Genocide Against the Rohingya, Top Global Court Finds",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQmhFRFFBc3duc2NLLWctWmR1RUExSDFJV1lxRVY1UXhlaW0xS0xILUJNRGJmMjFacnhDeHdBVXFkVHdQdTRqWEJoVk5weFNBRnEyV0RENEJTWTFKQWxnU3hxYjlCVVFLcTdQbGVWTElDdkdGVE9ENjcyMFNBVXQ2Z01aaERfQzJQVDMw?oc=5",
+      "summary": "Myanmar Committed Genocide Against the Rohingya, Top Global Court Finds The New York Times",
+      "date": "Fri, 20 Nov 2026 01:37:20 GMT",
+      "source": "The New York Times",
+      "category": "International",
+      "section": "International Page",
+      "type": "International Page",
       "topics": [],
       "exam_priority": "General"
     },
@@ -4195,8 +4347,8 @@
       "date": "Fri, 20 Nov 2026 01:25:04 GMT",
       "source": "সমকাল",
       "category": "Bangladesh · বাংলা",
-      "section": "International Page",
-      "type": "International Page",
+      "section": "All News",
+      "type": "All News",
       "topics": [],
       "exam_priority": "General"
     },
@@ -4423,8 +4575,8 @@
       "date": "Fri, 20 Nov 2026 00:50:24 GMT",
       "source": "BBC News",
       "category": "International",
-      "section": "All News",
-      "type": "All News",
+      "section": "Editorial / Opinion",
+      "type": "Editorial / Opinion",
       "topics": [
         "Geopolitics"
       ],
@@ -4437,8 +4589,8 @@
       "date": "Fri, 20 Nov 2026 00:50:16 GMT",
       "source": "The Indian Express",
       "category": "International",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
+      "section": "Economics Page",
+      "type": "Economics Page",
       "topics": [
         "Geopolitics",
         "Governance & Public Policy"
@@ -4646,6 +4798,20 @@
       "exam_priority": "Medium"
     },
     {
+      "title": "India 16 without loss in reply to New Zealand's 368 in first test",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPY242eVZsLVJtcWZ2WFFKLWFBX3MyX0s5ZjlVemF1dmp3cmRxazRUcU1ucGJHVFQ3a3M4NXZQZGtBRUw2RjFsb0NKOGExNFk2MU5OalIxSnBkb0xNU0ZheG5OYnhSeTBiUHcwUklJWVRXd29BcS1MNjROSHZNcG14M1UzSjVTVWhDZzNZTWxtXzFMQQ?oc=5",
+      "summary": "India 16 without loss in reply to New Zealand's 368 in first test The Straits Times",
+      "date": "Fri, 20 Nov 2026 00:25:00 GMT",
+      "source": "The Straits Times",
+      "category": "International",
+      "section": "All News",
+      "type": "All News",
+      "topics": [
+        "Geopolitics"
+      ],
+      "exam_priority": "Medium"
+    },
+    {
       "title": "Wall Street's AI jitters return as stocks tumble, S&P500 logs longest losing streak in 2.5 years",
       "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQQ01WM1NFVG5fcW5iTFBxVmRHd0t1N2E5S2doakRfVlpPZkhnUURKX0xvSVJROHcySUdFb25hQ2xvYlJZV2VMaFBmQUJhbmlLMEwwU01SNFlKOVQ5RHRhRHh0clVtTl80ZjdYbHNJTHNnYXpKOGg5cjdwT2M3VjRnSHcyR1FFaGJPUXR4WnhoSWI5SUhiWUNCRzB6RTI1OXFXM2RBcUpIN1I5UEFOZlF3elBNT3MzWUVmUGM2SUZwUGhWc21mZWdVcnA2Z0duM0d1akFmMUNQSmxScWNzY3JhVjlGZnFXaUdBcDhydkVwczNrVFd0MGNkZ29QZVFzRHNtdEhkVkxUY09jYUpXNFVhYm1pU3VVZU3SAZwCQVVfeXFMT1VIZXdxNm9HMUpEQzlCNmtEdjU5alRiWGhyOE1wczY3eFVLYVFxeTJ1SFRFZWdiZjJFYTE0VFF1eU5yUnh3WGhfekt3aE5pRzJVQzJpUDBVZnhMd0E3VkcxeVpCQ3hlS0N4MTZaTlF2TnlRTm9vdkRYT0pSX3lnV1BkQ2ZUclF1N0NsWEY0RU40TE9oVGZPNXU0QlBuU3BWVWFFbXJnZzVUQ2p2elZmOV9sSkJ5U3k5MUJnWjlJOEdaV3I4SnhTS2JZZktvczNCOEhRX2dMRGxvdXFfcHhlQlUtUjJKd2RwM2N0LWdZN3ZaSjNhZmV5UWJGZXRXYVpkNmxuQ3ZxeDdmeUFDTG1CUnpUSHpzbWl0TGkxWUs?oc=5",
       "summary": "Wall Street's AI jitters return as stocks tumble, S&P500 logs longest losing streak in 2.5 years The Times of India",
@@ -4770,6 +4936,21 @@
       "exam_priority": "General"
     },
     {
+      "title": "Late FAS president Lim Kia Tong awarded prestigious AFC Diamond of Asia",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOb05hWmNaMnVwZEJ0OU92X19obFVwZ0Y3MEJMajRRV3J6QUliaE55VHRrRTZ5c25lWjJwbG13alEyYm1ZUUY4MG9XQm4yZE4tRVJoNkpfUFI0RkdKU081bzhrZW1zX2NWelFLZVEzRVhDRkN2THF3R2h1MGoyemxsOG1ZeUJXRTJLRkhONm55bjBqOVliWUNkYXN3dlFRZDNVLXpZeXd3dWVwSThXOGxZS1JEakRtUQ?oc=5",
+      "summary": "Late FAS president Lim Kia Tong awarded prestigious AFC Diamond of Asia The Straits Times",
+      "date": "Fri, 20 Nov 2026 00:13:00 GMT",
+      "source": "The Straits Times",
+      "category": "International",
+      "section": "All News",
+      "type": "All News",
+      "topics": [
+        "Geopolitics",
+        "Prizes & Awards"
+      ],
+      "exam_priority": "High"
+    },
+    {
       "title": "Most people who go to jail or prison were victims of violence first, study finds",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOMEtHaXNNVjAwSTdHR21keFZiZmt6YmxlRXBjZ09KdGs1aXctYXU0X3NtLXczdHFsZEpOOGJWQjBBc25VNHM1d18xamNtSlpRWjNGQWVYd0tKTW5KaWl3ZFJKMnlFUkJnZ28ybUoxNkJBTk1IMEZUa09EODFuVW5kZmJjRE9wVHJXZEhDT2NVaU5mRmNhdmVOQkM0NV9KSlQ3bDFNV1ZGVlFmN3AzX0VTMHJZSTVIR3lCNVNoYWVIV0Y?oc=5",
       "summary": "Most people who go to jail or prison were victims of violence first, study finds The Washington Post",
@@ -4802,6 +4983,18 @@
       "category": "Bangladesh · বাংলা",
       "section": "International Page",
       "type": "International Page",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
+      "title": "এশিয়ার ফুটবল অ্যাওয়ার্ডে বাফুফের জোড়া সাফল্য",
+      "link": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxQTHRDRXpKNHQ0M19zWXI0OXlPUkxEQTB3UmRWQ2s3Z2drcGtXd2VtbkdEQjM4UzU0cVM4TWdQRG9zbHNBM3RJaU0xMFZ4X3VMTUxrdFJTNXoxczd4QXVBUWlLRmtYOXFhdGU4T1ZmZ2RXSzBlbHRPYlVVZXgzaTMxY3pENHVFQmpCdWVuN3lnOUZ6aV9UTVBQa1BidjBpakxXRi1zbUkyN2VRSXpjamIzYnhhQ3V0MkxiVHc5azAydWVGa0tWc0dkQ2dfNlV5OEZ5UWJRQWt4VDhaaG9VWkVvSTVwQ2paOTZOSFBMbUlUckc3UjBRNXhZQ3JlRUtpYlJIdDAwOTRNU0UweFB0MFZUdmJFZldQeVVtQXJLY29DaUYwdFQxelpfUGktV09renpQWFFNdjVTUlJJZnJGeGs5RnVaNGR5UlBF?oc=5",
+      "summary": "এশিয়ার ফুটবল অ্যাওয়ার্ডে বাফুফের জোড়া সাফল্য দৈনিক আজাদী",
+      "date": "Fri, 20 Nov 2026 00:10:00 GMT",
+      "source": "দৈনিক আজাদী",
+      "category": "Bangladesh · বাংলা",
+      "section": "Economics Page",
+      "type": "Economics Page",
       "topics": [],
       "exam_priority": "General"
     },
@@ -4851,8 +5044,8 @@
       "date": "Fri, 20 Nov 2026 00:08:00 GMT",
       "source": "দৈনিক আজাদী",
       "category": "Bangladesh · বাংলা",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
+      "section": "Economics Page",
+      "type": "Economics Page",
       "topics": [],
       "exam_priority": "General"
     },
@@ -4977,6 +5170,20 @@
       "exam_priority": "General"
     },
     {
+      "title": "Premier League clubs vote through new rules to increase legal protection for board",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaW45ZjNPYzh0WGxTcVhtcWc3THhCYklPV096OUpZN3JpUTI5OEp1RTdTTlBWZFJFbjJiMFdENUhKeUpwZnRiWTVOaVh5bThoQzg5M1hzcElRX2NLZ0RQX2lldW9Wb0l3ZDFDOG9RTU94ZkRmeHNBRVdqZXYtQ2dVcVU4eUhoOTlfUlo3YjBCZDFRdDVPcndhU3VtNDBDc0M1Q0JfU2xtaWU5d3M?oc=5",
+      "summary": "Premier League clubs vote through new rules to increase legal protection for board The Guardian",
+      "date": "Fri, 20 Nov 2026 00:01:00 GMT",
+      "source": "The Guardian",
+      "category": "International",
+      "section": "All News",
+      "type": "All News",
+      "topics": [
+        "Elections & Democracy"
+      ],
+      "exam_priority": "Medium"
+    },
+    {
       "title": "Crossword",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZGdNT091UjBuSzBpNkRyUS1KcnV6aG9ua25WZVlKT2tUdE9keHFYWVZXSzVwOUY3RW83cUEzM25KQnpIRkMyY3E1V2VpdU5QV2hfdFl1WG9LaHNBeHdiQmtXb3BTMnNHZk1TOHhwbzNUQ1JQYWRhOC1UTERSMmdGbQ?oc=5",
       "summary": "Crossword The Indian Express",
@@ -4991,18 +5198,16 @@
       "exam_priority": "Medium"
     },
     {
-      "title": "Sudoku",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZlViSlFlVEpsN2hJa3BVTk9OMnl2WExpVVBxdjVfMXd4YjM3a0dBZFYwRThMMlBwaDZ6MFlfZng5X0NOSFhKVmJadUQ2R1ZhdnUzOHBqSW5ESVBCTEJ3blNvaGpLQkxDY3JvN2xUMnhTcHAwU3YxV1ZHdzhuYnRpTlJhWUkxekU?oc=5",
-      "summary": "Sudoku The Indian Express",
-      "date": "Fri, 20 Nov 2026 00:00:21 GMT",
-      "source": "The Indian Express",
-      "category": "International",
+      "title": "পুঁথি সাহিত্যের অন্বেষণে এক কীর্তিমান গবেষক",
+      "link": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxOZUdQN1RnYVFpZWJxcFZfVW5CVnU0R1pQX1dkYTVrdWhWc3VLZEN5ZzZWcW42OS1EZmIzNVF3QmdtNkJwNnNFZFJTajdFM3J2a1NiZTZWMy1aWTZXZjI5THAzSGdvQWdOenpFZEZCTXgyamItM2l4ZURQTEFScWNndDRqZkdubktVNi1rVHFPS2dLamxYSUYzSkc1N3BBeHVzS28wVkpzZkhoWjlnUmxiSmllZkUxeXpLMUFzMUFLMklwNnRkTmZwV1FSYk4tM0Nzb3VNWFp0UlhNMUp4LTVmbDBFN0JtWnRxZ1VrcGhwZ3ZQZi1lSU1KOW9lZlNfcE1HVHE3dS1CNE11OVo4VG9LZWtqRk40MUlqcE5yVmVjeHRpeV9sZU0xR0RSWHBGYW52STNvd1JTU0ttaUVvOURTT2o1S3BEdWRi?oc=5",
+      "summary": "পুঁথি সাহিত্যের অন্বেষণে এক কীর্তিমান গবেষক দৈনিক আজাদী",
+      "date": "Fri, 20 Nov 2026 00:00:00 GMT",
+      "source": "দৈনিক আজাদী",
+      "category": "Bangladesh · বাংলা",
       "section": "Economics Page",
       "type": "Economics Page",
-      "topics": [
-        "Geopolitics"
-      ],
-      "exam_priority": "Medium"
+      "topics": [],
+      "exam_priority": "General"
     },
     {
       "title": "এক টেবিলে তিন শক্তিশালী নেতা, নেই শক্তিশালী বার্তা - The Daily Ittefaq",
@@ -5017,14 +5222,14 @@
       "exam_priority": "General"
     },
     {
-      "title": "পুঁথি সাহিত্যের অন্বেষণে এক কীর্তিমান গবেষক",
-      "link": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxOZUdQN1RnYVFpZWJxcFZfVW5CVnU0R1pQX1dkYTVrdWhWc3VLZEN5ZzZWcW42OS1EZmIzNVF3QmdtNkJwNnNFZFJTajdFM3J2a1NiZTZWMy1aWTZXZjI5THAzSGdvQWdOenpFZEZCTXgyamItM2l4ZURQTEFScWNndDRqZkdubktVNi1rVHFPS2dLamxYSUYzSkc1N3BBeHVzS28wVkpzZkhoWjlnUmxiSmllZkUxeXpLMUFzMUFLMklwNnRkTmZwV1FSYk4tM0Nzb3VNWFp0UlhNMUp4LTVmbDBFN0JtWnRxZ1VrcGhwZ3ZQZi1lSU1KOW9lZlNfcE1HVHE3dS1CNE11OVo4VG9LZWtqRk40MUlqcE5yVmVjeHRpeV9sZU0xR0RSWHBGYW52STNvd1JTU0ttaUVvOURTT2o1S3BEdWRi?oc=5",
-      "summary": "পুঁথি সাহিত্যের অন্বেষণে এক কীর্তিমান গবেষক দৈনিক আজাদী",
-      "date": "Fri, 20 Nov 2026 00:00:00 GMT",
+      "title": "ভেজা দুপুরে",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZkpUcWR2VmJfU2ZMRERQRmI0QzJoMGZnRXJMRHZvdXZPbzhGQkJpX1hiQlcxUzlkeUlwZHlyeTNmTVZGVFN3UDQtNGNxT3o4T1ROaEVjNkx6VDEwN3g2RGxnVDJ3WnJsLTAyYTlNNmdIVWhkdmdfR21SdXBFZHhsTDRmNHh3R2tDUGw4RjB2dVV3RThJV1dsNnZIWjY2N2NURlJoSmNLTFFSZmRvZFI0LUZZWHhoZWM?oc=5",
+      "summary": "ভেজা দুপুরে দৈনিক আজাদী",
+      "date": "Thu, 19 Nov 2026 23:58:00 GMT",
       "source": "দৈনিক আজাদী",
       "category": "Bangladesh · বাংলা",
-      "section": "Economics Page",
-      "type": "Economics Page",
+      "section": "All News",
+      "type": "All News",
       "topics": [],
       "exam_priority": "General"
     },
@@ -5041,31 +5246,31 @@
       "exam_priority": "General"
     },
     {
-      "title": "নৈতিক শিক্ষায় শিক্ষিত করে দুর্নীতিমুক্ত সমাজ গড়ে তুলতে হবে : চসিক প্রশাসক",
-      "link": "https://news.google.com/rss/articles/CBMivgJBVV95cUxQc0NHcktBMWltSkRsWTBEajN2LXJMSUUwbjhSbDdqUG1zczFoeVdBWGxIYUttRDZTRk5VaXk3MFhYMTlVYlIzUTV6bVE2bG53UXR2X1d2YU14Y21lMWtEWHI3b2xJTmZIbzFXX1FEU21ad3d4YzRpVHlFdl9kT1ZHLTJBVUgxNlM3d2xDTEJKWk1aNlFPSEdqTTJkSHBSdFQ2cmJ3X2M0d3JvWUZORlJHVDZWN21NUV8tSGYyaDRLVThUaWdLaFFNODBENEJ4ZFU5X3pYenBncEpPb3d2bkg0WUNvNFpSLXNCSzA1V3VYWF9sQ0ZNQlNiSV83N2FyUGEwNHhDTTdNX24tUDBLT0VEQ3lFX280eFFYendLcFg3VDFlRlBkNHZDVlh5bEc3ZUhKbkVTUm9laUdQTnUwOEE?oc=5",
-      "summary": "নৈতিক শিক্ষায় শিক্ষিত করে দুর্নীতিমুক্ত সমাজ গড়ে তুলতে হবে : চসিক প্রশাসক দৈনিক আজাদী",
-      "date": "Thu, 19 Nov 2026 23:57:00 GMT",
-      "source": "দৈনিক আজাদী",
-      "category": "Bangladesh · বাংলা",
-      "section": "Economics Page",
-      "type": "Economics Page",
-      "topics": [
-        "Governance & Public Policy",
-        "Society & Development"
-      ],
-      "exam_priority": "High"
-    },
-    {
       "title": "আজ চট্টগ্রাম আন্তর্জাতিক বাণিজ্য মেলা উদ্বোধন",
       "link": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxPQXlmUzUyRjFGaU02MEctaXJUMjlxMHhjX0N1cTY3WkE5c0U5ZjY3R1FrcGVFbkdoZmpvNEdGcWJzUkN1LXI0VGRqNXh2M3paVTFGV2Q4SU5TSVhRRkdmb29vZWZiVjRLd0R3bms2VXVPNjRxV0NBdm9FM3o0UmN3R0luU1YwWUFTNTZwUXM1MEU5b0dWUWN2UGI0OGRIMm9oNTk0anQyV202Vm9LRkx5b2JsZ2hfd2hGeXpsWUtoLWNvQ2k5cEJMeHFydUphV3UxYy1tZ3N3MFVCd2QxSDhTU21yamhuUXBEM3N0QlBvNGVpcnhDV1o2Nm9xWGZEV1JoTzVMUERycXBLSmFKWk1iRWZwVlQ1OEJFU0Jja2hOWjF2cXRMU0NHT0ZCbHc5cG1RaC1oTEZSNnlSa0lsVTJwMlZMZ2pEMGpy?oc=5",
       "summary": "আজ চট্টগ্রাম আন্তর্জাতিক বাণিজ্য মেলা উদ্বোধন দৈনিক আজাদী",
       "date": "Thu, 19 Nov 2026 23:57:00 GMT",
       "source": "দৈনিক আজাদী",
       "category": "Bangladesh · বাংলা",
-      "section": "Economics Page",
-      "type": "Economics Page",
+      "section": "International Page",
+      "type": "International Page",
       "topics": [],
       "exam_priority": "General"
+    },
+    {
+      "title": "নৈতিক শিক্ষায় শিক্ষিত করে দুর্নীতিমুক্ত সমাজ গড়ে তুলতে হবে : চসিক প্রশাসক",
+      "link": "https://news.google.com/rss/articles/CBMivgJBVV95cUxQc0NHcktBMWltSkRsWTBEajN2LXJMSUUwbjhSbDdqUG1zczFoeVdBWGxIYUttRDZTRk5VaXk3MFhYMTlVYlIzUTV6bVE2bG53UXR2X1d2YU14Y21lMWtEWHI3b2xJTmZIbzFXX1FEU21ad3d4YzRpVHlFdl9kT1ZHLTJBVUgxNlM3d2xDTEJKWk1aNlFPSEdqTTJkSHBSdFQ2cmJ3X2M0d3JvWUZORlJHVDZWN21NUV8tSGYyaDRLVThUaWdLaFFNODBENEJ4ZFU5X3pYenBncEpPb3d2bkg0WUNvNFpSLXNCSzA1V3VYWF9sQ0ZNQlNiSV83N2FyUGEwNHhDTTdNX24tUDBLT0VEQ3lFX280eFFYendLcFg3VDFlRlBkNHZDVlh5bEc3ZUhKbkVTUm9laUdQTnUwOEE?oc=5",
+      "summary": "নৈতিক শিক্ষায় শিক্ষিত করে দুর্নীতিমুক্ত সমাজ গড়ে তুলতে হবে : চসিক প্রশাসক দৈনিক আজাদী",
+      "date": "Thu, 19 Nov 2026 23:57:00 GMT",
+      "source": "দৈনিক আজাদী",
+      "category": "Bangladesh · বাংলা",
+      "section": "International Page",
+      "type": "International Page",
+      "topics": [
+        "Governance & Public Policy",
+        "Society & Development"
+      ],
+      "exam_priority": "High"
     },
     {
       "title": "বরিশাল থেকে ঢাকায় যেতে পারেনি দূরপাল্লার কোনও বাস",
@@ -5169,19 +5374,18 @@
       "exam_priority": "Medium"
     },
     {
-      "title": "US religious freedom panel says India is targeting minorities in voter roll revisions",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMjZydHNTbTktUl9veXVtNGlFZk1iVEQ1SW9jUndaRW9DU1g4d2Joa1JKZnpQdDdnY1dfU1hMQjJZRE82WFpBZlV0d3R3MXNjSUpYcUhaTUFhdFVXTG5WY3hHR3BwR1QyajRycE9LWmxicTR3U2FfZGV3aFBFZDNVcDZBS1pfQlhwNzhjNUhnM0ZoVmlRbUEycWJBZ0ZIZW1HNXlITmRzTjFUZVFhQ1ZEVXNPX2gzblQ3eFJwRg?oc=5",
-      "summary": "US religious freedom panel says India is targeting minorities in voter roll revisions Reuters",
-      "date": "Thu, 19 Nov 2026 23:49:24 GMT",
-      "source": "Reuters",
-      "category": "International",
-      "section": "All News",
-      "type": "All News",
+      "title": "মুন্সীরহাট মেরিট একাডেমীর বার্ষিক পুরস্কার বিতরণ",
+      "link": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxNbjljSFpqMEZyQnFsclVHdnpTYTZNYmM2VFRTandWRnZoN01yc3VGLWRHODhrUmxMbEVLa20yZWVHclNYZjVTZ3lXclpadlJKaGlHZmRScUg0RklYT3Jhd0ZlU3pOTGVPMFdDcWc3R05ZSTJVT1puZkRzaktDUEwtemZaX2hoUC1lTkdETEpZTmtCanhLNEF4RjA4SXlmazltWTdqMU4ydEhST0M3emZsUTB6RFJnYmN1SS1qRDl0bWtxeVlIOHBGWHB2YmhfZG56TVpfeW52UHJ1dFNTZWN6Rm9FT2lXUlQ4dWZmb2huRklKWXZUd2NQa2szNktaQUpTUE5lOHBBNzM1Q09CMXlkVk0tbVBncloya3BHaVFjTDBuWlpNQk1HQ2RvLU9SUXBOZ3pKZ1kzUkxOMWFtYnpqUGFPVEtuZmJZ?oc=5",
+      "summary": "মুন্সীরহাট মেরিট একাডেমীর বার্ষিক পুরস্কার বিতরণ দৈনিক আজাদী",
+      "date": "Thu, 19 Nov 2026 23:49:00 GMT",
+      "source": "দৈনিক আজাদী",
+      "category": "Bangladesh · বাংলা",
+      "section": "International Page",
+      "type": "International Page",
       "topics": [
-        "Geopolitics",
-        "Elections & Democracy"
+        "Prizes & Awards"
       ],
-      "exam_priority": "High"
+      "exam_priority": "Medium"
     },
     {
       "title": "মোহাম্মদ জমিরের ২৩তম মৃত্যুবার্ষিকী আজ",
@@ -5194,20 +5398,6 @@
       "type": "Economics Page",
       "topics": [],
       "exam_priority": "General"
-    },
-    {
-      "title": "মুন্সীরহাট মেরিট একাডেমীর বার্ষিক পুরস্কার বিতরণ",
-      "link": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxNbjljSFpqMEZyQnFsclVHdnpTYTZNYmM2VFRTandWRnZoN01yc3VGLWRHODhrUmxMbEVLa20yZWVHclNYZjVTZ3lXclpadlJKaGlHZmRScUg0RklYT3Jhd0ZlU3pOTGVPMFdDcWc3R05ZSTJVT1puZkRzaktDUEwtemZaX2hoUC1lTkdETEpZTmtCanhLNEF4RjA4SXlmazltWTdqMU4ydEhST0M3emZsUTB6RFJnYmN1SS1qRDl0bWtxeVlIOHBGWHB2YmhfZG56TVpfeW52UHJ1dFNTZWN6Rm9FT2lXUlQ4dWZmb2huRklKWXZUd2NQa2szNktaQUpTUE5lOHBBNzM1Q09CMXlkVk0tbVBncloya3BHaVFjTDBuWlpNQk1HQ2RvLU9SUXBOZ3pKZ1kzUkxOMWFtYnpqUGFPVEtuZmJZ?oc=5",
-      "summary": "মুন্সীরহাট মেরিট একাডেমীর বার্ষিক পুরস্কার বিতরণ দৈনিক আজাদী",
-      "date": "Thu, 19 Nov 2026 23:49:00 GMT",
-      "source": "দৈনিক আজাদী",
-      "category": "Bangladesh · বাংলা",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
-      "topics": [
-        "Prizes & Awards"
-      ],
-      "exam_priority": "Medium"
     },
     {
       "title": "US: Cost of war in Iran passes $48 billion not including damage to infrastructure",
@@ -5256,8 +5446,8 @@
       "date": "Thu, 19 Nov 2026 23:46:00 GMT",
       "source": "দৈনিক আজাদী",
       "category": "Bangladesh · বাংলা",
-      "section": "Economics Page",
-      "type": "Economics Page",
+      "section": "International Page",
+      "type": "International Page",
       "topics": [],
       "exam_priority": "General"
     },
@@ -5306,8 +5496,8 @@
       "date": "Thu, 19 Nov 2026 23:44:26 GMT",
       "source": "প্রতিদিনের বাংলাদেশ",
       "category": "Bangladesh · বাংলা",
-      "section": "International Page",
-      "type": "International Page",
+      "section": "Economics Page",
+      "type": "Economics Page",
       "topics": [],
       "exam_priority": "General"
     },
@@ -5318,8 +5508,8 @@
       "date": "Thu, 19 Nov 2026 23:43:19 GMT",
       "source": "CNN",
       "category": "International",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
+      "section": "All News",
+      "type": "All News",
       "topics": [],
       "exam_priority": "General"
     },
@@ -5466,6 +5656,18 @@
       "exam_priority": "General"
     },
     {
+      "title": "৭৮৬",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9jM2xBU3hZR3dDRHpGeDcwYklhYS1LM3FEN2FtRXRyOFBBRnVtNnZJUF83M1Q0bEc3ZW81V2xOd1VhdmdPeTg3T3daZ2hzeXNDVHFpWUhrWjl1Wkw0b3RUSFU0YkFQNTdw?oc=5",
+      "summary": "৭৮৬ দৈনিক আজাদী",
+      "date": "Thu, 19 Nov 2026 23:34:00 GMT",
+      "source": "দৈনিক আজাদী",
+      "category": "Bangladesh · বাংলা",
+      "section": "All News",
+      "type": "All News",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
       "title": "বাসযোগ্য ও পরিবেশবান্ধব নগরই সকলের প্রত্যাশা",
       "link": "https://news.google.com/rss/articles/CBMivAJBVV95cUxNSjhYZl9Rak5zMHd2cFJBRXl0aWhyRXJETjJjNWtfVTdVdWU5cktaYTdJY2dISTE1bUhPVnBPTVNJX1p4alA5amNwTFRyckcxSUhKYzZsbXFNbkJPeVlWV0VHVXd0RzFvZEctTXl0aC15bWJ5c29ZOXNVYlF1ZkV6QjhkeFVURGVMN3BwZk5iQ1VFck16UkpxVkxmYXh3NHJNUVExYzNhcElsME9abWwxSzIxN1MzSWVPdHRDY2hMWGxtdFFrUWlVd2s0dFpjQi1XN09VTUtxeldSZEI3QlZMVUxyS3lWUV83SXUzT09nLXlfZlFKRmh6d2pCNXhGaDI0b1NiN3BFTlI4alVVcWFhR3FvRzZTVUV3bnR2VUdlU2tTaVpuTVAxWHFMVVF4cm9DOUFrd3ljVmNMdHl4?oc=5",
       "summary": "বাসযোগ্য ও পরিবেশবান্ধব নগরই সকলের প্রত্যাশা দৈনিক আজাদী",
@@ -5486,8 +5688,8 @@
       "date": "Thu, 19 Nov 2026 23:33:51 GMT",
       "source": "BBC News",
       "category": "International",
-      "section": "All News",
-      "type": "All News",
+      "section": "International Page",
+      "type": "International Page",
       "topics": [],
       "exam_priority": "General"
     },
@@ -5498,8 +5700,8 @@
       "date": "Thu, 19 Nov 2026 23:33:33 GMT",
       "source": "Daily Sun",
       "category": "Bangladesh · English",
-      "section": "All News",
-      "type": "All News",
+      "section": "Economics Page",
+      "type": "Economics Page",
       "topics": [],
       "exam_priority": "General"
     },
@@ -5510,8 +5712,8 @@
       "date": "Thu, 19 Nov 2026 23:32:09 GMT",
       "source": "Reuters",
       "category": "International",
-      "section": "International Page",
-      "type": "International Page",
+      "section": "All News",
+      "type": "All News",
       "topics": [],
       "exam_priority": "General"
     },
@@ -5610,8 +5812,8 @@
       "date": "Thu, 19 Nov 2026 23:28:00 GMT",
       "source": "দৈনিক আজাদী",
       "category": "Bangladesh · বাংলা",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
+      "section": "Economics Page",
+      "type": "Economics Page",
       "topics": [],
       "exam_priority": "General"
     },
@@ -5634,8 +5836,8 @@
       "date": "Thu, 19 Nov 2026 23:28:00 GMT",
       "source": "The Times of India",
       "category": "International",
-      "section": "International Page",
-      "type": "International Page",
+      "section": "All News",
+      "type": "All News",
       "topics": [
         "Geopolitics"
       ],
@@ -5648,6 +5850,18 @@
       "date": "Thu, 19 Nov 2026 23:27:02 GMT",
       "source": "CNN",
       "category": "International",
+      "section": "All News",
+      "type": "All News",
+      "topics": [],
+      "exam_priority": "General"
+    },
+    {
+      "title": "আত্মসমর্পণ করে কারাগারে হাসেমের আরেকপুত্র রুবেল",
+      "link": "https://news.google.com/rss/articles/CBMivAJBVV95cUxQOWZmNXlNQ2JLX21CLTlVUHlEMFlHc2dVeXdQZ1liYzR0OFdmQlhIdmtFZGVVWWhReVN1M05YbWV3UmpqNzQ4VGVzOFRSYUJfeTNtdFlGVWw1QjBERFBOS3pINzZlRFJQVy12UHdZUEJPc1RVS0NGWnNGYUFYRUxyMHNqNGRNN2Z3dHUzYklGU1pTaUdxMlpyVDAxZEthQUJQY1Z3djVfalh1TU5mWmFndWlNMURCTHJQUW9XS3cxcHJ6VThESWE2R1pZam1Wc1JQX2JRZEpaczF1QWlfdGVwSHZOUS1Zc0diR1BFdk4xNm5YZkdrN1UxdlBPSGFwUzhIM1ZlYWhWRU84TXM1ME5aOGl6V282akhqRU92VGs5MlI5NEs4RXVadUFMVl85ZE52cnEtc3dQM1dxVHhG?oc=5",
+      "summary": "আত্মসমর্পণ করে কারাগারে হাসেমের আরেকপুত্র রুবেল দৈনিক আজাদী",
+      "date": "Thu, 19 Nov 2026 23:27:00 GMT",
+      "source": "দৈনিক আজাদী",
+      "category": "Bangladesh · বাংলা",
       "section": "Economics Page",
       "type": "Economics Page",
       "topics": [],
@@ -5672,8 +5886,8 @@
       "date": "Thu, 19 Nov 2026 23:22:28 GMT",
       "source": "NPR",
       "category": "International",
-      "section": "Economics Page",
-      "type": "Economics Page",
+      "section": "All News",
+      "type": "All News",
       "topics": [],
       "exam_priority": "General"
     },
@@ -5708,8 +5922,8 @@
       "date": "Thu, 19 Nov 2026 23:20:00 GMT",
       "source": "দৈনিক আজাদী",
       "category": "Bangladesh · বাংলা",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
+      "section": "International Page",
+      "type": "International Page",
       "topics": [],
       "exam_priority": "General"
     },
@@ -5732,8 +5946,8 @@
       "date": "Thu, 19 Nov 2026 23:17:46 GMT",
       "source": "CNN",
       "category": "International",
-      "section": "Economics Page",
-      "type": "Economics Page",
+      "section": "All News",
+      "type": "All News",
       "topics": [],
       "exam_priority": "General"
     },
@@ -5835,8 +6049,8 @@
       "date": "Thu, 19 Nov 2026 23:13:00 GMT",
       "source": "দৈনিক আজাদী",
       "category": "Bangladesh · বাংলা",
-      "section": "Economics Page",
-      "type": "Economics Page",
+      "section": "International Page",
+      "type": "International Page",
       "topics": [],
       "exam_priority": "General"
     },
@@ -5933,6 +6147,21 @@
       "exam_priority": "Medium"
     },
     {
+      "title": "Elon Musk feels foolish over election spending - New Age BD",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQnZ6VmlaUHEwdm84SV9peVRJOG9IcVVHdnJzY1J5Y0o3dlp1eW4xOE1qV3VvZEpRZDJTT3VYTmVTOV9QSHNQdFJhMWZtWW5HLUtMQmQyU25vSEYtYUpneVVKSFVWd2JhaDNBb3NFcGotTEFtSTN4cFRsZVRDVWNFY0VjU2tzUWZOV2FUZTgybUxYWWs?oc=5",
+      "summary": "Elon Musk feels foolish over election spending New Age BD",
+      "date": "Thu, 19 Nov 2026 23:03:00 GMT",
+      "source": "New Age",
+      "category": "Bangladesh · English",
+      "section": "All News",
+      "type": "All News",
+      "topics": [
+        "Governance & Public Policy",
+        "Elections & Democracy"
+      ],
+      "exam_priority": "High"
+    },
+    {
       "title": "চট্টগ্রামে সাদ-মুসা গ্রুপের এমডি মহসিন গ্রেপ্তার",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1YY0JMRTJlaVVEV3RTUEktTThwNk1oUW9ZTVg4WGpOVXh0NmptcEx2LVZ5QklWXzBhWVBLWWVUTVpoYVExSlRCWmgwcEp0NFJvMk01eHVoZV9idUHSAVJBVV95cUxQaHZ0RW1GQ1JfTmNoeDRrbk9QWTZFckZxQVROQVVJVkRCYU0tZVkzdklNUTVvOTBHZkZCc0lHQzNnZ3QwSmJxWVVBX1B6QWVDY3JB?oc=5",
       "summary": "চট্টগ্রামে সাদ-মুসা গ্রুপের এমডি মহসিন গ্রেপ্তার Risingbd.com",
@@ -5943,6 +6172,20 @@
       "type": "Economics Page",
       "topics": [],
       "exam_priority": "General"
+    },
+    {
+      "title": "Trump, Xi agree on need for AI safety rules, US-China cooperation on regulations",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOQy1nQTRfQWZaT19XVDZXRFp5TFoxamRiaTIzdVlIY1d6LUZzc2dadHVvMDhrMS04NEQ4VHAzSWJlZVFFWWlwQTl5YkV1Zk9HY09GdG85VEg4b2FIMTA2dmNPa3ZBZXhYQldDM0lsMTd2TnNnN05GbXIwQnFHTnhGcnE2YW5MTFduTDd1N0N1Q0t6NnNhcGdVaGhxZGFpYVA4dDZJUlFYVlplSUNVOTJXbWZMbE9lRkkwNjhkQm1YVUJTUzl1YVgxVTZfWTktbC1XSHo2b3pWamIxSTFlbjhqcnhqNA?oc=5",
+      "summary": "Trump, Xi agree on need for AI safety rules, US-China cooperation on regulations The Times of India",
+      "date": "Thu, 19 Nov 2026 23:02:00 GMT",
+      "source": "The Times of India",
+      "category": "International",
+      "section": "International Page",
+      "type": "International Page",
+      "topics": [
+        "Geopolitics"
+      ],
+      "exam_priority": "Medium"
     },
     {
       "title": "California Probing If Nvidia Misled Investors on China Risks",
@@ -5957,6 +6200,18 @@
         "Geopolitics"
       ],
       "exam_priority": "Medium"
+    },
+    {
+      "title": "কৌতুক কণিকা",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOMnFZYzlGSXY2ZnNBNkxTMTNwdHFvR3hPM3Q4eTRscVRxOGZoanVMUzV4TUlvZl9weVZjelFHLTZYbUViVE8ybENZMXBMUW41OE9tWkc5d09VbTNMMjRrYXRGUERrZ25Kb05tS1R2aGlTOG02SHh0d0N0bERMcjd3d1VvbTFEUHdSN09mUkxFTEhOUi1kaV83M2tvTEdrMF9rdExIcHhxMjMtYVNkdFp6SWpiTHlRSHZtWkpwQXFB?oc=5",
+      "summary": "কৌতুক কণিকা দৈনিক আজাদী",
+      "date": "Thu, 19 Nov 2026 23:00:00 GMT",
+      "source": "দৈনিক আজাদী",
+      "category": "Bangladesh · বাংলা",
+      "section": "All News",
+      "type": "All News",
+      "topics": [],
+      "exam_priority": "General"
     },
     {
       "title": "Trump displays an all-male lineup of top aides on Asia trip",
@@ -6032,264 +6287,6 @@
       "category": "International",
       "section": "All News",
       "type": "All News",
-      "topics": [],
-      "exam_priority": "General"
-    },
-    {
-      "title": "Why high mortgage rates are keeping home owners locked in",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1DR25XQXhuUG5SeWlEbW9TSlBTQWlFeVk0WHBxN3BTQjM5ZEUxSkdjdDR0U3MwZ2c3d192ejFINkd0R1o3YzdoeXNDLW5JTmRZT3JUcjVVSndiZHU1Q3l0Vl9yQmhybVVjTVVwN2dGM2xJTUg2d0pQM3U2U3JaUQ?oc=5",
-      "summary": "Why high mortgage rates are keeping home owners locked in CNN",
-      "date": "Thu, 19 Nov 2026 22:53:23 GMT",
-      "source": "CNN",
-      "category": "International",
-      "section": "Economics Page",
-      "type": "Economics Page",
-      "topics": [],
-      "exam_priority": "General"
-    },
-    {
-      "title": "\"GTA VI\" launch day sees wave of PTO requests",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPaDRZcWR4eXRSc3pEX0RMcFZnSXktXzZacXptRWxCcUlnTEhsUUZvVnZvbTdoQlRGYnNCczI4Q1J0QTBoc1gydzhJaXJIZVA1MWNJcFpTTDFfcV9KNFVHazVBZzl3Q2RTaDRNUklySjlQcUVFckIwdzRpWUE5eU1DdXFUQ3BkWDVoNzhGUTZ1OW16dG03VTV4ZzVUeGRGLXJFZnBZdHVaSDA?oc=5",
-      "summary": "\"GTA VI\" launch day sees wave of PTO requests CNN",
-      "date": "Thu, 19 Nov 2026 22:52:19 GMT",
-      "source": "CNN",
-      "category": "International",
-      "section": "International Page",
-      "type": "International Page",
-      "topics": [],
-      "exam_priority": "General"
-    },
-    {
-      "title": "কৃষক কিনতেও ঠকবে, বেচতেও ঠকবে—এ ব্যবস্থা চলতে পারে না: সাইফুল হক - SAMAKAL",
-      "link": "https://news.google.com/rss/articles/CBMi1gVBVV95cUxPTTZqMW51Ui1xeFhZMGgyR1FNeEoxZWNZTjFyUk80VXpnTGRabnAzbjRkWWlHNlZoYVBDWVhmRURBQjJFZ1haQVBMY1dnMEI0NDdxZEc3X3diQ2lIU0I2d2t5U1FObElleUc2SlZkYTIxeDNyTG5FT2YwY1VoV29MZlpMeHFZdFIybjNvMHlYVHBKT01acm1NdUZJMUk1XzdFZWZYT2VxNUhhckRNX21TY1RqQjJnRHJDQ096Zmt6dVBWbUdZdHZELWVUbVcyWGVMcFBFRmFqRUZUNVZnQnMyTE9sM0ZhWGQ1SzQ2Z2J3MVIxeGozU1U5ajlNRW14X3p6dnBtVkxWbzJCMUFKc21WaHo0ZC11empPT1RfajZvdFp6N1diaDRzdzlrMzBNRmRwei1aTGZES1BQMk5LT3Nyc0ZVbmsxLXBISFpSMWpGeEhhR2xiWWY4VGUxekxWSDdrSnpSSktaQnh6bW4xY29Rcmt3QWZFaUlvWm5aWnlnaHJPR0U2bU1UaFBxYW9iemRVdHlobFJvWUVzeURGMnI3Mm5VUEtMNDNicGtNVjB1cmstUUZySDg0Z3hKdTRCZURCOGVacm1PTzNIY3dhcE84NGVOREdQUG5Rd1E4aFVHeGRNTTd6dDRrMzNCZllKc3B3OU02bHpBUXQzck1KODBLaEJKcDljUGxNT1lkd1hVRUtJd2I5QURVc2ZidFVicG5JMXdzY0gzVmNsNms5Rjd1REVIbk1DaW9zOXM5VHNNdlgxbkFydDFsSHltaGVkMDkxaGc3NzlxTDZSNlNvd2dGRzVEU0NwLXVkTTd2dDRvRk1iczlCV0tuUDdYY2dEc3lyM09KM2JXTDdYeUZmYUpybUFkYWN3ck8zZTVZeXdPYnZXNTVpbURfcXBUMXdSS1gxaDZ0cFNMUUI2aWtMWmd4NE1rUEwxSlZCdkpuS0RscVU4OC1jMVE?oc=5",
-      "summary": "কৃষক কিনতেও ঠকবে, বেচতেও ঠকবে—এ ব্যবস্থা চলতে পারে না: সাইফুল হক SAMAKAL",
-      "date": "Thu, 19 Nov 2026 22:49:03 GMT",
-      "source": "সমকাল",
-      "category": "Bangladesh · বাংলা",
-      "section": "Economics Page",
-      "type": "Economics Page",
-      "topics": [],
-      "exam_priority": "General"
-    },
-    {
-      "title": "Judge finds Thomas Markle mentally fit to stand trial on child abuse charges - BBC",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5rTG1PNXV0V1pQakFNT3lfVFVvT3dsT0h6WUFkMHluUmRPWV9yOUloejZWTTllS2VEVkp5NVNRWGJFRmlBd3VuSUlkREcwWUhKenhRaGYwcW40RFE?oc=5",
-      "summary": "Judge finds Thomas Markle mentally fit to stand trial on child abuse charges BBC",
-      "date": "Thu, 19 Nov 2026 22:48:22 GMT",
-      "source": "BBC News",
-      "category": "International",
-      "section": "All News",
-      "type": "All News",
-      "topics": [],
-      "exam_priority": "General"
-    },
-    {
-      "title": "Opinion | The U.S. Navy Needs Frigates. Japan Has One - WSJ",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNERDb21vWDJvRGZ4MU04aUNDMEk2RlEwMHpYZGE0dVI1QWs1SmVVTlBWUDRHOU1kN3N3QWRJdWlXY3hwSVN1aHdzN202T1V5QjdBYWEzWU9pYV9rNzN4TDhiOGpHdXBlU01oVmhjeVJTRGI2QWxEWENZN011SkM5RjRvU0I?oc=5",
-      "summary": "Opinion | The U.S. Navy Needs Frigates. Japan Has One WSJ",
-      "date": "Thu, 19 Nov 2026 22:48:00 GMT",
-      "source": "The Wall Street Journal",
-      "category": "International",
-      "section": "All News",
-      "type": "All News",
-      "topics": [],
-      "exam_priority": "General"
-    },
-    {
-      "title": "তারেক রহমানের জন্মদিন ‍উপলক্ষে ঢাবিতে ব্যতিক্রম আয়োজন",
-      "link": "https://news.google.com/rss/articles/CBMi2gRBVV95cUxOQVF0QWdTWXI0MUEyODlHY1hIOERRMUhCdU95Wk1WUlNhOXNyMlBpUFRQaEN3RVZGb240MC1lWVYzTWVLVkFDZFRNMGxwdlMtS194VW5vbzE1QWg0RnhySGc4cno3UGV6andMT2k3aUFQZ0xRVEJvX0gzcTh4MWRYd2JxQUJnNlhvRENjNGhpT0FOZHExNnlMQm9Wa25zMFJ4VGNhdjMyUm1MY3UtX0cyQ0tjYk1xMjhFczY4ci03YTgxcE1URjVvZXVLaXZkZ0d2QXBtbFVJSVJDWGQzZ2t4Z0ZpTUtmdkh2cHQtWHdaM0htaGFYNXZ6TG9ObUxHeVlxNkxFNXdjUFVsV1RRX1BtWFZxUHQ3S0ZhUkhFSklaNHRXTmtBcWZXRWoxQUEtcFExTEhWSnBWdVZkUU4ydERtekZWTEV2N0NjWklaOW1KaTRUYVJnNVdja2FGMkEtRDlkZ1ZzX3FYUF9ER25TaWpOcnZBd0k3UXJpeks5OTJiUXVCR1JtSnRRdmRURnA2VW52ZkkxeHNIeEE4Z3M3NUo2UVJzazhuYi1vRGdhMEVhMFBOSVNIcE05MnZ6dUtjV2JydU0taEF4SHgtQ2dVMWhaZkFJYTBNREVxVzdDNVdKbVBaX1dRcTBON21KQWZtYkIwazh1Yk1COWhJZjVfMDREYlNPSVBiWjFwTWtpSzdyUTQzMzRSZ0hYamNXUTlWT1BKT1N2NGhDcDFlWjItOVpORFpCMnAtbUpHckUwRjdIVmlEd29mOGdsMTFfSzh3TUFiZ1BTM2FaOUVjd9IB3wRBVV95cUxOdnN0RGh5QTdUbExCSmwwTjFtQXd1SVlIYkc1N3FxWkdXeWtvTnlnRHRueWQ3VlVDR1VLX3ZDaUtTYUpfUERKMGJta3ZpVDktVndod09ieUtTMGJhR2I1UTRvZmNRMmYxUDZyVDhiUDQ4WExmMGM2T3huYzZLN1JOcUc0OXpIQm1hN0x6eXdFeDFYWVpvQlpidm5Ca0ZTOV9HaWJDWC1BaU1HajhsdjkxYjZ1UnFDdVNWX18xN2JYWDdtOUxxamxhdnRXVndSSG5WQS1NSm50aEhUdGxwbkNhRFF2dFFSSEM2MUlWeFhNY1BUamM1Y1JtT21PZmdFeGZpbHE3NVU1WTJZRlNXY3RILV9Mc01ZN2FtSUVDNk5DUUtvV2tsLU43U3gwX3ZqbnhQTzRtVTZpZmZKQmg0dzJrNlFuU1p4TGtUN3RQTEpkbjNzeUtTTjZKODVjWm5UQ1RZX2dibjlZdDYyYWFyVUZMUHRJT280THQ4LVF6cGFiY1FkQTFMXzE0VjVmT2I2V1p6eHhtYkEwZzFtb1M4SGMxS2MyYjhiOUN2M3ROdldaVGRld0k0YnZKdWk1WXR1eW1qY0VMZHc0MGRRQVdSVWMxX1VIWjVoc3B6YW1ETEVLR0VOYjF2WEdpdXA3ak9yemRQd3F0MGVZZC02MkpDUnJnMmMzdmxYLWdTZ0xSSnZSaTg0bzJTcTNmQndxWWU3aHlSVVpod0t0aXFjdFBDcl9hY3l4YTdmVVFzTXZNVU02VHhGMWF0YUFTNDFWWmZMMFVWeUI1X3NVWllZbk53Q0VR?oc=5",
-      "summary": "তারেক রহমানের জন্মদিন ‍উপলক্ষে ঢাবিতে ব্যতিক্রম আয়োজন Bangla Tribune",
-      "date": "Thu, 19 Nov 2026 22:43:55 GMT",
-      "source": "Bangla Tribune",
-      "category": "Bangladesh · বাংলা",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
-      "topics": [],
-      "exam_priority": "General"
-    },
-    {
-      "title": "Procter & Gamble targets up to $10 billion in productivity savings as costs stack up",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQakdXUjRrWjlvbzF6UXAxRVFJanhvT0dJMmplX2hNZUIybjNpWTdmU1dhdGNMMXY1cnNxaEw1WWZaaFlEcmxZcWtRV1lZc1o4UWhPQ3lTY3g0V3RIOElob1dRYmZtQUVrWjV2bzRqUm02Z1JRRzNGa09SMVdRb1ZWQ19nQnRqMTNqMXktQW41MHB6VHFHY212VU5EczJ6d1F0SnVnenFzdHhEeGlkN1Itb2xTSTVqWm9Xc21pLW5KeHFhNEd0amc?oc=5",
-      "summary": "Procter & Gamble targets up to $10 billion in productivity savings as costs stack up Reuters",
-      "date": "Thu, 19 Nov 2026 22:41:12 GMT",
-      "source": "Reuters",
-      "category": "International",
-      "section": "International Page",
-      "type": "International Page",
-      "topics": [],
-      "exam_priority": "General"
-    },
-    {
-      "title": "Anthropic’s IPO Mints New Millionaires | What’s News for Nov. 19 - WSJ",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPNDRramlWYXFmSjVVaFVuazdiY3NNS21PdEQ4b3ppcmF6Q21rV3hjMzRUSUtBQTJTYkJsSXpfMHR4U3hWa2k2bmRFZjV6YVlhOWVwTGo1b2pIVXZwNGM2VHZJNjVreGtyUlZyN1djOVpjUEhEYnZkTUlNRms3RnBjY0x2a3pTbHN5MWlrVw?oc=5",
-      "summary": "Anthropic’s IPO Mints New Millionaires | What’s News for Nov. 19 WSJ",
-      "date": "Thu, 19 Nov 2026 22:41:00 GMT",
-      "source": "The Wall Street Journal",
-      "category": "International",
-      "section": "All News",
-      "type": "All News",
-      "topics": [],
-      "exam_priority": "General"
-    },
-    {
-      "title": "উৎপাদনের পাশাপাশি সংরক্ষণ ও পরিবহনেও মিলবে কৃষিঋণ - Samakal",
-      "link": "https://news.google.com/rss/articles/CBMi5ARBVV95cUxPVXVQRWstaXVIVXJKcVBmU0s0NTdQVG1rS1VpSnR3ZEEtTGVmd1hUWnZJdFdNejk5NmdScm1rRWl5bzhwM2QxNTd3M1hlaFNXcmNJai1UQ3hVSllnVmI1TnRIM3FVNTZQLWc5cnpORnV0Z21fVzBZZlZLbll3QlpUNGpsR1pPdnhyVkk1dGNLV3UwODRpMTUweHhhMkFjaEo1YzE1emdFejRzZ3VRQjFSc1hVR205dy1waGxxTE9tVmRQOFQxQmFOYkxDOWxPc2lWNTAwcXNoLTF6SFJQc2tOc3g3MGNsd3k4dGhSMUp4Q3JBTG9hdk5VS1BUSzE0OHVhbmM3eUptM0ItRDRqOWxPTUJYNUVhWVpzeFNFYjRmUnFMUHhJREpnUDhSQjl4OTZNcTNLNjA5OEI0OW5CSXdnV0FfaklIR0xpM01DVHdQNGdoOGZ5M3FET3NiRWY3WUpxR29laXBWSkZHU3d6XzlkVUw2b1VSaXk2RU5xaVlHZDJlaEVFYmRlbVBKUXRKOTVYV1ZoaFk3Yk5HeUYwZjlvZHc0eDVMem5WUWtZLS1NS3FYMVJwSGhCdkx4cDVSMGRjSk9tU2RUMGlWUDRoeWhPdjQtTVUzV2hobWxBRTFxam1ZbFNralpTUFBvVEJxOWtRVGJ5cHk2X0VHdzJpamEyUnc3QjVfbERtZ0k0WWk5RFlyenBNQk5CX0hYdDh3M01La0FQUS00VmtEZlZXN3c4TDdja1hyd0c2MXpLY0VRZkVJdjY4ZW9JRnRZazkzdU5HU080Vk1JWFJlX2ZpeU83LUw0MTE?oc=5",
-      "summary": "উৎপাদনের পাশাপাশি সংরক্ষণ ও পরিবহনেও মিলবে কৃষিঋণ Samakal",
-      "date": "Thu, 19 Nov 2026 22:38:17 GMT",
-      "source": "সমকাল",
-      "category": "Bangladesh · বাংলা",
-      "section": "Economics Page",
-      "type": "Economics Page",
-      "topics": [],
-      "exam_priority": "General"
-    },
-    {
-      "title": "Haiti police operation kills 34 suspected gang members in capital",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQlpEemZGMG1ZOWZGZ1R2UFFrM0ZwcmQ0dnRrSkVsZlRhYm1Pd3FKVktodU5DYXFTb0w0d21HV0JMZHI1RUVCdktndGhVd2lzSzBNcDN4QXNzcjQ0Ung4cDdfUzJaNEtkeWFGeVJyTmNOR0c3Q3Z1ODV4c1YzXzljVnk5MlJhcy1WWGp4OXI3SFNlMG5xbW05U2txQmNvdmlYbW1EWGF6NjM3d2QyMGE3eEFJbDJ3dw?oc=5",
-      "summary": "Haiti police operation kills 34 suspected gang members in capital Reuters",
-      "date": "Thu, 19 Nov 2026 22:36:27 GMT",
-      "source": "Reuters",
-      "category": "International",
-      "section": "All News",
-      "type": "All News",
-      "topics": [],
-      "exam_priority": "General"
-    },
-    {
-      "title": "World-famous hippo Fiona dies in US days after swallowing visitor’s hat",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNcVFpMlRyRlhjaUM2bUxDLVoyQ2JWcGlyd205NFI1a1dyNDFJdnJ6c0tyWW9tUDZ5UzR5RjF5UWZmdFhFY0VDci1LYmdRMXR0Z3RleUdUd252QmhzRE4wMkVKOHBTcWxQWnJsTC1uX3c2V01YY2lPS2IzZ1JTMGR1QmlPbFRWYmxtWjdXRGVLU18xY0pEMHV5SEp3RzRlb0p2WnB6SVV3RlJnNl9Hb29XTnFEUUZPVUlQX1dQZnEySmU2NGg5VV9KMnVwRG1CWHFjdlHSAdIBQVVfeXFMT284M0JEMUxHUlU4UHRDcUFtNTc4c0U4VUljZDN3amhTemo4Umk1ejlKMGJhaGNxTEVuTm5UMWpXbURrMF8xTU9fR05taGs0RmxrbEdmU1BPQVN1ajJ6NU1VNGZOZXRSV0syZXF1VzVneDJUal9SRlNEOUNNcEJLb1ZSSmVUcGVlWjZtN0ZiYUo4SDZSc0RtbGN3a3JLYWVPVDNfb1Y0WHF6VXBwbDdDN05CUmNNM1I2TDJpREN5WEhHcTFUUmNVTjAwNE1tVmdQSUR3?oc=5",
-      "summary": "World-famous hippo Fiona dies in US days after swallowing visitor’s hat South China Morning Post",
-      "date": "Thu, 19 Nov 2026 22:36:05 GMT",
-      "source": "South China Morning Post",
-      "category": "International",
-      "section": "All News",
-      "type": "All News",
-      "topics": [
-        "Geopolitics"
-      ],
-      "exam_priority": "Medium"
-    },
-    {
-      "title": "Trump says he and China's Xi want moderate AI rules",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRmhOamVpZF9sMG9qSElyRS13Q2hIdXdncHVuRUIzUU1FYlM4eGNSR1NVcE9DdHVFNXRDT0ZSdTBXUUtSZGJUWGdoNnEwLXRqMmVRd251SWpHNVVsSWRFODZ3S3ZZQkVxM0dTaHNUaXA5M0FLVVYyaFNXa1l1a0Vkc2Rpc01EWWUxYi1kQmhwckhZOTBURFAxeQ?oc=5",
-      "summary": "Trump says he and China's Xi want moderate AI rules Reuters",
-      "date": "Thu, 19 Nov 2026 22:34:50 GMT",
-      "source": "Reuters",
-      "category": "International",
-      "section": "All News",
-      "type": "All News",
-      "topics": [
-        "Geopolitics"
-      ],
-      "exam_priority": "Medium"
-    },
-    {
-      "title": "Iranian operative accused of directing failed terror plot at base US operates declares innocence and wants new lawyers",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNDFhWEhPRGhBRHhtMmtMbHhkakRuLS1tTnJXRUVzZGtCb2wtOTlFaklwWlFwUy0xcU5xODU1bUZMQTZpOUZqZ1JfSjZuMXRxelNVTVpOOHNsaTV4dDE3ZFpQLXM0WHlBVWxQYVp2TnFwOEF0eHV1TWwwZ3pvU1poWXVJM1RiT20wM0g5OHpkaEdMWVB4ZkE?oc=5",
-      "summary": "Iranian operative accused of directing failed terror plot at base US operates declares innocence and wants new lawyers CNN",
-      "date": "Thu, 19 Nov 2026 22:34:05 GMT",
-      "source": "CNN",
-      "category": "International",
-      "section": "All News",
-      "type": "All News",
-      "topics": [],
-      "exam_priority": "General"
-    },
-    {
-      "title": "সৌরবিদ্যুৎ উৎপাদনে বাংলাদেশের সঙ্গে অংশীদারিত্ব বাড়াল এডিবি - SAMAKAL",
-      "link": "https://news.google.com/rss/articles/CBMi3AVBVV95cUxNVXgwU3YyZGMtSzJEWGhfUFEwbzlKWWlXLTRVTGkyTGhXMkhVM0JGbk1YYWVUVEVIUG1pR2FBZFRTQ1FqVGcyWUZpOUtIUXVMUDJjTmxhWjFwanctOFVqMFBjN1FkX1JMaURSVmotZm5xZFRFd0F4cFVuVTlJbm5xdTBkU1RHcVpaeEVZcTRiLXYzTXhySzE1VEttZmwxM2Iyc1RHQ0c4bGFnU2N2S2IzVDZ4VHRzT25HQ2taUnpzc1hGS0lFUEJtamlKQVNKdmFkV1IyUWFwS1A0VlNBV2RVOFZzZ3h0MU1HNDVsLWtoUm8wOGFMc0RkQXJEUE5DSUdxOS1ERGNHS2M0b1Q3QVdoNzkyOWhwTEFUckp2Q20ySXA3VVhCM3VGVVdoYUkxekk1VlJPWnQtTHhBRWZvaXU3MU9HRDFlY2NHY2F2LU94cS1mVVVkMG5wSDJvVS1Cb2J6djIzUmE2N2VuVGtFU3g3VjlXOWQ3WUtHRV9PamVPMVBuNTRWM29xYVZNRzNIVnAydjRuWDZra1NXTWJJcXNJdi1qdXlKZFlvbFlnM0k1WFJHRjE5SEMtTnBhbDNDSkVfSm1YUzM4SDhQcHlDVkhEODBMUnJDQjdhV3RFeFQ5V2pINk5kMFZxcHFNUWpYU3M1VGlraFlWcTZsb2d0LVNhSmZPTXozSnBNeDQzRjJyam9sOVBJcmRxbWJrMERVRC1sSE15cm1SVzVrbFBBWFRKeUxwaFgwZ29SOUZPeGdNSFNLVWlfZDFUT01JMFlRRm1SSFY3cFZmVHBRbmp4czZ0NWlYODNUS2YzcDR4QnVhdGFvVnZjdWsxY3RscFhxS1M0SDRTZEN5QU92UUxVcDVMVFdpTnI2Q28ySXdveExxYV9kd1NaYmJZU1BabVoyRlc1WlBVZ3ZMSjhuczZJZ2s0d0JrWFBqOVJDQVlKOGJWUTZBVl9sZFVFZ0FXVWI?oc=5",
-      "summary": "সৌরবিদ্যুৎ উৎপাদনে বাংলাদেশের সঙ্গে অংশীদারিত্ব বাড়াল এডিবি SAMAKAL",
-      "date": "Thu, 19 Nov 2026 22:32:46 GMT",
-      "source": "সমকাল",
-      "category": "Bangladesh · বাংলা",
-      "section": "Economics Page",
-      "type": "Economics Page",
-      "topics": [],
-      "exam_priority": "General"
-    },
-    {
-      "title": "England's Hull one stroke off lead at lucrative LPGA finale - BBC",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE42SkZXcFVfb2VsWWkyMHppeGxiZG1aWmhtNkNPM2R3UEpKM0pVSlJCTmk4VC1qOU1abU5rMlQ4TFBVTHBfMWVpYXZXZlN3TXpzRWZXUC12SldaYTBTbDJaTXhfaw?oc=5",
-      "summary": "England's Hull one stroke off lead at lucrative LPGA finale BBC",
-      "date": "Thu, 19 Nov 2026 22:31:40 GMT",
-      "source": "BBC News",
-      "category": "International",
-      "section": "All News",
-      "type": "All News",
-      "topics": [],
-      "exam_priority": "General"
-    },
-    {
-      "title": "Major anti-gang offensive in Haiti kills 34 suspected gang members",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNDBIQVVqQTg2TGx6Ny1Qb19PeVduQ0hZcDlXMUhWRHRrbnVRWjVucHVyR1pWQUplbjhPN2s1UnpOWXNETl9pbjl1d3liVFZlVW13LWwyV3hfSVJfbHd5YnVlYXNqd3RieFBxZDdQalZrd1cxNUx1eDczQVdZcmRFWnpBSlVUa3pRMFRuTXVZQU15cFl4VGlYcXkxMngwWGg4OTYxVWFZb3RqVzNLNmF5LUpR?oc=5",
-      "summary": "Major anti-gang offensive in Haiti kills 34 suspected gang members France 24",
-      "date": "Thu, 19 Nov 2026 22:31:25 GMT",
-      "source": "France 24",
-      "category": "International",
-      "section": "Economics Page",
-      "type": "Economics Page",
-      "topics": [],
-      "exam_priority": "General"
-    },
-    {
-      "title": "Cyclone Akvan: Odisha braces for landfall; 3 lakh evacuated, CM Majhi holds midnight meet",
-      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOS0RfOWxLNG1sVi1pdXRpS0h5VnpFcHA5NkZkNXo2dVc3S2EyVXcwUm5lM2x6bjk4T2RuZmUyNUhHSjRNS2plYmRXSGJyaWxDX2hPMFpZd0dhelpfZXhiblFEd0gxVlFiaGx6UVlnYm43cndaQmtCQmdCVHFwMGVONlRjS20tT0oyLV8xZTN5Nk9ZNUpnTHAtb0VHZFdxOUlkUkN6c05KVm9TWG1MSzlWZ1pOYlo0V1R5bGkwbXpzNEc0ZDJWWGFZUmhxcGF6WXBqcjNIbUZtYlFhSGZrdG8xLUgxQ0Y0NWwyYVHSAe8BQVVfeXFMTjNFWkFzNHNvc19LTGp0OXdkejhnWW5PbGYxTEZYT2g4cG9meExrcWJuNlJwU1lFTV9yLUlqX01pbXdWRHZpU19LSEc0bUkybXZnVjFfNlRBTHhlZ2xvRi00STQ1VXE0aHU4WW4zWnlBWjZyUjZUenEwZ1paVEF1RmFEa1NodUc2NlN5QXdCSFZwZHlhNmlkTDV6S0Flek5UUzNRT3M3T0tNR3NBRlJxWHlGVU1HQXlsT0I2R2lsaHRQTzhFU215Zm5IWlZ6cktESGZrV0NIeHJud1ktWkV1dnRNQkU0cW1kRTg3QkIwZDA?oc=5",
-      "summary": "Cyclone Akvan: Odisha braces for landfall; 3 lakh evacuated, CM Majhi holds midnight meet The Times of India",
-      "date": "Thu, 19 Nov 2026 22:30:00 GMT",
-      "source": "The Times of India",
-      "category": "International",
-      "section": "All News",
-      "type": "All News",
-      "topics": [
-        "Geopolitics"
-      ],
-      "exam_priority": "Medium"
-    },
-    {
-      "title": "'Clearer' approach has lifted England mood - Itoje - BBC",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1EN1ZvZWRQaFNPOHRsdW9UWnNRckg4X3Q5ZGlFYUVjTFVnWmxYUWVMeUNlaEZoMERMMERrTkItcWRGTVhXWWN3b05xOWNnWlhhSjhUOGExS1gwZ2NPU2hSMkM2TG94My15Z2VKUQ?oc=5",
-      "summary": "'Clearer' approach has lifted England mood - Itoje BBC",
-      "date": "Thu, 19 Nov 2026 22:29:46 GMT",
-      "source": "BBC News",
-      "category": "International",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
-      "topics": [],
-      "exam_priority": "General"
-    },
-    {
-      "title": "‘নসিব’ সিনেমার শুটিংয়ে অংশ নিতে বাংলাদেশে মুকেশ ঋষি - SAMAKAL",
-      "link": "https://news.google.com/rss/articles/CBMi9wRBVV95cUxOUGQxblJ1YjhDeXR0bkxkNnpKeFBjVHFjZzFqWHN2ODB6WkRIZjBRaWZMQ2tkQjFRTnZwUU81U3JGUWZwSkt0Qk1YWFRBZUZJWFFiQnRpRm9qUV91M1JCclJGeG5xbFpORk90XzhkWUNWVXF5Z3NkMDgwUll4ME5SMHNyZVJLSUJSbXR4ZjZWQ1F0SWRzbC14VDRPeU94ZnhVbFpSMThVVHhVa0pqd1RQdEJhLVp1VGNIWGV1N0VBSzlJY2JfZ3JKaHJidnE4VExVaGY3SjN3czJMbkptU2VSUnBBcG9Dcnptbkk5VFI5QTRWbHFZVUxRaHJtQjBTY3Y5c1BlRHRralZjSV9FeUlMTnlyblgxTGxtN3J0R0dEUEJLMFRkMnBBMVhmU1ZLVnlZOFo2bkJLTG1aVEJBN19kVVRGSV9UOVRvMDJINHpwQ1dtSHdWUlVLbmNlczlBTE5EQk93RmtRZC1xTEpmMGgtamc1RkNLdmczNENsb1R5LV9MdjlMckdLSDZSMm9ud1pudGIyYl9HMDVTbDVrbXlKcmREU0ZOd0NXTnZ0b1h3TXo0ZTBwWjhfbnVSUEV2UlFtcW9aVDVJQndGamNKb2x2dlZXVEVETEd0U0kzUmhzR3p6TWJvQ3VkLVE3MlpLVF9aanRkZzlna3d4WUNyX1l6VzB1OUlieGFiQ0lVRWMyeXh1OUpFSjlfaWRkbU5naDJjOHJSZEJyaEh2NUF0LVRHS1djVlJFamJLVUUwWVo1YXJEeGNNQWtmdGZpY0s2TWZzanB4NGV3blVEWTNCdUw3QVQzdkxNNGdZbVFIOEdBSHZBdlZoVEQw?oc=5",
-      "summary": "‘নসিব’ সিনেমার শুটিংয়ে অংশ নিতে বাংলাদেশে মুকেশ ঋষি SAMAKAL",
-      "date": "Thu, 19 Nov 2026 22:28:32 GMT",
-      "source": "সমকাল",
-      "category": "Bangladesh · বাংলা",
-      "section": "International Page",
-      "type": "International Page",
-      "topics": [],
-      "exam_priority": "General"
-    },
-    {
-      "title": "Anthropic IPO value surges in stock market debut",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTHhoTGRKVHhRajRPM2FlYWxxN1ZRWHdVaDBhZWJwdVRSY3c1bFIwdERacFNrbmNPR0lONm5LdGdVSFVub3pWTEctWHV6NEJaMjZnbWZBaHJiTU45WlBuMnI2Mm12VXJrVWpJWFlJTHpmWEdwLXR6b2F6NWpaUko3RmcyOXJJY0w3cEJjRnQxODhZc1JjaHdVQkN1R1E5SGFHMmhNR2h6ckFFRV9nTlJMZQ?oc=5",
-      "summary": "Anthropic IPO value surges in stock market debut CNN",
-      "date": "Thu, 19 Nov 2026 22:28:14 GMT",
-      "source": "CNN",
-      "category": "International",
-      "section": "All News",
-      "type": "All News",
-      "topics": [],
-      "exam_priority": "General"
-    },
-    {
-      "title": "পাঁচ বছর পর তৃতীয় লিঙ্গের সদস্য জোসু হত্যার রহস্য উদঘাটন",
-      "link": "https://news.google.com/rss/articles/CBMi1wRBVV95cUxNWnM3Z3NMbkZ5OHhETkZ5a0hkeVIzZmY2T29QRnlpN0l3empxa1JtSlBTRGVFcndKX1dVdUpMOEo0SkdBVDhhUXZRVC1hNTBfM2lSYU9PUWd5T2ZQQzRTZnlaeG1xal9ZWkIzcTZDOFc5RVZpc28xR3d3bW9KVmFydnFxT2N6V2RHRUpCRDBNV0lJVUVVelN5M3VrVS0tVUhsTXJyWEsxQTVLdHhjWFdiQ08zQTAxWTIwUmo4cmp5cWgtUU9OZHZRckF0WHZ6WkNTWkM4NkZoLWFSVjdHNmdoeXlFSzU1SkxjUGlodmFrZmxjUXRZMU1na1hfdENqcl83VDJ2UC1vTDl1d0FJdGxPMVc2YUE5VUtFLWdUdGtYSHh0aVFBRlBJR21WallmTGVSNGhpMWc0ZENmbFlCLTR4dUZuNWRXM05fRDdXLXZTQ1lvZDdoeE05bzFwUW1nR095YmktRzkwUFV2UFVPdWxFSWpFQUQ0RDFPZ0F5TzVjRmplb2VpRFA0Qjk2UXhyQkdwTjlMMThWUEpCaHB3OGF2bHJYS0l3eVVDVEx6YTdIcDVLakhWaWlpa3VuMVZCZDZuRmE5QXA0S0lCWldUZnNmeWcxVDVpNURDMVRXeDdwMmEzeF9zQVdGLXI1NzBRSThvUDdXVTRxRUZZSHRkRFRoVjZLaU1sTDMzY2JrRlhZYUJVYjdQYndSX25ETl9lZ185WjRFWDBqellOZjNtOGJ2Nm1XV1g2ZlEzaG5DUnowUF9Ec1NiQmMyUUpUeE04TlpLZ3pMLVpIQdIB3ARBVV95cUxNaDE4S0lqUjhYUUNrcHFzZzZIaHBmcENpVngyYnpScHdNVzBnbkNFbUVXZjI1YTY5ZXdoeXp5TUlld3YtU3Nsd0FaVmRtNm9LLWN1bE1mc2hSVndRZW16UkRoSGp2NXZ3dFVhMUZfb2lUN1c3d3Zpd21MRVprNmc5LWdOQUozQ1NqZTJoUVhZWW9NaU9xUzN4bWdXMTNPUUc2d1VFSTRUREc1UzhvV3paTVdTNEZMOW5wcFFvY0YxR1dnQlM0Wm83QkpUYXlGeVRZTVF6OURucUFoLUNERzdad0tQZ2QxZjJQck5kY1RQUnRveUpXQzRpRUd2SUNFcWlKa0g3Y2h6SkVJaWVSMjBjN2RlUV9ENWNtQnZWSlhab3FCQzJIcXZOVzBSQjdKMUpGNndNTEVwcjN5dU5RMG1VaUgyblB5dTBuVkh1TkFQcG9vT2RvUlM1Sm1zWlVQa1JiY29PVVJkUFZseE5KUkNtaVpQd3lDRVNCR0o5c1VYM21lNUItdV8xZXdhWU1LZllNN014SHFmZnF0TWlhRjdvdVRFS0JiQXV2dEJFUEw4Z19JMDh0SFZGeDFNTThOSGZ3WkowcWZCUWhQY3lWQjZqcHdXRlJFaU81SENHS042Qk0zbzhITXZ1WC0wLWxvMkFBV1NiWGIwdmtXdGVUSExMa2E3SExyaVI3aFN0Y3FlMm9hUFdqYVBwQkQ3RTdOOU9JX1dGb1VCWjF1bnNZX21rQW1aSGVuMlhwcC1UUEdhcUpGcDV6d3VGUE5Dc0VlWndXdFZHQXVUTUc2X2V6?oc=5",
-      "summary": "পাঁচ বছর পর তৃতীয় লিঙ্গের সদস্য জোসু হত্যার রহস্য উদঘাটন Bangla Tribune",
-      "date": "Thu, 19 Nov 2026 22:28:01 GMT",
-      "source": "Bangla Tribune",
-      "category": "Bangladesh · বাংলা",
-      "section": "Editorial / Opinion",
-      "type": "Editorial / Opinion",
       "topics": [],
       "exam_priority": "General"
     }
@@ -6510,7 +6507,7 @@
       "category": "Bangladesh · English",
       "section": "Editorial / Opinion",
       "status": "ok",
-      "count": 44
+      "count": 43
     },
     {
       "source": "Bangladesh Today",
@@ -6832,7 +6829,7 @@
       "category": "Bangladesh · English",
       "section": "All News",
       "status": "ok",
-      "count": 45
+      "count": 44
     },
     {
       "source": "New Age",
@@ -7028,7 +7025,7 @@
       "category": "Bangladesh · English",
       "section": "All News",
       "status": "ok",
-      "count": 44
+      "count": 45
     },
     {
       "source": "The Daily Star",
@@ -7269,6 +7266,13 @@
       "count": 45
     },
     {
+      "source": "The New York Times",
+      "category": "International",
+      "section": "International Page",
+      "status": "ok",
+      "count": 45
+    },
+    {
       "source": "The Straits Times",
       "category": "International",
       "section": "All News",
@@ -7573,6 +7577,13 @@
       "source": "জাগো নিউজ ২৪",
       "category": "Bangladesh · বাংলা",
       "section": "International Page",
+      "status": "ok",
+      "count": 45
+    },
+    {
+      "source": "ঢাকা টাইমস",
+      "category": "Bangladesh · বাংলা",
+      "section": "All News",
       "status": "ok",
       "count": 45
     },
@@ -7636,6 +7647,20 @@
       "source": "দেশ রূপান্তর",
       "category": "Bangladesh · বাংলা",
       "section": "Economics Page",
+      "status": "ok",
+      "count": 44
+    },
+    {
+      "source": "দেশ রূপান্তর",
+      "category": "Bangladesh · বাংলা",
+      "section": "Editorial / Opinion",
+      "status": "ok",
+      "count": 44
+    },
+    {
+      "source": "দেশ রূপান্তর",
+      "category": "Bangladesh · বাংলা",
+      "section": "International Page",
       "status": "ok",
       "count": 44
     },
@@ -7728,14 +7753,14 @@
       "category": "Bangladesh · বাংলা",
       "section": "All News",
       "status": "ok",
-      "count": 40
+      "count": 45
     },
     {
       "source": "দৈনিক করতোয়া",
       "category": "Bangladesh · বাংলা",
       "section": "Economics Page",
       "status": "ok",
-      "count": 32
+      "count": 31
     },
     {
       "source": "দৈনিক করতোয়া",
@@ -7909,6 +7934,13 @@
       "source": "দৈনিক রূপালী",
       "category": "Bangladesh · বাংলা",
       "section": "Editorial / Opinion",
+      "status": "ok",
+      "count": 45
+    },
+    {
+      "source": "দৈনিক রূপালী",
+      "category": "Bangladesh · বাংলা",
+      "section": "International Page",
       "status": "ok",
       "count": 45
     },
@@ -8153,6 +8185,13 @@
     {
       "source": "যুগান্তর",
       "category": "Bangladesh · বাংলা",
+      "section": "Editorial / Opinion",
+      "status": "ok",
+      "count": 38
+    },
+    {
+      "source": "যুগান্তর",
+      "category": "Bangladesh · বাংলা",
       "section": "International Page",
       "status": "ok",
       "count": 45
@@ -8240,54 +8279,6 @@
       "section": "International Page",
       "status": "ok",
       "count": 45
-    },
-    {
-      "source": "The New York Times",
-      "category": "International",
-      "section": "International Page",
-      "status": "failed",
-      "count": 0,
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "source": "ঢাকা টাইমস",
-      "category": "Bangladesh · বাংলা",
-      "section": "All News",
-      "status": "failed",
-      "count": 0,
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "source": "দেশ রূপান্তর",
-      "category": "Bangladesh · বাংলা",
-      "section": "Editorial / Opinion",
-      "status": "failed",
-      "count": 0,
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "source": "দেশ রূপান্তর",
-      "category": "Bangladesh · বাংলা",
-      "section": "International Page",
-      "status": "failed",
-      "count": 0,
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "source": "দৈনিক রূপালী",
-      "category": "Bangladesh · বাংলা",
-      "section": "International Page",
-      "status": "failed",
-      "count": 0,
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "source": "যুগান্তর",
-      "category": "Bangladesh · বাংলা",
-      "section": "Editorial / Opinion",
-      "status": "failed",
-      "count": 0,
-      "error": "HTTP Error 429: Too Many Requests"
     }
   ],
   "sources_configured": {
@@ -8325,10 +8316,10 @@
   },
   "health": {
     "configured_feeds": 284,
-    "working_feeds": 278,
-    "failed_feeds": 6,
-    "article_count": 9108,
-    "recent_articles_30d": 6248,
+    "working_feeds": 284,
+    "failed_feeds": 0,
+    "article_count": 9304,
+    "recent_articles_30d": 6494,
     "latest_article_date": "Fri, 20 Nov 2026 06:29:50 GMT"
   }
 }
